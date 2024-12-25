@@ -1,0 +1,296 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:02
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:03 --> 00:00:09
+In this tutorial, we will learn how to add a <b>Push Button</b> to a <b>form</b>.
+
+3
+00:00:10 --> 00:00:16
+In the last tutorial, we learnt how to add a <b>list box form control</b> to a form.
+
+4
+00:00:17 --> 00:00:23
+Now in this tutorial, we will learn how to add <b>push button</b>s to a <b>form</b>.
+
+5
+00:00:24 --> 00:00:35
+Let us first invoke the <b>LibreOffice Base</b> program, if it's not already open
+
+6
+00:00:36 --> 00:00:44
+and open our 'Library' database. You probably know how to open an existing database by now.
+
+7
+00:00:45 --> 00:00:51
+Click <b>Open</b> under the <b>File</b> menu and choose <b>Library</b> database.
+
+8
+00:00:52 --> 00:00:55
+Now we are in the <b>Library</b> database.
+
+9
+00:00:56 --> 00:01:03
+Let us open the 'Books Issued to Members' <b>form</b> that we were working with, in the last tutorial.
+
+10
+00:01:04 --> 00:01:08
+To do this, let us click on the <b>Forms</b> icon on the left panel
+
+11
+00:01:09 --> 00:01:15
+and then right-click on the 'Books Issued to Members' form on the right panel.
+
+12
+00:01:16 --> 00:01:18
+Now click on <b>Edit</b>.
+
+13
+00:01:19 --> 00:01:22
+We are now in the <b>Form Design</b> window.
+
+14
+00:01:23 --> 00:01:33
+Before we talk about adding <b>Push buttons</b> to our <b>form</b>, let us make some way for the second list box for Member names.
+
+15
+00:01:34 --> 00:01:40
+Remember, we had an assignment of creating the second list box in the previous tutorial.
+
+16
+00:01:41 --> 00:01:49
+First, let us remove the text-box that is on the right of the <b>Member Name</b> label
+
+17
+00:01:50 --> 00:01:56
+by right-clicking on this text-box and then clicking on <b>Cut</b>.
+
+18
+00:01:57 --> 00:01:59
+The text-box is deleted.
+
+19
+00:02:00 --> 00:02:03
+Next, let us arrange the <b>form element</b>s.
+
+20
+00:02:04 --> 00:02:14
+Since list-boxes need more space than text-boxes, we will push the form elements further down on the form.
+
+21
+00:02:15 --> 00:02:16
+Here is how we will do it.
+
+22
+00:02:17 --> 00:02:25
+First let us select all the form elements that are below the <b>Book title</b> label.
+
+23
+00:02:26 --> 00:02:31
+For this, we will use the click, drag and drop method.
+
+24
+00:02:32 --> 00:02:38
+Next, let us click on the selected area and drag it vertically down
+
+25
+00:02:39 --> 00:02:47
+so that there is enough room for the first list-box that is adjacent to the <b>Book Title</b> label.
+
+26
+00:02:48 --> 00:03:04
+Now, let us repeat the same step for the <b>Member Name</b> label as well.
+
+27
+00:03:05 --> 00:03:13
+Now, let us click, drag and drop the second list box, that is to the left of the <b>Member Name</b> label
+
+28
+00:03:14 --> 00:03:21
+and move to its right so that it is aligned with the rest of the form controls nicely.
+
+29
+00:03:22 --> 00:03:31
+Okay, let us <b>save</b> our work on the <b>form</b> so far by using the keyboard shortcut <b>Control, S</b>.
+
+30
+00:03:32 --> 00:03:38
+Now, we are ready to add 'Push buttons' to our form.
+
+31
+00:03:39 --> 00:03:43
+A push button is another example of a form control.
+
+32
+00:03:44 --> 00:03:55
+We are familiar with <b>OK, Cancel, Next</b> and <b>Finish</b> buttons; these are some examples of Push buttons.
+
+33
+00:03:56 --> 00:04:06
+With <b>Base</b>, we can add these Push buttons to our form and instruct Base, to perform specific actions when clicked.
+
+34
+00:04:07 --> 00:04:13
+Again, <b>Save</b> or <b>Undo</b> or <b>Delete</b> are some examples.
+
+35
+00:04:14 --> 00:04:16
+Let us see how.
+
+36
+00:04:17 --> 00:04:29
+Let us now add four push buttons to our form, below all the other form elements, just as in the image shown here.
+
+37
+00:04:30 --> 00:04:34
+To do this, let us go back to our <b>Form Design</b> window.
+
+38
+00:04:35 --> 00:04:42
+And, click once on the <b>Push button</b> icon in the <b>Form Controls</b> toolbar.
+
+39
+00:04:43 --> 00:04:49
+This icon looks like a button with the word <b>OK</b> on it.
+
+40
+00:04:50 --> 00:04:56
+Notice that the <b>mouse</b> pointer looks like a plus symbol.
+
+41
+00:04:57 --> 00:05:09
+Now, let us draw our first button on the bottom left, by clicking, dragging and dropping on the form, below all the other elements.
+
+42
+00:05:10 --> 00:05:13
+And, we will <b>resize</b> it accordingly.
+
+43
+00:05:14 --> 00:05:26
+Now let us repeat the above step three more times.
+
+44
+00:05:27 --> 00:05:34
+And now, we have three more buttons, all aligned in one horizontal line.
+
+45
+00:05:35 --> 00:05:42
+We are done drawing the push buttons on the <b>form</b>; now let us change their labels.
+
+46
+00:05:43 --> 00:05:48
+To do this, double-click on the first button.
+
+47
+00:05:49 --> 00:05:58
+We now see the <b>Properties</b> window. Here, let us type 'Save Record' against the 'Label'.
+
+48
+00:05:59 --> 00:06:05
+Now, let us click on the second button on the form.
+
+49
+00:06:06 --> 00:06:14
+And in the 'Properties window', we will type 'Undo Changes' against the <b>Label</b>.
+
+50
+00:06:15 --> 00:06:24
+For the third and the fourth buttons, let us type 'Delete Record'
+
+51
+00:06:25 --> 00:06:30
+and 'New Record' respectively.
+
+52
+00:06:31 --> 00:06:36
+Now, let us define their actions.
+
+53
+00:06:37 --> 00:06:42
+To do this, let us click on 'Save Record' button
+
+54
+00:06:43 --> 00:06:50
+and in the 'Properties window', let us scroll down until we spot the 'Action' label.
+
+55
+00:06:51 --> 00:06:58
+Here, we will click on the drop-down list box and click on the <b>Save record</b>.
+
+56
+00:06:59 --> 00:07:04
+Let us follow the same steps for the other three buttons.
+
+57
+00:07:05 --> 00:07:11
+For the <b>Undo Changes</b> button, we will choose the <b>Undo data entry</b> <b>Action</b>.
+
+58
+00:07:12 --> 00:07:17
+For the <b>Delete Record</b> button, we will choose the <b>Delete Record</b> Action.
+
+59
+00:07:18 --> 00:07:24
+And for the <b>New Record</b> button, we will choose the <b>New record</b> Action.
+
+60
+00:07:25 --> 00:07:28
+So, now we have added the <b>push buttons</b>.
+
+61
+00:07:29 --> 00:07:39
+Okay, let us <b>save</b> our <b>form</b> by using the keyboard shortcut <b>Control, S</b> and close this <b>window</b>.
+
+62
+00:07:40 --> 00:07:46
+In the next tutorial, we will go through just three more simple modifications to our form
+
+63
+00:07:47 --> 00:07:53
+and then we can use the form for data entry and data updates.
+
+64
+00:07:54 --> 00:08:05
+For example, when a Library member returns a book, we can update this information in the database using this <b>form</b>.
+
+65
+00:08:06 --> 00:08:07
+Here is an assignment:
+
+66
+00:08:08 --> 00:08:17
+Add a fifth push button to the form beside the fourth and when used, it should <b>refresh</b> the form.
+
+67
+00:08:18 --> 00:08:29
+And add 4 narrow push buttons in the next line below. These buttons should  help us navigate through the records.
+
+68
+00:08:30 --> 00:08:34
+This brings us to the end of this tutorial on 'LibreOffice Base'.
+
+69
+00:08:35 --> 00:08:39
+To summarize, we learned how to: Add a Push Button to a form.
+
+70
+00:08:40 --> 00:08:51
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+71
+00:08:52 --> 00:08:56
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+72
+00:08:57 --> 00:09:01
+More information on the same is available at the following link.
+
+73
+00:09:02 --> 00:09:07
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

@@ -1,0 +1,318 @@
+<b>Narration</b>
+
+1
+00:00:02 --> 00:00:05
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:06 --> 00:00:23
+In this tutorial, we will learn how to: create simple queries using the <b>Query wizard</b>. Select fields Set the sorting order of the fields and provide search criteria or conditions for a query.
+
+3
+00:00:24 --> 00:00:28
+Let us first learn what a <b>query</b> is.
+
+4
+00:00:29 --> 00:00:35
+A query can be used to get specific information from a database.
+
+5
+00:00:36 --> 00:00:47
+In other words, we can "query" the database for some data that matches a given criteria.
+
+6
+00:00:48 --> 00:00:55
+For example, let us consider our familiar 'Library' database example.
+
+7
+00:00:56 --> 00:01:03
+We have stored information about books and members in our Library database.
+
+8
+00:01:04 --> 00:01:11
+Now we can query the Library database for all the members of the Library.
+
+9
+00:01:12 --> 00:01:20
+Or we can query the database for all the books that are not in the Library.
+
+10
+00:01:21 --> 00:01:29
+Let us see how we can create a simple query using <b>Base</b>.
+
+11
+00:01:30 --> 00:01:43
+Our example is to list all the members of the 'Library' along with their phone numbers.
+
+12
+00:01:44 --> 00:01:50
+We are in the 'Library' database. You probably know how to open this by now.
+
+13
+00:01:51 --> 00:01:56
+Let us click on the <b>Queries</b> icon on the left panel.
+
+14
+00:01:57 --> 00:02:02
+On the right panel, we see three options.
+
+15
+00:02:03 --> 00:02:10
+Since we are creating a simple query first, we will choose an easy and fast method.
+
+16
+00:02:11 --> 00:02:16
+And that is by using a <b>Query Wizard</b>.
+
+17
+00:02:17 --> 00:02:27
+For creating complex queries, <b>Base</b> provides us with very handy options such as 'Create Query in Design View'
+
+18
+00:02:28 --> 00:02:35
+and 'Create Query in SQL view' which we will learn about later.
+
+19
+00:02:36 --> 00:02:42
+For now, let us click on 'Use Wizard to Create Query'.
+
+20
+00:02:43 --> 00:02:49
+Now, we see a pop-up window that says <b>Query Wizard</b> on the top.
+
+21
+00:02:50 --> 00:02:56
+On the left, we see 8 steps that we will go through.
+
+22
+00:02:57 --> 00:03:02
+We are in <b>Step 1 - 'Field Selection'</b>.
+
+23
+00:03:03 --> 00:03:10
+On the right side, we will see a drop-down box underneath the label <b>Tables</b>.
+
+24
+00:03:11 --> 00:03:20
+This is where we will select the source of the data that we need from this query.
+
+25
+00:03:21 --> 00:03:34
+Since our example query is about getting a list of all the members of the Library, we will click on the <b>Tables: Members</b> from the drop-down box.
+
+26
+00:03:35 --> 00:03:49
+Now, let us double-click on the <b>Name</b> field in the <b>Available fields</b> list on the left and move it to the list box on the right.
+
+27
+00:03:50 --> 00:03:59
+Next, let us click on the <b>Phone</b> field on the left and move it to the right.
+
+28
+00:04:00 --> 00:04:08
+Note that to move all the fields to the right, we can use the double-arrow button that points to the right.
+
+29
+00:04:09 --> 00:04:14
+Now, let us click on the <b>Next</b> button at the bottom.
+
+30
+00:04:15 --> 00:04:19
+Now we are in <b>Step 2 - Sorting Order</b>.
+
+31
+00:04:20 --> 00:04:29
+Since the result of our query is a list of members and their phone numbers, we can leave this as it is.
+
+32
+00:04:30 --> 00:04:35
+Or we can order the list by member names.
+
+33
+00:04:36 --> 00:04:44
+The <b>Base Wizard</b> allows us to sort up to 4 <b>fields</b> in the result list at a time.
+
+34
+00:04:45 --> 00:04:50
+For now, let us click on the top most drop-down box,
+
+35
+00:04:51 --> 00:04:54
+And click on <b>Members.Name</b>.
+
+36
+00:04:55 --> 00:05:02
+We can also choose if we want to sort the names in ascending or descending order.
+
+37
+00:05:03 --> 00:05:06
+Let us click on the <b>Ascending</b> option
+
+38
+00:05:07 --> 00:05:10
+and proceed to the next step.
+
+39
+00:05:11 --> 00:05:15
+<b>Step 3 - Search Conditions</b>.
+
+40
+00:05:16 --> 00:05:21
+This step will help if we want to limit our result set to some conditions.
+
+41
+00:05:22 --> 00:05:33
+For example, we can limit the result set to only those members whose name starts with the alphabet R.
+
+42
+00:05:34 --> 00:05:44
+For this, we will click on the <b>Fields</b> drop-down box and then click on <b>Members.Name</b>.
+
+43
+00:05:45 --> 00:05:50
+Now, click on the <b>Condition</b> drop-down box.
+
+44
+00:05:51 --> 00:05:57
+Notice the various conditions here.
+
+45
+00:05:58 --> 00:06:01
+Let us click on <b>like</b>.
+
+46
+00:06:02 --> 00:06:12
+In the <b>Value</b> text box, let us type in ‘capital R’ and a ‘percentage symbol’.
+
+47
+00:06:13 --> 00:06:21
+This is how we can introduce simple and complex conditions into our query.
+
+48
+00:06:22 --> 00:06:36
+Let us now delete the 'R%' from the <b>Value</b> text-box to list all the members and click on the <b>Next</b> button.
+
+49
+00:06:37 --> 00:06:42
+Please note that we have skipped to Step 7.
+
+50
+00:06:43 --> 00:06:50
+This is because we are creating a simple query from a single <b>table</b>.
+
+51
+00:06:51 --> 00:06:56
+And our query will return details and not summaries.
+
+52
+00:06:57 --> 00:07:04
+Summary queries show data from aggregate functions and by grouping.
+
+53
+00:07:05 --> 00:07:12
+Some examples are count of all the members or sum of the prices of all the books.
+
+54
+00:07:13 --> 00:07:16
+We will learn about these later.
+
+55
+00:07:17 --> 00:07:22
+Okay, now here let us set aliases,
+
+56
+00:07:23 --> 00:07:31
+meaning- let us provide friendly and descriptive labels or headers in the resulting list.
+
+57
+00:07:32 --> 00:07:45
+So the 'Name' field can have an alias as 'Member Name' and the 'Phone' field can have an alias as 'Phone Number'.
+
+58
+00:07:46 --> 00:07:56
+So, let us type in these new aliases in the two text-boxes and click on the <b>Next</b> button.
+
+59
+00:07:57 --> 00:08:02
+Now, we are in <b>Step 8 - the final step</b>.
+
+60
+00:08:03 --> 00:08:08
+Here let us give a nice descriptive name to our simple query.
+
+61
+00:08:09 --> 00:08:19
+Let us type in 'List of all members and their phone numbers' against the 'Name of the Query’ label.
+
+62
+00:08:20 --> 00:08:26
+Now, notice that we see an overview of our choices in the wizard.
+
+63
+00:08:27 --> 00:08:30
+And how do we want to proceed from here?
+
+64
+00:08:31 --> 00:08:40
+Let us click on the 'Display Query' option on the top right side and click on the <b>Finish</b> button.
+
+65
+00:08:41 --> 00:08:51
+The <b>wizard window</b> has closed and there is a new window whose title says- 'List of all members and their phone numbers'.
+
+66
+00:08:52 --> 00:09:03
+Notice that we see all the four members that we originally entered in the <b>Members</b> table along with their phone numbers.
+
+67
+00:09:04 --> 00:09:12
+Also, we see that this list is arranged alphabetically in ascending order.
+
+68
+00:09:13 --> 00:09:17
+So, this is our first simple query.
+
+69
+00:09:18 --> 00:09:20
+Here is an assignment.
+
+70
+00:09:21 --> 00:09:27
+Create a query that will list all the Books in ascending order.
+
+71
+00:09:28 --> 00:09:30
+Include all fields.
+
+72
+00:09:31 --> 00:09:37
+Name it as ‘List of all books in the Library’.
+
+73
+00:09:38 --> 00:09:44
+This brings us to the end of this tutorial on <b>Creating Queries using Wizard in LibreOffice Base</b>.
+
+74
+00:09:45 --> 00:09:59
+To summarize, we learned how to : Create simple queries using the Query wizard, Select fields
+<p>Set the sorting order of the fields And provide search criteria or conditions for a query.
+</p>
+
+75
+00:10:00 --> 00:10:11
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+76
+00:10:12 --> 00:10:16
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+77
+00:10:17 --> 00:10:21
+More information on the same is available at the following link.
+
+78
+00:10:22 --> 00:10:27
+This script has been contributed by Priya Suresh, DesiCrew Solutiions. And this is soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

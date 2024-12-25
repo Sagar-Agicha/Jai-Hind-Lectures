@@ -1,0 +1,348 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:06
+In this tutorial, we will learn how to
+
+3
+00:00:07 --> 00:00:08
+create a <b>Subform</b>.
+
+4
+00:00:09 --> 00:00:14
+For this, let us continue with our familiar <b>Library</b> database example.
+
+5
+00:00:15 --> 00:00:17
+And we will consider the following case:
+
+6
+00:00:18 --> 00:00:21
+How can we list all the members of the library?
+
+7
+00:00:22 --> 00:00:30
+And for each member, how can we see only those books that have not yet been returned by that member?
+
+8
+00:00:31 --> 00:00:35
+One way is to create a <b>form</b> listing all the members in the library.
+
+9
+00:00:36 --> 00:00:43
+And then creating a <b>subform</b> below it, to list those books that have not yet been returned by the member.
+
+10
+00:00:44 --> 00:00:48
+Once we design this form, we will be able to update the <b>form</b>.
+
+11
+00:00:49 --> 00:00:54
+For example, when a member returns a book, we can update this information.
+
+12
+00:00:55 --> 00:01:00
+And, here is a sample screenshot of the form we will design.
+
+13
+00:01:01 --> 00:01:05
+Notice, it also shows a <b>subform</b> at the bottom.
+
+14
+00:01:06 --> 00:01:08
+Let's open our <b>Library</b> database.
+
+15
+00:01:09 --> 00:01:16
+In our previous tutorials, we created the ‘History of Books Issued to Members’ query.
+
+16
+00:01:17 --> 00:01:24
+Now we will use this <b>query</b> and the <b>Members</b> table as the base for creating our new form.
+
+17
+00:01:25 --> 00:01:33
+Let us first copy this query by right-clicking on the query name and then let us click on <b>Paste</b>.
+
+18
+00:01:34 --> 00:01:41
+In the pop-up window for query name, let us type in a new name: ‘Books Not Returned’
+
+19
+00:01:42 --> 00:01:47
+Let us now open the ‘Books Not Returned’ query in <b>edit</b> mode.
+
+20
+00:01:48 --> 00:01:57
+In the <b>Query Design</b> window, let us add a criterion to show only those books that are not checked-in.
+
+21
+00:01:58 --> 00:02:05
+For this, let us type ‘equals 0’ in the <b>Criterion</b> column, under <b>CheckedIn</b>.
+
+22
+00:02:06 --> 00:02:08
+And press <b>Enter</b>.
+
+23
+00:02:09 --> 00:02:12
+Let us now <b>save</b> the query and close the window.
+
+24
+00:02:13 --> 00:02:19
+In the main <b>Base</b> window, let us click on the <b>Forms</b> icon on the left panel.
+
+25
+00:02:20 --> 00:02:24
+And then click on the ‘Use Wizard to create Form’ option.
+
+26
+00:02:25 --> 00:02:27
+Now we see the familiar <b>Form</b> wizard.
+
+27
+00:02:28 --> 00:02:33
+Let us go through the 8 steps on the left to create our <b>form</b>.
+
+28
+00:02:34 --> 00:02:39
+In <b>step 1. field selection</b>, let us choose <b>Table: Members</b>.
+
+29
+00:02:40 --> 00:02:45
+Then let us move all the fields to the right side.
+
+30
+00:02:46 --> 00:02:48
+And let us click on the <b>Next</b> button.
+
+31
+00:02:49 --> 00:02:53
+We are in <b>Step 2. Setup a subform.</b>
+
+32
+00:02:54 --> 00:02:58
+So here, let us check the ‘Add subform’ check-box
+
+33
+00:02:59 --> 00:03:06
+and click on the option: ‘Subform based on manual selection of fields’.
+
+34
+00:03:07 --> 00:03:10
+Let us go to <b>Step 3. Add subform fields</b>.
+
+35
+00:03:11 --> 00:03:17
+Here we will call our new <b>query</b> which we designed a few minutes ago.
+
+36
+00:03:18 --> 00:03:25
+So, let us choose ‘Query: Books Not Returned’ from the <b>Tables or Queries</b> drop-down.
+
+37
+00:03:26 --> 00:03:36
+And we will move selected fields from the available list to the right side as shown on the screen. <pause>
+
+38
+00:03:37 --> 00:03:38
+Click on <b>Next</b>.
+
+39
+00:03:39 --> 00:03:42
+<b>Step 4. Get joined fields</b>.
+
+40
+00:03:43 --> 00:03:52
+Here we will choose the <b>MemberId</b> field from the top two drop-downs, as this is the only relating field.
+
+41
+00:03:53 --> 00:03:56
+And click on the <b>Next</b> button.
+
+42
+00:03:57 --> 00:03:59
+<b>Step 5. Arrange Controls</b>.
+
+43
+00:04:00 --> 00:04:07
+Here, we will choose the third option- <b>Data sheet</b>, for both the <b>form</b> and the <b>subform</b>.
+
+44
+00:04:08 --> 00:04:10
+And click on the <b>Next</b> button.
+
+45
+00:04:11 --> 00:04:14
+<b>Step 6. Set data entry</b>.
+
+46
+00:04:15 --> 00:04:21
+Here, we will leave the options as they are and click on <b>Next</b>.
+
+47
+00:04:22 --> 00:04:25
+<b>Step 7. Apply Styles</b>.
+
+48
+00:04:26 --> 00:04:28
+Let us choose Grey as the form background.
+
+49
+00:04:29 --> 00:04:31
+And go to the final step.
+
+50
+00:04:32 --> 00:04:35
+<b>Step 8. Set Name</b>.
+
+51
+00:04:36 --> 00:04:44
+Here, let us give a descriptive name to our form: ‘Members Who Need to Return Books’.
+
+52
+00:04:45 --> 00:04:52
+And let us click on the <b>Modify form</b> option, as we are going to do some more changes.
+
+53
+00:04:53 --> 00:04:55
+Now let's click on the <b>Finish</b> button.
+
+54
+00:04:56 --> 00:05:03
+In the <b>Form Design</b> window, notice that there are two tabular data sheet areas.
+
+55
+00:05:04 --> 00:05:10
+The one above is called the <b>form</b> and the one below is called the <b>subform</b>.
+
+56
+00:05:11 --> 00:05:14
+Now, let us add a label above the form.
+
+57
+00:05:15 --> 00:05:24
+We will click on the <b>Label</b> icon in the <b>Form Controls</b> toolbar at the top and draw it on the form.
+
+58
+00:05:25 --> 00:05:30
+Double clicking on the label, brings up its properties.
+
+59
+00:05:31 --> 00:05:36
+Here we will type ‘Members of the Library’ against label
+
+60
+00:05:37 --> 00:05:46
+and change the font style to <b>Arial, Bold</b> and <b>Size 12</b>. <pause>
+
+61
+00:05:47 --> 00:05:54
+Similarly, let us add a second label above the <b>subform</b> as shown on the screen
+
+62
+00:05:55 --> 00:05:59
+and call it ‘List of Books to be returned by the member’. <pause>
+
+63
+00:06:00 --> 00:06:06
+Next, let us shorten the form’s length as shown on the screen.
+
+64
+00:06:07 --> 00:06:12
+And then let us increase the length of the <b>Name</b> field in the <b>form</b>. <pause>
+
+65
+00:06:13 --> 00:06:20
+Similarly, let us lengthen the <b>Book title</b> field in the <b>subform</b>.
+
+66
+00:06:21 --> 00:06:27
+Let us change the fonts here to <b>Arial, Bold</b> and <b>Size 8</b>.
+
+67
+00:06:28 --> 00:06:36
+And change the background color to white for the <b>form</b> and Blue 8 for the <b>subform</b>. <pause>
+
+68
+00:06:37 --> 00:06:46
+Next, let us hide the <b>MemberId</b> column by right-clicking on it and choosing the <b>Hide</b> column option.
+
+69
+00:06:47 --> 00:06:53
+Okay, we are done. So, let us <b>save</b> the form design and test it.
+
+70
+00:06:54 --> 00:07:02
+In the main <b>Base</b> window, let us open the ‘Members Who Need to Return Books’ form by double-clicking on it.
+
+71
+00:07:03 --> 00:07:04
+There is the <b>form</b>.
+
+72
+00:07:05 --> 00:07:11
+Let us browse through the members by either using the up or down arrow keys,
+
+73
+00:07:12 --> 00:07:15
+or by simply clicking on the various member names.
+
+74
+00:07:16 --> 00:07:22
+Notice that the subform below refreshes and shows books to be returned.
+
+75
+00:07:23 --> 00:07:26
+In the subform, let us choose any record
+
+76
+00:07:27 --> 00:07:40
+and let us type in ‘12/7/11’ in the actual return date field and check the <b>CheckedIn</b> field
+
+77
+00:07:41 --> 00:07:44
+and press <b>Enter</b>.
+
+78
+00:07:45 --> 00:07:55
+Let us now refresh the form by clicking on the <b>Refresh</b> icon in the <b>Form Navigation</b> toolbar at the bottom.
+
+79
+00:07:56 --> 00:08:01
+Notice that the <b>record</b> we just edited is no longer listed here
+
+80
+00:08:02 --> 00:08:06
+which means the book has been returned or checked-in.
+
+81
+00:08:07 --> 00:08:10
+So, there is our form with a subform.
+
+82
+00:08:11 --> 00:08:16
+This brings us to the end of this tutorial on <b>Subforms in LibreOffice Base</b>.
+
+83
+00:08:17 --> 00:08:19
+To summarize, we learned how to:
+
+84
+00:08:20 --> 00:08:22
+create a Subform.
+
+85
+00:08:23 --> 00:08:43
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India. This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. More information on the same is available at the following link.
+
+86
+00:08:44 --> 00:08:49
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

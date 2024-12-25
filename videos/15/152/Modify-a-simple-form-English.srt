@@ -1,0 +1,300 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:13
+In this tutorial on <b>Modifying a Form</b>, we will learn how to enter data in a <b>form</b>, modify a form.
+
+3
+00:00:14 --> 00:00:21
+In the previous tutorial, we learnt to create a <b>form</b> using <b>LibreOffice Base</b>.
+
+4
+00:00:22 --> 00:00:28
+We created a simple <b>Books</b> data entry form in our example 'Library' database.
+
+5
+00:00:29 --> 00:00:38
+Let us see how we can enter data into the <b>Books</b> table, using this form.
+
+6
+00:00:39 --> 00:00:47
+Let us first invoke the <b>LibreOffice Base</b> program, if it's not already open.
+
+7
+00:00:48 --> 00:00:51
+And open our 'Library' database.
+
+8
+00:00:52 --> 00:01:02
+If <b>Base</b> is already open then we can open the <b>Library</b> database from here by clicking the <b>Open</b> inside the <b>File</b> menu
+
+9
+00:01:03 --> 00:01:07
+or by clicking the <b>Recent Documents</b> inside the <b>File</b> menu.
+
+10
+00:01:08 --> 00:01:11
+Now we are in the 'Library' Database.
+
+11
+00:01:12 --> 00:01:17
+Let us click on the <b>Forms</b> icon in the <b>Database</b> list on the left panel.
+
+12
+00:01:18 --> 00:01:27
+Notice that the 'Books Data entry form', under <b>Forms</b>, is highlighted in the centre of this <b>window</b>.
+
+13
+00:01:28 --> 00:01:32
+Let us right-click on this form name and click on <b>Open</b>.
+
+14
+00:01:33 --> 00:01:44
+Now, we see a new window with a blue background, with labels and text boxes corresponding to the <b>field</b>s in the <b>Books</b> table.
+
+15
+00:01:45 --> 00:01:55
+Let us click on the <b>Tab</b> key to go to each field and as we go to the last, <b>Base</b> opens the next record.
+
+16
+00:01:56 --> 00:01:59
+This way we can traverse the records.
+
+17
+00:02:00 --> 00:02:09
+Or we can also use the black triangle icons in the bottom toolbar to navigate among the records.
+
+18
+00:02:10 --> 00:02:22
+Alternately, to simply go to a particular record, type in the record number in the bottom toolbar and press <b>Enter</b> key or the <b>Tab</b> key.
+
+19
+00:02:23 --> 00:02:28
+Let us go to the last record which is the fifth.
+
+20
+00:02:29 --> 00:02:33
+Now, let us add a new record.
+
+21
+00:02:34 --> 00:02:45
+To do this, click on the <b>New Record</b> icon, that is second right of the <b>Last record</b> icon in the bottom toolbar.
+
+22
+00:02:46 --> 00:02:54
+Notice that we see empty text boxes and the record number at the bottom says 6.
+
+23
+00:02:55 --> 00:03:02
+Now we are ready to add a new record with information about a new book.
+
+24
+00:03:03 --> 00:03:16
+Let us type in 'Paradise Lost' in the <b>Title</b> text box and let us use <b>Tab</b> key to navigate to the next field.
+
+25
+00:03:17 --> 00:03:22
+Let us type in 'John Milton' against <b>Author</b>,
+
+26
+00:03:23 --> 00:03:27
+'1975' against <b>PublishedYear</b>,
+
+27
+00:03:28 --> 00:03:30
+'Oxford' against <b>Publisher</b>
+
+28
+00:03:31 --> 00:03:35
+and 200 against <b>Price</b>.
+
+29
+00:03:36 --> 00:03:44
+There, we have just entered a new record into the <b>Books</b> table by using the <b>Books Data Entry Form</b>.
+
+30
+00:03:45 --> 00:03:46
+We will close this window.
+
+31
+00:03:47 --> 00:03:52
+We can add more records or data in this way.
+
+32
+00:03:53 --> 00:04:01
+Let us see if <b>Base</b> has updated the <b>Books</b> table with the last record we entered just now.
+
+33
+00:04:02 --> 00:04:11
+For this, in the LibreOffice Base main window, let us double-click on <b>Books</b> table on the right panel.
+
+34
+00:04:12 --> 00:04:17
+Notice the new record that we entered through the <b>form</b> here.
+
+35
+00:04:18 --> 00:04:22
+Okay, we will close this window now.
+
+36
+00:04:23 --> 00:04:29
+Next, let us learn how to make simple modifications to our <b>form</b>.
+
+37
+00:04:30 --> 00:04:36
+We will click on the <b>Forms</b> icon in the <b>Database</b> list on the left panel.
+
+38
+00:04:37 --> 00:04:46
+And open the 'Books Data Entry form' for modifying by right-clicking on it and then choosing 'Edit'.
+
+39
+00:04:47 --> 00:04:50
+A familiar window opens now
+
+40
+00:04:51 --> 00:05:02
+except that if you click on the label <b>title</b>, you will see several small green boxes enclosing the label and the text box.
+
+41
+00:05:03 --> 00:05:07
+This means that we are in the <b>form design window</b>.
+
+42
+00:05:08 --> 00:05:16
+And we can modify the look and feel of the form and its elements as well as its functionalities.
+
+43
+00:05:17 --> 00:05:24
+For example, we can change the placement and size of the <b>label</b>s and text-boxes.
+
+44
+00:05:25 --> 00:05:27
+These are also called <b>properties</b>.
+
+45
+00:05:28 --> 00:05:30
+Double-click on the label <b>Title</b>.
+
+46
+00:05:31 --> 00:05:37
+This opens a smaller pop-up window called <b>Properties</b>.
+
+47
+00:05:38 --> 00:05:47
+Notice the various <b>element</b>s here.
+
+48
+00:05:48 --> 00:06:00
+Now, let us click on the label <b>author</b>, notice that the <b>Properties</b> window refreshes and shows the properties of label <b>Author</b>.
+
+49
+00:06:01 --> 00:06:13
+So, as we click on various elements on the <b>form</b>, we see that the 'Properties window' refreshes to show the selected element's properties.
+
+50
+00:06:14 --> 00:06:20
+Now, the 'Properties window' title reads as <b>Properties Multiselection</b>.
+
+51
+00:06:21 --> 00:06:33
+This is because we see that the <b>Author</b> label and its textbox adjacent to it, are encased in one set of green boxes.
+
+52
+00:06:34 --> 00:06:43
+<b>Base</b> automatically has grouped the labels and corresponding textboxes in the <b>form</b>. We can un-group them.
+
+53
+00:06:44 --> 00:06:53
+Right-click on the <b>Title</b> label and then click on <b>Group</b> at the bottom, then click on <b>Ungroup</b>.
+
+54
+00:06:54 --> 00:07:01
+Now we see that the label <b>Title</b> and its text-box have been ungrouped.
+
+55
+00:07:02 --> 00:07:09
+In this way, we can modify the properties of individual elements on the <b>form</b>.
+
+56
+00:07:10 --> 00:07:15
+Next, let us add a tool tip to the <b>Title</b> text-box.
+
+57
+00:07:16 --> 00:07:21
+Now, let us scroll to the bottom in the <b>Properties</b> window.
+
+58
+00:07:22 --> 00:07:31
+Notice the label '<b>Help text'</b> and here, let us type in 'Enter the title of the book here'.
+
+59
+00:07:32 --> 00:07:45
+Now, let us save the <b>form</b> by clicking on the <b>Save</b> icon, below the <b>File</b> menu, on the top. And we will close this window.
+
+60
+00:07:46 --> 00:07:53
+Let us now see, how our <b>form</b> looks like after the modification that we made.
+
+61
+00:07:54 --> 00:08:02
+For this, let us go to the <b>Base</b> main window, click on the <b>Forms</b> icon on the left panel
+
+62
+00:08:03 --> 00:08:09
+and double-click on 'Books Data Entry Form' on the right panel.
+
+63
+00:08:10 --> 00:08:16
+Let us point the <b>mouse</b> over the <b>Title</b> label or the text-box.
+
+64
+00:08:17 --> 00:08:23
+Notice that a tool-tip appears saying 'Enter the title of the book here'.
+
+65
+00:08:24 --> 00:08:30
+So now, we have learnt how to make a simple modification to our <b>form</b>.
+
+66
+00:08:31 --> 00:08:38
+We will see how to make more modifications to a form, in the next part of the <b>Base</b> tutorial.
+
+67
+00:08:39 --> 00:08:40
+Here is an assignment.
+
+68
+00:08:41 --> 00:08:45
+Create a simple <b>form</b> for the <b>Members</b> table.
+
+69
+00:08:46 --> 00:08:51
+This brings us to the end of this tutorial on <b>Modifying a Form in LibreOffice Base</b>.
+
+70
+00:08:52 --> 00:08:59
+To summarize, we learned: how to enter data in a form, how to Modify a form.
+
+71
+00:09:00 --> 00:09:11
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+72
+00:09:12 --> 00:09:16
+This project is coordinated by: <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+73
+00:09:17 --> 00:09:21
+More information on the same is available at the following link.
+
+74
+00:09:22 --> 00:09:27
+This Script has been contributed by Priya Suresh, DesiCrew solutions. And this is Soundharya, DesiCrew solutions, signing off.
+<p>Thanks for joining.
+</p>
+

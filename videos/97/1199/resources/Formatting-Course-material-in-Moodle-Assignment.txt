@@ -1,0 +1,15 @@
+1. Add a new folder resource in Basic Calculus:
+
+Details for folder resource to be added:
+
+Name: Reference Material
+Description: Check this folder for additional reference material
+Display description on course page: Checked
+
+2.Add the reference files from the File Manager in the "Content" text area
+
+Go to Server files in the File Picker
+Select the 3 reference files.Select "Create an alias/shortcut to the file" when inserting the files.
+
+3. Click on Save and display when done.
+

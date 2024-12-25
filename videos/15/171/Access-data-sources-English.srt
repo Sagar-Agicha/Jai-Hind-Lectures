@@ -1,0 +1,424 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:07
+In this tutorial, we will learn how to:
+
+3
+00:00:08 --> 00:00:09
+Access other Data Sources
+
+4
+00:00:10 --> 00:00:14
+Register '.odb' databases
+
+5
+00:00:15 --> 00:00:16
+View Data sources
+
+6
+00:00:17 --> 00:00:21
+And Use Data Sources in <b>Writer</b>.
+
+7
+00:00:22 --> 00:00:27
+Let us see how we can access other <b>Data Sources</b> in <b>Base</b>.
+
+8
+00:00:28 --> 00:00:36
+<b>Libre Office</b> allows other data sources to be accessed apart from <b>Base Databases</b>.
+
+9
+00:00:37 --> 00:00:42
+It also allows to <b>link</b> them into other <b>Libre Office documents</b>.
+
+10
+00:00:43 --> 00:00:52
+For example, we can access a <b>spreadsheet</b> or a simple text document from inside LibreOffice Base.
+
+11
+00:00:53 --> 00:00:57
+And then link them into a <b>LibreOffice Writer</b> document.
+
+12
+00:00:58 --> 00:01:05
+As an example, let us create an example spreadsheet using <b>LibreOffice Calc.</b>
+
+13
+00:01:06 --> 00:01:15
+Click on <b>Start Menu >> All Programs</b> and open the <b>LibreOffice Suite menu</b>.
+
+14
+00:01:16 --> 00:01:29
+Or, if LibreOffice is already open then we can click on <b>File, New</b> and then <b>Spreadsheet</b> to open a new spreadsheet.
+
+15
+00:01:30 --> 00:01:45
+Now, in the spreadsheet, let us type in some sample data as shown in the image. <pause>
+
+16
+00:01:46 --> 00:01:53
+And <b>save</b> this spreadsheet as <b>‘LibraryMembers’</b> in a directory location.
+
+17
+00:01:54 --> 00:02:01
+Now, let us remember the location as we will need to use this file later in our example.
+
+18
+00:02:02 --> 00:02:06
+And we will close the <b>Calc</b> window.
+
+19
+00:02:07 --> 00:02:14
+Okay, now let us see how we can access this spreadsheet from 'LibreOffice Base'.
+
+20
+00:02:15 --> 00:02:24
+To do this, open <b>Base</b> either from <b>Windows</b> <b>Start</b> menu
+
+21
+00:02:25 --> 00:02:35
+or if LibreOffice is already open then we will click on <b>File, New</b> and then <b>Database</b>.
+
+22
+00:02:36 --> 00:02:38
+Now, this opens the <b>Database Wizard</b>.
+
+23
+00:02:39 --> 00:02:44
+Here, we will click on the <b>‘Connect to an existing database’</b>
+
+24
+00:02:45 --> 00:02:47
+then click on the drop-down.
+
+25
+00:02:48 --> 00:02:54
+Notice the various database sources in this list that <b>Base</b> can access.
+
+26
+00:02:55 --> 00:02:58
+And we will click on <b>Spreadsheet</b> here.
+
+27
+00:02:59 --> 00:03:01
+And the <b>Next</b> button.
+
+28
+00:03:02 --> 00:03:09
+Now, using the browse button, let us locate the spreadsheet from where we saved it earlier.
+
+29
+00:03:10 --> 00:03:15
+If there is a password for the spreadsheet, we will need to provide it too.
+
+30
+00:03:16 --> 00:03:18
+Here we won’t need it.
+
+31
+00:03:19 --> 00:03:21
+Let us click on the <b>Next</b> button.
+
+32
+00:03:22 --> 00:03:26
+Now let us register the spreadsheet as a data source
+
+33
+00:03:27 --> 00:03:31
+and open it for editing.
+
+34
+00:03:32 --> 00:03:35
+And, click on the <b>Finish</b> button.
+
+35
+00:03:36 --> 00:03:43
+Now, let us provide a database name here. Let us type in "LibraryMembers".
+
+36
+00:03:44 --> 00:03:55
+Notice the <b>Save as type</b>: It says <b>ODF Database</b> which is '.odb' in our case.
+
+37
+00:03:56 --> 00:04:00
+And <b>Save</b> it in the same location as the spreadsheet.
+
+38
+00:04:01 --> 00:04:06
+There we have registered the spreadsheet as a data source in <b>Base</b>.
+
+39
+00:04:07 --> 00:04:10
+We are in the main Base window now.
+
+40
+00:04:11 --> 00:04:15
+Here, let us click on the <b>Tables</b> icon in the left panel.
+
+41
+00:04:16 --> 00:04:22
+Notice the tables ‘Sheet1’, Sheet2, and 'Sheet3'.
+
+42
+00:04:23 --> 00:04:30
+Let us double-click on <b>Sheet1</b> to open it and here is the data from the spreadsheet.
+
+43
+00:04:31 --> 00:04:38
+Now, with this method of accessing the Spreadsheet, we cannot make any changes from here.
+
+44
+00:04:39 --> 00:04:46
+We can only view data or create queries and reports based on the existing data from here.
+
+45
+00:04:47 --> 00:04:53
+So, changes have to be made directly to the Spreadsheet itself.
+
+46
+00:04:54 --> 00:04:58
+Registering '.odb' databases.
+
+47
+00:04:59 --> 00:05:10
+Now, there are other programs such as <b>OpenOffice.org</b> that can produce '.odb' databases.
+
+48
+00:05:11 --> 00:05:18
+To use these inside LibreOffice Base, we will first need to register them in <b>Base</b>.
+
+49
+00:05:19 --> 00:05:27
+To register any '.odb' database, we will need to open Base and
+
+50
+00:05:28 --> 00:05:35
+choose <b>Tools, Options, LibreOffice Base</b> and <b>Databases</b>.
+
+51
+00:05:36 --> 00:05:41
+Under <b>Registered Databases</b>, click <b>New</b>.
+
+52
+00:05:42 --> 00:05:50
+Browse to where the database is located and ensure the registered name is correct
+
+53
+00:05:51 --> 00:05:54
+and Click on the <b>OK</b> button.
+
+54
+00:05:55 --> 00:06:00
+Let us see how we can view Data sources in LibreOffice.
+
+55
+00:06:01 --> 00:06:06
+For this, let us consider the example spreadsheet that we registered in Base.
+
+56
+00:06:07 --> 00:06:11
+Now, we can use it in <b>LibreOffice Writer</b> or <b>Calc</b>.
+
+57
+00:06:12 --> 00:06:18
+For example, let us see how we can view it inside 'LibreOffice Writer'.
+
+58
+00:06:19 --> 00:06:23
+First, let us open <b>Writer</b> from the 'Base' window.
+
+59
+00:06:24 --> 00:06:32
+For this, let us click on <b>File, New</b> and then <b>Text Document</b>.
+
+60
+00:06:33 --> 00:06:35
+Now we are in the <b>Writer</b> window.
+
+61
+00:06:36 --> 00:06:45
+To view the available data sources, we will click on the <b>View</b> menu at the top and click on <b>Data Sources</b>.
+
+62
+00:06:46 --> 00:06:51
+Alternately, we can press the <b>F4</b> key.
+
+63
+00:06:52 --> 00:07:02
+Now we see a list of registered databases at the top left, including "LibraryMembers" which we created just now.
+
+64
+00:07:03 --> 00:07:13
+To view the database, we will expand it by clicking on the plus symbol on the left of the database name
+
+65
+00:07:14 --> 00:07:17
+and we will expand Tables.
+
+66
+00:07:18 --> 00:07:23
+Here are Sheet1, 2 and 3.
+
+67
+00:07:24 --> 00:07:27
+Let us click on <b>Sheet 1</b>.
+
+68
+00:07:28 --> 00:07:35
+So, that’s our data at the top right of the Writer window.
+
+69
+00:07:36 --> 00:07:42
+Now we will see how we can use this data in our example <b>Writer document</b>.
+
+70
+00:07:43 --> 00:07:54
+Okay, here if we want to use all of the data from the table above then first we will select all the records there.
+
+71
+00:07:55 --> 00:08:04
+For this, let us click on the gray cell to the left of the first column in the first record.
+
+72
+00:08:05 --> 00:08:16
+Then, while pressing <b>Shift</b> key, we will click on the gray cell to the left of the first column in the last record.
+
+73
+00:08:17 --> 00:08:20
+Notice that all the data gets highlighted.
+
+74
+00:08:21 --> 00:08:29
+Now we will click, drag and drop this onto the Writer document below.
+
+75
+00:08:30 --> 00:08:36
+Next, we see a pop-up window titled <b>Insert Database columns</b>.
+
+76
+00:08:37 --> 00:08:41
+So here, we will click on the <b>Table</b> option at the top
+
+77
+00:08:42 --> 00:08:51
+and then click on the double-arrow button to move all the fields from the left to the right list.
+
+78
+00:08:52 --> 00:08:55
+Notice the various choices here.
+
+79
+00:08:56 --> 00:08:59
+For now, we will simply click on the <b>OK</b> button.
+
+80
+00:09:00 --> 00:09:04
+And here is the entire table of data in the document.
+
+81
+00:09:05 --> 00:09:12
+Next, let us see how we can insert individual fields.
+
+82
+00:09:13 --> 00:09:21
+Let us go to the top of the Writer document and press the <b>Enter</b> key twice. Again, go to the top left.
+
+83
+00:09:22 --> 00:09:27
+Here, let us type in "Member Name" colon.
+
+84
+00:09:28 --> 00:09:35
+And then click on the <b>Name</b> column in the data sources area at the top right.
+
+85
+00:09:36 --> 00:09:42
+Now we will click, drag and drop it next to the text we typed.
+
+86
+00:09:43 --> 00:09:50
+And we will press the <b>Tab</b> key and type in "Phone number" colon.
+
+87
+00:09:51 --> 00:09:54
+And..... we know what to do, don’t we?
+
+88
+00:09:55 --> 00:10:03
+We will click and drag the <b>Phone</b> column from the top and drop it next to our text.
+
+89
+00:10:04 --> 00:10:12
+Then let us highlight the first record by clicking the gray cell to the left of the first record.
+
+90
+00:10:13 --> 00:10:18
+And then, we will click on the <b>Data to Fields</b> icon.
+
+91
+00:10:19 --> 00:10:26
+This can be found in the <b>Table Data</b> toolbar at the top, below the <b>Formatting toolbar</b>.
+
+92
+00:10:27 --> 00:10:34
+Notice that the data in the table above is now in the Writer document.
+
+93
+00:10:35 --> 00:10:45
+To bring in another record, we just have to highlight a different record and use the <b>Data to Fields</b> icon again.
+
+94
+00:10:46 --> 00:10:53
+So, there we learnt how to use data sources inside LibreOffice documents.
+
+95
+00:10:54 --> 00:11:00
+This brings us to the end of this tutorial on <b>Accessing other Data Sources in LibreOffice Base</b>.
+
+96
+00:11:01 --> 00:11:04
+To summarize, we learned how to:
+
+97
+00:11:05 --> 00:11:06
+Access other Data Sources
+
+98
+00:11:07 --> 00:11:11
+Register .odb databases
+
+99
+00:11:12 --> 00:11:13
+View Data sources
+
+100
+00:11:14 --> 00:11:18
+And Use Data Sources in Writer.
+
+101
+00:11:19 --> 00:11:22
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project,
+
+102
+00:11:23 --> 00:11:29
+supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+103
+00:11:30 --> 00:11:34
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+104
+00:11:35 --> 00:11:43
+More information on the same is available at the following link.
+
+105
+00:11:44 --> 00:11:49
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

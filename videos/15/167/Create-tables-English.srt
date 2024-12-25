@@ -1,0 +1,379 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:06
+In this tutorial, we will learn how to
+
+3
+00:00:07 --> 00:00:08
+create a <b>Table</b> by-
+
+4
+00:00:09 --> 00:00:10
+a) Creating <b>Views</b> and
+
+5
+00:00:11 --> 00:00:12
+b) Using the <b>Copy</b> method.
+
+6
+00:00:13 --> 00:00:15
+Let's go to our <b>Library</b> database.
+
+7
+00:00:16 --> 00:00:20
+Let us click on the <b>Tables</b> icon on the left panel.
+
+8
+00:00:21 --> 00:00:25
+On the right panel, we see three ways of creating a table.
+
+9
+00:00:26 --> 00:00:29
+We will go through the <b>Create View</b> option now.
+
+10
+00:00:30 --> 00:00:35
+Before that, let us learn about <b>View</b>s. What is a View?
+
+11
+00:00:36 --> 00:00:42
+A <b>view</b> is similar to a <b>table</b> but it does not hold the data.
+
+12
+00:00:43 --> 00:00:53
+It is defined as a Query Expression, which is simply retrieval of data from tables or other views from the database.
+
+13
+00:00:54 --> 00:00:59
+So, when viewed, it has columns and rows of data just like a table.
+
+14
+00:01:00 --> 00:01:05
+<b>View</b>s can be used to allow limited access
+
+15
+00:01:06 --> 00:01:12
+or hide the structure and names of the underlying table columns and table data.
+
+16
+00:01:13 --> 00:01:20
+For example, we can create a simple view which will list all the members of the library
+
+17
+00:01:21 --> 00:01:26
+and we can leave out their phone numbers to maintain confidentiality.
+
+18
+00:01:27 --> 00:01:31
+Here the underlying table would be <b>Members</b>.
+
+19
+00:01:32 --> 00:01:39
+Other users of the <b>Library</b> database can be allowed to access this view but not the <b>Members</b> table.
+
+20
+00:01:40 --> 00:01:45
+In this way, we can only see the names of the members and not their phone numbers.
+
+21
+00:01:46 --> 00:01:52
+Okay, let us go back to the main <b>Base</b> window and create this <b>view</b>.
+
+22
+00:01:53 --> 00:01:57
+Let us click on <b>Create View</b> on the right panel.
+
+23
+00:01:58 --> 00:02:05
+We see a new window called the <b>View Design</b> and a pop-up window that says <b>Add tables</b>.
+
+24
+00:02:06 --> 00:02:08
+Let us click on <b>Members</b>
+
+25
+00:02:09 --> 00:02:11
+and close this pop-up window.
+
+26
+00:02:12 --> 00:02:15
+Now, we are in the <b>View design</b> window.
+
+27
+00:02:16 --> 00:02:20
+And we will double-click on the <b>MemberId</b> and the <b>Name</b> fields.
+
+28
+00:02:21 --> 00:02:24
+Adding the 'Id' field is always useful
+
+29
+00:02:25 --> 00:02:33
+because this helps us to join this view with any other related table, for example- the <b>BooksIssued</b> Table.
+
+30
+00:02:34 --> 00:02:39
+We can add functions, criteria and sort it any way we want.
+
+31
+00:02:40 --> 00:02:44
+But for now, we will sort the member names in ascending order.
+
+32
+00:02:45 --> 00:02:53
+For this, let us click on the empty <b>cell</b> in the <b>Sort</b> row under the <b>Name</b> column in the bottom section.
+
+33
+00:02:54 --> 00:02:57
+And then click on <b>‘ascending’</b>.
+
+34
+00:02:58 --> 00:03:00
+Let us <b>save</b> our first view.
+
+35
+00:03:01 --> 00:03:09
+Here, let us type a descriptive name for this view- <b>View: Members Name Only</b>.
+
+36
+00:03:10 --> 00:03:13
+And let us click on the <b>OK</b> button.
+
+37
+00:03:14 --> 00:03:21
+To see the underlying data, let us click on the <b>Edit</b> menu at the top
+
+38
+00:03:22 --> 00:03:26
+and then click on <b>Run Query</b> at the bottom.
+
+39
+00:03:27 --> 00:03:35
+And we see a new section at the top that lists all the members of the 'Library' in ascending order.
+
+40
+00:03:36 --> 00:03:39
+Note that we don’t see any phone numbers.
+
+41
+00:03:40 --> 00:03:42
+And there is our simple <b>view</b>.
+
+42
+00:03:43 --> 00:03:47
+We can create and design views according to our requirements.
+
+43
+00:03:48 --> 00:03:52
+Before moving on to the next topic, here is an assignment.
+
+44
+00:03:53 --> 00:04:00
+Create a View of 'Books Issued' to Members and only those books that are not checked-in.
+
+45
+00:04:01 --> 00:04:11
+Include in the view, the following fields: <b>Book Titles, Member Names, Issue Date</b> and <b>Return Date</b>.
+
+46
+00:04:12 --> 00:04:19
+Name the view as '<b>View: List of Books not checked in'</b>.
+
+47
+00:04:20 --> 00:04:24
+Okay, let us learn to create <b>table</b>s by using the <b>copy</b> method.
+
+48
+00:04:25 --> 00:04:32
+This is an easy way of creating tables, if we know that the table structures are going to be very similar.
+
+49
+00:04:33 --> 00:04:38
+For this, let us assume that our <b>Library</b> has DVDs and CDs.
+
+50
+00:04:39 --> 00:04:43
+And we can store this data in a new table called <b>Media</b>.
+
+51
+00:04:44 --> 00:04:50
+A CD or a DVD can have a title and a publish-year for example.
+
+52
+00:04:51 --> 00:04:59
+In order to distinguish between an audio and a video, we will introduce a <b>MediaType</b> field.
+
+53
+00:05:00 --> 00:05:07
+Now, since the <b>Books</b> table has almost similar fields, we can copy-paste the <b>Books</b> table
+
+54
+00:05:08 --> 00:05:13
+and then we can <b>rename</b> the fields and the table name in the process.
+
+55
+00:05:14 --> 00:05:15
+We’ll see how.
+
+56
+00:05:16 --> 00:05:18
+Let us go to the main <b>Base</b> window.
+
+57
+00:05:19 --> 00:05:22
+Here, let us right-click on the <b>Books</b> table
+
+58
+00:05:23 --> 00:05:27
+and we will see the <b>Copy</b> option. Let us click on it.
+
+59
+00:05:28 --> 00:05:30
+And then right-click on it.
+
+60
+00:05:31 --> 00:05:38
+Notice the various options here. There is a <b>Paste</b> and  also there is a <b>Paste Special</b>.
+
+61
+00:05:39 --> 00:05:43
+We can use <b>copy</b> and <b>paste</b> in a specific format.
+
+62
+00:05:44 --> 00:05:50
+Possible formats are Formatted text, HTML or a Data Source Table.
+
+63
+00:05:51 --> 00:05:54
+So, we can choose the database table here
+
+64
+00:05:55 --> 00:05:58
+or we can choose <b>Paste</b> from the right-click menu.
+
+65
+00:05:59 --> 00:06:02
+This opens a wizard and in this window,
+
+66
+00:06:03 --> 00:06:10
+we will first rename our table by typing in <b>‘Media’</b> against the table name.
+
+67
+00:06:11 --> 00:06:15
+In the options, we will click on '<b>Definition and data'</b>.
+
+68
+00:06:16 --> 00:06:18
+Let us click on the <b>Next</b> button.
+
+69
+00:06:19 --> 00:06:22
+In the next window, we will add the columns.
+
+70
+00:06:23 --> 00:06:28
+Let us choose <b>BookId, title</b> and <b>publish-year</b> for this demonstration.
+
+71
+00:06:29 --> 00:06:38
+Now, we will select these fields on the left and use the single arrow button to move them to the right side
+
+72
+00:06:39 --> 00:06:41
+and click on <b>Next</b> button.
+
+73
+00:06:42 --> 00:06:45
+In the next window, we see our columns.
+
+74
+00:06:46 --> 00:06:50
+Here, we can rename the fields and change their data types.
+
+75
+00:06:51 --> 00:06:54
+We will rename the <b>BookId</b> to <b>MediaId</b>.
+
+76
+00:06:55 --> 00:06:58
+And we will click on the <b>Create</b> button.
+
+77
+00:06:59 --> 00:07:04
+In the main <b>Base</b> window, there is our new <b>Media</b> table.
+
+78
+00:07:05 --> 00:07:14
+Let us now edit the table to add a new field <b>MediaType</b>  which will hold the audio or the video type information.
+
+79
+00:07:15 --> 00:07:18
+Now, we are in the <b>Table Design</b> window.
+
+80
+00:07:19 --> 00:07:23
+Here, let us introduce <b>MediaType</b> as the last column.
+
+81
+00:07:24 --> 00:07:26
+Let us click on the <b>cell</b> below <b>publishyear</b>
+
+82
+00:07:27 --> 00:07:35
+and enter 'MediaType’ as <b>Field Name</b> and then choose <b>Text</b> or <b>Field Type</b>.
+
+83
+00:07:36 --> 00:07:40
+Now, let us <b>save</b> the table design and we are done.
+
+84
+00:07:41 --> 00:07:47
+There, we just created our <b>Media</b> table by using the <b>Copy</b> method.
+
+85
+00:07:48 --> 00:07:50
+Okay, here is another assignment.
+
+86
+00:07:51 --> 00:07:56
+Create a table using the ‘Use Wizard to Create table’ method.
+
+87
+00:07:57 --> 00:08:03
+Here, use the ‘Assets’ sample table and rename it to ‘AssetsCopy’
+
+88
+00:08:04 --> 00:08:07
+and explore the various options in this method.
+
+89
+00:08:08 --> 00:08:13
+This brings us to the end of this tutorial on <b>Creating Tables in LibreOffice Base</b>.
+
+90
+00:08:14 --> 00:08:16
+To summarize, we learned how to-
+
+91
+00:08:17 --> 00:08:22
+Create a Table by
+<p>a) Creating Views and
+b) Using the Copy method.
+</p>
+
+92
+00:08:23 --> 00:08:43
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India. This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. More information on the same is available at the following link.
+
+93
+00:08:44 --> 00:08:49
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

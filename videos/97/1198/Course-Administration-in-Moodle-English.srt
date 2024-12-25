@@ -1,0 +1,505 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the Spoken Tutorial on <b>Course Administration </b>in <b>Moodle.</b>
+
+2
+00:00:07 --> 00:00:16
+In this tutorial, we will learn about: <b>Course Administration </b>in <b>Moodle</b>
+<p><b>Activities</b> and <b>Resources</b> in a <b>course</b>
+</p>
+
+3
+00:00:17 --> 00:00:23
+This tutorial is recorded using:  <b>Ubuntu Linux OS 16.04</b>
+
+4
+00:00:24 --> 00:00:32
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>
+
+5
+00:00:33 --> 00:00:39
+<b>Moodle 3.3 </b> and   <b>Firefox </b>web browser
+
+6
+00:00:40 --> 00:00:51
+You may use any web browser of your choice.
+<p>However, <b>Internet Explorer</b> should be avoided, as it causes some display inconsistencies. 
+</p>
+
+7
+00:00:52 --> 00:01:02
+This tutorial assumes that your <b>site administrator</b> has set up a <b>Moodle website</b>  and registered you as a <b>teacher.</b>
+
+8
+00:01:03 --> 00:01:08
+Learners of this tutorial should have  a <b>teacher login</b> on <b>Moodle</b>
+
+9
+00:01:09 --> 00:01:18
+At least one <b>course </b>assigned to them by the <b>administrator</b>
+<p>some course material uploaded for their respective <b>course</b>
+</p>
+
+10
+00:01:19 --> 00:01:25
+If not, please refer to the relevant <b>Moodle</b> tutorials on this website.
+
+11
+00:01:26 --> 00:01:30
+Switch to the browser and open your <b>moodle site.</b>
+
+12
+00:01:31 --> 00:01:40
+Login with your <b>teacher username</b> and <b>password</b> details.
+<p>I am already logged in as <b>teacher Rebecca Raymond</b>. 
+</p>
+
+13
+00:01:41 --> 00:01:43
+We are in the <b>teacher’s dashboard</b>.
+
+14
+00:01:44 --> 00:01:50
+In the <b>navigation menu</b> on the left, notice <b>Calculus</b> under <b>My Courses</b>.
+
+15
+00:01:51 --> 00:01:58
+Please note. All the <b>courses</b> for which you are enrolled as a <b>teacher</b> or <b>student</b> will be listed here.
+
+16
+00:01:59 --> 00:02:01
+Click on the <b>Calculus course.</b>
+
+17
+00:02:02 --> 00:02:08
+We updated the <b>course topics</b> and <b>summaries</b> in the preceding tutorials.
+
+18
+00:02:09 --> 00:02:15
+If you didn’t do so, please refer to the assignments of the preceding tutorials.
+
+19
+00:02:16 --> 00:02:20
+We will now learn about some useful <b>course </b>settings.
+
+20
+00:02:21 --> 00:02:25
+Click on the <b>gear icon</b> at the top right of the <b>section</b>.
+
+21
+00:02:26 --> 00:02:35
+Click on <b>Edit Settings</b>. Then click on <b>Expand All</b> at the right, to expand all the <b>sections</b>.
+
+22
+00:02:36 --> 00:02:43
+The settings seen here, were defined by the <b>administrator</b>, when this <b>course </b>was created.
+
+23
+00:02:44 --> 00:02:53
+In the <b>General section, </b>we have <b>Course full name.</b>
+<p>This is the name displayed at the top of the <b>course page</b>. 
+</p>
+
+24
+00:02:54 --> 00:03:02
+<b>Course short name </b>is the name displayed in the <b>course navigation </b>and in <b>course-</b>related <b>emails</b>.
+
+25
+00:03:03 --> 00:03:07
+<b>Course category </b>is already set by the <b>admin</b>.
+
+26
+00:03:08 --> 00:03:20
+We can change <b>Course start date, Course end date </b>and <b>Course ID number</b>, as per our requirements.
+
+27
+00:03:21 --> 00:03:30
+Under <b>Description section</b>, see the <b>Course Summary </b>textbox.
+<p>I will delete the existing content and type the following. 
+</p>
+
+28
+00:03:31 --> 00:03:36
+My students will see this on the front page of my <b>course</b>.
+
+29
+00:03:37 --> 00:03:46
+Next comes the field <b>Course summary files.</b>
+<p>These are the files that will be displayed to the students, along with the <b>Course summary. </b>
+</p>
+
+30
+00:03:47 --> 00:03:55
+By default, only <b>jpg, gif</b> and <b>png file types</b> are allowed as <b>Course summary </b>files.
+
+31
+00:03:56 --> 00:04:02
+There are 3 ways to upload a file:  Drag and drop the file in the box.
+
+32
+00:04:03 --> 00:04:10
+Click on the <b>Upload</b> or <b>Add </b>icon at the top left.
+<p>Click on the downward arrow. 
+</p>
+
+33
+00:04:11 --> 00:04:20
+If you click on <b>Upload </b>or <b>Add </b>icon or on the downward arrow, the <b>File picker</b> dialog box opens.
+
+34
+00:04:21 --> 00:04:25
+Click on <b>Upload a file </b>option on the left menu.
+
+35
+00:04:26 --> 00:04:33
+Click on the <b>Browse </b>or <b>Choose File</b> button.
+<p>Then select the desired file from your machine. 
+</p>
+
+36
+00:04:34 --> 00:04:39
+I will select<b> calculus.jpg</b> from my system.
+
+37
+00:04:40 --> 00:04:45
+You can give it a different name by typing it in the <b>Save as </b>field.
+
+38
+00:04:46 --> 00:04:57
+Specify the <b>author</b> and <b>license</b> details in the respective fields.
+<pre>Lastly, click on <b>Upload this file </b>button at the bottom. 
+</pre>
+
+39
+00:04:58 --> 00:05:01
+So that’s how we can upload <b>Course summary </b>files.
+
+40
+00:05:02 --> 00:05:11
+Next comes <b>Course format</b>.  <b>Course format</b> refers to the way <b>resources</b> and <b>activities</b> are organized for the students.
+
+41
+00:05:12 --> 00:05:25
+There are 4 options in <b>Format</b> dropdown -
+<p><b>Single Activity Format</b>, <b>Social Format</b> ,  <b>Topics Format </b>and  <b>Weekly Format</b>. 
+</p>
+
+42
+00:05:26 --> 00:05:32
+Our <b>admin</b> has selected <b>Topics format</b>.
+<p>We will let it remain as it is. 
+</p>
+
+43
+00:05:33 --> 00:05:43
+Next setting is for <b>Hidden sections</b>.
+<p>These are basically <b>topics </b>in a <b>course </b>that can be kept hidden from students. 
+</p>
+
+44
+00:05:44 --> 00:05:56
+This can be useful when there is a certain topic, which is not yet completed by the teacher.
+<p>This setting determines how to present the <b>Hidden sections</b> to students. 
+</p>
+
+45
+00:05:57 --> 00:06:03
+Choosing this option will display the content in collapsed form to the students.
+
+46
+00:06:04 --> 00:06:08
+Choosing this option will hide the content from the students.
+
+47
+00:06:09 --> 00:06:12
+We will let it remain as default, for now.
+
+48
+00:06:13 --> 00:06:18
+The next drop-down is <b>Course Layout</b>. Click on it.
+
+49
+00:06:19 --> 00:06:24
+We can choose to show all <b>sections</b> in one page, by selecting this option.
+
+50
+00:06:25 --> 00:06:36
+Another option here is <b>Show one section per page</b>.
+<p>This will split the <b>course </b>over several pages, depending on the number of <b>sections</b>. 
+</p>
+
+51
+00:06:37 --> 00:06:42
+We will let it remain on <b>Show all sections in one page, </b>for now.
+
+52
+00:06:43 --> 00:06:45
+Next is the <b>Appearance</b> section.
+
+53
+00:06:46 --> 00:06:56
+Notice the <b>Show gradebook to students</b> option.
+<p>Many activities in the <b>course </b>allow teachers to assign grades. 
+</p>
+
+54
+00:06:57 --> 00:07:09
+This option determines whether a student can see those grades.
+<p>This option is set to <b>Yes,</b> by default. We will let it remain as is. 
+</p>
+
+55
+00:07:10 --> 00:07:17
+We will change <b>Show activity reports</b> as <b>Yes,</b> if not already selected by default.
+
+56
+00:07:18 --> 00:07:26
+This ensures that a student can see his/her <b>activity reports </b>from his/her <b>profile page.</b>
+
+57
+00:07:27 --> 00:07:33
+We can set the maximum size of the files that can be uploaded for this <b>course</b>.
+
+58
+00:07:34 --> 00:07:40
+Files can be uploaded for <b>additional materials, assignments, </b>etc.
+
+59
+00:07:41 --> 00:07:51
+Our <b>admin </b>has set this to <b>128MB</b>, which is the maximum file size.
+<p>Let us keep the size as it is. 
+</p>
+
+60
+00:07:52 --> 00:07:57
+We will let all the other settings remain at their default values.
+
+61
+00:07:58 --> 00:08:05
+Scroll down and click on the <b>Save and display </b>button.
+<p>We are brought to the <b>Course </b>page. 
+</p>
+
+62
+00:08:06 --> 00:08:10
+Notice the <b>Announcements</b> link above the topic names.
+
+63
+00:08:11 --> 00:08:19
+This will let the students know about mandatory information, latest news, announcements, etc.
+
+64
+00:08:20 --> 00:08:27
+Click on the <b>gear</b> icon at the top right of the page and then on <b>Turn Editing On</b>.
+
+65
+00:08:28 --> 00:08:34
+<b>NOTE</b>: You need to turn the editing on, to make any changes to the <b>course</b>.
+
+66
+00:08:35 --> 00:08:43
+Now, to the right of <b>Announcements</b>, click on <b>Edit</b> and then <b>Edit Settings.</b>
+
+67
+00:08:44 --> 00:08:51
+And in <b>Description</b> I will type the following text.
+<p><b>“Please check the announcements regularly”.</b>
+</p>
+
+68
+00:08:52 --> 00:09:00
+Check <b>Display description on course page. </b>This will display the description just below the link.
+
+69
+00:09:01 --> 00:09:04
+Leave all other settings as they are.
+
+70
+00:09:05 --> 00:09:14
+Scroll down and click on the button <b>Save and return to course.</b>
+<p>We come back to the <b>Course </b>page. 
+</p>
+
+71
+00:09:15 --> 00:09:20
+To add more <b>announcements</b>, click on the <b>Announcements</b> title.
+
+72
+00:09:21 --> 00:09:30
+Now click on <b>Add a new topic</b> button. Type the <b>Subject</b> as <b>Minimum requirements</b>.
+
+73
+00:09:31 --> 00:09:42
+Type the message as  <b>“This course requires you to submit a minimum of 3 assignments and attempt 5 quizzes to pass”.</b>
+
+74
+00:09:43 --> 00:09:58
+Notice that the checkbox <b>Discussion subscription</b> is checked and is non-editable.
+<p>This is because everyone enrolled in the <b>course</b> is compulsorily subscribed to it. 
+</p>
+
+75
+00:09:59 --> 00:10:07
+Next is <b>Attachments</b>. You can either drag and drop or upload related files here.
+
+76
+00:10:08 --> 00:10:17
+If you want the announcements to show up at the top of the <b>forum</b>, click on <b>Pinned</b> checkbox.
+<p>I will tick it. 
+</p>
+
+77
+00:10:18 --> 00:10:28
+Tick the next checkbox, as well.
+<p>This will send a <b>notification</b> to everyone <b>subscribed</b> to this <b>forum</b> immediately. 
+</p>
+
+78
+00:10:29 --> 00:10:40
+Expand the next section<b> Display period.</b>
+<p>The settings here determine if this <b>forum post </b>should be visible for a date range. 
+</p>
+
+79
+00:10:41 --> 00:10:51
+By default, these are disabled. It means the <b>posts</b> will always be visible.
+<p>We will let the default settings remain. 
+</p>
+
+80
+00:10:52 --> 00:10:56
+Scroll down and click <b>Post to forum</b> button.
+
+81
+00:10:57 --> 00:11:07
+A success message is displayed. <b>Post authors</b> have 30 min to make any changes to the <b>posts</b>.
+
+82
+00:11:08 --> 00:11:12
+Let me click on <b>Calculus</b> link in the <b>breadcrumb</b>.
+
+83
+00:11:13 --> 00:11:18
+Let me now add a page with detailed syllabus to this <b>section</b>.
+
+84
+00:11:19 --> 00:11:31
+Click on <b>Add an activity or resource</b> link at the bottom right of the <b>General section.</b>
+<p>From the list of <b>Resources</b>, choose <b>Page</b>. 
+</p>
+
+85
+00:11:32 --> 00:11:38
+Read the description of this activity that will appear when you make the choice.
+
+86
+00:11:39 --> 00:11:46
+Then click on the <b>Add</b> button at the bottom.
+<p>We are brought to a new page. 
+</p>
+
+87
+00:11:47 --> 00:11:51
+In the <b>Name </b>field, type <b>Detailed syllabus</b>.
+
+88
+00:11:52 --> 00:11:58
+I will leave the <b>Description </b>textbox blank because the title is self-explanatory.
+
+89
+00:11:59 --> 00:12:06
+I will enter the detailed syllabus of this <b>Calculus</b> course in the <b>Page Content</b> textbox.
+
+90
+00:12:07 --> 00:12:17
+This content is available in the <b>Code Files </b>link of this tutorial.
+<p>You can download and make use of it while practising. 
+</p>
+
+91
+00:12:18 --> 00:12:26
+Scroll down and click on <b>Save and return to course</b> button.
+<p>We come back to the <b>course </b>page again. 
+</p>
+
+92
+00:12:27 --> 00:12:38
+We will now <b>logout</b> of our account. To do so, click on the <b>user icon</b> at the top right.
+<p>Now choose <b>Log out</b> option. 
+</p>
+
+93
+00:12:39 --> 00:12:44
+Let me show you how this page will look like to a student.
+
+94
+00:12:45 --> 00:12:54
+I have a <b>student ID Priya Sinha </b>with me.
+<p>This student has also been enrolled in the <b>Calculus</b> course by the <b>admin</b>. 
+</p>
+
+95
+00:12:55 --> 00:13:03
+I have logged in as student <b>Priya Sinha</b>. Now I will click on <b>Calculus</b> on the left.
+
+96
+00:13:04 --> 00:13:13
+This is how a student will view this page.
+<p>Notice that there is no <b>gear icon</b> at the top right of this page. 
+</p>
+
+97
+00:13:14 --> 00:13:19
+This is because students cannot edit any part of the <b>course</b>.
+
+98
+00:13:20 --> 00:13:23
+We will now log out of the <b>student id.</b>
+
+99
+00:13:24 --> 00:13:29
+With this, we come to the end of this tutorial.
+<p>Let us summarize. 
+</p>
+
+100
+00:13:30 --> 00:13:39
+In this tutorial, we learnt about:  <b>Course Administration </b>in <b>Moodle</b>
+<p><b>Activities</b> and <b>Resources</b> in a <b>course</b>
+</p>
+
+101
+00:13:40 --> 00:13:52
+Here is a small assignment for you.
+<p>Add a new <b>Page</b> resource detailing the <b>course </b>outcome. Refer to the <b>Assignment</b> link of this tutorial for details. 
+</p>
+
+102
+00:13:53 --> 00:14:01
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project.
+<p>Please download and watch it. 
+</p>
+
+103
+00:14:02 --> 00:14:12
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates.
+<p>For more details, please write to us. 
+</p>
+
+104
+00:14:13 --> 00:14:16
+Please post your timed queries in this forum.
+
+105
+00:14:17 --> 00:14:30
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India.</b>. More information on this mission is available at the link shown.
+
+106
+00:14:31 --> 00:14:36
+This script has been contributed by Nancy and Priyanka.
+<p>And this is Nancy Varkey along with the Spoken Tutorial team signing off. 
+</p><p>Thanks for joining. 
+</p>
+

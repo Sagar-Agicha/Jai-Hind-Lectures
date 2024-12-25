@@ -1,0 +1,320 @@
+<b>Narration</b>
+
+1
+00:00:02 --> 00:00:05
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:06 --> 00:00:08
+In this tutorial, we will learn how to
+
+3
+00:00:09 --> 00:00:11
+enter and update data in a <b>form</b>.
+
+4
+00:00:12 --> 00:00:18
+In the last tutorial, we learnt how to add <b>form controls</b> to a form.
+
+5
+00:00:19 --> 00:00:26
+In this tutorial, let us learn how to enter data and update data using a form.
+
+6
+00:00:27 --> 00:00:35
+Before doing this, let us make just three more modifications to our form design.
+
+7
+00:00:36 --> 00:00:50
+Let us first invoke the <b>LibreOffice Base</b> program, if it's not already open
+
+8
+00:00:51 --> 00:00:53
+and open our 'Library database'
+
+9
+00:00:54 --> 00:00:57
+by clicking <b>Open</b> under <b>File</b> menu.
+
+10
+00:00:58 --> 00:01:01
+Now we are in the Library database.
+
+11
+00:01:02 --> 00:01:06
+And, we will open the 'Books Issued to Members' form.
+
+12
+00:01:07 --> 00:01:19
+To do this, let us click on the <b>Forms</b> icon on the left panel and then right-click on the 'Books Issued to Members' form on the right panel
+
+13
+00:01:20 --> 00:01:23
+and then click on <b>Edit</b>.
+
+14
+00:01:24 --> 00:01:27
+We are now in the <b>Form Design</b> window.
+
+15
+00:01:28 --> 00:01:35
+Here, let us first resize the form, so it looks compact and less imposing.
+
+16
+00:01:36 --> 00:01:42
+To do this, we will decrease the height and length of our <b>form</b> window.
+
+17
+00:01:43 --> 00:01:50
+We will do this by clicking, dragging and dropping on the top and sides of the form window.
+
+18
+00:01:51 --> 00:01:56
+Next, let us change the font of the heading on our form.
+
+19
+00:01:57 --> 00:02:11
+Let us change the font to <b>Arial Black</b> and Size 12 from the <b>Formatting toolbar</b> at the top.
+
+20
+00:02:12 --> 00:02:18
+Finally, let us look at the <b>Tab Order</b> of the <b>form controls</b>.
+
+21
+00:02:19 --> 00:02:28
+This helps us to use keyboard tab keys to navigate across the form controls in a particular order.
+
+22
+00:02:29 --> 00:02:32
+Say, for example, from the top to the bottom.
+
+23
+00:02:33 --> 00:02:36
+This is called the tab order.
+
+24
+00:02:37 --> 00:02:46
+Now, <b>Base</b> automatically sets the tab order of the form controls from top to bottom in a form.
+
+25
+00:02:47 --> 00:02:59
+But since we removed a couple of text boxes and added two new list boxes and four <b>button</b>s, we may have mixed up the tab order.
+
+26
+00:03:00 --> 00:03:04
+So, we will set it right now.
+
+27
+00:03:05 --> 00:03:15
+In the <b>Form Design</b> toolbar, usually found at the bottom of the window, we will browse through the icons
+
+28
+00:03:16 --> 00:03:24
+and find the icon with the tool tip that says 'Activation order'.
+
+29
+00:03:25 --> 00:03:28
+Let us click on this icon.
+
+30
+00:03:29 --> 00:03:37
+Now, we see a small pop-up window with 'Tab Order' as its title.
+
+31
+00:03:38 --> 00:03:45
+To order these form controls, we can either click, drag and drop the items.
+
+32
+00:03:46 --> 00:03:51
+Or we can use the 'Move up' or 'Move down' buttons.
+
+33
+00:03:52 --> 00:04:03
+So, let us set the tab order as shown in the image here. <pause>
+
+34
+00:04:04 --> 00:04:11
+We are done. So, let us click on the <b>OK</b> button to <b>save</b> these changes.
+
+35
+00:04:12 --> 00:04:18
+Okay, now let us save our form by pressing <b>Control S</b>
+
+36
+00:04:19 --> 00:04:23
+and then we will close the <b>form</b> window.
+
+37
+00:04:24 --> 00:04:28
+And finally, we are done with our <b>Form</b> design.
+
+38
+00:04:29 --> 00:04:32
+Now, let us test our form.
+
+39
+00:04:33 --> 00:04:41
+In the main Base window, let us open the 'Books Issued to Members' form by double-clicking on it.
+
+40
+00:04:42 --> 00:04:46
+Now, the form is open in data entry mode.
+
+41
+00:04:47 --> 00:04:53
+Notice the heading that says 'Form to track Books issued to Members'.
+
+42
+00:04:54 --> 00:05:02
+And here, we see book titles and member names instead of 'bookIds' and 'memberIds'.
+
+43
+00:05:03 --> 00:05:14
+Also, this is the first record of the <b>BooksIssued</b> table; we see that 'An Autobiography' is highlighted against the <b>Book</b> title.
+
+44
+00:05:15 --> 00:05:20
+And 'Nisha Sharma' highlighted against the <b>Member name</b>.
+
+45
+00:05:21 --> 00:05:24
+And we also see the rest of the fields.
+
+46
+00:05:25 --> 00:05:44
+Now we can traverse through all the records by using the <b>Form Navigation</b> toolbar icons at the bottom.
+
+47
+00:05:45 --> 00:05:48
+Let us go to the second <b>record</b> now.
+
+48
+00:05:49 --> 00:06:00
+Here we see that the member Jacob Robin has borrowed the book 'Macbeth' and let us assume now that he is returning the book.
+
+49
+00:06:01 --> 00:06:06
+So, let us update this information into this record.
+
+50
+00:06:07 --> 00:06:16
+For this, we will type in the actual return date, for example- 7/7/11
+
+51
+00:06:17 --> 00:06:20
+and check the <b>Checked In</b> field.
+
+52
+00:06:21 --> 00:06:29
+To <b>save</b> this information, we will press the <b>Save Record</b> button that we put there.
+
+53
+00:06:30 --> 00:06:37
+Notice that the button is greyed out, meaning now it is disabled from use.
+
+54
+00:06:38 --> 00:06:44
+But if we <b>edit</b> this record again then the button gets enabled again.
+
+55
+00:06:45 --> 00:06:49
+Okay, now let us test the <b>Undo changes</b> button.
+
+56
+00:06:50 --> 00:07:05
+For this, let us edit the record by clicking on the book title 'Conquest of Self' and then typing in 5/7/11 in the <b>Actual Return Date</b> field.
+
+57
+00:07:06 --> 00:07:14
+Notice that both the <b>Save record</b> button and the <b>Undo changes</b> button are enabled for use.
+
+58
+00:07:15 --> 00:07:21
+Now, let us click on the <b>Undo Changes</b> button and see what happens.
+
+59
+00:07:22 --> 00:07:36
+The changes we did last, have been undone.  Notice that 'Macbeth' is highlighted instead of 'Conquest of Self' and the <b>Actual return date</b> is 7/7/11.
+
+60
+00:07:37 --> 00:07:46
+Good, let us now click on the <b>Delete Record</b> button, meaning- we are trying to delete this second record.
+
+61
+00:07:47 --> 00:07:54
+<b>Base</b> is cautious about deletes, so it asks for a confirmation by alerting us.
+
+62
+00:07:55 --> 00:08:01
+For now, let us go ahead and click on the <b>Yes</b> button.
+
+63
+00:08:02 --> 00:08:12
+We can see that the <b>record</b> is indeed deleted; gone from the screen and in its place we see the next record.
+
+64
+00:08:13 --> 00:08:21
+Finally, let us add a new record by clicking on the last button on the form which is <b>New record</b>.
+
+65
+00:08:22 --> 00:08:25
+Let us type some values.
+
+66
+00:08:26 --> 00:08:32
+Since the <b>IssueId</b> is an auto generating field, we will skip it.
+
+67
+00:08:33 --> 00:08:41
+And here, let us add data as shown in the image.
+
+68
+00:08:42 --> 00:08:46
+To save the entries, click on the <b>Save Record</b> button.
+
+69
+00:08:47 --> 00:08:53
+There we go. We have tested the <b>form</b> by entering and updating data.
+
+70
+00:08:54 --> 00:08:59
+Here is an assignment- Design a <b>form</b> to show the member's information.
+
+71
+00:09:00 --> 00:09:02
+Make the form look compact.
+
+72
+00:09:03 --> 00:09:06
+Make the font <b>bold</b>.
+
+73
+00:09:07 --> 00:09:09
+Add <b>Save</b> and <b>New record</b> buttons.
+
+74
+00:09:10 --> 00:09:16
+This brings us to the end of this tutorial on <b>Form Data in LibreOffice Base</b>.
+
+75
+00:09:17 --> 00:09:19
+To summarize, we learned how to:
+
+76
+00:09:20 --> 00:09:22
+enter and update data in a <b>form</b>.
+
+77
+00:09:23 --> 00:09:33
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+78
+00:09:34 --> 00:09:43
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. More information on the same is available at the following link.
+
+79
+00:09:44 --> 00:09:49
+This script has been contributed by Priya Suresh,DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

@@ -1,0 +1,332 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:02
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:03 --> 00:00:08
+In this tutorial, we will cover <b>Simple Forms</b> in <b>LibreOffice Base</b>.
+
+3
+00:00:09 --> 00:00:11
+Here, we will learn the following:
+
+4
+00:00:12 --> 00:00:13
+What is a form?
+
+5
+00:00:14 --> 00:00:16
+How to create a form using the Wizard
+
+6
+00:00:17 --> 00:00:26
+Using LibreOffice Base, so far, we learnt about creating a <b>database</b> and creating <b>table</b>s where we store the data.
+
+7
+00:00:27 --> 00:00:32
+But, how do we enter data into the database tables?
+
+8
+00:00:33 --> 00:00:41
+One way is to directly type in data into the <b>cell</b>s of the tables which we did in the last tutorial.
+
+9
+00:00:42 --> 00:00:48
+There is another way to enter data swiftly as well as with minimum errors.
+
+10
+00:00:49 --> 00:00:59
+And that is by using <b>Forms</b>. A <b>form</b> is a <b>front-end</b> or user interface for data entry and editing data.
+
+11
+00:01:00 --> 00:01:05
+For example, a simple form can consist of <b>field</b>s in a <b>table</b>.
+
+12
+00:01:06 --> 00:01:14
+Let us consider the "Library" database example that we created in the previous tutorials.
+
+13
+00:01:15 --> 00:01:20
+So, a simple <b>form</b> can consist of the fields in the <b>Books</b> table.
+
+14
+00:01:21 --> 00:01:26
+And this <b>form</b>, now, can be used to enter data into the <b>Books</b> table.
+
+15
+00:01:27 --> 00:01:32
+Now, let us learn how to create a <b>form</b>.
+
+16
+00:01:33 --> 00:01:37
+Let us first invoke the <b>LibreOffice Base</b> program.
+
+17
+00:01:38 --> 00:01:56
+If <b>Base</b> program is not opened, then we will click on the <b>Start</b> button at the bottom left and then click on <b>All programs</b>. Then click on <b>LibreOffice Suite</b> and then click on <b>LibreOffice Base</b>.
+
+18
+00:01:57 --> 00:02:03
+Let us now click on the '<b>open an existing database file'</b> option.
+
+19
+00:02:04 --> 00:02:10
+In the '<b>Recently Used'</b> drop-down box, our 'Library' database should be visible.
+
+20
+00:02:11 --> 00:02:16
+So now, let us select it and click on the <b>Finish</b> button.
+
+21
+00:02:17 --> 00:02:20
+If <b>LibreOffice Base</b> is already open
+
+22
+00:02:21 --> 00:02:35
+then we can open the 'Library' database file 'Library.odb' by clicking on the <b>File</b> menu on the top and then clicking on <b>Open</b>.
+
+23
+00:02:36 --> 00:02:47
+Alternately, click on <b>Recent Documents</b> in the <b>File</b> menu and choose 'Library.odb'.
+
+24
+00:02:48 --> 00:02:51
+Now, we are in the 'Library' Database.
+
+25
+00:02:52 --> 00:03:00
+Let us click on the <b>Forms</b> icon in the <b>Database</b> list on the left panel.
+
+26
+00:03:01 --> 00:03:11
+Notice that there are two ways to create a new <b>form</b>: <b>"Create Form in Design View" and "Use Wizard to create form".</b>
+
+27
+00:03:12 --> 00:03:18
+Let us click on the second option: <b>Use Wizard to create form</b>.
+
+28
+00:03:19 --> 00:03:25
+We now see a new <b>window</b> which is similar to the 'LibreOffice Writer' window.
+
+29
+00:03:26 --> 00:03:32
+And on top of it, we see a pop-up window that says 'Form Wizard'.
+
+30
+00:03:33 --> 00:03:39
+Let’s go through this Wizard to create our first <b>form</b> based on the <b>Books</b> table.
+
+31
+00:03:40 --> 00:03:45
+Notice the 8 <b>steps</b> that we will go through on the left hand side.
+
+32
+00:03:46 --> 00:03:52
+We are in <b>step 1</b> which is '<b>Field Selection'</b>.
+
+33
+00:03:53 --> 00:04:02
+And, on the right hand side let us choose <b>Table:Books</b> from the drop-down here that says <b>Tables or queries</b>.
+
+34
+00:04:03 --> 00:04:08
+Below this, we see a list of <b>Available fields</b> on the left hand side.
+
+35
+00:04:09 --> 00:04:13
+On the right hand side we see <b>Fields on the form</b>.
+
+36
+00:04:14 --> 00:04:20
+We will need to move only those <b>field</b>s which we need on the <b>form</b>.
+
+37
+00:04:21 --> 00:04:26
+For now, let us click on the button with double-arrow mark symbols.
+
+38
+00:04:27 --> 00:04:34
+Notice that we have moved all the fields from the left to the right.
+
+39
+00:04:35 --> 00:04:45
+Since we have set up 'BookId' field to auto-generate its own numbers, we don’t need it on the <b>form</b>.
+
+40
+00:04:46 --> 00:04:50
+So, let us move this field back to the left hand side.
+
+41
+00:04:51 --> 00:05:01
+Click on <b>BookId</b> on the right hand side and click on the button that has one 'Less than' symbol.
+
+42
+00:05:02 --> 00:05:09
+OK, let us go to the next step now by clicking on the <b>Next</b> button at the bottom.
+
+43
+00:05:10 --> 00:05:20
+Step 2. Since we are creating a simple <b>form</b>, let us skip this step for now and simply click on the <b>Next</b> button.
+
+44
+00:05:21 --> 00:05:25
+We are in <b>Step 5</b>. '<b>Arrange controls'</b>.
+
+45
+00:05:26 --> 00:05:34
+Also notice that in the background window, we see the <b>Books</b> table in an orange background.
+
+46
+00:05:35 --> 00:05:43
+Let us click on the four icons below the label that says 'Arrangement of the main form'.
+
+47
+00:05:44 --> 00:05:56
+As we click through, we see the background window changing, in the arrangement of labels and text boxes saying <b>title, author</b> etc.
+
+48
+00:05:57 --> 00:06:07
+Let us use the first arrangement that says 'Columnar – Labels Left'  and click on the first icon.
+
+49
+00:06:08 --> 00:06:16
+Here the labels are to the left and the text boxes on the right, just like a typical paper form.
+
+50
+00:06:17 --> 00:06:21
+Now, let us click on the <b>Next</b> button to proceed.
+
+51
+00:06:22 --> 00:06:27
+We are on <b>Step 6</b> that says '<b>Set Data Entry'</b>.
+
+52
+00:06:28 --> 00:06:32
+We will skip this step for now, and go to the next step.
+
+53
+00:06:33 --> 00:06:35
+<b>Step 7. 'Apply Styles'</b>.
+
+54
+00:06:36 --> 00:06:44
+Notice that the window background colour changes as we click through each colour in the list box.
+
+55
+00:06:45 --> 00:06:49
+Let us choose Ice Blue by clicking on it.
+
+56
+00:06:50 --> 00:06:52
+Now, let us go to the final step.
+
+57
+00:06:53 --> 00:06:58
+Step 8. Let us now give a name to our <b>form</b>.
+
+58
+00:06:59 --> 00:07:02
+We can follow our own naming conventions.
+
+59
+00:07:03 --> 00:07:15
+But for now, let us type a descriptive name, 'Books Data Entry Form' in the text box that is below the label <b>‘Name of the form’</b>.
+
+60
+00:07:16 --> 00:07:19
+Now, how do we want to proceed after creating the form?
+
+61
+00:07:20 --> 00:07:22
+Let us 'Work with the form' first.
+
+62
+00:07:23 --> 00:07:28
+Meaning- we will start using the <b>form</b> for data entry.
+
+63
+00:07:29 --> 00:07:36
+To change the <b>form</b> design, we can choose '<b>Modify the form'</b> which we will see later.
+
+64
+00:07:37 --> 00:07:43
+For now, we are done. So, let us click on the <b>Finish</b> button at the bottom.
+
+65
+00:07:44 --> 00:07:53
+We have now created our first simple <b>form</b> that says '<b>Books Data Entry Form'</b> on the window title.
+
+66
+00:07:54 --> 00:08:04
+Notice that the text boxes are filled with values that read 'An autobiography', 'Jawaharlal Nehru' etc.
+
+67
+00:08:05 --> 00:08:07
+Where did these values come from?
+
+68
+00:08:08 --> 00:08:16
+We typed-in these values directly into the <b>Books</b> table in the previous part of the <b>Base</b> tutorial.
+
+69
+00:08:17 --> 00:08:21
+Now this <b>form</b> is ready to use for data entry.
+
+70
+00:08:22 --> 00:08:26
+Let us click on the <b>tab</b> keys to go through each value.
+
+71
+00:08:27 --> 00:08:36
+Notice that the <b>form</b> shows the second book's information and the title is now 'Conquest of self'.
+
+72
+00:08:37 --> 00:08:53
+We can also go to each book's information, otherwise called 'record', by clicking on the black triangle icon that points to the right, in the <b>Forms Navigation</b> toolbar at the bottom.
+
+73
+00:08:54 --> 00:09:00
+Notice that the <b>record</b> number 3 of 5 is displayed here.
+
+74
+00:09:01 --> 00:09:08
+Notice that <b>Base</b> shows tool tips when we point our cursor on these black arrow icons:
+
+75
+00:09:09 --> 00:09:15
+<b>First Record, Previous Record, Next Record</b> and <b>Last Record</b>.
+
+76
+00:09:16 --> 00:09:21
+We also can use these to traverse through the <b>record</b>s.
+
+77
+00:09:22 --> 00:09:26
+This brings us to the end of this tutorial on <b>Simple Forms in LibreOffice Base</b>.
+
+78
+00:09:27 --> 00:09:34
+To summarize, we learned: What a <b>form</b> is? How to create a form using the Wizard.
+
+79
+00:09:35 --> 00:09:46
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+80
+00:09:47 --> 00:09:51
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+81
+00:09:52 --> 00:09:55
+More information on the same is available at the following link.
+
+82
+00:09:56 --> 00:10:01
+This script has been contributed by Priya Suresh DesiCrew solutions. And this is Soundharya, DesiCrew solutions, signing off.
+<p>Thanks for joining.
+</p>
+

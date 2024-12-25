@@ -1,0 +1,280 @@
+<b>Narration</b>
+
+1
+00:00:03 --> 00:00:05
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:06 --> 00:00:13
+In this tutorial, we will learn how to Add a <b>List Box form control</b> to a <b>form</b>.
+
+3
+00:00:14 --> 00:00:19
+In the last tutorial, we learnt how to modify a form using <b>LibreOffice Base</b>.
+
+4
+00:00:20 --> 00:00:33
+We also saw this image of the form that we started creating and modifying in the last tutorial.
+
+5
+00:00:34 --> 00:00:44
+And once we are done with our design, this is how our <b>form</b> will look like.
+
+6
+00:00:45 --> 00:00:51
+Notice here that we are seeing the first <b>record</b> in the <b>Books Issued</b> <b>Table</b>.
+
+7
+00:00:52 --> 00:01:00
+And, we are also seeing list boxes with real book titles and member names, instead of 'book Id's and 'member Id's.
+
+8
+00:01:01 --> 00:01:10
+Here are some push-buttons at the bottom for performing actions like saving a record, undoing the changes etc.
+
+9
+00:01:11 --> 00:01:19
+So, in this tutorial, we will learn how to add a <b>List box form control</b> to our form.
+
+10
+00:01:20 --> 00:01:31
+Let us first invoke the <b>LibreOffice Base</b> program, if it's not already open
+
+11
+00:01:32 --> 00:01:34
+and open our <b>Library</b> database.
+
+12
+00:01:35 --> 00:01:44
+If <b>Base</b> is already open then we can open the 'Library database' from here by clicking <b>Open</b> under the <b>File</b> menu
+
+13
+00:01:45 --> 00:01:49
+or by clicking the <b>Recent Documents</b> under the <b>File</b> menu.
+
+14
+00:01:50 --> 00:01:53
+Now we are in the 'Library database'.
+
+15
+00:01:54 --> 00:02:00
+Let us open 'Books Issued to Members' <b>form</b> that we created in the last tutorial.
+
+16
+00:02:01 --> 00:02:06
+To do this, let us click on the <b>Forms</b> icon on the left panel.
+
+17
+00:02:07 --> 00:02:16
+And right-click on the 'Books Issued to Members' form on the right panel and then click on <b>edit</b>.
+
+18
+00:02:17 --> 00:02:20
+We are now in the <b>Form Design</b> window.
+
+19
+00:02:21 --> 00:02:24
+Let us first consider the 'Book Title' label.
+
+20
+00:02:25 --> 00:02:32
+Notice that the text-box here, will only display 'BookId 'numbers which are not friendly on our eyes.
+
+21
+00:02:33 --> 00:02:36
+For us, book titles are friendlier.
+
+22
+00:02:37 --> 00:02:47
+And so, to display these titles, <b>Base</b> provides some ways and one of the ways is by using a <b>List box form control</b>.
+
+23
+00:02:48 --> 00:02:50
+Let us see how.
+
+24
+00:02:51 --> 00:02:58
+For this, let us first remove the text-box adjacent to the <b>Book Title</b> label.
+
+25
+00:02:59 --> 00:03:08
+We can do this by clicking on the text-box which selects it with the familiar set of green boxes
+
+26
+00:03:09 --> 00:03:15
+and then by right-clicking and clicking on <b>Cut</b> at the bottom.
+
+27
+00:03:16 --> 00:03:19
+There, we have removed the text-box.
+
+28
+00:03:20 --> 00:03:25
+Now, we will place a 'List box form control' here.
+
+29
+00:03:26 --> 00:03:30
+This can be accessed in the <b>Form Controls</b> toolbar.
+
+30
+00:03:31 --> 00:03:38
+We can bring it up by using the <b>View</b> menu and clicking on the <b>Form Controls</b>.
+
+31
+00:03:39 --> 00:04:00
+Notice that <b>Base</b> provides us a lot of 'form controls'; let us point our cursor over these icons to read the tool tips.
+
+32
+00:04:01 --> 00:04:03
+Let us find our list box icon.
+
+33
+00:04:04 --> 00:04:10
+There it is, let us click just once on this icon.
+
+34
+00:04:11 --> 00:04:20
+And let us move the <b>mouse</b> pointer into the <b>form</b>; notice that it has changed to a thin plus symbol.
+
+35
+00:04:21 --> 00:04:25
+Now we can draw the 'listbox form control' on our form.
+
+36
+00:04:26 --> 00:04:33
+For this, we will simply click, drag and drop it on our form.
+
+37
+00:04:34 --> 00:04:38
+Let us place it where we removed the text-box earlier.
+
+38
+00:04:39 --> 00:04:47
+Notice that a new wizard called 'List Box Wizard' has opened up over the <b>Form design</b> window.
+
+39
+00:04:48 --> 00:04:55
+Now, this wizard will help us connect the list box to the 'Book title' label.
+
+40
+00:04:56 --> 00:04:57
+Let us see how.
+
+41
+00:04:58 --> 00:05:06
+In this wizard, let us first choose the table from where we can get the book titles.
+
+42
+00:05:07 --> 00:05:14
+We will choose the <b>Books</b> table from the list and click on the <b>Next</b> button.
+
+43
+00:05:15 --> 00:05:23
+Now, in this window, we need to choose the <b>field</b> that will be displayed in the List box.
+
+44
+00:05:24 --> 00:05:28
+And we know that the <b>Title</b> field stores the book titles.
+
+45
+00:05:29 --> 00:05:31
+So, let us go to the next step.
+
+46
+00:05:32 --> 00:05:36
+This final window is where we will do the magic.
+
+47
+00:05:37 --> 00:05:40
+We will connect the related <b>table</b>s and <b>field</b>s.
+
+48
+00:05:41 --> 00:05:51
+Look at the field names. The 'Fields in the Value table' on the left are the fields in the 'Books Issued' table.
+
+49
+00:05:52 --> 00:05:58
+And the 'Fields in the list table' on the right are the fields in the 'Books' table.
+
+50
+00:05:59 --> 00:06:09
+We also know that 'book id' is the key field in the 'books table' and is represented in the 'Books Issued' table.
+
+51
+00:06:10 --> 00:06:18
+So, we will click on <b>Book id</b> on the left side list that says 'Field from the value table'.
+
+52
+00:06:19 --> 00:06:28
+Next, we will click on <b>Book id</b> on the right side list that says 'Field from the list table'.
+
+53
+00:06:29 --> 00:06:33
+Click on the <b>Finish</b> button to close this wizard.
+
+54
+00:06:34 --> 00:06:39
+There, we have connected the related tables and fields.
+
+55
+00:06:40 --> 00:06:45
+Now, <b>Base</b> will automatically display all the Book titles in this <b>List box</b>.
+
+56
+00:06:46 --> 00:06:48
+Let us now <b>save</b> the <b>form</b>
+
+57
+00:06:49 --> 00:06:51
+and close this window.
+
+58
+00:06:52 --> 00:06:59
+In the next part of the <b>Base</b> tutorial, we will continue adding the rest of the <b>form controls</b> to our form.
+
+59
+00:07:00 --> 00:07:05
+And this is how our <b>form</b> will look like, when we are done.
+
+60
+00:07:06 --> 00:07:07
+Here is an assignment.
+
+61
+00:07:08 --> 00:07:16
+Add a second list box for listing 'member names' instead of unfriendly 'member Ids'.
+
+62
+00:07:17 --> 00:07:26
+Do not worry about the placement of the list box now. Just draw it to the left of the <b>Member name</b> label.
+
+63
+00:07:27 --> 00:07:33
+We will relocate it appropriately across the 'Member Name' label in our next tutorial.
+
+64
+00:07:34 --> 00:07:39
+This brings us to the end of this tutorial on <b>List Box Control</b> in <b>LibreOffice Base</b>.
+
+65
+00:07:40 --> 00:07:46
+To summarize, we learned how to: Add a 'List Box form control' to a form.
+
+66
+00:07:47 --> 00:07:57
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+67
+00:07:58 --> 00:08:03
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+68
+00:08:04 --> 00:08:07
+More information on the same is available at the following link.
+
+69
+00:08:08 --> 00:08:13
+This script has been contributed by Priya Suresh, DesiCrew solutions. And this is Soundharya, DesiCrew solutions, signing off.
+<p>Thanks for joining.
+</p>
+

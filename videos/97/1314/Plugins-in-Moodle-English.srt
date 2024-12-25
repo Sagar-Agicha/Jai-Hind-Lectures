@@ -1,0 +1,597 @@
+<i><b>Narration</b></i>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the Spoken Tutorial on<b> Installing plugins in Moodle</b>
+
+2
+00:00:07 --> 00:00:14
+In this tutorial, we will learn about:  <b>Plugins </b>and How to install a <b>plugin</b> in <b>Moodle</b>
+
+3
+00:00:15 --> 00:00:22
+To record this tutorial, I will be using:
+<p><b>Ubuntu Linux OS 16.04</b>
+</p>
+
+4
+00:00:23 --> 00:00:30
+<b>Apache, MariaDB</b> and <b>PHP</b> obtained through<b> XAMPP 5.6.30</b>
+
+5
+00:00:31 --> 00:00:32
+<b>Moodle 3.3</b>
+
+6
+00:00:33 --> 00:00:39
+<b>Firefox web browser</b> and  Working <b>Internet</b> connection
+
+7
+00:00:40 --> 00:00:43
+You can use any <b>web browser</b> of your choice.
+
+8
+00:00:44 --> 00:00:51
+However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+
+9
+00:00:52 --> 00:00:58
+Learners of this tutorial should have some <b>courses</b> and <b>users</b> in their <b>Moodle</b> website.
+
+10
+00:00:59 --> 00:01:05
+If not, please refer to the relevant<b> Moodle</b> tutorials on this website.
+
+11
+00:01:06 --> 00:01:14
+What are <b>plugins</b>?
+<p><b>Plugins</b> are add-on tools that add special features to an existing software 
+</p>
+
+12
+00:01:15 --> 00:01:21
+<b>Moodle</b> has several useful <b>plugins</b> for teachers as well as site administrators
+
+13
+00:01:22 --> 00:01:25
+These are available in the <b>plugins</b> directory
+
+14
+00:01:26 --> 00:01:35
+Open the <b>browser</b> and type <a class="external free" href="https://moodle.org/plugins" rel="nofollow">https://moodle.org/plugins</a>
+
+15
+00:01:36 --> 00:01:40
+The page has filters based on <b>Purpose </b>and<b> Plugin Type</b>.
+
+16
+00:01:41 --> 00:01:45
+There is also a <b>search</b> box, for custom search.
+
+17
+00:01:46 --> 00:01:52
+There are some numbers displayed at the top right.
+<p>The text below indicates what they are. 
+</p>
+
+18
+00:01:53 --> 00:01:58
+In this tutorial, we will learn how to install the <b>attendance plugin.</b>
+
+19
+00:01:59 --> 00:02:04
+Type <b>attendance</b> in the <b>search</b> box and click on the <b>Search</b> button.
+
+20
+00:02:05 --> 00:02:12
+We see that there are multiple <b>plugins</b> having this keyword, either in their title or description.
+
+21
+00:02:13 --> 00:02:21
+Click on <b>Attendance plugin</b>.
+<p>The description reads “<b>A plugin that allows an attendance log to be kept.</b>” 
+</p>
+
+22
+00:02:22 --> 00:02:29
+To verify that you have clicked on the same <b>plugin</b> that I mentioned, check the title on the new page.
+
+23
+00:02:30 --> 00:02:35
+It should say <b>Activities colon Attendance </b>as the title.
+
+24
+00:02:36 --> 00:02:41
+This <b>plugin</b> allows a teacher to keep an <b>attendance log</b> in <b>Moodle</b>.
+
+25
+00:02:42 --> 00:02:49
+Before installing any new <b>plugin</b>, ensure that it is available for the <b>Moodle</b> version you are using.
+
+26
+00:02:50 --> 00:02:55
+To verify, click on the <b>Versions</b> link to see the versions that it supports.
+
+27
+00:02:56 --> 00:03:02
+Scroll down to see that it is available for our version of <b>Moodle 3.3</b>
+
+28
+00:03:03 --> 00:03:05
+Go back to the <b>Description</b> link.
+
+29
+00:03:06 --> 00:03:11
+Read the description to understand whether the <b>plugin</b> fulfills your purpose.
+
+30
+00:03:12 --> 00:03:19
+It also mentions prerequisites for using the <b>plugin</b> and the usage instructions, if any.
+
+31
+00:03:20 --> 00:03:26
+We can see that it is being used on a number of websites and has many fans.
+
+32
+00:03:27 --> 00:03:32
+This authenticates that the <b>plugin</b> is useful and easy to use.
+
+33
+00:03:33 --> 00:03:39
+You may also want to scroll down and see the questions others have asked related to this <b>plugin</b>.
+
+34
+00:03:40 --> 00:03:45
+When you are convinced you want to install the <b>plugin</b>, go back to the <b>Versions</b> link.
+
+35
+00:03:46 --> 00:03:48
+Click on the <b>Download</b> button.
+
+36
+00:03:49 --> 00:03:54
+Save the file on your local system. I have already saved it in my system.
+
+37
+00:03:55 --> 00:04:01
+Open a new tab and login to your <b>Moodle</b> website as <b>site administrator</b>.
+
+38
+00:04:02 --> 00:04:05
+Make sure that the <b>XAMPP service</b> is running.
+
+39
+00:04:06 --> 00:04:08
+We are now in the <b>admin dashboard</b>.
+
+40
+00:04:09 --> 00:04:12
+Click on <b>Site Administration</b> on the left side.
+
+41
+00:04:13 --> 00:04:19
+Then click on <b>Plugins</b> tab and then on <b>Install plugins </b>link.
+
+42
+00:04:20 --> 00:04:28
+There are 2 ways to install a <b>plugin</b> - through <b>Moodle plugins directory</b> and through a <b>zip</b> upload.
+
+43
+00:04:29 --> 00:04:32
+We will cover the second method only.
+
+44
+00:04:33 --> 00:04:40
+The first method requires us to have an account on <b>moodle.org</b>, hence we are skipping it.
+
+45
+00:04:41 --> 00:04:45
+Click on <b>Choose a file</b> button next to <b>Zip package</b>.
+
+46
+00:04:46 --> 00:04:51
+Click on <b>Upload a file</b> link on the left, if it is not already selected.
+
+47
+00:04:52 --> 00:04:58
+Click on <b>Browse</b> button and browse to the location where you have saved the <b>plugin</b> file.
+
+48
+00:04:59 --> 00:05:02
+Select the zip file which we downloaded earlier.
+
+49
+00:05:03 --> 00:05:07
+Then click on <b>Upload this file</b> button at the bottom of this window.
+
+50
+00:05:08 --> 00:05:13
+Now click on <b>Install plugin from the ZIP file</b> button at the bottom.
+
+51
+00:05:14 --> 00:05:17
+You may encounter an error in this page.
+
+52
+00:05:18 --> 00:05:23
+The error message says <b>Validating mod_attendance ... Error</b>
+
+53
+00:05:24 --> 00:05:26
+Click on the <b>Cancel</b> link.
+
+54
+00:05:27 --> 00:05:32
+This is an indicator for us to give<b> write permission</b> to this directory.
+
+55
+00:05:33 --> 00:05:38
+So open the <b>terminal</b> by pressing <b>Control + Alt + T</b> keys.
+
+56
+00:05:39 --> 00:05:55
+Type <b>sudo space chmod space 777 space slash opt slash lampp slash htdocs slash moodle slash mod slash </b>
+
+57
+00:05:56 --> 00:06:01
+Enter the <b>administrative password</b> if prompted and press <b>Enter</b>.
+
+58
+00:06:02 --> 00:06:08
+Let us go back to the browser and repeat the process.
+
+59
+00:06:09 --> 00:06:16
+This time we get the validation successful message. Click on the <b>Continue</b> button.
+
+60
+00:06:17 --> 00:06:24
+Please note that this additional step is required only if you get the above error screen.
+
+61
+00:06:25 --> 00:06:30
+Now, the <b>plugin</b> is downloaded and validated for this version of <b>Moodle</b>.
+
+62
+00:06:31 --> 00:06:35
+Next, we will get a page with the title <b>Plugins check</b>.
+
+63
+00:06:36 --> 00:06:42
+Notice the <b>status</b> information in green here, which says <b>To be installed.</b>
+
+64
+00:06:43 --> 00:06:46
+Click on <b>Upgrade Moodle database now</b> button.
+
+65
+00:06:47 --> 00:06:52
+This step may take some time. Please do not refresh or close the <b>browser </b>window.
+
+66
+00:06:53 --> 00:06:57
+When you see the success message, then click on the <b>Continue</b> button.
+
+67
+00:06:58 --> 00:07:01
+We are now in the <b>New settings</b> page.
+
+68
+00:07:02 --> 00:07:09
+Go through all the <b>settings</b> to see if you need to change any of them.
+<p>I do not wish to make any changes. 
+</p>
+
+69
+00:07:10 --> 00:07:15
+After checking, click on the <b>Save Changes</b> button at the bottom of the page.
+
+70
+00:07:16 --> 00:07:20
+You may see some warning messages which you can ignore for the time being.
+
+71
+00:07:21 --> 00:07:28
+To see if the <b>plugin </b>is installed successfully, click on <b>Site Administration </b>in the left panel<b>.</b>
+
+72
+00:07:29 --> 00:07:35
+Then click on <b>Plugins</b> tab and then<b> Plugins overview</b>.
+
+73
+00:07:36 --> 00:07:39
+This will show you the list of all <b>plugins</b>
+
+74
+00:07:40 --> 00:07:45
+The ones which were installed by default and the ones you installed.
+
+75
+00:07:46 --> 00:07:50
+On my site, it shows these many <b>plugins</b> are installed.
+
+76
+00:07:51 --> 00:07:58
+To see the <b>plugins</b> that were additionally installed, click on <b>Additional plugins</b> link above the table.
+
+77
+00:07:59 --> 00:08:04
+Here there are links to go to the <b>Settings</b> and <b>uninstall</b> the <b>plugin</b> from this page.
+
+78
+00:08:05 --> 00:08:10
+<b>Teachers</b> and <b>administrators</b> can now create <b>attendance</b> for their <b>courses</b>.
+
+79
+00:08:11 --> 00:08:15
+Once again click on <b>Site administration</b> in the left panel.
+
+80
+00:08:16 --> 00:08:20
+Then click on <b>Courses</b> and <b>Manage Courses and categories</b>.
+
+81
+00:08:21 --> 00:08:25
+Click on <b>1st year Maths</b> in the <b>Course category</b> on the left.
+
+82
+00:08:26 --> 00:08:29
+Click on <b>Calculus course</b> on the right.
+
+83
+00:08:30 --> 00:08:39
+Scroll down to the <b>Calculus course</b> details section and click on <b>View</b> tab to view the <b>Calculus course</b>.
+
+84
+00:08:40 --> 00:08:46
+Click on the <b>gear icon</b> at the top right and then click on <b>Turn editing on</b>.
+
+85
+00:08:47 --> 00:08:53
+Click on <b>Add an activity or resource</b> at the bottom right of the area before the topics.
+
+86
+00:08:54 --> 00:08:59
+Double click on the <b>Attendance</b> activity to create an attendance.
+
+87
+00:09:00 --> 00:09:03
+Enter the name and description as shown here.
+
+88
+00:09:04 --> 00:09:06
+Expand the <b>Grade</b> section.
+
+89
+00:09:07 --> 00:09:11
+This dropdown decides the type of grading used for attendance.
+
+90
+00:09:12 --> 00:09:20
+If you want attendance to contribute to the course grade, set a Maximum points value.
+<p>The default is 100. 
+</p>
+
+91
+00:09:21 --> 00:09:23
+I will select <b>Grade</b> as <b>None</b>.
+
+92
+00:09:24 --> 00:09:26
+Let the other options be default.
+
+93
+00:09:27 --> 00:09:30
+Scroll down and click on <b>Save and display</b> button.
+
+94
+00:09:31 --> 00:09:33
+We are now in a new page.
+
+95
+00:09:34 --> 00:09:37
+Click on the <b>Status set</b> tab here.
+
+96
+00:09:38 --> 00:09:46
+There are 4 default status for the <b>attendance</b>:
+<p><b>Present</b> ,  <b>Late</b> ,  <b>Excused</b> ,  <b>Absent</b>
+</p>
+
+97
+00:09:47 --> 00:09:52
+Depending on your requirement, you can either delete these or add more.
+
+98
+00:09:53 --> 00:09:58
+You can also modify the status names if you call them something else.
+
+99
+00:09:59 --> 00:10:06
+I will delete the <b>Excused</b> status because I do not use that in my class.
+
+100
+00:10:07 --> 00:10:12
+A confirmation message box appears.
+<p>Click on the <b>Continue</b> button. 
+</p>
+
+101
+00:10:13 --> 00:10:15
+Now click on the <b>Add session</b> tab.
+
+102
+00:10:16 --> 00:10:23
+Select the date of the first session you want to add.
+<p>I will put this as 4th June 2019. 
+</p>
+
+103
+00:10:24 --> 00:10:26
+Select the start and end time of the session.
+
+104
+00:10:27 --> 00:10:42
+Note that the time fields use a 24-hour clock.
+<p>So a 3:15pm to 4:05pm class should be 15:15 to 16:05. 
+</p>
+
+105
+00:10:43 --> 00:10:45
+Type a short <b>Description</b> for the session.
+
+106
+00:10:46 --> 00:10:53
+If you leave the description field blank, the description by default will be “<b>Regular class session”.</b>
+
+107
+00:10:54 --> 00:10:58
+Click on <b>Multiple sessions</b> section to expand it.
+
+108
+00:10:59 --> 00:11:05
+If your class meets at regular intervals, you can create multiple sessions at the same time.
+
+109
+00:11:06 --> 00:11:10
+Click on <b>Repeat the session above as follows </b>checkbox.
+
+110
+00:11:11 --> 00:11:19
+If your class meets on certain days of the week, select the days of the week.
+<p>For my class, I will select <b>Monday</b>. 
+</p>
+
+111
+00:11:20 --> 00:11:27
+Next option is <b>Repeat every</b> dropdown.
+<p>If the class meets every week, select 1. 
+</p>
+
+112
+00:11:28 --> 00:11:34
+If the class meets 2 weeks from the date of the first session, select 2 and so on.
+
+113
+00:11:35 --> 00:11:37
+I will let this remain as 1.
+
+114
+00:11:38 --> 00:11:44
+This means my class meets every Monday at 3:15pm for 50 mins.
+
+115
+00:11:45 --> 00:11:48
+<b>Repeat until</b> is the date of the last session.
+
+116
+00:11:49 --> 00:11:53
+I will put this as <b>30th March 2020.</b>
+
+117
+00:11:54 --> 00:11:59
+Next click on <b>Student recording</b> section to expand it.
+
+118
+00:12:00 --> 00:12:06
+If you want students to record their own attendance, fill up the fields in this section.
+
+119
+00:12:07 --> 00:12:08
+I will skip this section.
+
+120
+00:12:09 --> 00:12:14
+Scroll down and click on <b>Add</b> button at the bottom of the page.
+
+121
+00:12:15 --> 00:12:21
+A confirmation message appears saying <b>43 sessions were successfully generated.</b>
+
+122
+00:12:22 --> 00:12:27
+You may see a different number of sessions, if you selected dates other than mine.
+
+123
+00:12:28 --> 00:12:31
+See the icons next to each session.
+
+124
+00:12:32 --> 00:12:38
+They let the teacher to take the <b>attendance</b>, edit the session or delete the session.
+
+125
+00:12:39 --> 00:12:45
+Click on <b>Take attendance</b> icon for the week that you want to take <b>attendance</b>.
+
+126
+00:12:46 --> 00:12:52
+You can see a list of all students enrolled in this <b>course</b> and you can mark their <b>attendance</b>.
+
+127
+00:12:53 --> 00:12:58
+<b>P, L</b> and <b>A</b> are the status that we selected in the <b>settings</b> earlier.
+
+128
+00:12:59 --> 00:13:09
+Check the radio button just below '<b>P'</b> to set status for all users to '<b>Present'</b> and mark '<b>A'</b> only for the absentees.
+
+129
+00:13:10 --> 00:13:17
+When you have marked the attendance, click on <b>Save attendance</b> button at the bottom of the page.
+
+130
+00:13:18 --> 00:13:23
+With this we come to the end of this tutorial.
+<p>Let us summarize. 
+</p>
+
+131
+00:13:24 --> 00:13:31
+In this tutorial, we learnt about:
+<p><b>Plugins </b>and How to install a <b>plugin </b>in <b>Moodle</b>
+</p>
+
+132
+00:13:32 --> 00:13:34
+Here is an assignment for you:
+
+133
+00:13:35 --> 00:13:41
+Search for a <b>plugin Font family</b> maintained by <b>Projectes TAC Dept</b>.
+
+134
+00:13:42 --> 00:13:45
+Install the <b>plugin</b> with its default settings.
+
+135
+00:13:46 --> 00:13:51
+Verify from the <b>Plugins overview</b> section that the <b>plugin</b> is installed.
+
+136
+00:13:52 --> 00:13:59
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project.
+<p>Please download and watch it. 
+</p>
+
+137
+00:14:00 --> 00:14:09
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates.
+<p>For more details, please write to us. 
+</p>
+
+138
+00:14:10 --> 00:14:13
+Please post your timed queries in this forum.
+
+139
+00:14:14 --> 00:14:26
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India.</b>  More information on this mission is available at the link shown.
+
+140
+00:14:27 --> 00:14:32
+This script has been contributed by Priyanka.
+<p>And this is Nancy Varkey along with the Spoken Tutorial team signing off. 
+</p><p>Thanks for joining. 
+</p>
+

@@ -1,0 +1,354 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:02
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:03 --> 00:00:13
+In this tutorial, we will learn the following topics:
+<p>Indexes
+Table Filter
+And the SQL Command window.
+</p>
+
+3
+00:00:14 --> 00:00:15
+Let us first learn about <b>Index</b>es.
+
+4
+00:00:16 --> 00:00:17
+What is an <b>Index</b>?
+
+5
+00:00:18 --> 00:00:25
+An Index is a way to find and sort <b>record</b>s within a <b>database table</b> faster.
+
+6
+00:00:26 --> 00:00:35
+We can choose one <b>field</b> or multiple fields in a <b>table</b> on which the records need to be indexed.
+
+7
+00:00:36 --> 00:00:42
+The Index stores the location of records based on the chosen field or fields.
+
+8
+00:00:43 --> 00:00:50
+So, to retrieve data, <b>Base</b> can move to the location of the data directly by using the index.
+
+9
+00:00:51 --> 00:00:58
+And so, it is considerably faster than scanning through all of the records to find the data.
+
+10
+00:00:59 --> 00:01:02
+The <b>primary key</b> of a table is automatically indexed.
+
+11
+00:01:03 --> 00:01:08
+Now, let us create an index in our example <b>Library</b> database.
+
+12
+00:01:09 --> 00:01:17
+We will create an index on the <b>Title</b> column in the <b>Books</b> table that will speed up searching on book titles.
+
+13
+00:01:18 --> 00:01:33
+Let us first open our 'Library' database, if not already opened.
+
+14
+00:01:34 --> 00:01:38
+And open the <b>Books</b> table in <b>Edit</b> mode.
+
+15
+00:01:39 --> 00:01:47
+In the <b>Table Design</b> window, let us go to the <b>Tools</b> menu and choose <b>Index Design</b>.
+
+16
+00:01:48 --> 00:01:56
+In the <b>Indexes</b> window, notice that <b>Base</b> already has included the <b>Primary Key</b> as a <b>Unique</b> Index.
+
+17
+00:01:57 --> 00:02:04
+Let us click on the left most icon, <b>New Index</b>, to create our index.
+
+18
+00:02:05 --> 00:02:13
+And choose <b>Title</b> in the drop-down list under the <b>Index</b> field on the right.
+
+19
+00:02:14 --> 00:02:18
+We can also choose the <b>Ascending</b> or <b>Descending</b> order here
+
+20
+00:02:19 --> 00:02:36
+and <b>rename</b> this index to ‘IDX_Title’ by clicking on the third icon on the left and save it using the <b>Save</b> icon next to it.
+
+21
+00:02:37 --> 00:02:41
+So, there is our index on the <b>Title</b> field.
+
+22
+00:02:42 --> 00:02:50
+In this way we can create, edit, rename or delete indexes for tables using <b>Base</b>.
+
+23
+00:02:51 --> 00:02:53
+Here is an assignment for you:
+
+24
+00:02:54 --> 00:03:02
+Create an index on names in the <b>Members</b> table and call it ‘IDX_MemberName’.
+
+25
+00:03:03 --> 00:03:06
+Next, let us see what a <b>Table Filter</b> is.
+
+26
+00:03:07 --> 00:03:14
+'Table Filter' feature allows us to hide tables in a <b>Base</b> database from other applications.
+
+27
+00:03:15 --> 00:03:21
+As an example, let us hide all tables except the <b>Books</b> table in the 'Library' database.
+
+28
+00:03:22 --> 00:03:26
+Now, <b>Table Filter</b> is available under the <b>Tools</b> menu.
+
+29
+00:03:27 --> 00:03:32
+Here, let us check <b>All Views</b> and check the <b>Books</b> table.
+
+30
+00:03:33 --> 00:03:38
+Meaning, we are marking only the <b>Books</b> table to be visible to other applications.
+
+31
+00:03:39 --> 00:03:42
+Now, let us click on the <b>OK</b> button.
+
+32
+00:03:43 --> 00:03:49
+Next, click on the <b>View</b> menu and then on <b>Refresh Tables</b>.
+
+33
+00:03:50 --> 00:03:53
+Notice that <b>Books</b> is the only table visible here.
+
+34
+00:03:54 --> 00:04:03
+Also, when accessing this database from <b>LibreOffice Writer</b> or <b>Calc</b>, we will only see the <b>Books</b> table there.
+
+35
+00:04:04 --> 00:04:05
+Here is another assignment:
+
+36
+00:04:06 --> 00:04:13
+Open <b>LibreOffice Writer</b>, access the <b>Library</b> database and check the tables available there.
+
+37
+00:04:14 --> 00:04:18
+Bring back all the tables to visibility in <b>Base</b>.
+
+38
+00:04:19 --> 00:04:25
+And reopen 'LibreOffice Writer' to check the tables’ availability again.
+
+39
+00:04:26 --> 00:04:30
+Finally, let us learn about the <b>SQL command window</b>.
+
+40
+00:04:31 --> 00:04:40
+The 'SQL command window' is accessed by choosing <b>SQL</b> from the <b>Tools</b> menu.
+
+41
+00:04:41 --> 00:04:46
+We can use this window to issue <b>SQL statements</b> to the <b>database</b>.
+
+42
+00:04:47 --> 00:04:58
+Now, we can also use <b>Queries</b> to execute SQL queries but there we are limited to only asking for data from the database.
+
+43
+00:04:59 --> 00:05:03
+Meaning, we can issue only <b>SELECT</b> statements there.
+
+44
+00:05:04 --> 00:05:13
+But we cannot <b>execute</b> SQL statements which modify data and table structures or to create new tables there.
+
+45
+00:05:14 --> 00:05:23
+And the 'SQL command window' helps us to use such <b>data manipulation</b> and <b>data definition</b> statements or language.
+
+46
+00:05:24 --> 00:05:30
+Examples of <b>Data Manipulation Language</b> or simply <b>DML</b> are:
+
+47
+00:05:31 --> 00:05:36
+<b>INSERT, UPDATE</b> and <b>DELETE</b> data.
+
+48
+00:05:37 --> 00:05:44
+And some examples of <b>Data Definition Language</b> or simply <b>DDL</b> are:
+
+49
+00:05:45 --> 00:05:50
+<b>CREATE TABLE, DROP TABLE</b> and <b>ALTER</b> statements.
+
+50
+00:05:51 --> 00:05:54
+We will first see a <b>DML</b> example.
+
+51
+00:05:55 --> 00:06:01
+In the <b>Base</b> window, let us open the <b>SQL Command Window</b> from the <b>Tools</b> menu.
+
+52
+00:06:02 --> 00:06:11
+Let us insert a new record into the <b>Books</b> table by typing in the <b>“Command to execute”</b> text area:
+
+53
+00:06:12 --> 00:06:44
+<b>INSERT INTO "Books" ( "Title", "Author", "PublishYear", "Publisher", "Price")</b>
+<p>VALUES ('The Hobbit', 'J.R.R Tolkien', 2002, 'Oxford', 500);
+</p>
+
+54
+00:06:45 --> 00:06:51
+Before clicking on the <b>Execute</b> button, let us look at the command closely now.
+
+55
+00:06:52 --> 00:07:02
+The <b>INSERT</b> statement lists the <b>table</b> name and the <b>field</b> names and then the <b>Values</b> that need to go into the new record.
+
+56
+00:07:03 --> 00:07:10
+Notice that the table name and field names are enclosed in double quotes.
+
+57
+00:07:11 --> 00:07:21
+We know that <b>Base</b> is case sensitive and the double quotes ensure that Base will accept the names as we created.
+
+58
+00:07:22 --> 00:07:30
+If we don’t use the quotes, Base will automatically convert all names into upper cases.
+
+59
+00:07:31 --> 00:07:36
+We have to use single quotes to encase the values that are of data type <b>TEXT</b>.
+
+60
+00:07:37 --> 00:07:42
+NUMERIC fields need not be encased with any quotes.
+
+61
+00:07:43 --> 00:07:50
+Also, we need not include the <b>BookId</b> field which is an <b>AutoNumber</b> field.
+
+62
+00:07:51 --> 00:07:55
+<b>Base</b> will take care of auto-generating the number.
+
+63
+00:07:56 --> 00:08:04
+So, let us execute the SQL. Notice the message <b>‘Command successfully executed’</b>.
+
+64
+00:08:05 --> 00:08:11
+If there are any errors with the SQL we wrote, Base will point them out.
+
+65
+00:08:12 --> 00:08:17
+Let us double-click on the <b>Books</b> table and look for the new record we just inserted.
+
+66
+00:08:18 --> 00:08:22
+There it is, appended in the last row.
+
+67
+00:08:23 --> 00:08:26
+Next, let us see a <b>DDL</b> example.
+
+68
+00:08:27 --> 00:08:35
+We will create a new table called <b>Authors</b> with fields <b>AuthorId, Author</b> and <b>Country</b>.
+
+69
+00:08:36 --> 00:08:42
+In the <b>SQL command window</b>, let us type as shown in the screen
+
+70
+00:08:43 --> 00:08:46
+and execute it.
+
+71
+00:08:47 --> 00:08:53
+Let us go back to the <b>Tables</b> list and <b>Refresh</b> the tables from the <b>View</b> menu.
+
+72
+00:08:54 --> 00:08:58
+There is the new <b>Authors</b> table we just created.
+
+73
+00:08:59 --> 00:09:05
+To know more about <b>DML</b>, visit the website shown on the screen.
+
+74
+00:09:06 --> 00:09:12
+To know more about <b>DDL</b> visit the Wikipedia website shown on the screen.
+
+75
+00:09:13 --> 00:09:15
+Here is another assignment for you:
+
+76
+00:09:16 --> 00:09:25
+Use the <b>UPDATE</b> statement to set the price of the book with <b>BookId</b> as 3, to Rs. 300
+
+77
+00:09:26 --> 00:09:29
+Delete the book that has the title ‘'The Hobbit'
+
+78
+00:09:30 --> 00:09:40
+Insert a new record into the <b>Authors</b> table, <b>author name</b> as ‘J.R.R. Tolkien’, and <b>country</b> as‘England’
+
+79
+00:09:41 --> 00:09:46
+Drop the <b>Authors</b> table from the database by using the <b>DROP</b> statement.
+
+80
+00:09:47 --> 00:09:51
+This brings us to the end of this tutorial on <b>LibreOffice Base</b>.
+
+81
+00:09:52 --> 00:10:00
+To summarize, we learned the following topics:
+<p>Indexes
+Table Filter
+And the SQL Command window.
+</p>
+
+82
+00:10:01 --> 00:10:12
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+83
+00:10:13 --> 00:10:17
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+84
+00:10:18 --> 00:10:21
+More information on the same is available at the following link.
+
+85
+00:10:22 --> 00:10:27
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

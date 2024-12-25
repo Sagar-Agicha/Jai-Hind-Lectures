@@ -1,0 +1,414 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:07
+Welcome to the <b>Spoken Tutorial</b> on <b>Enroll students and communicate in Moodle.</b>
+
+2
+00:00:08 --> 00:00:17
+In this tutorial, we will learn how to: Enroll students who were uploaded via a <b>csv file </b>to a <b>course</b>,
+
+3
+00:00:18 --> 00:00:25
+Make <b>groups</b> in <b>courses</b> and
+<p>Send <b>messages</b> and <b>notes</b> to the students. 
+</p>
+
+4
+00:00:26 --> 00:00:32
+This tutorial is recorded using: <b>Ubuntu Linux OS 16.04</b>,
+
+5
+00:00:33 --> 00:00:40
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>,
+
+6
+00:00:41 --> 00:00:50
+<b>Moodle 3.3 </b> and  <b>Firefox </b>web browser.
+<p>You may use any web browser of your choice. 
+</p>
+
+7
+00:00:51 --> 00:00:59
+However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+
+8
+00:01:00 --> 00:01:10
+This tutorial assumes that:
+<p>your <b>site administrator</b> has registered you as a <b>teacher</b>
+</p><p>and assigned at least one <b>course</b> to you.
+</p>
+
+9
+00:01:11 --> 00:01:18
+It also assumes that you have added some <b>course material, assignment</b>s and <b>quizz</b>es for your <b>course</b>.
+
+10
+00:01:19 --> 00:01:25
+If not, please refer to the relevant <b>Moodle</b> tutorials on this website.
+
+11
+00:01:26 --> 00:01:35
+Before we begin, please ask your <b>Moodle site administrator</b> to add 5 or 6 <b>users to your Moodle site.</b>
+
+12
+00:01:36 --> 00:01:46
+You will be adding these new <b>users</b> to your <b>course </b>later. So ensure that new <b>users</b> are added to your Moodle site.
+
+13
+00:01:47 --> 00:01:58
+Teachers in <b>Moodle</b> cannot add new <b>users</b> to the system.
+<p>They can only enroll <b>users</b> that are already added by the <b>site administrator</b>.
+</p>
+
+14
+00:01:59 --> 00:02:05
+Switch to the browser and login to your <b>Moodle site </b>as a <b>teacher.</b>
+
+15
+00:02:06 --> 00:02:10
+Click on the <b>Calculus course </b>in the left<b> navigation menu.</b>
+
+16
+00:02:11 --> 00:02:17
+Click on the <b>gear icon</b> at the top right and then on <b>More...</b>.
+
+17
+00:02:18 --> 00:02:21
+We are on the <b>Course Administration</b> page.
+
+18
+00:02:22 --> 00:02:24
+Click on the <b>Users</b> tab.
+
+19
+00:02:25 --> 00:02:29
+Click on <b>Enrolled users</b> link within the <b>Users</b> section.
+
+20
+00:02:30 --> 00:02:37
+There are 2 <b>users</b> enrolled to this <b>course</b> - <b>Rebecca Raymond</b> and <b>Priya Sinha</b>.
+
+21
+00:02:38 --> 00:02:43
+<b>Rebecca Raymond </b>has <b>teacher role</b> and <b>Priya Sinha</b> has <b>student role.</b>
+
+22
+00:02:44 --> 00:02:48
+Now, click on the <b>Enrol users</b> button at the bottom right.
+
+23
+00:02:49 --> 00:02:54
+This list has students that I want to enroll to my <b>Calculus course.</b>
+
+24
+00:02:55 --> 00:02:59
+Select <b>Student</b> in the <b>Assign Roles</b> dropdown.
+
+25
+00:03:00 --> 00:03:05
+Then click on the <b>Enrol</b> button next to the <b>users</b> that you want to enroll.
+
+26
+00:03:06 --> 00:03:10
+I will enroll a few students in my<b> course</b> right now.
+
+27
+00:03:11 --> 00:03:17
+Once done, click on the <b>Finish enrolling users</b> button at the bottom right.
+
+28
+00:03:18 --> 00:03:24
+We can see the number of enrolled <b>users</b> for the <b>Calculus course</b> at the top of the page.
+
+29
+00:03:25 --> 00:03:29
+Next, let us learn how to make some <b>groups</b> in the <b>course</b>.
+
+30
+00:03:30 --> 00:03:35
+These <b>groups</b> will help us assign students for <b>group activities</b>.
+
+31
+00:03:36 --> 00:03:41
+I will make 2 groups - <b>Explorers</b> and <b>Creators.</b>
+
+32
+00:03:42 --> 00:03:47
+Click on <b>Calculus</b> in the <b>breadcrumb</b> to go back to the <b>course page</b>.
+
+33
+00:03:48 --> 00:03:51
+And go to the <b>Course Administrator</b> page again.
+
+34
+00:03:52 --> 00:03:55
+Click on <b>Groups</b> link in the <b>Users</b> tab.
+
+35
+00:03:56 --> 00:04:00
+Scroll down and click on <b>Create group</b> button.
+
+36
+00:04:01 --> 00:04:04
+Type <b>Explorers</b> as the <b>Group name</b>.
+
+37
+00:04:05 --> 00:04:07
+There are no other mandatory fields.
+
+38
+00:04:08 --> 00:04:11
+Scroll down and click on <b>Save changes </b>button.
+
+39
+00:04:12 --> 00:04:18
+Notice that <b>Explorers</b> can now be seen on the left side, in the list of <b>groups</b>.
+
+40
+00:04:19 --> 00:04:29
+The number zero next to it indicates that there are no <b>users</b> in that <b>group </b>yet.
+<p>Select <b>Explorers</b>, if not already selected.
+</p>
+
+41
+00:04:30 --> 00:04:35
+Then click on <b>Add/remove users</b> button at the bottom right.
+
+42
+00:04:36 --> 00:04:41
+I will select <b>Susmitha</b> and <b>Sai</b> from the list of students.
+
+43
+00:04:42 --> 00:04:47
+And then click on <b>Add</b> button in the middle of the 2 columns.
+
+44
+00:04:48 --> 00:04:53
+On the left, observe the list of<b> users</b> in the <b>group Explorers</b>.
+
+45
+00:04:54 --> 00:04:59
+On the right, observe the list of all other students enrolled in this <b>course</b>.
+
+46
+00:05:00 --> 00:05:05
+They can be added to this<b> group</b> as and when required, by the teacher.
+
+47
+00:05:06 --> 00:05:14
+<b>Add</b> and <b>Remove</b> buttons between the 2 lists, get enabled when we select <b>users</b> from the lists.
+
+48
+00:05:15 --> 00:05:20
+Click on <b>Back to groups </b>button at the bottom of the page.
+
+49
+00:05:21 --> 00:05:27
+Pause this tutorial and do this small assignment. Add a new <b>group</b> called <b>Creators</b>
+
+50
+00:05:28 --> 00:05:34
+Assign 2 new <b>users</b> to that <b>group</b>
+<p>Resume the tutorial when done.
+</p>
+
+51
+00:05:35 --> 00:05:39
+Now you should be able to see a screen like this.
+
+52
+00:05:40 --> 00:05:47
+Notice the columns<b> Roles, Groups </b>and<b> Enrolment Methods</b> have icons.
+
+53
+00:05:48 --> 00:05:54
+Move your mouse over each of the <b>icons</b> to understand their functions.
+
+54
+00:05:55 --> 00:06:01
+Note that: An enrolled student can belong to more than one <b>group</b> as well.
+
+55
+00:06:02 --> 00:06:06
+Let us now see how we can send a <b>message</b> to the students.
+
+56
+00:06:07 --> 00:06:11
+Click on <b>Participants</b> link in the left navigation bar.
+
+57
+00:06:12 --> 00:06:18
+This will show the list of all <b>enrolled users</b> with their assigned <b>roles</b> in the <b>course</b>.
+
+58
+00:06:19 --> 00:06:24
+By default, <b>Moodle Participants</b> page displays only 20 students.
+
+59
+00:06:25 --> 00:06:37
+You will need to click on <b>Show all</b> if you have more than 20 students to see all the students.
+<p>The link is not visible right now because I don’t have more than 20 students.
+</p>
+
+60
+00:06:38 --> 00:06:45
+There are some filters seen above the list of <b>users</b>. Use them to help select the right set of <b>users</b>.
+
+61
+00:06:46 --> 00:06:50
+I will select <b>Student</b> in the <b>Current role</b> dropdown.
+
+62
+00:06:51 --> 00:06:57
+This will filter the list to show only the <b>users</b> who have <b>student role </b>assigned to them.
+
+63
+00:06:58 --> 00:07:03
+Click on <b>Select all</b> button at the bottom of the page to select all the students.
+
+64
+00:07:04 --> 00:07:10
+Then select <b>Send a message</b> in <b>With selected users</b> dropdown.
+
+65
+00:07:11 --> 00:07:15
+This will send a common <b>message</b> to all the selected <b>students</b>.
+
+66
+00:07:16 --> 00:07:21
+Pause the tutorial and type the <b>message</b> as shown here in the <b>Message body</b>.
+
+67
+00:07:22 --> 00:07:28
+Then at the bottom, click on the <b>Preview</b> button, to preview the <b>message</b> before sending.
+
+68
+00:07:29 --> 00:07:34
+You can also update the <b>message</b>, if required, by clicking on the <b>Update</b> button.
+
+69
+00:07:35 --> 00:07:39
+To send the <b>message</b>, click on the <b>Send message</b> button.
+
+70
+00:07:40 --> 00:07:45
+You will see a confirmation message and a link to go to back to the <b>participants lists</b>.
+
+71
+00:07:46 --> 00:07:49
+Click on<b> Back to participants list</b>.
+
+72
+00:07:50 --> 00:07:59
+Click on <b>With selected users</b> dropdown. Notice the options to send <b>notes</b>; both private and common.
+
+73
+00:08:00 --> 00:08:02
+Let’s select any 2 <b>users.</b>
+
+74
+00:08:03 --> 00:08:08
+Select <b>Add a new note </b>from the <b>With selected users</b> dropdown.
+
+75
+00:08:09 --> 00:08:14
+In the <b>Content</b> text area of one <b>user</b>, I will type the <b>note</b> as shown.
+
+76
+00:08:15 --> 00:08:21
+In the <b>Content</b> text area next to another <b>user</b>, I will type the <b>note</b> as shown here.
+
+77
+00:08:22 --> 00:08:25
+Look at the <b>Context</b> dropdown to the right.
+
+78
+00:08:26 --> 00:08:30
+The <b>Context </b>of a<b> note</b> determines which <b>users</b> can see the <b>note</b>.
+
+79
+00:08:31 --> 00:08:37
+A <b>personal note</b> will be seen only by the teacher and the student being sent to.
+
+80
+00:08:38 --> 00:08:43
+A <b>course note</b> will be visible to the other teachers of this <b>course</b>.
+
+81
+00:08:44 --> 00:08:49
+A <b>site note</b> will be visible to all teachers in all <b>courses</b>.
+
+82
+00:08:50 --> 00:08:56
+Most institutions have their own rules regarding communication between teachers and students.
+
+83
+00:08:57 --> 00:09:01
+You can decide the <b>Context</b> based on these guidelines.
+
+84
+00:09:02 --> 00:09:05
+I will let the <b>Context</b> be <b>course</b>.
+
+85
+00:09:06 --> 00:09:09
+Click on <b>Save changes</b> button when done.
+
+86
+00:09:10 --> 00:09:15
+With this, we come to the end of this tutorial.
+<p>Let us summarize.
+</p>
+
+87
+00:09:16 --> 00:09:21
+In this tutorial, we learnt how to: Enroll <b>users</b> in a <b>course</b>
+
+88
+00:09:22 --> 00:09:28
+Make <b>groups</b> in a <b>course</b> and Send <b>messages</b> and <b>notes</b> to students.
+
+89
+00:09:29 --> 00:09:39
+Here is a small assignment for you.
+<p>Enroll all the <b>users</b> that were created by the <b>Moodle site admin</b> earlier, to the <b>Calculus</b> course.
+</p>
+
+90
+00:09:40 --> 00:09:49
+Add new students to the existing <b>groups</b> and send them a <b>welcome message</b>.
+<p>Then send <b>notes </b>to the students. 
+</p>
+
+91
+00:09:50 --> 00:09:54
+Refer to the <b>Assignment </b>link of this tutorial for details.
+
+92
+00:09:55 --> 00:10:03
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project.
+<p>Please download and watch it.
+</p>
+
+93
+00:10:04 --> 00:10:13
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates.
+<p>For more details, please write to us.
+</p>
+
+94
+00:10:14 --> 00:10:18
+Please post your timed queries in this forum.
+
+95
+00:10:19 --> 00:10:30
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India</b>. More information on this mission is available at the link shown.
+
+96
+00:10:31 --> 00:10:36
+This script has been contributed by Nancy and Priyanka.
+<p>And this is Nancy Varkey along with the Spoken Tutorial team signing off. 
+</p><p>Thanks for joining.
+</p>
+

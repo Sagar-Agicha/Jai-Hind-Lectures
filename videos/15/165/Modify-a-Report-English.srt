@@ -1,0 +1,336 @@
+<b>Narration</b>
+
+1
+00:00:02 --> 00:00:05
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:06 --> 00:00:08
+In this tutorial, we will learn how to
+
+3
+00:00:09 --> 00:00:15
+modify a <b>report</b> by customizing the layout and the look and feel of the report.
+
+4
+00:00:16 --> 00:00:22
+For this, let us consider our familiar <b>Library</b> database example.
+
+5
+00:00:23 --> 00:00:27
+In the previous tutorial, we learnt how to create a <b>report</b>.
+
+6
+00:00:28 --> 00:00:39
+And we built a report with the title ‘Books Issued to Members: Report History’. We will now learn how to modify this report.
+
+7
+00:00:40 --> 00:00:41
+In the 'Library' database,
+
+8
+00:00:42 --> 00:00:46
+let us click on the <b>Reports</b> icon on the left panel.
+
+9
+00:00:47 --> 00:00:56
+On the right panel, we see the ‘Books Issued to Members: Report History’ report in the reports list.
+
+10
+00:00:57 --> 00:01:07
+Let us right-click on it and then click on <b>Edit</b> to open the report for modifying or editing.
+
+11
+00:01:08 --> 00:01:13
+We now see a new window which is called the <b>Report Builder</b> window.
+
+12
+00:01:14 --> 00:01:18
+This <b>screen</b> is composed of three main sections.
+
+13
+00:01:19 --> 00:01:25
+<b>Page Header</b> and <b>Footer</b> section that form the top and the bottom.
+
+14
+00:01:26 --> 00:01:28
+Then the <b>Header</b> section
+
+15
+00:01:29 --> 00:01:33
+and the <b>Detail</b> section.
+
+16
+00:01:34 --> 00:01:39
+We can also add a <b>record header</b> and a <b>footer</b> section
+
+17
+00:01:40 --> 00:01:50
+by right-clicking on the main screen in the white area and clicking on the <b>‘Insert Report Header/Footer’</b>.
+
+18
+00:01:51 --> 00:01:59
+We can shrink or expand these sections by double-clicking on the orange areas on the left of the screen.
+
+19
+00:02:00 --> 00:02:05
+Before we move on, here is a screenshot of the <b>Report design</b> window.
+
+20
+00:02:06 --> 00:02:10
+We will modify our report design to look like this.
+
+21
+00:02:11 --> 00:02:19
+We will add some text labels, fonts, formatting and adjust the spacing among the various sections.
+
+22
+00:02:20 --> 00:02:26
+Okay, now let us add some report headers and footers.
+
+23
+00:02:27 --> 00:02:30
+To do this, we will click on the <b>Label Field</b> icon
+
+24
+00:02:31 --> 00:02:39
+in the <b>Report Controls</b> toolbar, found below the menu bar at the top.
+
+25
+00:02:40 --> 00:02:47
+Let us draw it on the <b>Report Header</b> area, as being shown now
+
+26
+00:02:48 --> 00:02:54
+and double-click on the <b>Label</b> to bring up its properties on the right.
+
+27
+00:02:55 --> 00:02:59
+Here, let us type: "Books Issued to Members:
+
+28
+00:03:00 --> 00:03:06
+Report History" against the <b>Label</b> and press <b>Enter</b>.
+
+29
+00:03:07 --> 00:03:16
+Let us also change the font style; we will choose <b>Arial Black</b>, <b>Bold</b> and <b>Size 12</b>
+
+30
+00:03:17 --> 00:03:20
+and click on the <b>OK</b> button.
+
+31
+00:03:21 --> 00:03:30
+Next, let us add another label to the report footer as shown on the screen. <pause>
+
+32
+00:03:31 --> 00:03:41
+For example- let's type: "Report Prepared by Assistant Librarian" <pause>
+
+33
+00:03:42 --> 00:03:50
+and then change the font style to <b>Arial, Bold Italic</b> and <b>Size 8</b>. <pause>
+
+34
+00:03:51 --> 00:03:58
+Now, we will repeat the same steps again to add a label in the <b>Page Footer</b> area.  <pause>
+
+35
+00:03:59 --> 00:04:08
+This time, we will type: "Nehru Library, New Delhi" against the label <pause>
+
+36
+00:04:09 --> 00:04:19
+and change the <b>font style</b> to <b>Arial, Bold Italic</b> and <b>Size 8</b>. <pause>
+
+37
+00:04:20 --> 00:04:23
+Now, let us adjust the spacing.
+
+38
+00:04:24 --> 00:04:36
+First, let us reduce the <b>Page Header</b> area by double-clicking on the grey line between the <b>Page Header</b> and <b>Report Header</b>.
+
+39
+00:04:37 --> 00:04:46
+And we will take it all the way to the top by using the click, drag and drop method.
+
+40
+00:04:47 --> 00:04:51
+Next, let us reduce the <b>Report header</b> area
+
+41
+00:04:52 --> 00:05:00
+by double-clicking on the grey line between the report header and the header. <pause>
+
+42
+00:05:01 --> 00:05:12
+We will repeat the same steps to reduce the spacing between the <b>Report footer</b> and the <b>Page footer</b> also. <pause>
+
+43
+00:05:13 --> 00:05:17
+Next, let us centre the Header labels.
+
+44
+00:05:18 --> 00:05:25
+We will do this by first selecting all the labels by clicking on the <b>Book Title</b>
+
+45
+00:05:26 --> 00:05:34
+and then while pressing the <b>Shift</b> key, we will click on the rest of the labels as shown.
+
+46
+00:05:35 --> 00:05:40
+Now, let us use the up-arrow key to centre them.
+
+47
+00:05:41 --> 00:05:46
+We will now give the <b>header</b> a light blue background.
+
+48
+00:05:47 --> 00:05:54
+To do this, we will go to the <b>Properties</b> and change the <b>Background transparent</b> to <b>NO</b>.
+
+49
+00:05:55 --> 00:06:02
+And then select <b>Blue 8</b> from the list for <b>Background colour</b>.
+
+50
+00:06:03 --> 00:06:08
+We will do the same with the <b>Detail</b> section as well. <pause>
+
+51
+00:06:09 --> 00:06:19
+For this, we will first increase the spacing between the <b>Detail</b> and <b>Report footer</b> sections <pause>
+
+52
+00:06:20 --> 00:06:23
+and then centre the fields. <pause>
+
+53
+00:06:24 --> 00:06:31
+We will select Light gray background for the <b>Detail</b> section as shown. <pause>
+
+54
+00:06:32 --> 00:06:38
+Next, we will change the data formatting for the <b>Checked In</b> field.
+
+55
+00:06:39 --> 00:06:46
+Since this holds Boolean values 1 or 0, it displays <b>True</b> or <b>False</b>.
+
+56
+00:06:47 --> 00:06:52
+We will change this to show a friendlier <b>Yes</b> or <b>No</b> option.
+
+57
+00:06:53 --> 00:07:00
+For this, we will double-click on the <b>CheckedIn</b> field on the right, in the <b>Detail</b> section.
+
+58
+00:07:01 --> 00:07:07
+Now, in the <b>properties</b> on the right, let us click on the <b>Data</b> tab first.
+
+59
+00:07:08 --> 00:07:14
+Let us click on the button next to the <b>Data</b> field that says "CheckedIn".
+
+60
+00:07:15 --> 00:07:19
+This opens a new pop-up window called the <b>Function</b> wizard.
+
+61
+00:07:20 --> 00:07:26
+Here, let us first empty the <b>Formula</b> text-box at the bottom right.
+
+62
+00:07:27 --> 00:07:34
+Then click on the <b>Category</b> drop-down and then double-click on ‘IF’.
+
+63
+00:07:35 --> 00:07:39
+Now on the right, we see new controls.
+
+64
+00:07:40 --> 00:07:48
+Let us click on the <b>Select</b> icon on the right, next to the first text box.
+
+65
+00:07:49 --> 00:07:52
+Here we will double-click on <b>CheckIn</b>.
+
+66
+00:07:53 --> 00:08:00
+Next, we will type in <b>Yes</b> within double-quotes in the second text-box.
+
+67
+00:08:01 --> 00:08:11
+And then type in <b>No</b> in the third text-box. <pause>
+
+68
+00:08:12 --> 00:08:17
+Now we will go to the <b>General</b> tab within the <b>Properties</b> section
+
+69
+00:08:18 --> 00:08:23
+and click on the button against <b>Formatting</b>, at the bottom.
+
+70
+00:08:24 --> 00:08:27
+Here, we will click on <b>Text</b> in the <b>Category</b> list
+
+71
+00:08:28 --> 00:08:31
+and then click on the <b>OK</b> button.
+
+72
+00:08:32 --> 00:08:35
+And now, we will <b>save</b> the report.
+
+73
+00:08:36 --> 00:08:40
+Okay, let us <b>run</b> our modified report now.
+
+74
+00:08:41 --> 00:08:49
+For this, we will click on the <b>Edit</b> menu at the top and then click on the <b>Execute Report</b>.
+
+75
+00:08:50 --> 00:08:56
+And there is our nice report history on the "Books issued to the Library members".
+
+76
+00:08:57 --> 00:09:00
+Notice the <b>spacing, headers, footers, fonts</b>
+
+77
+00:09:01 --> 00:09:05
+and the <b>CheckedIn</b> field which says 'Yes' or 'No'.
+
+78
+00:09:06 --> 00:09:10
+And we are done with modifying our report.
+
+79
+00:09:11 --> 00:09:16
+This brings us to the end of this tutorial on <b>Modifying a Report in LibreOffice Base</b>.
+
+80
+00:09:17 --> 00:09:19
+To summarize, we learned how to:
+
+81
+00:09:20 --> 00:09:25
+modify a report by customizing the layout and the look and feel of the report.
+
+82
+00:09:26 --> 00:09:47
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India. This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. More information on the same is available at the following link.
+
+83
+00:09:48 --> 00:09:53
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

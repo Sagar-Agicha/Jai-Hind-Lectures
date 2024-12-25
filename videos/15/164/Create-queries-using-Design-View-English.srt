@@ -1,0 +1,318 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:05
+In this tutorial, we will learn how to:
+
+3
+00:00:06 --> 00:00:09
+Create a <b>query</b> by using the <b>Design View</b>.
+
+4
+00:00:10 --> 00:00:12
+Add tables to the <b>Query Design</b> window
+
+5
+00:00:13 --> 00:00:22
+Select <b>fields</b>, Set up <b>aliases</b>
+<p>Set up sorting order and provide search criteria for a <b>query</b>.
+</p>
+
+6
+00:00:23 --> 00:00:28
+For this, let us consider our familiar 'Library' database example.
+
+7
+00:00:29 --> 00:00:36
+In this 'Library' database, we have stored information about books and members.
+
+8
+00:00:37 --> 00:00:44
+And, we also have a <b>table</b> to track the books issued to the members.
+
+9
+00:00:45 --> 00:00:53
+Now we will create a new <b>query</b> to list all the books that have been issued to the members.
+
+10
+00:00:54 --> 00:01:02
+In other words, let us generate a history of books that have been issued to the members.
+
+11
+00:01:03 --> 00:01:06
+Let's open the <b>Library</b> database.
+
+12
+00:01:07 --> 00:01:12
+Let us click on the <b>Queries</b> icon on the left panel.
+
+13
+00:01:13 --> 00:01:27
+On the right panel, we will click on the ‘Create Query in Design view’. We now see a new window which is also called the <b>Query Design</b> window.
+
+14
+00:01:28 --> 00:01:38
+And we also see a small pop-up window at the top that says <b>Add Table or Query</b>.
+
+15
+00:01:39 --> 00:01:45
+Here is where we will define the source of the data for the query.
+
+16
+00:01:46 --> 00:01:56
+And we will need all the three tables for our query to generate the <b>history</b> of the books issued to members.
+
+17
+00:01:57 --> 00:02:10
+We will do this by clicking on the <b>Books</b> table in the list and then clicking on the <b>Add</b> button on the right in the <b>pop-up window</b>.
+
+18
+00:02:11 --> 00:02:18
+We will similarly add the <b>BooksIssued</b> table and the <b>Members table</b>. <pause>
+
+19
+00:02:19 --> 00:02:25
+We now see that the three tables have appeared in the background query design window.
+
+20
+00:02:26 --> 00:02:30
+Let us now close the pop-up window.
+
+21
+00:02:31 --> 00:02:38
+This brings the <b>Query design window</b> to the foreground.
+
+22
+00:02:39 --> 00:02:45
+Notice that the three tables are in the top half of the window.
+
+23
+00:02:46 --> 00:02:52
+Here, let us introduce some space among these tables.
+
+24
+00:02:53 --> 00:03:00
+Let us click, drag and drop the <b>Members</b> table to the far right.
+
+25
+00:03:01 --> 00:03:10
+And then click, drag and drop the <b>BooksIssued</b> table to the centre.
+
+26
+00:03:11 --> 00:03:22
+Now we see lines linking these tables and these are the <b>relationships</b> that we had established earlier.
+
+27
+00:03:23 --> 00:03:29
+We can double-click on the lines to see the <b>relationship</b> details.
+
+28
+00:03:30 --> 00:03:36
+For now, let us see the bottom half of the 'Query design' window.
+
+29
+00:03:37 --> 00:03:47
+This area has several rows of <b>cell</b>s. As we design the query, we will fill these up.
+
+30
+00:03:48 --> 00:03:52
+First, we will check the <b>Field</b> column.
+
+31
+00:03:53 --> 00:04:00
+This is for specifying the fields we need to display in the result set.
+
+32
+00:04:01 --> 00:04:11
+To do this, we will first double-click on the <b>Title</b> field in the <b>Books</b> table in the upper half of the window.
+
+33
+00:04:12 --> 00:04:16
+Next is the <b>Name</b> field in the <b>Members</b> table.
+
+34
+00:04:17 --> 00:04:23
+And then, the <b>Issue Date</b> field in the <b>BooksIssued</b> table.
+
+35
+00:04:24 --> 00:04:33
+Next, the <b>Return date,the actual return date</b>. And finally the <b>checked in</b> field.
+
+36
+00:04:34 --> 00:04:43
+Notice these fields in the bottom half of the window in the first row.
+
+37
+00:04:44 --> 00:04:49
+Also the corresponding <b>table</b> names in the third row.
+
+38
+00:04:50 --> 00:04:56
+Next, let us look at the <b>Alias</b> in the second row.
+
+39
+00:04:57 --> 00:05:03
+This is where we can enter descriptive names for the selected fields.
+
+40
+00:05:04 --> 00:05:10
+So, let us type in aliases as shown in the image. <pause>
+
+41
+00:05:11 --> 00:05:14
+And we are done with the aliases.
+
+42
+00:05:15 --> 00:05:20
+Next, let us look at the <b>Sort</b> row.
+
+43
+00:05:21 --> 00:05:25
+We can specify the ordering of the <b>result set</b> here.
+
+44
+00:05:26 --> 00:05:33
+Since we need a <b>history</b> of the books issued, we will order it chronologically.
+
+45
+00:05:34 --> 00:05:42
+Meaning- we will sort the <b>result set</b> by the <b>Issue Date</b> in ascending order.
+
+46
+00:05:43 --> 00:05:55
+For this, we will click on the empty <b>cell</b> in the <b>Sort</b> row, under the <b>Issuedate</b> field. And let us click on <b>Ascending</b>.
+
+47
+00:05:56 --> 00:06:01
+Okay, we will go to the next row - <b>‘Visible’</b>.
+
+48
+00:06:02 --> 00:06:10
+Here, we can set the visibility of the fields we selected by checking or un-checking them.
+
+49
+00:06:11 --> 00:06:16
+Notice that, by default, all of them are checked.
+
+50
+00:06:17 --> 00:06:26
+Next, we will go to the <b>‘Function’</b> row. This is used to create complex queries. We will skip this for now
+
+51
+00:06:27 --> 00:06:31
+and we will go to the <b>‘Criterion’</b> row.
+
+52
+00:06:32 --> 00:06:39
+This is where we can limit the <b>result set</b> to a simple or complex set of criteria.
+
+53
+00:06:40 --> 00:06:48
+For example, we can <b>query</b> for those books only which were issued but have not been returned by members.
+
+54
+00:06:49 --> 00:06:53
+Meaning- only those that are not checked-in.
+
+55
+00:06:54 --> 00:07:05
+So, let us click on the empty <b>cell</b> in this row, under the <b>CheckedIn</b> field and type in ‘Equals Zero’.
+
+56
+00:07:06 --> 00:07:09
+That's it. Let us <b>run</b> this query now.
+
+57
+00:07:10 --> 00:07:26
+We can use the keyboard shortcut <b>F5</b> or click on the <b>Edit</b> menu at the top of the window
+<p>and then click on <b>Run Query</b> at the bottom.
+</p>
+
+58
+00:07:27 --> 00:07:31
+Can you see some data in the upper half of the window?
+
+59
+00:07:32 --> 00:07:35
+These are the results of your query.
+
+60
+00:07:36 --> 00:07:50
+Notice that, we see a <b>history</b> of books issued to members and ordered by <b>Issue Date</b>. Also notice that none of the books are checked-in.
+
+61
+00:07:51 --> 00:07:59
+Now we can go to the query design area below and change it any way we want .
+
+62
+00:08:00 --> 00:08:06
+For example, let us remove the <b>Checked In</b> criterion. <pause>
+
+63
+00:08:07 --> 00:08:14
+Now, let us <b>run</b> the query by pressing <b>F5</b> again.
+
+64
+00:08:15 --> 00:08:22
+This time we see a longer list of data returned from the query.
+
+65
+00:08:23 --> 00:08:33
+Next, let us <b>save</b> this query by pressing <b>Control, S</b>. This opens a small pop-up window.
+
+66
+00:08:34 --> 00:08:37
+Let us give a descriptive name to our query here.
+
+67
+00:08:38 --> 00:08:45
+Let us type ‘History of Books Issued to Members’
+
+68
+00:08:46 --> 00:08:51
+and then click on <b>OK</b> button. and close this window.
+
+69
+00:08:52 --> 00:09:00
+We can open this saved query by double-clicking on the query name in the main <b>Base</b> window.
+
+70
+00:09:01 --> 00:09:08
+So, there we have successfully created a query using the <b>Design View</b>.
+
+71
+00:09:09 --> 00:09:11
+Here is an assignment:
+
+72
+00:09:12 --> 00:09:23
+Generate a list of the books issued to the member Nisha Sharma. The list should be chronological by <b>Issue date</b>.
+
+73
+00:09:24 --> 00:09:30
+This brings us to the end of this tutorial on <b>Creating queries in Design View</b>, in <b>LibreOffice Base</b>.
+
+74
+00:09:31 --> 00:09:32
+To summarize, we learned how to:
+
+75
+00:09:33 --> 00:09:40
+Create a query by using the Design View, Add tables to the Query Design window, Select fields
+
+76
+00:09:41 --> 00:09:48
+Set up aliases, Set up sorting order And provide search criteria for a query.
+
+77
+00:09:49 --> 00:10:09
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India. This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. More information on the same is available at the following link.
+
+78
+00:10:10 --> 00:10:15
+This script has been contributed by Priya Suresh, DesiCrew Solutions and this is Soundharya, DesiCrew solutions, signing off. Thanks for joining.
+

@@ -1,0 +1,5 @@
+Add a new entity called Media to the Library database design.
+Media consists of DVDs and CDs. And they can be either audio or video.
+Just like books, DVDs and CDs can also be issued to the Library members.
+Follow the database design process
+Apply the first three Normal forms to your design. 

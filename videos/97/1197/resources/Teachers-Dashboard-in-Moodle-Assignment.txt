@@ -1,0 +1,31 @@
+Change the name and summary for topics 2 to 5 in the Calculus course. Follow the guidelines given below.
+
+Details for Topic 2:
+
+Change the name to "Intermediate Calculus"
+Summary: 
+Following sub-topics will be covered in this topic:
+Rolle's Theorem, Mean value theorems, Taylor's and Maclaurin theorems with remainders; indeterminate forms and L'Hospital's rule; Maxima and minima. 
+
+
+Details for Topic 3:
+
+Change the name to " Sequences and series"
+Summary: 
+Following sub-topics will be covered in this topic:
+Convergence of sequence and series, tests for convergence; Power series, Taylor's series, series for exponential, trigonometric and logarithm functions; Fourier series: Half range sine and cosine series, Parseval's  theorem. 
+
+Details for Topic 4:
+
+Change the name to "Multivariable Calculus"
+Summary: 
+Following sub-topics will be covered in this topic:
+Limit, continuity and partial derivatives, directional derivatives, total derivative; Tangent plane and normal line; Maxima, minima and saddle points; Method of Lagrange multipliers; Gradient, curl and divergence. 
+
+Details for Topic 5:
+
+Change the name to "Matrices"
+Summary: 
+Following sub-topics will be covered in this topic:
+Inverse and rank of a matrix, rank-nullity theorem; System of linear equations; Symmetric, skew-symmetric and orthogonal matrices; Determinants; Eigenvalues and eigenvectors; Diagonalization of matrices; Cayley-Hamilton Theorem, and Orthogonal transformation. 
+

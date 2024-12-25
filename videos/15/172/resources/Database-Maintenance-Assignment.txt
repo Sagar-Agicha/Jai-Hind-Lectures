@@ -1,0 +1,4 @@
+1.Alter the Members table to add two new columns - Address and City. Let both columns be of data type TEXT.
+Open the Members table in Data Entry mode and insert some sample address and city data.
+Defragment the Library database.
+Take a backup of the Library database, save it in a flash drive or another hard disk drive, if available. 

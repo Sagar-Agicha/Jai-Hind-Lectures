@@ -1,0 +1,12 @@
+Assignment 1
+Create an index on names in the Members table and call it 'IDX_MemberName'. 
+
+Assignment 2
+Open LibreOffice Writer, access the Library database and check the tables available there. 
+Bring back all the tables to visibility in Base. 
+
+Assignment 3
+Use the UPDATE statement to set the price of the book with BookId as 3, to Rs. 300 
+Delete the book that has the title 'The Hobbit' 
+Insert a new record into the Authors table, author name as 'J.R.R. Tolkien', and country as 'England' 
+Drop the Authors table from the database by using the DROP statement. 

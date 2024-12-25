@@ -1,0 +1,398 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the Spoken Tutorial on <b>Forums and Assignments </b>in <b>Moodle.</b>
+
+2
+00:00:07 --> 00:00:20
+In this tutorial, we will learn about:
+<p>Different types of <b>forums </b>
+</p><p>How to add a <b>forum</b> for discussion and
+</p><p>How to create <b>Assignments</b>
+</p>
+
+3
+00:00:21 --> 00:00:43
+This tutorial is recorded using:
+<p><b>Ubuntu Linux OS 16.04</b>
+</p><p><b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>
+</p><p><b>Moodle 3.3 </b> and  <b>Firefox </b>web browser 
+</p>
+
+4
+00:00:44 --> 00:00:55
+You may use any web browser of your choice. However, <b>Internet Explorer</b> should be avoided, as it causes some display inconsistencies.
+
+5
+00:00:56 --> 00:01:07
+This tutorial assumes that
+<p>Your <b>site administrator</b> has registered you as a <b>teacher </b>and 
+</p><p>Assigned at least one course to you.
+</p>
+
+6
+00:01:08 --> 00:01:21
+It also assumes that
+<p>You have uploaded some course material for your course. If not, please refer to the relevant <b>Moodle</b> tutorials on this website.
+</p>
+
+7
+00:01:22 --> 00:01:27
+To practise this tutorial, you will need to add a student to your course.
+
+8
+00:01:28 --> 00:01:39
+To know how to add a student, please refer to the tutorial <b>Users in Moodle</b>.I have already added a student, Priya Sinha, to my course.
+
+9
+00:01:40 --> 00:01:46
+Switch to the browser and login to your <b>Moodle site </b>using the <b>teacher login.</b>
+
+10
+00:01:47 --> 00:01:51
+Click on the <b>Calculus course </b>in the left<b> navigation menu.</b>
+
+11
+00:01:52 --> 00:01:58
+Recall that we had added some <b>course material</b> and <b>announcements </b>earlier.
+
+12
+00:01:59 --> 00:02:02
+Let us understand what are <b>Forums</b>.
+
+13
+00:02:03 --> 00:02:11
+<b>Forums</b> can be used by teachers and students for discussions and to exchange ideas
+
+14
+00:02:12 --> 00:02:17
+Whereas <b>Announcements</b> are posted by teachers only
+
+15
+00:02:18 --> 00:02:25
+<b>Teachers </b>supervise these discussions, to ensure that guidelines are followed by all members
+
+16
+00:02:26 --> 00:02:32
+Now, we’ll learn how to add a <b>forum. </b>Switch to the <b>Moodle page</b>.
+
+17
+00:02:33 --> 00:02:39
+Click on the <b>gear icon </b>at the top right and then click on<b> Turn Editing On.</b>
+
+18
+00:02:40 --> 00:02:46
+Click on <b>Add an activity or resource</b> link at the bottom right of the common section.
+
+19
+00:02:47 --> 00:02:52
+Scroll down and select <b>Forum</b> in the activity chooser.
+
+20
+00:02:53 --> 00:02:58
+Click on the <b>Add button </b>at the bottom of the activity chooser.
+
+21
+00:02:59 --> 00:03:05
+<b>Forum name</b> will display as a link to the<b> forum</b> on the <b>course page</b>.
+
+22
+00:03:06 --> 00:03:12
+I will type <b>Interesting web resources on evolutes and involutes</b>.
+
+23
+00:03:13 --> 00:03:22
+<b>Description</b> can be used to explain the purpose of the<b> forum</b> to the students. I will type the text as shown here.
+
+24
+00:03:23 --> 00:03:29
+Click on <b>Display description on course page </b>checkbox below this text area.
+
+25
+00:03:30 --> 00:03:39
+Next option is <b>Forum type</b>. By default, <b>Standard forum for general use</b> is selected.
+
+26
+00:03:40 --> 00:03:49
+There are 5 <b>forum types </b>in <b>Moodle</b>. Click on the <b>Help icon</b> next to the drop-down to read about the <b>types</b> of <b>Forums</b>.
+
+27
+00:03:50 --> 00:04:00
+Depending on your requirement, you can choose the <b>Forum type</b>. I will select <b>Standard forum displayed in a blog-like format</b>.
+
+28
+00:04:01 --> 00:04:08
+Scroll down and click on <b>Save and display</b> button at the bottom of the page.
+
+29
+00:04:09 --> 00:04:16
+We are brought to a new page. Here, click on <b>Add a new topic</b> button.
+
+30
+00:04:17 --> 00:04:28
+I will type the <b>Subject</b> and <b>Message</b> as shown here. Rest of the options are similar to that of an announcement.
+
+31
+00:04:29 --> 00:04:35
+Scroll down and click on <b>Post to forum</b> button at the bottom of the page.
+
+32
+00:04:36 --> 00:04:38
+A success message is displayed.
+
+33
+00:04:39 --> 00:04:53
+Notice the message says that the author of the <b>post</b> can edit the <b>post</b> within 30 mins. This however, holds true only for <b>non-teacher profiles</b>.
+
+34
+00:04:54 --> 00:05:02
+The teacher who is the moderator and creator of the <b>course</b>, can edit and delete any<b> post</b> at any time.
+
+35
+00:05:03 --> 00:05:14
+I will now login as student <b>Priya Sinha</b>. We can then see how a student views this <b>forum</b>.
+
+36
+00:05:15 --> 00:05:20
+Click on the <b>forum</b> name in the list of <b>resources</b> to see the discussions.
+
+37
+00:05:21 --> 00:05:34
+As a student, I can either <b>Add a new topic</b> or <b>Discuss this topic</b>. Let me click on <b>Discuss this topic</b> link at the bottom right.
+
+38
+00:05:35 --> 00:05:41
+Then click on the <b>Reply</b> link. I will add a comment, as shown.
+
+39
+00:05:42 --> 00:05:52
+Scroll down and click on <b>Post to forum</b> button at the bottom of the page. You can see the comment has been added to the end of this thread.
+
+40
+00:05:53 --> 00:06:00
+Let me login as teacher <b>Rebecca</b> again, to see the <b>comment</b> posted by the student.
+
+41
+00:06:01 --> 00:06:11
+Click on the name of the <b>forum</b>. Notice here, we can see <b>1 reply so far</b> for this discussion topic.
+
+42
+00:06:12 --> 00:06:20
+The actual message can be seen after clicking on <b>Discuss this topic</b> link, at the bottom right.
+
+43
+00:06:21 --> 00:06:33
+There is another option here named as <b>Split</b>. If the teacher feels the reply deserves a separate discussion, she can split the discussion.
+
+44
+00:06:34 --> 00:06:48
+Splitting a discussion creates a new discussion. The new discussion and later posts in that thread, will be moved to a new discussion thread. I will let it remain as it is.
+
+45
+00:06:49 --> 00:06:52
+Let us go back to the <b>Calculus</b> course.
+
+46
+00:06:53 --> 00:06:57
+Next we will learn how to create an <b>assignment</b>.
+
+47
+00:06:58 --> 00:07:19
+<b>Assignment </b>in<b> Moodle</b>:
+<p>can be submitted online, which saves paper 
+</p><p>enables students to include media files like audio, video, powerpoint presentations, etc. And
+</p><p>helps teachers to be unbiased by choosing to <b>grade</b> the students blindly
+</p>
+
+48
+00:07:20 --> 00:07:22
+Let’s go back to the browser.
+
+49
+00:07:23 --> 00:07:27
+<b>Turn editing on</b> to add more resources
+
+50
+00:07:28 --> 00:07:34
+Click on <b>Add an activity or resource</b> link at the bottom right of the <b>Basic Calculus</b> section.
+
+51
+00:07:35 --> 00:07:41
+Double-click on <b>Assignment</b> from the list to add a new <b>assignment</b>.
+
+52
+00:07:42 --> 00:07:46
+Let me provide a name for the <b>assignment</b>, as shown here.
+
+53
+00:07:47 --> 00:07:54
+Next, describe the <b>assignment</b> in detail and mention what the students are expected to submit.
+
+54
+00:07:55 --> 00:08:01
+This is a simple formatted <b>text editor</b>, you can include <b>tables, images,</b> etc.
+
+55
+00:08:02 --> 00:08:06
+You can copy the text I have typed here from the <b>AssignmentResource.odt</b> file.
+
+56
+00:08:07 --> 00:08:12
+It is available in the <b>Code files </b>link of this tutorial.
+
+57
+00:08:13 --> 00:08:16
+Scroll down to see the <b>Availability </b>section.
+
+58
+00:08:17 --> 00:08:27
+Next, we will specify the date and time from which submissions can be made. Ensure <b>Enable</b> boxes  checked.
+
+59
+00:08:28 --> 00:08:38
+You can also use the calendar icon to select the date. I will set this as <b>25 Nov 2018.</b>
+
+60
+00:08:39 --> 00:08:45
+Then I will set <b>Due date </b>as <b>15 Dec 2018</b>.
+
+61
+00:08:46 --> 00:08:53
+Click on the <b>Help icon</b> to find out the meaning of <b>Cut-off date</b> and <b>Remind me to grade by </b>date.
+
+62
+00:08:54 --> 00:09:01
+Set them if required or disable if not required. I will disable them.
+
+63
+00:09:02 --> 00:09:16
+Uncheck <b>Always show description </b>checkbox.If this field is enabled,Then students can see the description of the <b>assignment</b> even before the <b>Allow submissions from date</b>.
+
+64
+00:09:17 --> 00:09:29
+Next is the <b>Submission types</b> section. Decide if you want to allow students to submit online text or want them to only upload files.
+
+65
+00:09:30 --> 00:09:41
+I will check both <b>Online text</b> and <b>File submissions</b>. Depending on your requirement, you can choose either one or both the options.
+
+66
+00:09:42 --> 00:09:47
+I will enable the <b>Word limit</b> and enter <b>1000</b> here.
+
+67
+00:09:48 --> 00:10:02
+You can specify the number of files each student can upload, as well. Additionally, we can specify the maximum file size and the <b>types</b> of files we will accept.
+
+68
+00:10:03 --> 00:10:13
+Please note:
+<p>This will override the maximum file size set by the <b>admin</b>, which is <b>128 MB,</b> in our case.
+</p>
+
+69
+00:10:14 --> 00:10:25
+Click on the <b>Help icon</b> next to <b>Accepted file types.</b> Here we can read about the <b>file types </b>this <b>field</b> accepts.
+
+70
+00:10:26 --> 00:10:33
+I will type <b>.pdf,.docx,.doc </b>here.
+
+71
+00:10:34 --> 00:10:45
+Review the <b>fields</b> under <b>Feedback types</b> and <b>Submission settings</b>.  You can enable or disable them based on your requirements.
+
+72
+00:10:46 --> 00:10:49
+I have chosen the settings as shown.
+
+73
+00:10:50 --> 00:10:56
+Now, scroll down and click on the <b>Grade</b> section to expand it.
+
+74
+00:10:57 --> 00:11:03
+The <b>maximum grade</b> by default is 100. We will let this remain as it is.
+
+75
+00:11:04 --> 00:11:12
+Then I will enter the <b>Grade to pass</b> as 40. And set <b>Blind marking</b> to <b>Yes</b>.
+
+76
+00:11:13 --> 00:11:25
+This will hide the identity of the student from the evaluators. So now, as a teacher, I won’t know which student has submitted which <b>assignment</b>.
+
+77
+00:11:26 --> 00:11:30
+Which invariably, helps me to be unbiased while grading.
+
+78
+00:11:31 --> 00:11:39
+Please note that
+<p><b>Blind marking</b> setting cannot be changed for this assignment  after any submission is made.
+</p>
+
+79
+00:11:40 --> 00:11:45
+There are various other settings for the <b>assignment</b> which you can explore on your own.
+
+80
+00:11:46 --> 00:11:51
+Now, scroll down and click on <b>Save and display</b> button.
+
+81
+00:11:52 --> 00:12:02
+You can see some statistics about the <b>assignment</b> here.
+<p>And a link to <b>View all submissions</b> and <b>Grade</b>.
+</p>
+
+82
+00:12:03 --> 00:12:08
+With this, we come to the end of this tutorial. Let us summarize.
+
+83
+00:12:09 --> 00:12:19
+In this tutorial, we learnt about:
+<p>Different types of <b>forums </b>
+</p><p>How to add a <b>forum </b>and
+</p><p>How to create <b>Assignments</b>
+</p>
+
+84
+00:12:20 --> 00:12:32
+Here is a small assignment for you.
+<p>Add a reply to the <b>forum</b> discussion created earlier.
+</p><p>Split the discussion from this reply onwards.
+</p>
+
+85
+00:12:33 --> 00:12:43
+Create an <b>assignment</b> that accepts only online text submissions.
+<p>Refer to the <b>Assignment </b>link of this tutorial for details. 
+</p>
+
+86
+00:12:44 --> 00:12:51
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+87
+00:12:52 --> 00:13:01
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates. For more details, please write to us.
+
+88
+00:13:02 --> 00:13:05
+Please post your timed queries in this forum.
+
+89
+00:13:06 --> 00:13:19
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India</b>. More information on this mission is available at the link shown.
+
+90
+00:13:20 --> 00:13:30
+This script has been contributed by Nancy and Priyanka.And this is Nancy Varkey along with the Spoken Tutorial team signing off.
+
+91
+00:13:31 --> 00:13:36
+Thanks for joining.
+

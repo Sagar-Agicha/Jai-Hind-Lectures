@@ -1,0 +1,17 @@
+Details for book resource to be added in the Basic Calculus topic:
+
+Please refer the file Assignment_Book-IteratingEvolutesAndInvolutes.odt in the Code files link for the chapter title and content for the book.
+
+Ensure that the chapters and subchapters are organized in the following manner:
+
+Chapter 1: Introduction
+   Subchapter 1: Classical evolutes and involutes 
+   Subchapter 2: Discretization
+   
+Chapter 2: Evolutes and involutes of smooth hedgehogs
+   Subchapter 1: Support functions
+   
+   
+   
+
+

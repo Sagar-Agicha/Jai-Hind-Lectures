@@ -1,0 +1,4 @@
+Create a report of all books in the library grouped by their Publishers.
+Both Publishers and Book titles need to be in ascending order.
+Use the Columnar, Single-column layout. 
+Tip: In step 3 of the report wizard move the publisher to the right

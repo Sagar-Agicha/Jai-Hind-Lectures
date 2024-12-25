@@ -1,0 +1,417 @@
+<b>Narration</b>
+
+1
+00:00:02 --> 00:00:05
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:06 --> 00:00:09
+In this tutorial, we will learn how to:
+
+3
+00:00:10 --> 00:00:12
+Write queries in <b>SQL View</b>
+
+4
+00:00:13 --> 00:00:14
+Use <b>ORDER BY</b> clause
+
+5
+00:00:15 --> 00:00:16
+Use <b>JOINS</b>
+
+6
+00:00:17 --> 00:00:18
+Use <b>Aggregate functions</b>
+
+7
+00:00:19 --> 00:00:20
+Use the <b>GROUP BY</b> clause
+
+8
+00:00:21 --> 00:00:25
+And to use built in <b>Function</b>s.
+
+9
+00:00:26 --> 00:00:30
+Let us learn more about writing SQL queries.
+
+10
+00:00:31 --> 00:00:35
+For this, let us open our familiar <b>Library</b> database.
+
+11
+00:00:36 --> 00:00:41
+Now, let us click on the <b>Queries</b> list on the left panel
+
+12
+00:00:42 --> 00:00:48
+and then click on <b>‘Create Query in SQL View’</b>.
+
+13
+00:00:49 --> 00:00:54
+First, let us see how we can sort the results of a query.
+
+14
+00:00:55 --> 00:00:58
+And let us consider the following example:
+
+15
+00:00:59 --> 00:01:08
+Retrieve Book title and author information for all those books published by Cambridge or Oxford
+
+16
+00:01:09 --> 00:01:18
+and sort them by the <b>publisher</b> in ascending order, followed by <b>book titles</b> in ascending order.
+
+17
+00:01:19 --> 00:01:21
+And here is the query:
+
+18
+00:01:22 --> 00:01:27
+<b>SELECT Publisher, Title, Author</b>
+
+19
+00:01:28 --> 00:01:30
+<b>FROM Books</b>
+
+20
+00:01:31 --> 00:01:41
+<b>WHERE Publisher IN ( 'Cambridge', 'Oxford')</b>
+
+21
+00:01:42 --> 00:01:49
+<b>ORDER BY Publisher ASC, Title ASC</b>
+
+22
+00:01:50 --> 00:01:57
+So, notice we have used the <b>ORDER BY</b> clause to specify sorting on column names.
+
+23
+00:01:58 --> 00:02:04
+Also notice the comma characters which help to add more columns for sorting.
+
+24
+00:02:05 --> 00:02:18
+And to specify the ascending or descending order, we can simply type 'A S C' or 'D E S C' next to each column name.
+
+25
+00:02:19 --> 00:02:25
+Now, let us click on the <b>Run Query</b> icon below the file menu bar.
+
+26
+00:02:26 --> 00:02:33
+Here are the books, first sorted by <b>Publisher</b> and then by <b>book title</b>.
+
+27
+00:02:34 --> 00:02:37
+Now, onto our next query.
+
+28
+00:02:38 --> 00:02:47
+Let us now get a list of book titles which have not yet been returned by the members, along with the book issue dates.
+
+29
+00:02:48 --> 00:02:54
+Since titles are in the <b>Books</b> table and the Book Issue date is in the <b>BooksIssued</b> table,
+
+30
+00:02:55 --> 00:02:59
+we will need to combine these two somehow.
+
+31
+00:03:00 --> 00:03:06
+So, we will use the <b>JOIN</b> keyword, to join these two tables
+
+32
+00:03:07 --> 00:03:13
+and we will use the common column, <b>BookId</b>, to link these two tables.
+
+33
+00:03:14 --> 00:03:16
+So the query is:
+
+34
+00:03:17 --> 00:03:34
+<b>SELECT B.title, I.IssueDate, I.Memberid</b> <b>FROM Books B JOIN  BooksIssued I</b>
+
+35
+00:03:35 --> 00:03:47
+<b>ON B.bookid = I.BookId</b> <b>WHERE CheckedIn = FALSE</b>
+
+36
+00:03:48 --> 00:03:54
+Notice the letters 'B' and 'I' in the <b>FROM</b> clause.
+
+37
+00:03:55 --> 00:04:05
+These are called <b>Aliases</b> which can be either descriptive or just single alphabets for better readability.
+
+38
+00:04:06 --> 00:04:10
+Notice that the <b>BookId</b> column is in both the <b>table</b>s.
+
+39
+00:04:11 --> 00:04:20
+So, we will use <b>aliase</b>s to specify or qualify column names  to avoid any confusion.
+
+40
+00:04:21 --> 00:04:30
+Okay, now notice that we have joined the two tables using the <b>JOIN</b> keyword in the <b>FROM</b> clause
+
+41
+00:04:31 --> 00:04:45
+and we have specified the <b>BookId</b> column for joining by writing:  <b>ON B.bookid = I.BookId</b>
+
+42
+00:04:46 --> 00:04:48
+So, let us <b>run</b> our query now
+
+43
+00:04:49 --> 00:04:58
+and we see a list of books and their issue date and notice that the <b>CheckedIn</b> status- not checked in.
+
+44
+00:04:59 --> 00:05:07
+Okay, also notice that we see only the <b>MemberId</b> in the results. Not very useful, is it?
+
+45
+00:05:08 --> 00:05:14
+So, how do we display member names which are in the members table?
+
+46
+00:05:15 --> 00:05:20
+Simple. We <b>JOIN</b> the <b>members</b> table to our query as follows:
+
+47
+00:05:21 --> 00:05:36
+<b>SELECT B.Title, I.IssueDate, I.MemberId, M.Name</b> <b>FROM Books B</b>
+
+48
+00:05:37 --> 00:05:57
+<b>JOIN  BooksIssued I ON B.BookId = I.BookId</b> <b>JOIN Members M ON I.MemberId = M.MemberId</b>
+
+49
+00:05:58 --> 00:06:01
+<b>WHERE CheckedIn = FALSE</b>
+
+50
+00:06:02 --> 00:06:11
+So, notice the second join with the <b>Members</b> table and the <b>MemberId</b> column used for joining.
+
+51
+00:06:12 --> 00:06:13
+Let us <b>run</b> the query.
+
+52
+00:06:14 --> 00:06:19
+Here are the member names along with the books that were issued to them.
+
+53
+00:06:20 --> 00:06:25
+Next, let us learn about aggregates and grouping.
+
+54
+00:06:26 --> 00:06:30
+How can we get a  count of all the members in the library?
+
+55
+00:06:31 --> 00:06:33
+Here is a query:
+
+56
+00:06:34 --> 00:06:46
+<b>SELECT COUNT(*) AS "Total Members"</b> <b>FROM Members</b>
+
+57
+00:06:47 --> 00:06:50
+So here, notice the <b>COUNT</b>.
+
+58
+00:06:51 --> 00:07:01
+This is called an <b>aggregate function</b> as it returns just one value by evaluating a set of <b>record</b>s.
+
+59
+00:07:02 --> 00:07:06
+Also we have added an <b>Alias</b>- ‘Total Members’.
+
+60
+00:07:07 --> 00:07:09
+Now, let us <b>run</b> the query.
+
+61
+00:07:10 --> 00:07:21
+So here, <b>Base</b> has evaluated all the 4 members records and returned the number 4 which is the total count of members.
+
+62
+00:07:22 --> 00:07:29
+Some more examples of aggregate functions are <b>SUM, MAX</b> and <b>MIN</b>.
+
+63
+00:07:30 --> 00:07:35
+Now, let us learn about grouping information.
+
+64
+00:07:36 --> 00:07:39
+How do we get a count of books for each publisher?
+
+65
+00:07:40 --> 00:07:42
+Here is the query:
+
+66
+00:07:43 --> 00:08:02
+<b>SELECT Publisher, COUNT(*) AS "Number of Books" FROM Books</b>
+<p><b>GROUP BY Publisher</b>
+<b>ORDER BY Publisher</b>
+</p>
+
+67
+00:08:03 --> 00:08:05
+Notice the new <b>GROUP BY</b> clause.
+
+68
+00:08:06 --> 00:08:17
+So, we are selecting the <b>Publisher</b> and the number of books and the <b>GROUP BY</b> clause to group the records for  each Publisher.
+
+69
+00:08:18 --> 00:08:20
+Let us <b>run</b> the query now.
+
+70
+00:08:21 --> 00:08:32
+Notice the publisher names and the number of books by each publisher beside them.
+
+71
+00:08:33 --> 00:08:37
+Next, let us learn about using <b>Functions</b> in <b>SQL</b>.
+
+72
+00:08:38 --> 00:08:42
+Functions are statements that return a single value.
+
+73
+00:08:43 --> 00:08:48
+For example, <b>CURRENT_DATE</b> returns today’s date.
+
+74
+00:08:49 --> 00:08:55
+So, let us list all the book titles that are due to be returned by the members.
+
+75
+00:08:56 --> 00:08:57
+And the query is:
+
+76
+00:08:58 --> 00:09:07
+<b>SELECT B.Title, I.IssueDate, I.ReturnDate</b>
+
+77
+00:09:08 --> 00:09:20
+<b>FROM Books B JOIN BooksIssued I ON B.bookid = I.BookId</b>
+
+78
+00:09:21 --> 00:09:30
+<b>WHERE CheckedIn = FALSE and ReturnDate < CURRENT_DATE</b>
+
+79
+00:09:31 --> 00:09:35
+So, notice the use of the <b>CURRENT_DATE</b> function.
+
+80
+00:09:36 --> 00:09:42
+We are retrieving books for which the <b>Return Date</b> is past today’s date.
+
+81
+00:09:43 --> 00:09:44
+Let us <b>run</b> the query.
+
+82
+00:09:45 --> 00:09:50
+And, here are the books that are due to be returned.
+
+83
+00:09:51 --> 00:10:22
+For a list of functions that HSQLdb offers: go to  <a class="external free" href="http://hsqldb.org/doc/2.0/guide/builtinfunctions-chapt.html" rel="nofollow">http://hsqldb.org/doc/2.0/guide/builtinfunctions-chapt.html</a>
+
+84
+00:10:23 --> 00:10:28
+The entire user guide can be accessed by visiting the website:
+
+85
+00:10:29 --> 00:10:47
+<a class="external free" href="http://www.hsqldb.org/doc/2.0/guide/" rel="nofollow">http://www.hsqldb.org/doc/2.0/guide/</a>
+
+86
+00:10:48 --> 00:10:49
+Here is an assignment:
+
+87
+00:10:50 --> 00:10:54
+Write and test your SQL queries for the following:
+
+88
+00:10:55 --> 00:10:57
+1. Get a count of all the books in the Library.
+
+89
+00:10:58 --> 00:11:02
+2. Get a count of books written by each author.
+
+90
+00:11:03 --> 00:11:10
+3. Get a list of member names and their phone numbers who need to return books today.
+
+91
+00:11:11 --> 00:11:23
+4. Explain what  this query does?
+<p><b>SELECT (price) AS "Total Cost of Cambridge Books"</b>
+</p>
+
+92
+00:11:24 --> 00:11:31
+<b>FROM Books</b> <b>WHERE publisher = 'Cambridge'</b>
+
+93
+00:11:32 --> 00:11:39
+This brings us to the end of this tutorial on more queries in <b>SQL View</b> LibreOffice Base.
+
+94
+00:11:40 --> 00:11:42
+To summarize, we learned how to:
+
+95
+00:11:43 --> 00:11:46
+Create Queries in SQL View
+
+96
+00:11:47 --> 00:11:48
+Use ORDER BY clause
+
+97
+00:11:49 --> 00:11:50
+Use JOINS
+
+98
+00:11:51 --> 00:11:53
+Use Aggregate functions
+
+99
+00:11:54 --> 00:11:56
+Use the GROUP BY clause
+
+100
+00:11:57 --> 00:11:59
+And use built in Functions.
+
+101
+00:12:00 --> 00:12:20
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India. This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. More information on the same is available at the following link.
+
+102
+00:12:21 --> 00:12:26
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

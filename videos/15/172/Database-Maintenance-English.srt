@@ -1,0 +1,350 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:18
+In this tutorial , we will learn how to:
+<p>Maintain a Database, Modify Database Structure, Defragment a database and Take Backups. 
+</p>
+
+3
+00:00:19 --> 00:00:20
+Database Maintenance-
+
+4
+00:00:21 --> 00:00:30
+Throughout the life of a <b>Base</b> database, we will need to take steps to keep the data up-to-date, reliable and safe.
+
+5
+00:00:31 --> 00:00:40
+This includes modifying the <b>data structure</b> and updating <b>form</b>s as is necessary to keep the data current.
+
+6
+00:00:41 --> 00:00:47
+Let us consider the <b>Library</b> example database that we built in our previous tutorials.
+
+7
+00:00:48 --> 00:00:54
+This database initially had <b>table</b>s on books, members and books issued.
+
+8
+00:00:55 --> 00:01:02
+And we built our example forms, queries and reports based on this database structure.
+
+9
+00:01:03 --> 00:01:10
+Later, the <b>library</b> expanded to have other media such as DVDs and CDs.
+
+10
+00:01:11 --> 00:01:15
+So, we modified the <b>Library database</b> to make the structure up-to-date.
+
+11
+00:01:16 --> 00:01:20
+For this, we added another table called <b>Media</b>
+
+12
+00:01:21 --> 00:01:27
+and we stored the DVD and CD information in this new <b>Media</b> table.
+
+13
+00:01:28 --> 00:01:38
+This way, our database became more usable and up-to-date as we made changes whenever necessary.
+
+14
+00:01:39 --> 00:01:46
+Along with <b>table</b> changes, we will also need to modify the forms to make them easier to use.
+
+15
+00:01:47 --> 00:01:53
+Or we can build new forms to accommodate new table structures.
+
+16
+00:01:54 --> 00:02:07
+For example, if we had a <b>form</b> to enter books data, we can modify it to allow data entry for DVDs and CDs also.
+
+17
+00:02:08 --> 00:02:18
+Here we could add option buttons to choose the type of media, that is: books or DVDs or CDs.
+
+18
+00:02:19 --> 00:02:27
+Or, we can add a brand new form to allow data entry for just the DVD and CD media.
+
+19
+00:02:28 --> 00:02:38
+Similarly, we will need to modify or add new queries and reports which are based on the data structure that was changed.
+
+20
+00:02:39 --> 00:02:44
+And sometimes we will need to modify existing table structures.
+
+21
+00:02:45 --> 00:02:52
+For example, let us consider the <b>Members</b> table that lists all the members in the <b>Library</b>.
+
+22
+00:02:53 --> 00:02:57
+It currently stores their names and phone numbers only.
+
+23
+00:02:58 --> 00:03:08
+Now, if we have to store their address and city information also, we will need to modify the <b>Members</b> table structure.
+
+24
+00:03:09 --> 00:03:14
+For this, we can use SQL syntax such as:
+
+25
+00:03:15 --> 00:03:21
+<b>ALTER TABLE Members ADD Address TEXT, ADD City TEXT</b>
+
+26
+00:03:22 --> 00:03:29
+So, the <b>ALTER TABLE</b> statement changes the table structure and adds two new columns:
+
+27
+00:03:30 --> 00:03:35
+<b>Address</b> and <b>City</b> which will hold <b>TEXT</b> data.
+
+28
+00:03:36 --> 00:03:46
+Visit 'hsqldb.org/' website for more information on creating and altering table structures.
+
+29
+00:03:47 --> 00:03:51
+Use the 'url' address shown on the screen.
+
+30
+00:03:52 --> 00:03:58
+Next, let us see how we can keep the <b>Base</b> database reliable for use.
+
+31
+00:03:59 --> 00:04:07
+Sometimes, <b>Base</b> requires a huge memory to hold comparatively small number of records.
+
+32
+00:04:08 --> 00:04:16
+This is because, Base anticipates a certain amount of memory that the database may need.
+
+33
+00:04:17 --> 00:04:25
+And, the data that we see in tables are not stored exactly in the same orderly manner.
+
+34
+00:04:26 --> 00:04:35
+Because we add data to the tables at different times, their actual storage is not in a particular order.
+
+35
+00:04:36 --> 00:04:44
+We can use <b>index</b>es for table data, like we use a catalogue for a Library of books.
+
+36
+00:04:45 --> 00:04:52
+A catalogue not only lists the books, but also stores their physical location.
+
+37
+00:04:53 --> 00:04:59
+Similarly, we can build table indexes to locate the data efficiently.
+
+38
+00:05:00 --> 00:05:03
+But indexes also can take up a lot of memory.
+
+39
+00:05:04 --> 00:05:10
+And sometimes, deleting table data does not purge the data completely.
+
+40
+00:05:11 --> 00:05:23
+They are just disconnected from table indexes but still occupy the space until new data is added which takes up the space.
+
+41
+00:05:24 --> 00:05:34
+So, this is why the database grows bigger in size, although the actual data stored may not be that big.
+
+42
+00:05:35 --> 00:05:41
+<b>Base</b> offers a nice way of reorganizing called Defragmenting.
+
+43
+00:05:42 --> 00:05:48
+For this, we will open the database that needs to be defragmented.
+
+44
+00:05:49 --> 00:06:00
+Once inside the 'LibreOffice Base' window, we will  click on the <b>Tools</b> menu and then click on <b>SQL sub menu</b>
+
+45
+00:06:01 --> 00:06:06
+and type the following command in the SQL window.
+
+46
+00:06:07 --> 00:06:09
+<b>CHECKPOINT DEFRAG</b>
+
+47
+00:06:10 --> 00:06:18
+This SQL command removes the unneeded information in the Base database file.
+
+48
+00:06:19 --> 00:06:26
+This will first close the database, reorganize the data and then re-open the database.
+
+49
+00:06:27 --> 00:06:32
+Now, we can also use another command in the SQL window-
+
+50
+00:06:33 --> 00:06:35
+<b>SHUTDOWN COMPACT</b>.
+
+51
+00:06:36 --> 00:06:42
+The only difference here is that this command won’t re-open the database.
+
+52
+00:06:43 --> 00:06:53
+For more information on defragmenting, visit 'hsqldb.org' Chapter 11.
+
+53
+00:06:54 --> 00:07:01
+Finally, let us talk about <b>Backups</b> which help to keep a database secure.
+
+54
+00:07:02 --> 00:07:05
+We could lose our database due to
+
+55
+00:07:06 --> 00:07:13
+computer crashes, Hard disk drive breakdowns or Viral infections.
+
+56
+00:07:14 --> 00:07:19
+LibreOffice has a good recovery wizard that minimizes the data loss.
+
+57
+00:07:20 --> 00:07:25
+But a wise thing to do is to keep periodic backups of the database.
+
+58
+00:07:26 --> 00:07:29
+And taking a backup is very simple.
+
+59
+00:07:30 --> 00:07:33
+We will just need to make a copy of the database file
+
+60
+00:07:34 --> 00:07:46
+and store it in secondary media of storage such as external hard disks or CDs or DVDs or flash drives.
+
+61
+00:07:47 --> 00:07:56
+So, to take a backup of the <b>Library database</b>, locate where 'Library.odb' file is saved.
+
+62
+00:07:57 --> 00:08:07
+And then, copy and paste the file in a different hard disk drive or into a flash drive.
+
+63
+00:08:08 --> 00:08:16
+Now, this single copy and paste action takes care of backing up the entire database
+
+64
+00:08:17 --> 00:08:23
+with all the data structures, data, forms, queries and reports in it.
+
+65
+00:08:24 --> 00:08:27
+How often do we need to take backups?
+
+66
+00:08:28 --> 00:08:36
+This depends on how often the database gets changed in terms of data or its structure.
+
+67
+00:08:37 --> 00:08:41
+Meaning- how often we add, update or delete data.
+
+68
+00:08:42 --> 00:08:48
+And how often we modify the table structures, forms, queries or reports.
+
+69
+00:08:49 --> 00:08:57
+So, we can schedule daily or weekly backups, depending on the frequency of the database usage.
+
+70
+00:08:58 --> 00:08:59
+Here is an assignment-
+
+71
+00:09:00 --> 00:09:07
+Alter the <b>Members</b> table to add two new columns -  <b>Address</b> and <b>City</b>.
+
+72
+00:09:08 --> 00:09:12
+Let both columns be of data type TEXT.
+
+73
+00:09:13 --> 00:09:22
+Also, open the <b>Members</b> table in <b>Data Entry</b> mode and insert some sample address and city data.
+
+74
+00:09:23 --> 00:09:26
+Next, Defragment the 'Library database'.
+
+75
+00:09:27 --> 00:09:37
+Finally, take a backup of the Library database, save it in a flash drive or another hard disk drive, if available.
+
+76
+00:09:38 --> 00:09:44
+This brings us to the end of this tutorial on <b>Database Maintenance in LibreOffice Base</b>.
+
+77
+00:09:45 --> 00:09:47
+To summarize, we learned how to:
+
+78
+00:09:48 --> 00:09:49
+Maintain a Database
+
+79
+00:09:50 --> 00:09:53
+Modify Database Structure
+
+80
+00:09:54 --> 00:09:55
+Defragment a database
+
+81
+00:09:56 --> 00:09:57
+And take Backups.
+
+82
+00:09:58 --> 00:10:02
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project,
+
+83
+00:10:03 --> 00:10:09
+supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+84
+00:10:10 --> 00:10:14
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+85
+00:10:15 --> 00:10:19
+More information on the same is available at the following link.
+
+86
+00:10:20 --> 00:10:25
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

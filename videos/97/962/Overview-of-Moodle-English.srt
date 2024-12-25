@@ -1,0 +1,429 @@
+<center><b>Narration</b></center>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the Spoken Tutorial on<b> Overview of Moodle.</b>
+
+2
+00:00:07 --> 00:00:15
+In this tutorial, we will learn about:  the concept of <b>Learning Management Systems </b>(<b>LMS </b>in short),
+
+3
+00:00:16 --> 00:00:18
+Moodle as an <b>LMS </b>,
+
+4
+00:00:19 --> 00:00:25
+who can use<b> Moodle </b>and  examples of <b>Moodle </b>websites.
+
+5
+00:00:26 --> 00:00:32
+We will also learn about the:  software and hardware requirements for running <b>Moodle </b>and
+
+6
+00:00:33 --> 00:00:38
+key features that will be demonstrated in the <b>Moodle </b>series.
+
+7
+00:00:39 --> 00:00:44
+Learners of this tutorial should know how to browse a website.
+
+8
+00:00:45 --> 00:00:52
+Let us first understand what <b>Learning Management System </b>or <b>LMS </b>is.
+
+9
+00:00:53 --> 00:01:00
+An <b>LMS</b> helps us to create, manage and deliver any <b>eLearning content</b>.
+
+10
+00:01:01 --> 00:01:06
+For example: educational courses and training programs.
+
+11
+00:01:07 --> 00:01:10
+It also helps us to manage our <b>courses. </b>
+
+12
+00:01:11 --> 00:01:20
+We can create and <b>edit</b> content, give access to students, grade their submissions etc.
+
+13
+00:01:21 --> 00:01:26
+<b>Moodle</b> is a responsive, free and open source software.
+
+14
+00:01:27 --> 00:01:32
+It is one of the most popular <b>LMS</b> used globally by educational institutes.
+
+15
+00:01:33 --> 00:01:38
+Its security controls keep our data safe and protected.
+
+16
+00:01:39 --> 00:01:46
+It has some very powerful features that empower both teachers and learners.
+
+17
+00:01:47 --> 00:01:53
+<b>Moodle</b> also provides detailed documentation which makes it easy to use.
+
+18
+00:01:54 --> 00:01:59
+The <b>Moodle</b> user community and forum help are very active.
+
+19
+00:02:00 --> 00:02:05
+The free plugins available in <b>Moodle</b> make it even more feature-rich.
+
+20
+00:02:06 --> 00:02:17
+Moodle  is easy to navigate on all devices;
+<p>has detailed reports on activity and participation at <b>course</b> and <b>site</b> level.
+</p>
+
+21
+00:02:18 --> 00:02:22
+Helps in collaborative as well as personalized learning.
+
+22
+00:02:23 --> 00:02:31
+Forums, peer assessments, group management, learning paths etc. can be used for that.
+
+23
+00:02:32 --> 00:02:35
+Let us see who can use <b>Moodle LMS</b>:
+
+24
+00:02:36 --> 00:02:43
+Educational institutions like universities, colleges, schools and coaching institutes,
+
+25
+00:02:44 --> 00:02:48
+Businesses for employee training and orientation,
+
+26
+00:02:49 --> 00:02:52
+Hospital and health care training programs,
+
+27
+00:02:53 --> 00:02:56
+Any <b>eLearning</b> based institution.
+
+28
+00:02:57 --> 00:03:01
+Let us see some of the websites built using <b>Moodle</b>.
+
+29
+00:03:02 --> 00:03:04
+Colleges like these.
+
+30
+00:03:05 --> 00:03:08
+Private universities like these.
+
+31
+00:03:09 --> 00:03:12
+Training institutes like this one.
+
+32
+00:03:13 --> 00:03:16
+Coaching institutes like this.
+
+33
+00:03:17 --> 00:03:23
+Individual teachers who want to offer their course online and many more.
+
+34
+00:03:24 --> 00:03:29
+<b>Moodle </b>has detailed statistics of usage on the following URL.
+
+35
+00:03:30 --> 00:03:39
+Here, you can check the registered <b>Moodle websites</b> from various countries.
+
+36
+00:03:40 --> 00:03:45
+To install <b>Moodle</b>, we need:  <b>Apache web-server</b>,
+
+37
+00:03:46 --> 00:03:53
+a <b>database</b> like <b>MySQL, MariaDB </b>or <b>PostgreSQL</b> and
+<p><b>PHP</b>. 
+</p>
+
+38
+00:03:54 --> 00:03:57
+<b>Moodle</b> is a resource consuming software.
+
+39
+00:03:58 --> 00:04:01
+Recommended hardware for running <b>Moodle</b> are:
+
+40
+00:04:02 --> 00:04:14
+<b>Disk Space</b>: 200 MB for <b>Moodle</b> code plus space to store content. However, 5GB is a realistic minimum.
+
+41
+00:04:15 --> 00:04:22
+<b>Processor</b>: 1 Gigahertz minimum, but 2 Gigahertz <b>dual core </b>or more is recommended.
+
+42
+00:04:23 --> 00:04:30
+<b>Memory</b>: 512MB minimum, but 1GB or more is recommended.
+
+43
+00:04:31 --> 00:04:36
+These requirements may change based on the expected load on the <b>system</b>.
+
+44
+00:04:37 --> 00:04:43
+For example: number of <b>courses</b> and expected simultaneous <b>logins</b>.
+
+45
+00:04:44 --> 00:04:49
+At the time of making of this series, <b>Moodle 3.3 </b>was the latest stable version.
+
+46
+00:04:50 --> 00:04:56
+It is always recommended to work with the latest stable version that is available.
+
+47
+00:04:57 --> 00:05:00
+<b>Moodle 3.3 </b>requires the following:
+
+48
+00:05:01 --> 00:05:10
+<b>Apache</b> 2.x (or higher version)
+<p><b>MariaDB </b>5.5.30 (or any higher version)  and
+</p>
+
+49
+00:05:11 --> 00:05:16
+<b>PHP</b> 5.4.4 (or any higher version)
+
+50
+00:05:17 --> 00:05:25
+For this series, we have used the following OS and software:
+<p><b>Ubuntu Linux OS 16.04</b>
+</p>
+
+51
+00:05:26 --> 00:05:35
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30 </b>and <b>Moodle 3.3 </b>
+
+52
+00:05:36 --> 00:05:40
+This <b>Moodle</b> series is divided into 2 parts -
+
+53
+00:05:41 --> 00:05:47
+One for <b>Moodle site administrators</b> and  another for <b>teachers</b>.
+
+54
+00:05:48 --> 00:05:53
+<b>Moodle site Administrators: </b>  will install <b>Moodle</b> on the <b>server</b>,
+
+55
+00:05:54 --> 00:06:03
+create <b>course categories</b> as per institute guidelines and  manage <b>courses</b> and <b>user accounts</b> for multiple <b>courses</b>.
+
+56
+00:06:04 --> 00:06:13
+Here are the glimpses of some key features covered in this series, for <b>Moodle site administrators</b>.
+
+57
+00:06:14 --> 00:06:28
+<b>Getting ready for Moodle installation</b> tutorial explains how to  check for <b>packages</b> on the <b>localhost</b> and setup the <b>database</b>.
+
+58
+00:06:29 --> 00:06:38
+<b>Installing Moodle on Local Server </b>tutorial explains how to - download and install <b>Moodle</b>.
+
+59
+00:06:39 --> 00:06:52
+<b>Admin’s dashboard </b> in <b>Moodle</b>  tutorial explains the <b>Admin Dashboard</b>,
+<p>the various <b>blocks</b> and the <b>profile page </b>and  how to edit <b>preferences</b>.
+</p>
+
+60
+00:06:53 --> 00:07:04
+<b>Blocks in Admin's Dashboard </b>tutorial -  explains how to add and delete <b>blocks</b> and
+
+61
+00:07:05 --> 00:07:07
+set the <b>Front page</b>.
+
+62
+00:07:08 --> 00:07:18
+In the next tutorial, <b>Categories in Moodle, </b>we will learn to create <b>categories & subcategories.</b>
+
+63
+00:07:19 --> 00:07:27
+In <b>Courses in Moodle </b>tutorial, we will learn how to create a <b>course </b>and configure it.
+
+64
+00:07:28 --> 00:07:35
+<b>Users in Moodle </b>tutorial will help us to understand how to -  Add a <b>user</b>,
+
+65
+00:07:36 --> 00:07:42
+Edit a <b>user’s profile</b>,
+<p>and upload <b>users</b> in bulk.
+</p>
+
+66
+00:07:43 --> 00:07:51
+<b>User Roles in Moodle </b>tutorial will help us to learn how to assign various roles to users.
+
+67
+00:07:52 --> 00:07:59
+For e.g: secondary <b>admin role, teacher role</b> and <b>student role</b>.
+
+68
+00:08:00 --> 00:08:06
+There will be many more tutorials in this series for <b>Moodle site administrator</b>s, in the future.
+
+69
+00:08:07 --> 00:08:10
+We will now move to the tutorials for teachers.
+
+70
+00:08:11 --> 00:08:16
+Teachers will be responsible for: uploading and editing content for their <b>course</b>,
+
+71
+00:08:17 --> 00:08:21
+create <b>assignments</b> and <b>quizzes</b> to assess the students’ progress and
+
+72
+00:08:22 --> 00:08:26
+enroll students to their <b>course</b> and communicate with them.
+
+73
+00:08:27 --> 00:08:33
+Now, let me show the glimpses of some key features covered in this series for teachers.
+
+74
+00:08:34 --> 00:08:45
+<b>Teacher’s dashboard in Moodle </b>tutorial explains -
+<p>the <b>teachers’ dashboard </b>,
+</p><p>how to edit<b> profile </b>and  how to edit <b>preferences</b>.
+</p>
+
+75
+00:08:46 --> 00:08:52
+<b>Course Administration in Moodle </b>tutorial explains- how to configure <b>course</b> settings<b> </b>
+
+76
+00:08:53 --> 00:08:58
+and manage <b>Activities</b> and <b>Resources</b> in a <b>course</b>.
+
+77
+00:08:59 --> 00:09:09
+<b>Formatting course material in Moodle </b>tutorial explains - the various formatting options in default <b>Moodle text editor</b>
+
+78
+00:09:10 --> 00:09:14
+and adding additional <b>course material</b>.
+
+79
+00:09:15 --> 00:09:28
+<b>Uploading and Editing Resources in Moodle </b>tutorial explains how to upload -  a <b>URL resource </b>and a <b>book resource </b>
+<p>and edit those <b> resources</b>.
+</p>
+
+80
+00:09:29 --> 00:09:33
+The next tutorial in this series is <b>Forums and Assignments in Moodle.</b>
+
+81
+00:09:34 --> 00:09:38
+In this tutorial, we will learn about:  different types of <b>forums </b>in <b>Moodle</b>,
+
+82
+00:09:39 --> 00:09:47
+how to add a <b>forum</b> for discussion and how to create <b>Assignments</b>.
+
+83
+00:09:48 --> 00:09:57
+In the <b>Question bank in Moodle </b>tutorial, we will learn how to create <b>Categories </b>of <b>questions</b> and add questions to the <b>question bank</b>.
+
+84
+00:09:58 --> 00:10:11
+<b>Quiz in Moodle </b>tutorial will teach us: to create a <b>Quiz</b> and
+<p>add questions from the <b>Question bank</b> into the <b>Quiz</b>.
+</p>
+
+85
+00:10:12 --> 00:10:24
+In the tutorial named <b>Enroll Students and Communicate in Moodle, </b>we’ll learn to:
+<p>enroll students who were uploaded via a <b>csv file </b>to a <b>course</b>.
+</p>
+
+86
+00:10:25 --> 00:10:30
+Make <b>groups</b> in <b>courses</b> and send <b>messages</b> and <b>notes</b> to the students.
+
+87
+00:10:31 --> 00:10:36
+Later, there will be many more tutorials for teachers and students in this series.
+
+88
+00:10:37 --> 00:10:47
+For now, let us summarize.
+<p>In this tutorial, we have learnt about: the concept of <b>Learning Management Systems </b>(<b>LMS </b>in short)
+</p>
+
+89
+00:10:48 --> 00:10:56
+Moodle as an <b>LMS </b>,  who can use<b> Moodle</b> and examples of <b>Moodle </b>websites.
+
+90
+00:10:57 --> 00:11:09
+We also learnt about the: software and hardware requirements for running <b>Moodle </b>and
+<p>overview of the key features that will be demonstrated in the <b>Moodle </b>series.
+</p>
+
+91
+00:11:10 --> 00:11:17
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+92
+00:11:18 --> 00:11:27
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates.
+<p>For more details, please write to us.
+</p>
+
+93
+00:11:28 --> 00:11:34
+Do you have questions in THIS Spoken Tutorial? Please visit this site.
+
+94
+00:11:35 --> 00:11:44
+Choose the minute and second where you have the question.
+<p>Explain your question briefly . Someone from our team will answer them.
+</p>
+
+95
+00:11:45 --> 00:11:50
+The Spoken Tutorial forum is for specific questions on this tutorial.
+
+96
+00:11:51 --> 00:11:58
+Please do not post unrelated and general questions on them. This will help reduce the clutter.
+
+97
+00:11:59 --> 00:12:04
+With less clutter, we can use these discussion as instructional material.
+
+98
+00:12:05 --> 00:12:17
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India</b>. More information on this mission is available at the link shown.
+
+99
+00:12:18 --> 00:12:23
+This script has been contributed by Nancy and Priyanka. And this is Nancy Varkey along with the Spoken Tutorial team signing off.
+<p>Thanks for joining.
+</p>
+

@@ -1,0 +1,364 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:09
+This tutorial is a continuation of the previous tutorial on <b>Database Design</b>.
+
+3
+00:00:10 --> 00:00:12
+And we will learn the following topics here:
+
+4
+00:00:13 --> 00:00:16
+Turn information items into <b>column</b>s
+
+5
+00:00:17 --> 00:00:19
+Specify <b>primary keys</b>
+
+6
+00:00:20 --> 00:00:22
+Set up the <b>table relationships</b>.
+
+7
+00:00:23 --> 00:00:29
+In the last tutorial, we started the process of database design for a simple <b>Library application</b>.
+
+8
+00:00:30 --> 00:00:35
+We first determined the purpose of building the <b>Library database</b>.
+
+9
+00:00:36 --> 00:00:43
+Then we continued the process by finding and organizing the information about the library and
+
+10
+00:00:44 --> 00:00:48
+we divided the information into <b>Tables</b>.
+
+11
+00:00:49 --> 00:00:59
+And so, we had identified four tables in our Library database: <b>Books, Authors, Publications</b> and <b>Members</b>.
+
+12
+00:01:00 --> 00:01:06
+Let us now go to the next step which is turning the information items into <b>columns</b>.
+
+13
+00:01:07 --> 00:01:12
+Here, we will decide which information item we want to store in each <b>table</b>.
+
+14
+00:01:13 --> 00:01:22
+Each information item which we identified earlier, becomes a <b>field</b> and is displayed as a column in the table.
+
+15
+00:01:23 --> 00:01:30
+As shown in the image on the screen, the <b>Books</b> table has 5 <b>column</b>s which are also called <b>fields</b>.
+
+16
+00:01:31 --> 00:01:39
+So, each row or <b>record</b> here contains information about exactly one book in its columns.
+
+17
+00:01:40 --> 00:01:48
+Similarly, each record in the <b>Authors</b> table contains information about just one author.
+
+18
+00:01:49 --> 00:01:57
+And each record in the <b>Publishers</b> table contains information about just one publisher.
+
+19
+00:01:58 --> 00:02:03
+Now, we can further refine the columns based on our requirements.
+
+20
+00:02:04 --> 00:02:16
+For example, we can split the <b>Author name</b> into <b>First Name</b> and <b>Last Name</b> so that we can search or sort by these columns.
+
+21
+00:02:17 --> 00:02:23
+And, we don’t have to store results of calculations as separate columns in tables
+
+22
+00:02:24 --> 00:02:30
+because <b>Base</b> can perform the calculations whenever we want to see the results.
+
+23
+00:02:31 --> 00:02:40
+Now that we are clear about tables and columns, let us see how we can specify <b>primary keys</b> next.
+
+24
+00:02:41 --> 00:02:43
+What is a <b>primary key</b>?
+
+25
+00:02:44 --> 00:02:53
+Each <b>table</b> should include a column or a set of columns that uniquely identifies each row stored in the table.
+
+26
+00:02:54 --> 00:02:59
+This column or set of columns is the <b>primary key</b> of the <b>table</b>.
+
+27
+00:03:00 --> 00:03:07
+This is often a unique identification number such as a <b>Book Id</b> or an <b>Author Id</b>.
+
+28
+00:03:08 --> 00:03:20
+We can use the 'primary key' fields to quickly associate logical related data from multiple tables and bring the data together for us.
+
+29
+00:03:21 --> 00:03:25
+And we cannot have duplicate values in a primary key.
+
+30
+00:03:26 --> 00:03:33
+For example, we cannot use people’s names as a primary key because names are not unique.
+
+31
+00:03:34 --> 00:03:39
+There can be two people with the same name in the same table.
+
+32
+00:03:40 --> 00:03:44
+Next, a <b>primary key</b> should always have a value.
+
+33
+00:03:45 --> 00:03:51
+If it is empty or <b>Null</b> then we cannot consider it a 'primary key'.
+
+34
+00:03:52 --> 00:04:08
+And we can force a primary key column to have a value always by setting the column’s data type as an ‘AutoNumber’ which <b>Base</b> will generate automatically.
+
+35
+00:04:09 --> 00:04:19
+As shown in the image on the screen, we can set up the primary keys for our tables as follows:
+
+36
+00:04:20 --> 00:04:23
+<b>BookId</b> for <b>Books</b> table,
+
+37
+00:04:24 --> 00:04:27
+<b>AuthorId</b> for <b>Authors</b> table,
+
+38
+00:04:28 --> 00:04:32
+<b>PublishersId</b> for <b>Publishers table</b>.
+
+39
+00:04:33 --> 00:04:41
+Similarly, though not shown here, <b>MemberId</b> will be the primary key for the <b>Members</b> table.
+
+40
+00:04:42 --> 00:04:51
+Finally, by setting up the primary keys in the tables, we are enforcing <b>Entity Integrity</b>.
+
+41
+00:04:52 --> 00:04:59
+'Entity Integrity' ensures that there are no duplicate records within the table.
+
+42
+00:05:00 --> 00:05:09
+It also ensures that the <b>field</b> that identifies each record, within the table, is unique and never Null.
+
+43
+00:05:10 --> 00:05:19
+Now that we have the primary keys in the three tables, we can bring them all together by setting up the <b>relationship</b>s.
+
+44
+00:05:20 --> 00:05:31
+Since <b>Base</b> supports this concept, Base is called a <b>Relational Database Management System, RDBMS</b> in short.
+
+45
+00:05:32 --> 00:05:36
+There are a few types of <b>relationship</b>s and we’ll see them now.
+
+46
+00:05:37 --> 00:05:42
+First we will see what a <b>One-to-Many relationship</b> is.
+
+47
+00:05:43 --> 00:05:48
+Let us consider the <b>Books</b> and the <b>Authors</b> tables in the image shown now.
+
+48
+00:05:49 --> 00:05:54
+A book is written by exactly one author.
+
+49
+00:05:55 --> 00:06:01
+Now, there are cases where two or several people co-author a single book.
+
+50
+00:06:02 --> 00:06:09
+But we will limit our example to just one person authoring one book.
+
+51
+00:06:10 --> 00:06:16
+Continuing on with our example, an author can write several books.
+
+52
+00:06:17 --> 00:06:27
+So, for one author represented in the <b>Authors</b> table, there can be many books represented in the <b>Books</b> table written by the author.
+
+53
+00:06:28 --> 00:06:31
+This is therefore, a <b>one-to-many relationship</b>.
+
+54
+00:06:32 --> 00:06:35
+And we can represent this in our 'Library database'.
+
+55
+00:06:36 --> 00:06:45
+By taking the <b>Author Id</b> which is the 'primary key' in the <b>Authors</b> table and adding it to the <b>Books</b> table. Simple.
+
+56
+00:06:46 --> 00:06:52
+So, the <b>Author Id</b> in the <b>Books</b> table is called the <b>Foreign key</b>.
+
+57
+00:06:53 --> 00:07:05
+Similarly, the <b>Publisher Id</b> which is the primary key in the <b>Publishers</b> table becomes the <b>foreign key</b> in the <b>Books</b> table by adding it there.
+
+58
+00:07:06 --> 00:07:16
+So, by sharing a column or a set of columns, we can represent <b>one-to-many relationship</b>s in the database.
+
+59
+00:07:17 --> 00:07:22
+And <b>table relationship</b>s can be set up using the <b>Foreign keys</b>.
+
+60
+00:07:23 --> 00:07:33
+So, a 'primary key' in a table can be represented as a 'foreign key' in a second table to establish the <b>relationship</b>.
+
+61
+00:07:34 --> 00:07:38
+Thereby we enforce <b>Referential integrity</b>.
+
+62
+00:07:39 --> 00:07:49
+Meaning, every foreign key value in a table will have a matching primary key value in the related tables.
+
+63
+00:07:50 --> 00:07:55
+Next, let us see what a <b>Many-to-Many relationship</b> is.
+
+64
+00:07:56 --> 00:07:58
+Let us go back to the <b>table design</b> now.
+
+65
+00:07:59 --> 00:08:08
+A book can be issued to any number of library members (considering there are many copies available).
+
+66
+00:08:09 --> 00:08:16
+Similarly, a member can borrow any number of books (of course, considering books are available).
+
+67
+00:08:17 --> 00:08:24
+So, here we have an example of multiple books being issued to multiple members
+
+68
+00:08:25 --> 00:08:28
+which represents a <b>Many-to-many relationship</b>.
+
+69
+00:08:29 --> 00:08:34
+So, we can represent this <b>many-to-many relationship</b> in our database
+
+70
+00:08:35 --> 00:08:44
+by creating a third table, <b>BooksIssued</b> table, which is also called a <b>Junction table</b>.
+
+71
+00:08:45 --> 00:08:56
+And here, we will insert the primary keys from each of the two tables,  <b>Books</b> and <b>Members</b>, into the <b>BooksIssued</b> table.
+
+72
+00:08:57 --> 00:09:04
+As a result, the <b>BooksIssued</b> table records each book issued to a member.
+
+73
+00:09:05 --> 00:09:12
+So, by creating a third junction table we can represent <b>many-to-many relationship</b>s.
+
+74
+00:09:13 --> 00:09:17
+And finally there is the <b>One-to-one relationship</b>.
+
+75
+00:09:18 --> 00:09:29
+Sometimes, some attributes or columns are specific to certain data only and so are rarely filled up with data.
+
+76
+00:09:30 --> 00:09:37
+Let us consider the case where only one author has a website address and the rest of them do not.
+
+77
+00:09:38 --> 00:09:46
+And leaving the new website column in the <b>Authors</b> table mostly empty, we will consume disk space.
+
+78
+00:09:47 --> 00:09:57
+So, we can move this column into a new supplemental table whose primary key will be the same <b>Author Id</b>.
+
+79
+00:09:58 --> 00:10:05
+Each record in the supplemental table will correspond to exactly one record in the main table
+
+80
+00:10:06 --> 00:10:09
+which represents a <b>One-to-one relationship</b>.
+
+81
+00:10:10 --> 00:10:14
+So there, we have learnt to set up <b>relationship</b>s in our database.
+
+82
+00:10:15 --> 00:10:22
+This brings us to the end of this tutorial on the second part of <b>Database Design</b> in <b>LibreOffice Base</b>.
+
+83
+00:10:23 --> 00:10:27
+To summarize, we learned the following topics on database design:
+
+84
+00:10:28 --> 00:10:31
+Turn information items into columns
+
+85
+00:10:32 --> 00:10:33
+Specify primary keys
+
+86
+00:10:34 --> 00:10:37
+Set up the table relationships
+
+87
+00:10:38 --> 00:10:47
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+88
+00:10:48 --> 00:10:53
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+89
+00:10:54 --> 00:10:57
+More information on the same is available at the following link.
+
+90
+00:10:58 --> 00:11:03
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

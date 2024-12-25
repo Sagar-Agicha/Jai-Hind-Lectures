@@ -1,0 +1,307 @@
+<i><b>Narration</b></i>
+
+1
+00:00:01 --> 00:00:05
+Welcome to the <b>Spoken Tutorial</b> on <b>User Roles in Moodle</b>.
+
+2
+00:00:06 --> 00:00:12
+In this tutorial, we will learn how to: assign <b>admin role</b> to a <b>user</b>,
+
+3
+00:00:13 --> 00:00:19
+assign a <b>teacher</b> to a <b>course</b> and  enrol a <b>student</b> in a <b>course</b>.
+
+4
+00:00:20 --> 00:00:27
+This tutorial is recorded using: <b>Ubuntu Linux OS 16.04</b>,
+
+5
+00:00:28 --> 00:00:41
+<b>Apache, MariaDB</b> and <b>PHP</b> obtained through<b> XAMPP 5.6.30</b>,
+<p><b>Moodle 3.3</b> and 
+<b>Firefox </b>web browser. 
+</p>
+
+6
+00:00:42 --> 00:00:53
+You can use any <b>web browser</b> of your choice.
+<p>However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+</p>
+
+7
+00:00:54 --> 00:01:00
+Learners of this tutorial should have some <b>courses</b> created on their <b>Moodle</b> website.
+
+8
+00:01:01 --> 00:01:07
+If not, please refer to the previous<b> Moodle</b> tutorials on this website.
+
+9
+00:01:08 --> 00:01:15
+Switch to the browser and login to your <b>Moodle</b> website using your <b>admin username </b>and <b>password</b>.
+
+10
+00:01:16 --> 00:01:18
+We are now in the <b>admin dashboard.</b>
+
+11
+00:01:19 --> 00:01:23
+Let us go to the <b>Course and Category Management </b>page.
+
+12
+00:01:24 --> 00:01:33
+Make sure you have these courses on your <b>Moodle interface</b>.
+<p>If not, pause the tutorial to create them and then resume.
+</p>
+
+13
+00:01:34 --> 00:01:37
+Let us view all the <b>users </b>that we created.
+
+14
+00:01:38 --> 00:01:40
+Click on <b>Site Administration.</b>
+
+15
+00:01:41 --> 00:01:43
+Then click on the <b>Users</b> tab.
+
+16
+00:01:44 --> 00:01:49
+Under the <b>Accounts</b> section, click on <b>Browse list of users.</b>
+
+17
+00:01:50 --> 00:01:52
+We now have 4 <b>users</b>.
+
+18
+00:01:53 --> 00:01:58
+Let’s click on the <b>user Priya Sinha </b>and edit her <b>profile</b>.
+
+19
+00:01:59 --> 00:02:03
+So, click on <b>Edit Profile</b> link in the <b>User details</b> section.
+
+20
+00:02:04 --> 00:02:10
+Scroll down and locate the <b>Optional</b> section.
+<p>Then click on it to expand it.
+</p>
+
+21
+00:02:11 --> 00:02:22
+Notice that the fields <b>Institution</b>, <b>Department</b>, <b>Phone</b> and <b>Address</b> are populated.
+<p>These are the ones we entered in the <b>CSV file</b>.
+</p>
+
+22
+00:02:23 --> 00:02:32
+Let’s go back to the list of <b>users</b> again.
+<p>To do so, click on <b>Site Administration -> Users -> Browse list of users.</b>
+</p>
+
+23
+00:02:33 --> 00:02:38
+Let us assign <b>administrator role</b> to this <b>user, System Admin2</b>.
+
+24
+00:02:39 --> 00:02:45
+On the left menu, click on <b>Site Administration</b> and then on the <b>Users </b>tab.
+
+25
+00:02:46 --> 00:02:51
+Scroll down to the <b>Permissions </b>section and click on <b>Site Administrators.</b>
+
+26
+00:02:52 --> 00:03:04
+There are 2 set of <b>users </b>here.
+<p>First set has the names of the current <b>site administrators </b> and the second set has the list of all other <b>users</b>. 
+</p>
+
+27
+00:03:05 --> 00:03:10
+In between the two lists, there are buttons to perform various actions.
+
+28
+00:03:11 --> 00:03:16
+From the <b>Users </b>box, let’s click on <b>System Admin2 user</b>.
+
+29
+00:03:17 --> 00:03:25
+If there are too many users, use the <b>Search</b> box below the <b>Users</b> box for searching.
+<p>And then, click on the <b>Add</b> button. 
+</p>
+
+30
+00:03:26 --> 00:03:29
+In the <b>Confirm</b> box, click on <b>Continue</b> button.
+
+31
+00:03:30 --> 00:03:37
+There are 2 <b>admin users </b>now.
+<p>We can have as many <b>admin users </b>as we want.
+</p>
+
+32
+00:03:38 --> 00:03:47
+However, there can be only one <b>Main administrator</b>.
+<p>The <b>Main administrator </b>can never be deleted from the system.
+</p>
+
+33
+00:03:48 --> 00:03:54
+Let us now assign <b>Rebecca Raymond</b> as the <b>teacher</b> for the <b>Calculus course.</b>
+
+34
+00:03:55 --> 00:04:01
+To do this, go to the <b>Course and category management</b> page, as shown here.
+
+35
+00:04:02 --> 00:04:08
+Click on <b>1st Year Maths</b> subcategory to see the <b>courses</b> under it.
+
+36
+00:04:09 --> 00:04:18
+Click on the <b>Calculus</b> course. Scroll down to see details of the course.
+<p>Click on <b>Enrolled Users</b>.
+</p>
+
+37
+00:04:19 --> 00:04:24
+We can see that the <b>user</b> Priya Sinha has been enrolled to this <b>course</b>.
+
+38
+00:04:25 --> 00:04:28
+We did this through the <b>upload user CSV. </b>
+
+39
+00:04:29 --> 00:04:34
+In <b>Moodle</b>, everyone, including the <b>teacher</b>, needs to be enrolled to the <b>course. </b>
+
+40
+00:04:35 --> 00:04:40
+The new <b>role</b> to be assigned to them depends on their current <b>role</b> in the <b>course</b>.
+
+41
+00:04:41 --> 00:04:47
+Click on <b>Enrol users</b> button either at the top right or bottom right.
+
+42
+00:04:48 --> 00:04:50
+A pop-up window opens.
+
+43
+00:04:51 --> 00:04:59
+It has a dropdown for <b>Assign roles</b>, fields for <b>Enrolment options</b> and a <b>Search</b> button.
+
+44
+00:05:00 --> 00:05:05
+We can see a list of all the <b>users</b>, currently not assigned to this <b>course</b>.
+
+45
+00:05:06 --> 00:05:10
+In the <b>Assign roles</b> dropdown, select <b>Teacher</b>.
+
+46
+00:05:11 --> 00:05:15
+Then click on the <b>Enrol</b> button, next to <b>Rebecca Raymond</b>.
+
+47
+00:05:16 --> 00:05:23
+Lastly, click on <b>Finish Enrolling users</b> button at the bottom of the page.
+
+48
+00:05:24 --> 00:05:27
+<b>Students </b>can be assigned to a <b>course</b> in a similar manner.
+
+49
+00:05:28 --> 00:05:35
+To un-assign <b>Rebecca Raymond</b> from her <b>Teacher role</b>, click on the <b>Trash</b> icon in the <b>Roles column</b>.
+
+50
+00:05:36 --> 00:05:41
+In the <b>Confirm Role Change</b> popup box, click on <b>Remove</b> button.
+
+51
+00:05:42 --> 00:05:49
+The <b>Assign role </b>icon here, can also be used for assigning a <b>role </b>to already enrolled users.
+
+52
+00:05:50 --> 00:05:55
+Click on it to open a small pop-up window with all <b>role </b>names.
+
+53
+00:05:56 --> 00:06:03
+Click on <b>Teacher</b> to assign <b>teacher role</b> to <b>Rebecca Raymond</b>.
+<p>The box closes on its own.
+</p>
+
+54
+00:06:04 --> 00:06:10
+<b>Users</b> can be un-enrolled from a <b>course</b> by clicking on the <b>trash</b> icon at the extreme right.
+
+55
+00:06:11 --> 00:06:19
+The <b>gear</b> icon towards the right, is for editing the <b>user enrolment </b>details.
+<p>Click on it.
+</p>
+
+56
+00:06:20 --> 00:06:27
+This has an option to suspend the <b>user</b> and change the <b>enrolment start </b>and <b>end</b> dates.
+
+57
+00:06:28 --> 00:06:32
+Click on the <b>Cancel</b> button to go back to the <b>enrolment</b> page.
+
+58
+00:06:33 --> 00:06:38
+With this, we come to the end of the tutorial.
+<p>Let us summarize.
+</p>
+
+59
+00:06:39 --> 00:06:51
+In this tutorial, we learnt how to:
+<p>assign <b>admin role</b> to a <b>user</b>,
+</p><p>assign a <b>teacher</b> to a <b>course</b> and
+</p><p>enrol a <b>student</b> in the <b>course</b>.
+</p>
+
+60
+00:06:52 --> 00:06:59
+Here is an assignment for you:
+<p>Assign Rebecca Raymond as a <b>teacher</b> to the <b>Linear Algebra course</b>.
+</p>
+
+61
+00:07:00 --> 00:07:05
+Assign Priya Sinha as a <b>student</b> to the <b>Linear Algebra course.</b>
+
+62
+00:07:06 --> 00:07:13
+The video at the following link summarizes the <b>Spoken Tutorial </b>project.
+<p>Please download and watch it.
+</p>
+
+63
+00:07:14 --> 00:07:21
+The <b>Spoken Tutorial</b> team conducts workshops and gives certificates.
+<p>For more details, please write to us.
+</p>
+
+64
+00:07:22 --> 00:07:25
+Please post your timed queries in this forum.
+
+65
+00:07:26 --> 00:07:37
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD,</b> Government of India. More information on this mission is available at the link shown.
+
+66
+00:07:38 --> 00:07:43
+This script has been contributed by Priyanka.
+<p>And this is Nancy Varkey along with the spoken tutorial team, signing off. Thanks for joining.
+</p>
+

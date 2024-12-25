@@ -1,0 +1,6 @@
+Create a Members table that will store information about each member, for example, member name, and phone number.
+
+Include the following three fields. 
+1. MemberId with Fieldtype Integer , and make this the primary key
+2. Name with Fieldtype Text
+3. Phone with Fieldtype Text 

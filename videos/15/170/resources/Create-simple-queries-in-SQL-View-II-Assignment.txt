@@ -1,0 +1,5 @@
+Write and test your SQL queries for the following:
+
+1. Get a count of all the books in the Library. 2. Get a count of books written by each author. 3. Get a list of member names and their phone numbers, who need to return books today
+4. Explain what this query does?
+ SELECT SUM(price) AS "Total Cost of Cambridge Books" FROM Books WHERE publisher = 'Cambridge' 

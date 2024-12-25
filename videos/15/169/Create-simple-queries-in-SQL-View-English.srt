@@ -1,0 +1,346 @@
+<b>Narration</b>
+
+1
+00:00:02 --> 00:00:05
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:06 --> 00:00:08
+In this tutorial, we will learn how to:
+
+3
+00:00:09 --> 00:00:15
+Create simple queries in <b>SQL View</b>, write simple SQL.
+
+4
+00:00:16 --> 00:00:19
+Use <b>SELECT, FROM</b> and <b>WHERE</b> clauses
+
+5
+00:00:20 --> 00:00:26
+And choose upper lower or mixed cases for naming <b>field</b>s and <b>table</b>s .
+
+6
+00:00:27 --> 00:00:34
+Before using <b>Base</b> to create queries in <b>SQL View</b>, let us talk about <b>LibreOffice Base</b>.
+
+7
+00:00:35 --> 00:00:40
+<b>Base</b> runs on the <b>HSQL database engine</b>.
+
+8
+00:00:41 --> 00:01:01
+This is an open source database engine software written in Java. Go to: <a class="external free" href="http://hsqldb.org" rel="nofollow">http://hsqldb.org</a> for more information on HSQLDB.
+
+9
+00:01:02 --> 00:01:05
+Okay, now let us learn about SQL.
+
+10
+00:01:06 --> 00:01:16
+SQL stands for '<b>Structured Query Language'</b>. It is a standard language for accessing and manipulating databases.
+
+11
+00:01:17 --> 00:01:22
+It is an internationally accepted ANSI standard.
+
+12
+00:01:23 --> 00:01:30
+And so, it is used in a variety of 'Database Management Systems' or 'DBMS'.
+
+13
+00:01:31 --> 00:01:46
+Some examples are our own <b>LibreOffice Base, MySQL, Microsoft SQL Server, Microsoft Access, Oracle</b> and <b>DB2</b>.
+
+14
+00:01:47 --> 00:01:57
+The most common use of SQL is to retrieve data from a database which is also known as querying a database.
+
+15
+00:01:58 --> 00:02:08
+SQL can also be used for inserting data into a database, updating data or deleting data from a database.
+
+16
+00:02:09 --> 00:02:15
+And we have done all of these operations using <b>Base</b>, in our previous tutorials,
+
+17
+00:02:16 --> 00:02:21
+by using the very user friendly wizards and designing windows.
+
+18
+00:02:22 --> 00:02:42
+But knowing the underlying query language gives us more flexibility and power to query the database And SQL can also be used not only to modify data but also to modify database and table structures.
+
+19
+00:02:43 --> 00:02:58
+Since our tutorial does not cover all about SQL, here are some useful tutorials and their websites. <pause>.
+
+20
+00:02:59 --> 00:03:13
+HSQLDB has its own user guides. They can be viewed online Or they can be downloaded and saved into your computer as a PDF file.
+
+21
+00:03:14 --> 00:03:22
+Okay, let us learn some SQL now. We will open our familiar <b>Library</b> database example.
+
+22
+00:03:23 --> 00:03:33
+Let’s open our 'Library' database. Now, let us click on the <b>Queries</b> list on the left panel
+
+23
+00:03:34 --> 00:03:45
+and then click on <b>‘Create Query in SQL View’</b>. Now we see a blank window titled <b>Query Design</b>
+
+24
+00:03:46 --> 00:03:50
+and this is where we will type in our queries in SQL.
+
+25
+00:03:51 --> 00:04:01
+Let us write our first simple query. And that is: Get information about all books in the library. Simple..
+
+26
+00:04:02 --> 00:04:09
+Any retrieval needs to use a <b>SELECT</b> keyword. And so, we will write our query as-
+
+27
+00:04:10 --> 00:04:14
+<b>SELECT * FROM Books</b>.
+
+28
+00:04:15 --> 00:04:22
+Here, <b>Books</b> is the table name. Notice the capital 'B' in books.
+
+29
+00:04:23 --> 00:04:28
+We will faithfully follow the table or column names we used earlier.
+
+30
+00:04:29 --> 00:04:38
+And '*' is a <b>wild card</b>. Here, it means- get all the fields or columns from the <b>Books</b> table.
+
+31
+00:04:39 --> 00:04:47
+Now, let us execute or <b>run</b> it. Click on <b>Edit</b> menu and then click on <b>Run Query</b>.
+
+32
+00:04:48 --> 00:04:52
+Now we see a top panel with a list of <b>record</b>s on books.
+
+33
+00:04:53 --> 00:04:59
+We can save this query or any query we write and give them descriptive names.
+
+34
+00:05:00 --> 00:05:05
+So, there is our first simple query! Here are some tips:
+
+35
+00:05:06 --> 00:05:16
+HSQLDB is case sensitive with its Database object names such as tables and column names.
+
+36
+00:05:17 --> 00:05:26
+Meaning- Table name “Books” with a Capital 'B' is not the same as “books” with a small 'b'.
+
+37
+00:05:27 --> 00:05:33
+But, for convenience we can use all upper cases or all lower cases.
+
+38
+00:05:34 --> 00:05:43
+For example: 'BOOKS' in capital letters, or 'members' in small letters etc.
+
+39
+00:05:44 --> 00:05:56
+But, using mixed cases can be easy to read and understand. For example: 'BooksIssued', with a capital 'B' and 'I'.
+
+40
+00:05:57 --> 00:06:02
+Or 'ReturnDate' with a capital 'R' and 'D'.
+
+41
+00:06:03 --> 00:06:10
+So, we have to use the table names and column names just the way they are created.
+
+42
+00:06:11 --> 00:06:24
+For SQL keywords like <b>SELECT</b>, we can use any case or mix cases. But, let us be uniform in our usage for better readability.
+
+43
+00:06:25 --> 00:06:30
+In our examples, we will use all upper cases for keywords.
+
+44
+00:06:31 --> 00:06:41
+Now, onto our next query. We can type this query in a new window or we can overwrite it on the previous query.
+
+45
+00:06:42 --> 00:06:46
+For now, let us overwrite it on the previous query.
+
+46
+00:06:47 --> 00:06:57
+Let us retrieve specific columns from the <b>Books</b> table.
+<p><b>SELECT Title, Author FROM Books</b>.
+</p>
+
+47
+00:06:58 --> 00:07:12
+And <b>run</b> the query. We can also use the <b>Run Query</b> icon below the file menu bar or use the keyboard shortcut <b>F5</b>.
+
+48
+00:07:13 --> 00:07:18
+And there are our records with only those columns that we needed.
+
+49
+00:07:19 --> 00:07:21
+Okay. Let us move on.
+
+50
+00:07:22 --> 00:07:26
+Let us introduce conditions or criteria for our query.
+
+51
+00:07:27 --> 00:07:30
+We will retrieve only those books published by Cambridge.
+
+52
+00:07:31 --> 00:07:45
+And so, our query is: <b>SELECT * FROM Books WHERE Publisher = 'Cambridge'</b>.
+
+53
+00:07:46 --> 00:07:51
+Notice that we have introduced a new keyword <b>WHERE</b>
+
+54
+00:07:52 --> 00:07:58
+followed by a condition where we say 'Publisher' equals 'Cambridge'.
+
+55
+00:07:59 --> 00:08:07
+Let us run our query now and we see only those books for which the publisher is 'Cambridge'.
+
+56
+00:08:08 --> 00:08:13
+And so, we can have any number of conditions or criteria in a query.
+
+57
+00:08:14 --> 00:08:17
+Let us write a query with two conditions.
+
+58
+00:08:18 --> 00:08:28
+Let us retrieve only those books published by Cambridge and only those that were published after the year 1975.
+
+59
+00:08:29 --> 00:08:48
+And our query is: <b>SELECT * FROM Books WHERE Publisher = 'Cambridge' AND PublishedYear > 1975</b>.
+
+60
+00:08:49 --> 00:08:54
+And we see two conditions after the <b>WHERE</b> keyword or clause.
+
+61
+00:08:55 --> 00:09:03
+Notice that they are put together using ‘AND’. Here ‘AND’ is called a <b>logical operator</b>
+
+62
+00:09:04 --> 00:09:12
+and here it serves to combine conditions. <b>‘OR’</b> is another logical operator.
+
+63
+00:09:13 --> 00:09:17
+Explore these by using them in the above query later.
+
+64
+00:09:18 --> 00:09:22
+Let us now <b>run</b> the query and see the results at the top.
+
+65
+00:09:23 --> 00:09:28
+There, these are the books that met our conditions.
+
+66
+00:09:29 --> 00:09:35
+Okay, let us also learn another way to include multiple conditions.
+
+67
+00:09:36 --> 00:09:45
+How can we get a list of only those books for which the publisher is Cambridge or Oxford or both?
+
+68
+00:09:46 --> 00:10:08
+And here is our query: <b>SELECT * FROM Books WHERE Publisher IN ( 'Cambridge', 'Oxford')</b>.
+
+69
+00:10:09 --> 00:10:12
+Notice the new keyword <b>‘IN’</b>.
+
+70
+00:10:13 --> 00:10:20
+It helps to combine conditions based on a single column- in this case, the <b>Publisher</b>.
+
+71
+00:10:21 --> 00:10:24
+And notice the results now.
+
+72
+00:10:25 --> 00:10:26
+Here is an assignment:
+
+73
+00:10:27 --> 00:10:32
+Write and test your SQL queries for the following:
+
+74
+00:10:33 --> 00:10:55
+1. Get information about all the members in the Library.
+<p>2. Get a list of all book titles which are priced more than Rs 150. 
+3. Get a list of books which were written by William Shakespeare or John Milton. 
+</p>
+
+75
+00:10:56 --> 00:11:00
+Let us learn more about SQL in the next tutorial.
+
+76
+00:11:01 --> 00:11:08
+This brings us to the end of this tutorial on <b>Queries in SQL View</b> in <b>LibreOffice Base</b>.
+
+77
+00:11:09 --> 00:11:11
+To summarize, we learned how to:
+
+78
+00:11:12 --> 00:11:16
+Create simple queries in SQL View.
+
+79
+00:11:17 --> 00:11:19
+Write simple SQL
+
+80
+00:11:20 --> 00:11:24
+Use SELECT, FROM , and WHERE clauses
+
+81
+00:11:25 --> 00:11:34
+And choose upper, lower, or mixed cases for naming fields and tables.
+
+82
+00:11:35 --> 00:11:46
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+83
+00:11:47 --> 00:11:54
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. More information on the same is available at the following link.
+
+84
+00:11:55 --> 00:12:00
+This script has been contributed by Priya Suresh, DesiCrew Solutions.
+<p>And this is Soundharya, DesiCrew Solutions, signing off. 
+Thanks for joining.
+</p>
+

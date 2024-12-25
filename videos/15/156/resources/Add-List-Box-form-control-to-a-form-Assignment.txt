@@ -1,0 +1,3 @@
+Add a second list box for listing member names instead of the unfriendly member Ids.
+Do not worry about the placement of the list box now. Just draw it to the left of the Member name label.
+We will relocate it appropriately across the Member Name label in our next tutorial. 

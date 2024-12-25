@@ -1,0 +1,464 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:05
+Welcome to the Spoken Tutorial on <b>Quiz </b>in <b>Moodle.</b>
+
+2
+00:00:06 --> 00:00:15
+In this tutorial, we will learn how to:
+<p>Create a <b>Quiz</b> in <b>Moodle </b>and
+</p><p>Use the questions from the <b>Question bank</b> in the <b>Quiz</b>.
+</p>
+
+3
+00:00:16 --> 00:00:39
+This tutorial is recorded using:
+<p><b>Ubuntu Linux OS 16.04</b>
+</p><p><b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>
+</p><p><b>Moodle 3.3 </b> and
+</p><p><b>Firefox </b>web browser 
+</p><p>You may use any web browser of your choice. 
+</p>
+
+4
+00:00:40 --> 00:00:47
+However, <b>Internet Explorer</b> should be avoided, as it causes some display inconsistencies.
+
+5
+00:00:48 --> 00:00:58
+This tutorial assumes that
+<p>your <b>site administrator</b> has registered you as a <b>teacher</b>
+</p><p>And assigned at least one course to you.
+</p>
+
+6
+00:00:59 --> 00:01:11
+It also assumes that you have added some questions to the <b>question bank</b> for your <b>course</b>.
+<p>If not, please refer to the relevant <b>Moodle</b> tutorials on this website.
+</p>
+
+7
+00:01:12 --> 00:01:17
+Switch to the browser and login to your <b>Moodle site.</b>
+
+8
+00:01:18 --> 00:01:21
+Click on the <b>Calculus course </b>in the left<b> navigation menu.</b>
+
+9
+00:01:22 --> 00:01:28
+Click on the <b>gear icon</b> at the top right, and then on <b>Turn Editing On</b>.
+
+10
+00:01:29 --> 00:01:36
+Click on <b>Add an activity or resource</b> link at the bottom right of the <b>Basic Calculus</b> section.
+
+11
+00:01:37 --> 00:01:41
+Scroll down and select <b>Quiz</b> in the <b>activity chooser</b>.
+
+12
+00:01:42 --> 00:01:46
+Click on the <b>Add </b>button<b> </b>at the bottom of the <b>activity chooser</b>.
+
+13
+00:01:47 --> 00:01:53
+In the <b>Name </b>field, I will type <b>Quiz 1 - Evolutes and involutes.</b>
+
+14
+00:01:54 --> 00:01:59
+Then in the <b>Description field</b>, I will type the text as shown.
+
+15
+00:02:00 --> 00:02:08
+Check the <b>Display description on course page</b> checkbox. After this, we’ll expand the <b>Timing</b> section.
+
+16
+00:02:09 --> 00:02:16
+And enable the check-boxes for <b>Open the quiz</b>, <b>Close the quiz</b> and <b>Time limit</b>.
+
+17
+00:02:17 --> 00:02:24
+This will open and close the quiz on the given dates and for a specific time duration.
+
+18
+00:02:25 --> 00:02:31
+Set the dates and time as per your requirements.  I have set them as displayed here.
+
+19
+00:02:32 --> 00:02:36
+Then I will set the time limit as 10 mins.
+
+20
+00:02:37 --> 00:02:46
+The <b>When time expires field</b> has 3 options. Choose the one which is appropriate for your <b>quiz</b>.
+
+21
+00:02:47 --> 00:03:00
+I will choose <b>Open attempts are submitted automatically</b>. So even if the student fails to submit, the <b>quiz</b> will be automatically submitted after 10 mins.
+
+22
+00:03:01 --> 00:03:04
+Now, let’s expand the <b>Grade</b> section.
+
+23
+00:03:05 --> 00:03:17
+In the <b>Grade to pass field</b>, I will type <b>2</b> as the <b>passing grade</b>. This means the student will need a minimum of 2 marks to pass this <b>quiz</b>.
+
+24
+00:03:18 --> 00:03:31
+In the <b>Attempts allowed</b> field, I will select <b>1</b>. If we choose a higher number, the student will be able to attempt the same quiz, that many times.
+
+25
+00:03:32 --> 00:03:36
+Notice that <b>Grading method</b> dropdown is disabled.
+
+26
+00:03:37 --> 00:03:46
+This is enabled only when more than one attempts are allowed.  The teacher can then select which attempt to grade.
+
+27
+00:03:47 --> 00:03:55
+Now expand the <b>Layout </b>section. Here, there are options to specify the layout of the <b>quiz</b>.
+
+28
+00:03:56 --> 00:04:03
+By default, in the <b>New page field</b> dropdown, <b>Every question </b>option is selected.
+
+29
+00:04:04 --> 00:04:08
+Click on the <b>New page field</b> dropdown to see all the options.
+
+30
+00:04:09 --> 00:04:16
+I will select <b>Every 2 questions </b>option. You can select any option as per your choice.
+
+31
+00:04:17 --> 00:04:21
+Next we will expand the <b>Question behaviour</b> section.
+
+32
+00:04:22 --> 00:04:26
+Choose <b>Yes</b> for <b>Shuffle within questions </b>dropdown.
+
+33
+00:04:27 --> 00:04:32
+On doing so, all the options within each question, will be shuffled.
+
+34
+00:04:33 --> 00:04:39
+So, each student will see a different arrangement of questions and options in their <b>quiz</b>.
+
+35
+00:04:40 --> 00:04:46
+Click on the help icon for <b>How questions behave </b>dropdown and read the details.
+
+36
+00:04:47 --> 00:04:56
+I will let <b>Deferred feedback</b> be the option here. So my students will see the feedback only after their attempt is submitted.
+
+37
+00:04:57 --> 00:05:01
+Next, click on the <b>Overall feedback </b>section to expand it.
+
+38
+00:05:02 --> 00:05:09
+<b>Overall feedback</b> is the text shown to the student after the quiz is submitted and auto-graded.
+
+39
+00:05:10 --> 00:05:16
+Teachers can give different <b>feedback</b> depending on the <b>grade</b> obtained by the student.
+
+40
+00:05:17 --> 00:05:24
+I will type<b> Excellent performance</b> as the <b>feedback</b> for <b>grade boundary 100%.</b>
+
+41
+00:05:25 --> 00:05:32
+Students who score between <b>50%</b> and <b>100%</b> will see the "<b>Excellent performance</b>" message.
+
+42
+00:05:33 --> 00:05:39
+And <b>You need to work harder</b> as the <b>feedback</b> for <b>grade boundary 50%.</b>
+
+43
+00:05:40 --> 00:05:48
+Students who score between <b>0% </b>and <b>49.99%</b> will see "<b>You need to work harder</b>".
+
+44
+00:05:49 --> 00:05:53
+Now, scroll down and click on <b>Activity completion</b> section.
+
+45
+00:05:54 --> 00:06:04
+Click on the dropdown for <b>Completion Tracking field</b>. Select the option <b>Show activity as complete when conditions are met.</b>
+
+46
+00:06:05 --> 00:06:12
+Check the checkboxes for <b>Require grade </b>and <b>Require passing grade</b>.
+
+47
+00:06:13 --> 00:06:19
+Lastly, click on <b>Save and display</b> button at the bottom of the page.
+
+48
+00:06:20 --> 00:06:30
+We are brought to a new page with the <b>quiz</b> title that we gave. Read and verify that all the details given earlier are displayed here.
+
+49
+00:06:31 --> 00:06:37
+Here you can see a message displayed prominently - <b>No questions have been added yet</b>.
+
+50
+00:06:38 --> 00:06:43
+To add questions to the <b>quiz</b>, click on the <b>Edit quiz </b>button.
+
+51
+00:06:44 --> 00:06:49
+On the top right, type the <b>Maximum grade </b>as 4.
+
+52
+00:06:50 --> 00:07:02
+The pencil icon on the left of the <b>quiz</b> section allows us to edit the heading of this <b>quiz</b>.
+<p>It is useful when the <b>quiz</b> has multiple sections.
+</p>
+
+53
+00:07:03 --> 00:07:07
+I will write <b>Section 1</b> and press <b>Enter</b>.
+
+54
+00:07:08 --> 00:07:19
+Then check the <b>Shuffle</b> checkbox on the right. This ensures that the questions are shuffled every time the <b>quiz</b> is attempted.
+
+55
+00:07:20 --> 00:07:24
+Click on the <b>Add</b> link below <b>Shuffle</b> checkbox.
+
+56
+00:07:25 --> 00:07:33
+There are 3 options here:
+<p><b>a new question</b>
+</p><p><b>from question bank</b>
+</p><p><b>a random question</b>
+</p>
+
+57
+00:07:34 --> 00:07:43
+As the name suggests, <b>a new question</b> link enables us to add a new question. So, I will not select this option.
+
+58
+00:07:44 --> 00:07:47
+Click on <b>from question bank</b> link.
+
+59
+00:07:48 --> 00:07:57
+A pop-up window opens. This option is used when you want a fixed set of questions for every student.
+
+60
+00:07:58 --> 00:08:03
+The <b>category</b> selected will be the default <b>category</b> for that <b>course</b>.
+
+61
+00:08:04 --> 00:08:11
+The option <b>Also show questions from subcategories</b> is selected by default.
+
+62
+00:08:12 --> 00:08:18
+<b>Also show old questions</b> shows the questions that have been used in previous <b>quizzes</b>.
+
+63
+00:08:19 --> 00:08:31
+You can select the questions you want to add, as I am doing now. And then click on <b>Add selected questions to the quiz</b> button at the bottom.
+
+64
+00:08:32 --> 00:08:39
+However, I will not do that.I will close this window by clicking on the<b> X </b>icon at the top right.
+
+65
+00:08:40 --> 00:08:50
+Click on the <b>Add</b> link below <b>Shuffle</b> once again. Click on<b> a random question</b> link.
+<p>Another pop-up window open.
+</p>
+
+66
+00:08:51 --> 00:09:02
+With this option, each student will see a different set of questions. And it will be difficult for them to discuss the answers while attempting the <b>quiz</b>.
+
+67
+00:09:03 --> 00:09:10
+Under <b>Random question from an existing category</b>, I will select the <b>category</b> as <b>Evolutes</b>.
+
+68
+00:09:11 --> 00:09:15
+In <b>Number of random questions</b>, I will select 2.
+
+69
+00:09:16 --> 00:09:22
+Then click on <b>Add random question</b> button below this dropdown.
+
+70
+00:09:23 --> 00:09:28
+2 random questions have been added to this <b>quiz</b>, from <b>Evolutes category</b>.
+
+71
+00:09:29 --> 00:09:33
+Once again click on <b>Add</b> link at the bottom right.
+
+72
+00:09:34 --> 00:09:43
+Click on <b>a random question</b> link. Select the <b>category</b> as <b>Involutes</b> and <b>Number of random questions</b> as 2.
+
+73
+00:09:44 --> 00:09:47
+Then click on <b>Add random question</b> button.
+
+74
+00:09:48 --> 00:09:54
+2 more questions have been added to this <b>quiz</b>, both from <b>Involutes</b>.
+
+75
+00:09:55 --> 00:10:06
+Notice that the <b>quiz</b> is automatically divided into 2 pages. This is because we had given this option earlier in the <b>Quiz Settings</b>.
+
+76
+00:10:07 --> 00:10:12
+Click on the add link below the 2nd question, at the extreme right.
+
+77
+00:10:13 --> 00:10:17
+Click on <b>a new section heading</b> link.
+
+78
+00:10:18 --> 00:10:22
+Click on the pencil icon to edit the name of the <b>heading</b>.
+
+79
+00:10:23 --> 00:10:26
+I will type <b>Section 2</b> and press <b>Enter</b>.
+
+80
+00:10:27 --> 00:10:31
+Click on<b> Save button</b> at the top right, to save the <b>quiz</b>.
+
+81
+00:10:32 --> 00:10:42
+There are 2 icons to the right of every <b>quiz</b> question: <b>Preview question</b> and <b>Delete</b>.
+<p>These are self-explanatory.
+</p>
+
+82
+00:10:43 --> 00:10:50
+<b>Delete question</b> will delete this question from the <b>quiz</b>. But the question will still exist in the question bank.
+
+83
+00:10:51 --> 00:10:55
+Click on name of the <b>quiz</b> in the <b>breadcrumbs</b>.
+
+84
+00:10:56 --> 00:11:01
+Click on <b>Preview quiz </b>button in the <b>gear menu</b> at the right.
+
+85
+00:11:02 --> 00:11:13
+This opens up a confirmation window.  This informs the students that the <b>quiz</b> is timed and they have the option to either <b>Start</b> or <b>Cancel</b>.
+
+86
+00:11:14 --> 00:11:17
+I will click on <b>Start attempt</b> button.
+
+87
+00:11:18 --> 00:11:22
+On the right of the screen, is the <b>Quiz navigation block</b>.
+
+88
+00:11:23 --> 00:11:28
+It shows the questions section-wise along with the timer.
+
+89
+00:11:29 --> 00:11:34
+There is an option to edit the question directly from this field, as well.
+
+90
+00:11:35 --> 00:11:39
+Let me click on <b>Finish attempt</b> link in the <b>navigation block</b>.
+
+91
+00:11:40 --> 00:11:44
+The status of every question is shown next to the question name.
+
+92
+00:11:45 --> 00:11:50
+Click on <b>Submit all and finish</b> button at the bottom of the page.
+
+93
+00:11:51 --> 00:11:57
+Click on <b>Submit all and finish</b> button again, in the confirmation pop-up.
+
+94
+00:11:58 --> 00:12:05
+Notice that the <b>grade, overall feedback</b> and question specific<b> feedback</b> are all shown here.
+
+95
+00:12:06 --> 00:12:10
+Scroll down and click on <b>Finish review</b> link.
+
+96
+00:12:11 --> 00:12:14
+We are back to the <b>Quiz summary</b> page.
+
+97
+00:12:15 --> 00:12:27
+Click on the <b>gear icon</b> at the top right of the page. Click on <b>Edit quiz</b> link. You can add or remove questions from the <b>quiz</b>.
+
+98
+00:12:28 --> 00:12:34
+However, this can be done only before the <b>quiz</b> is attempted by any student.
+
+99
+00:12:35 --> 00:12:46
+Even if one student has attempted the <b>quiz</b>, the <b>quiz</b> is locked. Questions can however, be edited or added as required.
+
+100
+00:12:47 --> 00:12:52
+With this, we come to the end of this tutorial. Let us summarize.
+
+101
+00:12:53 --> 00:13:02
+In this tutorial, we have learnt how to:
+<p>Create a <b>Quiz</b> in <b>Moodle</b>
+</p><p>Use the questions from the <b>Question bank</b> in the <b>Quiz</b>.
+</p>
+
+102
+00:13:03 --> 00:13:15
+Here is a small assignment for you.
+<p>Add a new quiz for evolutes
+</p><p>Refer to the <b>Assignment</b> link of this tutorial for details.
+</p>
+
+103
+00:13:16 --> 00:13:24
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+104
+00:13:25 --> 00:13:33
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates. For more details, please write to us.
+
+105
+00:13:34 --> 00:13:37
+Please post your timed queries in this forum.
+
+106
+00:13:38 --> 00:13:51
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India</b>. More information on this mission is available at the link shown.
+
+107
+00:13:52 --> 00:14:02
+This script has been contributed by Priyanka.And this is Nancy Varkey along with the Spoken Tutorial team signing off.
+
+108
+00:14:03 --> 00:14:08
+Thanks for joining.
+

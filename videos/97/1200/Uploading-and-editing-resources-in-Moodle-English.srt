@@ -1,0 +1,533 @@
+<i><b>Narration</b></i>
+
+1
+00:00:01 --> 00:00:07
+Welcome to the Spoken Tutorial on <b>Uploading and Editing Resources </b>in <b>Moodle.</b>
+
+2
+00:00:08 --> 00:00:18
+In this tutorial, we will learn about:
+<p><b>URL resource</b> ,  <b>Book resource </b>and Editing<b> resources</b> in <b>Moodle</b>
+</p>
+
+3
+00:00:19 --> 00:00:24
+This tutorial is recorded using: <b>Ubuntu Linux OS 16.04</b>
+
+4
+00:00:25 --> 00:00:32
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>
+
+5
+00:00:33 --> 00:00:42
+<b>Moodle 3.3 </b> and  <b>Firefox </b>web browser
+<p>You may use any web browser of your choice. 
+</p>
+
+6
+00:00:43 --> 00:00:50
+However, <b>Internet Explorer</b> should be avoided, as it causes some display inconsistencies.
+
+7
+00:00:51 --> 00:01:00
+This tutorial assumes that your <b>site administrator</b> has set up a <b>Moodle website</b>
+<p>and registered you as a <b>teacher.</b>
+</p>
+
+8
+00:01:01 --> 00:01:10
+Learners of this tutorial should have a <b>teacher login</b> on <b>Moodle</b>
+<p>at least one <b>course </b>assigned to them by the <b>administrator</b>
+</p>
+
+9
+00:01:11 --> 00:01:15
+And some course material uploaded for their respective <b>course</b>
+
+10
+00:01:16 --> 00:01:21
+If not, please refer to the relevant <b>Moodle</b> tutorials on this website.
+
+11
+00:01:22 --> 00:01:27
+To practise this tutorial, you will need to add a student to your course.
+
+12
+00:01:28 --> 00:01:34
+To know how to add a student, please refer to the tutorial <b>Users in Moodle</b>.
+
+13
+00:01:35 --> 00:01:40
+I have already added a student, <b>Priya Sinha</b>, to my course.
+
+14
+00:01:41 --> 00:01:47
+Switch to the browser and login to your <b>moodle site </b>as a <b>teacher.</b>
+
+15
+00:01:48 --> 00:01:52
+Click on the <b>Calculus course </b>in the left<b> navigation menu.</b>
+
+16
+00:01:53 --> 00:01:59
+We had added a <b>page resource</b> and a <b>folder resource</b> earlier in the series.
+
+17
+00:02:00 --> 00:02:10
+We will now add some additional <b>course material. </b>
+<p>Click on the <b>gear icon </b>at the top right and then click on<b> Turn Editing On.</b>
+</p>
+
+18
+00:02:11 --> 00:02:18
+Click on <b>Add an activity or resource</b> link at the bottom right of the <b>Basic Calculus section. </b>
+
+19
+00:02:19 --> 00:02:25
+A pop-up opens with a list of <b>resources</b>.
+<p>It is called activity chooser. 
+</p>
+
+20
+00:02:26 --> 00:02:36
+Scroll down and select <b>URL</b> from the list.
+<p>Detailed description about the <b>resource</b> is seen on the right side. 
+</p>
+
+21
+00:02:37 --> 00:02:42
+With a <b>URL resource</b>, one can add links to <b>online resources</b>.
+
+22
+00:02:43 --> 00:02:51
+These could be <b>documents, online videos, wiki pages, open educational resources,</b> etc.
+
+23
+00:02:52 --> 00:02:56
+Click on the <b>Add button </b>at the bottom of the activity chooser.
+
+24
+00:02:57 --> 00:03:02
+In the <b>Name </b>field, I will type <b>Evolutes of basic curves</b>.
+
+25
+00:03:03 --> 00:03:09
+Then in the <b>External URL </b>textbox, type the <b>URL </b>mentioned here.
+
+26
+00:03:10 --> 00:03:16
+<b>Description</b> text area is an optional <b>field</b>.
+<p>I will type the text as shown here. 
+</p>
+
+27
+00:03:17 --> 00:03:23
+Click on <b>Display description on course page </b>checkbox below this text area.
+
+28
+00:03:24 --> 00:03:28
+Now click on <b>Appearance </b>to expand the section.
+
+29
+00:03:29 --> 00:03:34
+The <b>Display</b> option here, is to decide how the video will be displayed.
+
+30
+00:03:35 --> 00:03:44
+There are 4 options in the dropdown.
+<p><b>Automatic</b> option selects the best option based on <b>browser settings </b>and <b>screen resolution</b>. 
+</p>
+
+31
+00:03:45 --> 00:03:54
+<b>Embed</b> opens the video inside the <b>course</b> itself.
+<p><b>Open</b> redirects the user to the <b>URL</b> within the same window. 
+</p>
+
+32
+00:03:55 --> 00:03:59
+<b>In pop-up</b> opens the video in a new pop-up window.
+
+33
+00:04:00 --> 00:04:11
+When you select <b>In pop-up</b>, the <b>Pop-up width</b> and <b>Pop-up height</b> options, get enabled.
+<p>You can modify the values as per your preference. 
+</p>
+
+34
+00:04:12 --> 00:04:16
+I will select <b>Embed</b> as the <b>Display</b> option.
+
+35
+00:04:17 --> 00:04:23
+Scroll down to <b>Activity completion section</b> and click on it to expand it.
+
+36
+00:04:24 --> 00:04:31
+This <b>section</b> helps the teacher decide if she wants to track the completion of an activity.
+
+37
+00:04:32 --> 00:04:40
+There are 3 options under <b>Completion tracking</b>.
+<p>Depending on the <b>resource</b>, you can decide the tracking mechanism. 
+</p>
+
+38
+00:04:41 --> 00:04:50
+Let me select the 3rd option here. And click on <b>Student must view this activity to complete it</b> checkbox.
+
+39
+00:04:51 --> 00:04:57
+Scroll down and click on <b>Save and return to course </b>button, at the bottom.
+
+40
+00:04:58 --> 00:05:04
+A checkmark next to the activity name, indicates when the activity is complete.
+
+41
+00:05:05 --> 00:05:15
+Let us now create a <b>book resource</b>. As the name suggests it will have multiple pages, chapters and subchapters
+
+42
+00:05:16 --> 00:05:19
+It can have multimedia content as well
+
+43
+00:05:20 --> 00:05:22
+Go back to the <b>browser</b> window now.
+
+44
+00:05:23 --> 00:05:29
+Click on <b>Add an activity or resource</b> link at the bottom right of the <b>Basic Calculus section. </b>
+
+45
+00:05:30 --> 00:05:33
+Scroll down and select <b>Book</b> from the list of <b>Resources</b>.
+
+46
+00:05:34 --> 00:05:38
+Click on <b>Add </b>button at the bottom of the activity chooser.
+
+47
+00:05:39 --> 00:05:44
+In the <b>Name</b> field, type<b> Iterating evolutes and involutes</b>
+
+48
+00:05:45 --> 00:05:47
+Type the description as shown here.
+
+49
+00:05:48 --> 00:05:50
+Click on <b>Appearance</b> to expand the section.
+
+50
+00:05:51 --> 00:05:58
+The first option is <b>Chapter formatting</b>.
+<p>This decides how we see the chapters and subchapters. 
+</p>
+
+51
+00:05:59 --> 00:06:07
+The options are self-explanatory. You can click on the <b>Help icon </b>before the dropdown to read the explanations.
+
+52
+00:06:08 --> 00:06:10
+I will let it be <b>Numbers.</b>
+
+53
+00:06:11 --> 00:06:18
+The next option is <b>Style of navigation</b>. This decides how we show the previous and next <b>links</b>.
+
+54
+00:06:19 --> 00:06:22
+<b>TOC</b> is the <b>Table of Contents</b>.
+
+55
+00:06:23 --> 00:06:28
+If we select <b>Images</b>, previous and next will be shown as arrows.
+
+56
+00:06:29 --> 00:06:33
+<b>Text</b> will show previous and next chapters in the navigation.
+
+57
+00:06:34 --> 00:06:39
+We also have the option of providing a custom <b>title</b> to every chapter navigation.
+
+58
+00:06:40 --> 00:06:44
+This will then override the chapter name being shown as text.
+
+59
+00:06:45 --> 00:06:48
+I will select <b>Text</b> as the <b>Style of navigation</b>.
+
+60
+00:06:49 --> 00:06:58
+Next, click on <b>Restrict Access </b>section to expand it.
+<p>This helps us decide who has access to this <b>resource</b>. 
+</p>
+
+61
+00:06:59 --> 00:07:07
+By default, there is no restriction. It means anyone who is enrolled in this <b>course,</b> will be able to see this book.
+
+62
+00:07:08 --> 00:07:11
+Let me click on the <b>Add restriction</b> button.
+
+63
+00:07:12 --> 00:07:20
+There are some options here. You can read the explanation of each one and decide which restriction to select.
+
+64
+00:07:21 --> 00:07:26
+We’ll put an activity completion condition for the <b>URL resource</b> we created earlier.
+
+65
+00:07:27 --> 00:07:32
+Let us restrict access to this book till a student marks that as complete.
+
+66
+00:07:33 --> 00:07:41
+Click on<b> Activity completion</b>. Depending on the option we choose for restriction, the fields here will be different.
+
+67
+00:07:42 --> 00:07:53
+Choose <b>Evolutes of basic curve</b> in the <b>Activity completion</b> dropdown.
+<p>Then select <b>Must be marked complete</b> as the condition. 
+</p>
+
+68
+00:07:54 --> 00:07:59
+Scroll down and click on <b>Save and display</b> button at the bottom of the page.
+
+69
+00:08:00 --> 00:08:04
+We can now add chapters and subchapters to this book.
+
+70
+00:08:05 --> 00:08:08
+Type the <b>Chapter title </b>as <b>Introduction</b>.
+
+71
+00:08:09 --> 00:08:18
+Type the <b>Content </b>as <b>Introduction to evolutes and involutes</b>.
+<p>You can copy and paste your lecture note, if any. 
+</p>
+
+72
+00:08:19 --> 00:08:23
+Click on <b>Save changes</b> button at the bottom of the page.
+
+73
+00:08:24 --> 00:08:31
+You can now see this chapter in the middle of the <b>page</b>.
+<p>And there is a <b>table of contents</b> on the right side. 
+</p>
+
+74
+00:08:32 --> 00:08:37
+Clicking on <b>Exit Book</b> link, will take us back to the <b>Calculus course</b>.
+
+75
+00:08:38 --> 00:08:45
+Notice there are 4 <b>icons</b> on the right in the<b> Table of Contents</b> block, below the <b>Introduction</b> chapter.
+
+76
+00:08:46 --> 00:08:54
+<b>Edit</b>, <b>Delete</b>, <b>Hide </b>and <b>Add new chapter</b>.
+
+77
+00:08:55 --> 00:09:06
+Let me add a subchapter now. Click on the <b>plus icon </b>indicating <b>Add new chapter</b>.
+<p>Subchapters are created just like chapters. 
+</p>
+
+78
+00:09:07 --> 00:09:14
+They have an extra checkbox to indicate that they are subchapters.
+<p>Click on this checkbox. 
+</p>
+
+79
+00:09:15 --> 00:09:23
+Type <b>Chapter title</b> as <b>Classical evolutes and involutes</b>.
+<p>Copy and paste the content as shown here. 
+</p>
+
+80
+00:09:24 --> 00:09:30
+You will find the content for this <b> Book-IteratingEvolutesAndInvolutes.odt</b> in the <b>Code files</b> of this tutorial.
+
+81
+00:09:31 --> 00:09:36
+Click on <b>Save changes</b> button at the bottom of the page.
+
+82
+00:09:37 --> 00:09:43
+You can now see the subchapter. Also notice the navigation for the previous chapter.
+
+83
+00:09:44 --> 00:09:48
+Notice that there is an extra <b>icon</b> next to the <b>icons</b> on the right.
+
+84
+00:09:49 --> 00:09:53
+The up and down arrows are to reorder the chapters.
+
+85
+00:09:54 --> 00:10:00
+Let us see what happens when we move this subchapter up.
+<p>Click on the <b>Up</b> arrow. 
+</p>
+
+86
+00:10:01 --> 00:10:07
+Notice that <b>Introduction</b> now becomes the 2nd chapter instead of a subchapter.
+
+87
+00:10:08 --> 00:10:10
+Move it back as first chapter again.
+
+88
+00:10:11 --> 00:10:20
+How do we make <b>Classical evolutes and involutes</b> as a subchapter again?
+<p>Click on the <b>gear icon</b> below the title to edit it. 
+</p>
+
+89
+00:10:21 --> 00:10:25
+Now click on the <b>Subchapter </b>checkbox to make it a subchapter.
+
+90
+00:10:26 --> 00:10:29
+Scroll down and click on <b>Save changes </b>button.
+
+91
+00:10:30 --> 00:10:33
+Let us go back to the <b>Calculus</b> course again.
+
+92
+00:10:34 --> 00:10:39
+We now have the below resources for the topic<b> Basic Calculus</b>
+
+93
+00:10:40 --> 00:10:44
+We can reorder these <b>resources</b> by dragging them.
+
+94
+00:10:45 --> 00:10:51
+Let me drag <b>Evolutes of Basic curves URL</b> resource, above the other two.
+
+95
+00:10:52 --> 00:10:57
+There is an <b>Edit</b> link to the right of every <b>resource</b>. Click on it.
+
+96
+00:10:58 --> 00:11:08
+There are settings to <b>edit</b>, <b>hide</b>, <b>duplicate</b> and <b>delete</b> the <b>resource</b>.
+<p>These are self-explanatory. 
+</p>
+
+97
+00:11:09 --> 00:11:13
+There are 2 other options: <b>Move right </b>and <b>Assign roles</b>.
+
+98
+00:11:14 --> 00:11:20
+Click on <b>Move right</b>.
+<p>This will give a little indentation to the <b>resource</b>. 
+</p>
+
+99
+00:11:21 --> 00:11:27
+This is helpful for visual representation of a <b>resource </b>which is a part of another <b>resource</b>.
+
+100
+00:11:28 --> 00:11:33
+I will click on <b>Move left </b>to bring this <b>resource</b> back to its original position.
+
+101
+00:11:34 --> 00:11:37
+We can now logout of <b>Moodle.</b>
+
+102
+00:11:38 --> 00:11:40
+Let me login as student <b>Priya Sinha</b> now.
+
+103
+00:11:41 --> 00:11:45
+This is how student <b>Priya Sinha</b> will view this page.
+
+104
+00:11:46 --> 00:11:50
+Notice that the <b>completion</b> boxes are not ticked the first time.
+
+105
+00:11:51 --> 00:11:55
+She will need to view this <b>URL</b> to mark this <b>resource</b> as complete.
+
+106
+00:11:56 --> 00:12:01
+And the <b>book resource</b> is not clickable till the <b>URL resource</b> is marked complete.
+
+107
+00:12:02 --> 00:12:06
+Let me click on <b>Evolutes of basic curves resource</b>.
+
+108
+00:12:07 --> 00:12:16
+Now click on <b>Calculus</b> link in the <b>breadcrumb</b>.
+<p>The <b>resource</b> is now marked complete and the book is available to the student. 
+</p>
+
+109
+00:12:17 --> 00:12:22
+With this, we come to the end of this tutorial.
+<p>Let us summarize. 
+</p>
+
+110
+00:12:23 --> 00:12:33
+In this tutorial, we learnt about:  <b>URL resource</b> ,  <b>Book resource </b>and Editing<b> resources</b> in <b>Moodle</b>
+
+111
+00:12:34 --> 00:12:41
+Here is a small assignment for you.
+<p>Add more chapters and subchapters in the book we created earlier. 
+</p>
+
+112
+00:12:42 --> 00:12:49
+Reorder them as directed.
+<p>Refer to the <b>Assignment</b> link of this tutorial for details. 
+</p>
+
+113
+00:12:50 --> 00:12:58
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project.
+<p>Please download and watch it. 
+</p>
+
+114
+00:12:59 --> 00:13:08
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates.
+<p>For more details, please write to us. 
+</p>
+
+115
+00:13:09 --> 00:13:13
+Please post your timed queries in this forum.
+
+116
+00:13:14 --> 00:13:25
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India</b>. More information on this mission is available at the link shown.
+
+117
+00:13:26 --> 00:13:31
+This script has been contributed by Nancy and Priyanka.
+<p>And this is Nancy Varkey along with the Spoken Tutorial team signing off. 
+</p><p>Thanks for joining. 
+</p>
+

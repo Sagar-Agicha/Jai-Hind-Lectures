@@ -1,0 +1,447 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the <b>Spoken Tutorial</b> on <b>Teacher’s dashboard in Moodle.</b>
+
+2
+00:00:07 --> 00:00:13
+In this tutorial, we will learn about a typical <b>Moodle course</b> overview.
+
+3
+00:00:14 --> 00:00:24
+Then we will learn about:
+<p>the <b>teachers’ dashboard </b>,
+</p><p>how to edit<b> profile </b>and
+</p><p>how to edit <b>preferences</b>.
+</p>
+
+4
+00:00:25 --> 00:00:32
+Lastly, we will learn to add some preliminary details pertaining to our <b>course </b>on <b>Moodle.</b>
+
+5
+00:00:33 --> 00:00:58
+This tutorial is recorded using:
+<p><b>Ubuntu Linux OS 16.04</b>,
+</p><p><b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>,
+</p><p><b>Moodle 3.3 </b> and
+</p><p><b>Firefox </b>web browser. 
+</p><p>You may use any web browser of your choice. 
+</p>
+
+6
+00:00:59 --> 00:01:06
+However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+
+7
+00:01:07 --> 00:01:25
+This tutorial assumes that your <b>site administrator</b> has set up a <b>Moodle website</b> and assigned you to a new, blank <b>course</b> where you have <b>teacher</b> privileges.
+<p>My <b>system administrator </b>has already done the following.
+</p>
+
+8
+00:01:26 --> 00:01:33
+Please note:
+<p><b>Teacher</b> role has been assigned to<b> user</b> “Rebecca Raymond” for the<b> course “Calculus”.</b>
+</p>
+
+9
+00:01:34 --> 00:01:40
+Ask your <b>site administrator </b>to refer to the <b>Moodle</b> tutorials on this website.
+
+10
+00:01:41 --> 00:01:47
+And, create a <b>user </b>for you, who has <b>teacher</b> privileges for at least one <b>course</b>.
+
+11
+00:01:48 --> 00:01:55
+<b>Moodle </b>is one of the most flexible, creative and easy-to-use teaching and learning system.
+
+12
+00:01:56 --> 00:02:11
+Typically, <b>Moodle</b> can be used by teachers to -
+<p>upload their teaching-learning resources, 
+</p><p>manage their collection of multimedia e-resources like files, videos etc.,
+</p>
+
+13
+00:02:12 --> 00:02:21
+share web resources and open educational resources,
+<p>embed <b>YouTube / Vimeo</b> videos,
+</p>
+
+14
+00:02:22 --> 00:02:33
+administer <b>quizzes</b> and <b>assignments</b>,
+<p>encourage the use of collaborative content like <b>Wiki, Glossary</b> etc.
+</p>
+
+15
+00:02:34 --> 00:02:43
+interact and communicate with students synchronously and asynchronously and  track students' learning progress.
+
+16
+00:02:44 --> 00:02:49
+I have with me, the <b>course overview</b> of my <b>Calculus course</b>.
+
+17
+00:02:50 --> 00:03:00
+I have-
+<p>the <b>topics</b> that will be covered, 
+</p><p>number of <b>lectures</b> per week,
+</p><p>total number of <b>assignments</b> for the course,
+</p>
+
+18
+00:03:01 --> 00:03:17
+total number of <b>quizzes</b> (weekly or fortnightly),
+<p>total number of <b>end of course exams</b>,
+</p><p>marks distribution,
+</p><p>course materials,
+</p><p>book references.
+</p>
+
+19
+00:03:18 --> 00:03:24
+I have to structure my <b>course </b>and upload all the materials accordingly on <b>Moodle</b>.
+
+20
+00:03:25 --> 00:03:29
+Switch to the browser and open the <b>Moodle site.</b>
+
+21
+00:03:30 --> 00:03:34
+A page with a <b>header</b> and <b>Available courses </b>will be displayed.
+
+22
+00:03:35 --> 00:03:39
+Click on the <b>Login</b> link at the top right corner of the window.
+
+23
+00:03:40 --> 00:03:43
+I will login as <b>teacher</b> Rebecca Raymond.
+
+24
+00:03:44 --> 00:03:56
+We are on a page that prompts us to change our <b>password</b>. This is because the <b>Force password change </b>option was activated by the <b>admin </b>earlier.
+
+25
+00:03:57 --> 00:04:06
+Type the <b>current password </b>followed by the <b>new password</b>. I will type <b>Spokentutorial12 #</b>.
+
+26
+00:04:07 --> 00:04:14
+Re-type the <b>New password.</b> And then, click on <b>Save changes </b>button at the bottom.
+
+27
+00:04:15 --> 00:04:23
+A success message appears confirming that the <b>password</b> has been changed. Click on the <b>Continue</b> button.
+
+28
+00:04:24 --> 00:04:28
+The page that we are in now, is called the <b>dashboard</b>.
+
+29
+00:04:29 --> 00:04:33
+Our <b>dashboard</b> is divided into 3 <b>columns</b>.
+
+30
+00:04:34 --> 00:04:46
+The one on the left is the <b>Navigation</b> menu. The wider one in the middle, is the main <b>Course overview </b>area with '<b>Timeline'</b> and '<b>Courses'</b> tabs.
+
+31
+00:04:47 --> 00:04:50
+The one on the right is the <b>Blocks column</b>.
+
+32
+00:04:51 --> 00:05:01
+<b>Courses</b> tab lists the courses you are enrolled in. Click on the <b>Courses</b> tab in the <b>Course overview </b>area.
+
+33
+00:05:02 --> 00:05:16
+In the <b>In Progress </b>tab, we see 2 <b>courses</b> here: <b>Calculus</b> and <b>Linear Algebra.</b> These are the <b>courses</b> assigned to <b>teacher</b> Rebecca Raymond by the <b>admin</b>.
+
+34
+00:05:17 --> 00:05:29
+Future <b>courses </b>assigned to her, will be visible in the <b>Future</b> tab. Likewise, any of her <b>courses</b> that are over, will be seen under the <b>Past </b>tab.
+
+35
+00:05:30 --> 00:05:40
+Let us now look at the <b>header</b> of the <b>page</b>. On the top left corner, we can see <b>Navigation Drawer </b>or<b> Navigation menu.</b>
+
+36
+00:05:41 --> 00:05:47
+This gives access to the <b>Calendar, Private Files </b>and<b> My courses </b>links.
+
+37
+00:05:48 --> 00:05:57
+This is a <b>toggle</b> menu which means it changes its <b>status </b>from <b>open </b>to <b>close </b>and vice-versa, when clicked.
+
+38
+00:05:58 --> 00:06:05
+At the top right, there are quick access icons for <b>notifications</b> and <b>messages</b>.
+
+39
+00:06:06 --> 00:06:17
+Clicking on the <b>profile picture</b> at the top right, will enable us to access the <b>user menu</b>. It is also called as the <b>quick access user menu</b>.
+
+40
+00:06:18 --> 00:06:27
+Click on it. All these <b>menu items</b> are also <b> toggle menus</b>, similar to the one on the left.
+
+41
+00:06:28 --> 00:06:35
+Click on the <b>Profile</b> option. Every <b>user</b> in <b>Moodle</b> has a <b>profile page</b>.
+
+42
+00:06:36 --> 00:06:45
+It has links to allow <b>users</b> to edit their <b>profile</b> information,  see the <b>courses</b> they are enrolled in,
+
+43
+00:06:46 --> 00:07:00
+view their <b>blog </b>or <b>forum</b> <b>posts</b>,  check any <b>reports</b> they have access to and view their <b>access logs</b> that was used to login the last time.
+
+44
+00:07:01 --> 00:07:05
+Now, let’s click on the <b>Edit Profile</b> link.
+
+45
+00:07:06 --> 00:07:23
+The <b>Edit Profile</b> page opens up.
+<p>This page is divided into 5 sections:
+</p><p><b>General</b>,
+</p><p><b>User Picture</b>,
+</p><p><b>Additional Names</b>,
+</p><p><b>Interests</b>,
+</p><p><b>Optional</b>.
+</p>
+
+46
+00:07:24 --> 00:07:29
+The <b>General </b>and <b>User picture</b> sections are expanded, by default.
+
+47
+00:07:30 --> 00:07:35
+The <b>‘Expand all’ </b>link on the right, expands all the sections.
+
+48
+00:07:36 --> 00:07:41
+And clicking on any section name either expands or collapses it.
+
+49
+00:07:42 --> 00:07:44
+All <b>fields </b>here are editable.
+
+50
+00:07:45 --> 00:07:51
+You can enter your personal details in <b>General section</b>, as I have done now.
+
+51
+00:07:52 --> 00:07:57
+As a <b>teacher</b>, I’d like my students to know a little bit about me.
+
+52
+00:07:58 --> 00:08:03
+So, here in the <b>Description</b> field, I will fill out some details.
+
+53
+00:08:04 --> 00:08:09
+Pause the tutorial and fill out your details as I have done here.
+
+54
+00:08:10 --> 00:08:18
+You can also add some information in the other fields and sections. You can upload your picture as well.
+
+55
+00:08:19 --> 00:08:24
+I have added a few more details in <b>General</b> and <b>Optional</b> sections.
+
+56
+00:08:25 --> 00:08:29
+Then click on <b>Update Profile </b>button and <b>save</b> the page.
+
+57
+00:08:30 --> 00:08:39
+Now, click on the <b>quick access user menu</b> at the top right again. And, click on the <b>Preferences</b> link.
+
+58
+00:08:40 --> 00:08:47
+The <b>Preferences</b> page gives <b>users </b>quick access to various settings they may wish to <b>edit</b>.
+
+59
+00:08:48 --> 00:08:59
+<b>Preferences</b> page, for a <b>teacher’s account </b>, is divided into :
+<p><b>User account</b>, <b>Blogs </b>and  <b>Badges. </b>
+</p>
+
+60
+00:09:00 --> 00:09:05
+We have already seen <b>Edit Profile</b> and <b>Change Password</b> earlier.
+
+61
+00:09:06 --> 00:09:18
+There are some other <b>preferences </b>for
+<p><b>Language</b>,
+</p><p><b>Forum</b>, 
+</p><p><b>Editor</b>, 
+</p><p><b>Course</b>,
+</p><p><b>Calendar</b>, 
+</p><p><b>Message</b>, 
+</p><p><b>Notification</b>.
+</p>
+
+62
+00:09:19 --> 00:09:22
+Let’s click on the <b>Calendar preferences</b>.
+
+63
+00:09:23 --> 00:09:28
+We will set the <b>calendar</b> to display time in <b>24- hour</b> format.
+
+64
+00:09:29 --> 00:09:34
+Also, we will set the <b>Upcoming events look-ahead</b> to <b>2 weeks</b>.
+
+65
+00:09:35 --> 00:09:42
+This means, we’ll see notifications for all events happening in the next 2 weeks, on the calendar.
+
+66
+00:09:43 --> 00:09:45
+Click on the <b>Save Changes</b> button.
+
+67
+00:09:46 --> 00:09:53
+We will go through the rest of the <b>preferences</b> when we discuss those features later in this series.
+
+68
+00:09:54 --> 00:09:56
+Notice the information here.
+
+69
+00:09:57 --> 00:10:08
+This is the <b>breadcrumb navigation.</b> It’s a visual aid that indicates which page we are on, within the <b>Moodle site’s</b> hierarchy.
+
+70
+00:10:09 --> 00:10:14
+It helps us to go back to a higher-level page with a single click.
+
+71
+00:10:15 --> 00:10:20
+Click on the <b>Dashboard </b>link in the <b>breadcrumbs,</b> to go to the <b>dashboard.</b>
+
+72
+00:10:21 --> 00:10:27
+Now, let us see how to add a topic and brief summary for the <b>Calculus</b> course.
+
+73
+00:10:28 --> 00:10:33
+Let’s click on the <b>Calculus</b> course in the<b> Navigation menu </b>at the left.
+
+74
+00:10:34 --> 00:10:39
+On the new page, click on the <b>gear </b>icon at the top right.
+
+75
+00:10:40 --> 00:10:44
+Then click on <b>Turn editing on </b>option.
+
+76
+00:10:45 --> 00:10:49
+The page now displays more <b>edit</b> options.
+
+77
+00:10:50 --> 00:10:54
+Click on the <b>pencil</b> icon next to <b>Topic 1</b>.
+
+78
+00:10:55 --> 00:11:02
+Now, in the text box that appears, type: <b>Basic Calculus</b>. Press <b>Enter.</b>
+
+79
+00:11:03 --> 00:11:05
+Notice the change of topic name.
+
+80
+00:11:06 --> 00:11:10
+Now, click on the <b>Edit</b> link at the extreme right of that topic.
+
+81
+00:11:11 --> 00:11:14
+And then click on <b>Edit topic </b>option.
+
+82
+00:11:15 --> 00:11:17
+This brings us to the <b>Summary</b> page.
+
+83
+00:11:18 --> 00:11:26
+Here, in the <b>Summary</b> field, we can give a brief summary of the topic. I will type as shown.
+
+84
+00:11:27 --> 00:11:31
+Scroll down and click on the <b>Save Changes </b>button.
+
+85
+00:11:32 --> 00:11:33
+Observe the change.
+
+86
+00:11:34 --> 00:11:39
+This is how we begin to add details of our <b>course </b>in <b>Moodle</b>.
+
+87
+00:11:40 --> 00:11:49
+We will now logout of <b>Moodle</b>. To do so, click on the <b>user</b> icon at the top right. Now choose <b>Log out </b>option.
+
+88
+00:11:50 --> 00:11:55
+With this, we come to the end of this tutorial. Let us summarize.
+
+89
+00:11:56 --> 00:12:04
+In this tutorial, we learnt about:
+<p><b>Course overview</b> details,
+</p><p>the <b>teachers’ dashboard </b>,
+</p>
+
+90
+00:12:05 --> 00:12:15
+<b>Edit profile </b>settings,
+<p><b>Preferences </b>settings and
+</p><p>adding preliminary details of the <b>course </b>in <b>Moodle</b>.
+</p>
+
+91
+00:12:16 --> 00:12:30
+As an assignment-
+<p>change the names of all topics in <b>Calculus</b> course.
+</p><p>Add respective summaries to all topics.
+</p><p>Refer to the <b>Assignment</b> link of this tutorial for details.
+</p>
+
+92
+00:12:31 --> 00:12:38
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+93
+00:12:39 --> 00:12:48
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates. For more details, please write to us.
+
+94
+00:12:49 --> 00:12:52
+Please post your timed queries in this forum.
+
+95
+00:12:53 --> 00:13:05
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD,</b> Government of India. More information on this mission is available at the link shown.
+
+96
+00:13:06 --> 00:13:16
+This script has been contributed by Nancy and Priyanka. And this is Nancy Varkey along with the Spoken Tutorial, team signing off.
+
+97
+00:13:17 --> 00:13:22
+Thanks for joining.
+

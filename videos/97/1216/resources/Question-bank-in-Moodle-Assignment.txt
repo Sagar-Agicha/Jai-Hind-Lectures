@@ -1,0 +1,146 @@
+Question Type: True/False
+Category: Evolutes
+Question Name: True-False question
+Question text: The evolute of the involute of a circle is the circle itself.
+Default mark: 1
+General Feedback: In the involute of a circle, the normal NM at any point N is tangent to the circle at the point of contact M. M is the centre of curvature at the point N. Hence, the evolute of the involute is the circle itself.
+Correct Answer: True
+
+----------------------------------------------------------------
+
+Question Type: Multiple choice
+Category: Involutes
+Question Name: MCQ - Involutes
+Question text: 
+Steps are given to determine the centre of curvature at a given point on an Ellipse. Arrange the steps. Let P be the given point on the conic and F and F1 are the foci.
+i. Produce F1G to H so that GH = VF. Join H with F.
+ii. Then O is the required centre of curvature.
+iii. Draw a line GO parallel to HF and intersecting the axis at O.
+iv. Draw a line F1G inclines to the axis and equal to VF1.
+
+Default mark: 1
+General feedback: First we just took the arbitrary line passing through one of the foci and then extended up to the length from that focus to opposite vertex and then extended further up to length of distance between vertex and respective focus. Drawing parallel lines on to the focus gave us O.
+One or multiple answers? One answer only.
+Shuffle the choices? Checked
+
+Choice 1:  i, iv, ii, iii
+Grade: None
+
+Choice 2:  iv, i, iii, ii
+Grade: 100%
+
+Choice 3:  iii, i, iv, ii
+Grade: None
+
+Choice 4:  ii, iv, i, iii
+Grade: None
+
+Individual feedbacks not required for the choices.
+
+Penalty for each incorrect try : 0%
+------------------------------------------------------------
+
+Question Type: Matching
+Category: Evolutes
+Question Name: Matching
+Question text: Match the curves on the left with their evolutes on the right.
+Default mark: 1
+General feedback: Leave blank
+Shuffle the choices? Checked
+
+Question 1: parabola
+Answer:semicubic parabola
+
+Question 2: ellipse
+Answer:non symmetric astroid 
+
+Question 3: circle
+Answer:its midpoint
+
+Click on "Blanks for 3 more questions" to add more questions
+
+Question 4: tractrix
+Answer:catenary
+
+Question 5: Leave it blank
+Answer: logarithmic spiral
+
+Penalty for each incorrect try : 0%
+------------------------------------------------------------------
+
+Question Type: Short answer
+Category: Involutes
+Question Name: Short answer - Involutes
+Question text: The difference between two consecutive crest/root of a screw is called
+Default mark: 1
+General feedback: Mean diameter is the average of maximum diameter and the minimum diameter which is caused by the crest and root of screws, bolts etc. revolution is the one complete turn of helix around its own axis.
+Case sensitivity: No, case is unimportant
+
+Answer 1: Helix
+Grade: None
+
+Answer 2: Mean diameter
+Grade: 100%
+
+Answer 3: Pitch
+Grade: None
+
+Answer 4: Revolution
+Grade: None
+
+Penalty for each incorrect try :0%
+
+------------------------------------------------------------------
+
+
+Question Type: Multiple choice
+Category: Involutes
+Question Name: MCQ2 - Involutes
+Question text: 
+Steps are given to determine the centre of curvature at a given point on a hyperbola. Arrange the steps. Let P be the given point on the conic, V is vertex and F and F1 are the foci.
+i. Draw a line GO parallel to HF and cutting the axis at O.
+ii. Draw a line F1G inclined to the axis and equal to FV1.
+iii. Then O is the centre of curvature at the vertex V.
+iv. On F1G, mark a point H such that HG = VF. Join H with F.
+
+Default mark: 1
+General feedback: First we just took the arbitrary line passing through one of the foci and then extended up to the length from that focus to opposite vertex and then extended further up to length of distance between vertex and respective focus. Drawing parallel lines on to the focus gave us O.
+One or multiple answers? One answer only.
+Choice 1:  i, iv, ii, iii
+Grade: None
+
+Choice 2:  iv, i, iii, ii
+Grade: None
+
+Choice 3:  iii, i, iv, ii
+Grade: None
+
+Choice 4:  ii, iv, i, iii
+Grade: 100%
+
+Penalty for each incorrect try : 0%
+
+------------------------------------------------------------------
+
+
+Question Type: Short answer
+Category: Involutes
+Question Name: Short answer2 - Involutes
+Question text: Helix angle can be expressed as tan(theta) =
+Default mark: 1
+General feedback: The helix is seen as a straight line and is the hypotenuse of a right-angled triangle having base equal to the circumference of the circle and the vertical side equal to the pitch of the helix. The angle 0 (theta) which it makes with the base, is called the helix angle.
+Case sensitivity: No, case is unimportant
+
+Answer 1: Pitch/circumference of the circle
+Grade: 100%
+
+Answer 2: circumference of the circle/pitch
+Grade: None
+
+Answer 3: Pitch/mean diameter
+Grade: None
+
+Answer 4: outer diameter/inner diameter
+Grade: None
+
+Penalty for each incorrect try : 0%

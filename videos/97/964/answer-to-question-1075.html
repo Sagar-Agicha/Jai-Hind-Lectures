@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>
+	 
+      Spoken Tutorial Forums
+      
+</title>
+        <link rel="stylesheet" href="../../../includes/css/bootstrap_forum.min.css" type="text/css" media="screen" charset="utf-8" />
+         <link rel="stylesheet" href="../../../includes/css/slick.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="../../../includes/css/main_forum.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="../../../includes/css/nice-bar.css" type="text/css" media="screen" charset="utf-8" />
+      <link rel="stylesheet" href="../../../includes/css/theme.blue.css" type="text/css" media="screen" charset="utf-8" />
+</head>
+<body>
+	 <div id="page-wrapper">
+        <div id="header-wrapper">
+            <div id="header-inner">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                            <div class="navbar-brand">
+                                <img id="logo" src="../../../includes/images/logo.png">
+                                Spoken Tutorial Forums
+                                </div>
+                        </div>
+                        </div> <!-- /.container -->
+                </nav>
+            </div> <!-- /#header-inner -->
+        </div>
+        <div id="content-wrapper">
+            <div id="content-inner" class="container">
+                <div id="content" class="col-lg-12 col-md-12 col-sm-12">
+                    
+                    <div class="row">
+    <div class="question-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="question ">
+        <div class="title ">
+           How do i share Installed Moodle from Local Server to local Intranet Computers through Private IP.
+        </div>
+        
+        <div id="questionNicPanel"></div>
+        <div class="body">
+            <div>Dear Sir/Madam,</div><div><br></div><div>I have installed Moodle on local server and doing every activity on it through http://127.0.0.1/moodle. But now i want to share resources/teaching Material/Assignment/Quizes to students in the intranet.</div><div><br></div><div>I am trying access on my local server trough IP address of Sever, but it is only showing like this URL http://127.0.0.1/moodle. Means it is installed on Local server.</div><div><br></div><div>But, I want to share/access Moodle in the entire Intranet of campus.</div><div><br></div><div>Please help me and Solve my Problem.</div><div><br></div><div>Thanks.<br></div><div><br></div>
+        </div>
+        <br>
+        
+        <span class="category">
+            <small>
+                <a>
+                    Moodle-Learning-Management-System
+                </a>   
+            </small>
+        </span>
+        
+        <span class="tutorial">
+            <small>
+            <a>
+                    Installing-Moodle-on-Local-Server
+             </a>       
+            </small>
+        </span>
+        
+        <span class="minute_range ">
+            <small>
+            <a>
+                    03-04 min
+             </a>       
+            </small>
+        </span>
+        
+        <span class="second_range ">
+            <small>
+                    <a>
+                    50-60 sec
+                    </a>
+            </small>
+        </span>
+       
+        
+        <span class="meta">
+            <small>
+                <i>
+                    26-03-19, 4:20 p.m.
+                </i>
+            </small>
+            
+            <span class="user">
+                raghunathkawale
+            </span>
+        </span>
+    </div> <!-- /.question -->
+    </div>
+</div> 
+
+<h4><u>Answers:</u></h4>
+<div id="answerPanelWrapper" style="display:none;">
+    <div id="answerNicPanel" style="display:none;"></div>
+</div>
+
+<div id="commentPanelWrapper" style="display:none;">
+    <div id="commentNicPanel" style="display:none;"></div>
+</div>
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer1364">
+            
+            <div class="body" id="body1364">
+                <div>You will have to change the corresponding entry in moodle's config.php file.</div><div><br></div><div>Go to the moodle directory on your local server.</div><div>Edit the following entry in the config.php file - <br></div><div>$CFG-&gt;wwwroot&nbsp;&nbsp; = 'http://localhost/moodle';</div><div><br></div><div>change to - <br></div><div><br></div><div>$CFG-&gt;wwwroot&nbsp;&nbsp; = 'http://<b><i>your_system's_ip_address</i></b>/moodle';</div><div><br></div><div>Then, this moodle site can be accessed from any system on the LAN.</div><div><br></div><div>Let me know if you have any further queries.<br></div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        27-03-19, 1:24 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    kashmira.n
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer1365">
+            
+            <div class="body" id="body1365">
+                Thanks Mam !
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        27-03-19, 1:29 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    raghunathkawale
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer1366">
+            
+            <div class="body" id="body1366">
+                Please, Can you share <b>exact location</b> of moodle's config.php file.<div><br></div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        27-03-19, 3:08 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    raghunathkawale
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                <div class="comment" id="comment347">
+                    <div class="body" id="cbody347">
+                        <div>On a Ubuntu system, generally the path to moodle's config.php file is like:</div><div>/var/www/html/moodle/config.php</div><div><br></div><div>Check these out - <br></div><div>&nbsp;- https://docs.moodle.org/36/en/Configuration_file</div><div>&nbsp;- https://moodle.org/mod/forum/discuss.php?d=354291</div><div><br></div><div>On Windows, the following link might be helpful - <br></div><div>&nbsp;- https://docs.moodle.org/36/en/Complete_install_packages_for_Windows#Moodle_paths</div><div><br></div><div>The path to 'Moodle directory' you had setup during installation.</div><div>Immediately under moodle folder, you will find the config.php file.<br></div><div><br></div>
+                    </div>
+                    
+                    <span class="meta">
+                        <small>
+                            <i>
+                                28-03-19, 2:06 p.m.
+                            </i>
+                        </small>
+                        
+                        <span class="user">
+                            kashmira.n
+                        </span>
+                    </span>
+                </div> <!-- /.comment -->
+                
+                <div class="comment" id="comment1697">
+                    <div class="body" id="cbody1697">
+                        Kindly share for MAC
+                    </div>
+                    
+                    <span class="meta">
+                        <small>
+                            <i>
+                                23-09-23, 2 p.m.
+                            </i>
+                        </small>
+                        
+                        <span class="user">
+                            agunechemba
+                        </span>
+                    </span>
+                </div> <!-- /.comment -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+
+            <a href="http://forums.spoken-tutorial.org/question/1075/How do i share Installed Moodle from Local Server to local Intranet Computers through Private IP..replace(' ','-')/ " target="_blank">Click here to reply/comment online</a>
+                    
+                </div> <!-- /#content -->
+            </div> <!-- /#content-inner -->
+        </div>
+        <div id="footer-wrapper" class="container">
+            <div id="footer-inner" class="col-lg-12 col-md-12 col-sm-12">
+                <div class="cc">
+                    <a class="cc-logo" rel="license">
+                        <img src="../../../includes/images/cc-logo-88x31.png" alt="CC logo"> 
+                    </a> Spoken Tutorial Forum by <a href="http://www.iitb.ac.in" target="_blank">IIT Bombay</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+                </div> 
+            </div> <!-- /#footer-inner -->
+        </div> <!-- /#footer-wrapper -->
+    </div> 
+</body>
+</html>

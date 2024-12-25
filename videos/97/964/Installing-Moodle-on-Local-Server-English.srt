@@ -1,0 +1,492 @@
+<i><b>Narration</b></i>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the <b>Spoken Tutorial</b> on <b>Installing Moodle on Local Server</b>.
+
+2
+00:00:07 --> 00:00:14
+In this tutorial, we will learn how to download Moodle and install Moodle.
+
+3
+00:00:15 --> 00:00:22
+To install <b>Moodle</b>, you should have a system supporting:
+<p><b>Apache</b> 2.x (or higher version), 
+</p>
+
+4
+00:00:23 --> 00:00:35
+<b>MariaDB </b>5.5.30 (or any higher version) and  <b>PHP</b> 5.4.4 +(or any higher version).
+
+5
+00:00:36 --> 00:00:43
+To record this tutorial, I will be using:
+<p><b>Ubuntu Linux OS </b>16.04, 
+</p>
+
+6
+00:00:44 --> 00:00:52
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30 </b>
+
+7
+00:00:53 --> 00:00:58
+<b>Moodle</b> 3.3 and <b>Firefox </b>web browser.
+
+8
+00:00:59 --> 00:01:02
+You can use any web browser of your choice.
+
+9
+00:01:03 --> 00:01:10
+However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+
+10
+00:01:11 --> 00:01:15
+Please ensure that you have internet connectivity before you begin.
+
+11
+00:01:16 --> 00:01:26
+Also refer to the previous tutorials in this series.
+<p>And, ensure that the prerequisites are met and the <b>database</b> is setup properly. 
+</p>
+
+12
+00:01:27 --> 00:01:36
+We should have <b>XAMPP</b> running and We should have a database set up with <b>username moodle-st</b>.
+
+13
+00:01:37 --> 00:01:41
+First, let me go to the web browser and launch <b>XAMPP.</b>
+
+14
+00:01:42 --> 00:01:55
+In the <b>address bar</b>, type: <b>http colon double slash 127 dot 0 dot 0 dot 1 </b> and press <b>Enter.</b>
+
+15
+00:01:56 --> 00:02:01
+In the menu at the top right of the screen, click on <b>PHPinfo.</b>
+
+16
+00:02:02 --> 00:02:09
+Now, press <b>Ctrl + F</b> keys and search for <b>DOCUMENT underscore ROOT.</b>
+
+17
+00:02:10 --> 00:02:13
+It will be found in the table <b>Apache Environment</b>.
+
+18
+00:02:14 --> 00:02:29
+The value of <b>DOCUMENT underscore ROOT</b> will be either  <b>slash opt slash lampp slash htdocs </b>or <b>slash var slash www</b>
+
+19
+00:02:30 --> 00:02:36
+In my machine, it is <b>slash opt slash lampp slash htdocs.</b>
+
+20
+00:02:37 --> 00:02:42
+Please make a note of this <b>path</b>. We are going to install <b>Moodle</b> here.
+
+21
+00:02:43 --> 00:02:52
+Let’s now start downloading <b>Moodle</b>.
+<p>Go to the official website of <b>Moodle</b> which is <b>moodle.org</b>. 
+</p>
+
+22
+00:02:53 --> 00:03:03
+Click on the <b>Downloads</b> link in the top menu.
+<p>And then, click on the latest release button <b>MOODLE 3.3+. </b>
+</p>
+
+23
+00:03:04 --> 00:03:14
+At the time of recording this tutorial, the latest stable <b>Moodle</b> version is 3.3. It could be different when you try.
+
+24
+00:03:15 --> 00:03:21
+Click on the <b>Download zip</b> button. This will start downloading <b>Moodle</b> on our machine.
+
+25
+00:03:22 --> 00:03:29
+I have already downloaded this file and it is in my <b>Downloads</b> folder. So I will skip this step.
+
+26
+00:03:30 --> 00:03:35
+Open the terminal by pressing <b>Ctrl + Alt + T</b> keys together.
+
+27
+00:03:36 --> 00:03:39
+On the terminal, I will change the directory to <b>Downloads.</b>
+
+28
+00:03:40 --> 00:03:47
+To do that, type the command: <b>cd space Downloads</b> and press <b>Enter.</b>
+
+29
+00:03:48 --> 00:03:52
+You will have to type the<b> path </b>where you downloaded <b>Moodle</b> on your system.
+
+30
+00:03:53 --> 00:04:00
+Once you are in that directory, type <b>ls</b> and press <b>Enter</b> to list the files therein.
+
+31
+00:04:01 --> 00:04:10
+Here is my <b>Moodle</b> installation file.  It has the name <b>moodle hyphen latest hyphen 33 dot zip</b>.
+
+32
+00:04:11 --> 00:04:18
+If you had renamed it to some other name during download, then locate that file in your folder.
+
+33
+00:04:19 --> 00:04:25
+Next, we have to <b>extract</b> the contents of this <b>zip</b> file into the <b>moodle</b> folder.
+
+34
+00:04:26 --> 00:04:50
+At the <b>command prompt</b>, type: <b>sudo space unzip space moodle hyphen latest hyphen 33 dot zip space hyphen d space slash opt slash lampp slash htdocs slash</b>. Now press <b>Enter.</b>
+
+35
+00:04:51 --> 00:04:55
+Let’s clear the terminal by pressing <b>Ctrl + L.</b>
+
+36
+00:04:56 --> 00:05:05
+Now type: <b>cd space slash opt slash lampp slash htdocs</b> and press <b>Enter.</b>
+
+37
+00:05:06 --> 00:05:11
+To list the files in this directory, type <b>ls</b> and press <b>Enter</b>.
+
+38
+00:05:12 --> 00:05:17
+You can see that a new folder named <b>moodle</b> has been created.
+
+39
+00:05:18 --> 00:05:26
+Let us give <b>read, write</b> and <b>execute permissions</b> to the <b>owner</b> and the <b>group members</b> of <b>moodle</b> folder.
+
+40
+00:05:27 --> 00:05:38
+So, type: <b>sudo space chmod space 777 space moodle slash</b> and press <b>Enter.</b>
+
+41
+00:05:39 --> 00:05:44
+Enter the <b>administrative </b>password, if prompted, and press <b>Enter.</b>
+
+42
+00:05:45 --> 00:06:05
+Now switch to the browser and type: <b>http colon double slash 127.0.0.1 slash moodle </b> or <b>http colon double slash localhost slash moodle</b>.
+
+43
+00:06:06 --> 00:06:09
+I have typed my <b>localhost IP</b> here.
+
+44
+00:06:10 --> 00:06:22
+This <b>IP</b> necessarily has to be the <b>IP</b> of the machine on which <b>moodle</b> is installed.
+<p>Please note that <b>moodle</b> is the folder into which we had extracted earlier. 
+</p>
+
+45
+00:06:23 --> 00:06:28
+Press <b>Enter</b> and you will see the <b>Moodle</b> installation page.
+
+46
+00:06:29 --> 00:06:39
+By default, we are in step number one, that is, <b>Configuration.</b> Please note: <b>Moodle</b> can be installed in multiple languages.
+
+47
+00:06:40 --> 00:06:51
+But we will limit ourselves to English language only.
+<p>So, select <b>English </b>here. Click on <b>Next</b> button below the <b>Language</b> dropdown. 
+</p>
+
+48
+00:06:52 --> 00:07:01
+Next is the <b>Paths</b> page. This is where the <b>Web address, Moodle directory</b> and <b>Data directory</b> are defined.
+
+49
+00:07:02 --> 00:07:07
+<b>Web address</b> is the <b>URL</b> for us to access <b>Moodle</b> once installed.
+
+50
+00:07:08 --> 00:07:13
+This is the same <b>URL</b> that we entered above which is shown here.
+
+51
+00:07:14 --> 00:07:19
+<b>Moodle directory</b> is the folder where all the <b>Moodle</b> code is available.
+
+52
+00:07:20 --> 00:07:30
+Notice here, both <b>Web address </b>and <b>Moodle directory</b> are non-editable <b>field</b>s. These cannot be changed by us.
+
+53
+00:07:31 --> 00:07:41
+Next is the <b>Data directory</b>. This is the folder where all file content uploaded by teachers and students will be stored.
+
+54
+00:07:42 --> 00:07:49
+This folder needs to have <b>read</b> and <b>write permission</b>. So, the files can be stored here.
+
+55
+00:07:50 --> 00:07:56
+However, it should not be directly accessible on the web for security reasons.
+
+56
+00:07:57 --> 00:08:02
+So, it is to be kept outside of the installation folder.
+
+57
+00:08:03 --> 00:08:10
+<b>moodledata</b> inside the folder <b>lampp</b> is the default <b>data directory</b> which the <b>installer</b> tries to create.
+
+58
+00:08:11 --> 00:08:22
+However, it does not have the permission to create a folder here.
+<p>So, we have to create this folder manually and give it the required <b>permission</b>s. 
+</p>
+
+59
+00:08:23 --> 00:08:40
+Go to the <b>terminal</b> window. At the <b>prompt</b>, type: <b>sudo space mkdir space slash opt slash lampp slash moodledata</b> and press <b>Enter.</b>
+
+60
+00:08:41 --> 00:08:56
+Now, type: <b>sudo space chmod space 777 space slash opt slash lampp slash moodledata</b> and press <b>Enter.</b>
+
+61
+00:08:57 --> 00:09:01
+Go back to the browser now and click on <b>Next</b> button.
+
+62
+00:09:02 --> 00:09:12
+After this comes the <b>database configuration</b> page.
+<p>Select <b>MariaDB</b> from the dropdown and click on the <b>Next</b> button. 
+</p>
+
+63
+00:09:13 --> 00:09:17
+Enter <b>localhost</b> as the  <b>Database Host Name.</b>
+
+64
+00:09:18 --> 00:09:29
+Now, we have to enter the <b>database name, username</b> and <b>password</b>.
+<p>These are the ones we created earlier in <b>phpMyAdmin.</b>
+</p>
+
+65
+00:09:30 --> 00:09:35
+I will enter <b>moodle-st</b> as the <b>database name.</b>
+
+66
+00:09:36 --> 00:09:40
+Then <b>moodle-st</b> as the <b>database username.</b>
+
+67
+00:09:41 --> 00:09:45
+And, <b>moodle-st</b> as my<b> database password.</b>
+
+68
+00:09:46 --> 00:09:53
+Leave the <b>Table Prefix </b>and the other <b>field</b>s as they are and click on <b>Next.</b>
+
+69
+00:09:54 --> 00:09:58
+We can see a <b>terms and conditions</b> page.
+
+70
+00:09:59 --> 00:10:09
+This is the step where you need to read the license agreement and agree to the same.
+<p>Read the text and then click on <b>Continue.</b>
+</p>
+
+71
+00:10:10 --> 00:10:22
+We can see the <b>Server Checks </b>page next.
+<p>Scroll down to see the message <b>Your server environment meets all minimum requirements</b>. 
+</p>
+
+72
+00:10:23 --> 00:10:32
+You may get other <b>error</b>s as shown:
+<p>Refer to the <b>Additional reading material </b>link of this tutorial for the solution. 
+</p>
+
+73
+00:10:33 --> 00:10:35
+Click on <b>Continue.</b>
+
+74
+00:10:36 --> 00:10:49
+This step may take some time depending on your <b>internet</b> speed.
+<p>You may get an error message <b>Site is being upgraded, please retry later</b> if you <b>refresh</b> the page. 
+</p>
+
+75
+00:10:50 --> 00:10:53
+In that case, please refresh after some time.
+
+76
+00:10:54 --> 00:10:59
+Click <b>Continue</b> when you get a success message for the installation.
+
+77
+00:11:00 --> 00:11:04
+The next page is for <b>administrator configuration.</b>
+
+78
+00:11:05 --> 00:11:14
+Enter the <b>username</b> that you want for the <b>Moodle Administrative</b> page. I will enter the <b>username</b> as <b>admin.</b>
+
+79
+00:11:15 --> 00:11:25
+Now enter a password for the <b>Moodle Administrator.</b>
+<p>The password here must follow these rules as shown here. 
+</p>
+
+80
+00:11:26 --> 00:11:31
+To enter the password, click on <b>Click to enter text</b> link.
+
+81
+00:11:32 --> 00:11:42
+I will enter <b>Spokentutorial1@</b> as my <b>admin password.</b> Click on <b>Unmask</b> icon to reveal the password.
+
+82
+00:11:43 --> 00:11:48
+Note down the <b>username</b> and <b>password</b> that you have created for future use.
+
+83
+00:11:49 --> 00:11:58
+<b>Email address</b> is a mandatory field.
+<p>I will enter <b>priyankaspokentutorial@gmail.com</b> here. 
+</p>
+
+84
+00:11:59 --> 00:12:07
+In <b>Select a country</b> drop-down, select <b>India.</b>
+<p>Select the timezone as <b>Asia/Kolkata</b>. 
+</p>
+
+85
+00:12:08 --> 00:12:12
+We will leave rest of the <b>field</b>s with their default values.
+
+86
+00:12:13 --> 00:12:17
+Scroll down and click on <b>Update Profile</b> button.
+
+87
+00:12:18 --> 00:12:26
+Please note that <b>Moodle</b> is a resource consuming software. Every step may take time to complete.
+
+88
+00:12:27 --> 00:12:33
+Please wait for the next page to <b>load</b> and do not close or <b>refresh</b> the page.
+
+89
+00:12:34 --> 00:12:44
+The next screen is for<b> Front page settings</b>. This is the page people will see when they visit our <b>moodle site.</b>
+
+90
+00:12:45 --> 00:12:49
+Enter <b>Digital India LMS</b> as the <b>Full Site Name.</b>
+
+91
+00:12:50 --> 00:13:02
+Enter <b>Digital India LMS</b> again as the <b>Short name for site. </b>
+<p>This is what will be visible as the name of the <b>moodle site</b> in the navigation bar. 
+</p>
+
+92
+00:13:03 --> 00:13:10
+Let us leave the <b>Front Page Summary</b> as blank, for now.
+<p>Select the timezone as <b>Asia/Kolkata.</b>
+</p>
+
+93
+00:13:11 --> 00:13:22
+The next dropdown is <b>Self Registration</b>. If <b>Self Registration </b>is enabled, then new users can register themselves on their own.
+
+94
+00:13:23 --> 00:13:30
+Select <b>Disable </b>from the dropdown.
+<p>Next is the text box <b>no-reply address</b>. 
+</p>
+
+95
+00:13:31 --> 00:13:45
+The default value in this field is<b> noreply@localhost. </b>
+<p>Since this is not a valid <b>email ID</b>, change it to <b>noreply@localhost.com</b>. 
+</p>
+
+96
+00:13:46 --> 00:13:54
+This email ID will be shown as <b>From</b> address, when <b>Moodle</b> does not have any email ID to show.
+
+97
+00:13:55 --> 00:14:09
+For example, if I specify to keep my address as<b> private</b>, all mails sent on my behalf will have this email ID.
+<p>Lastly, click on <b>Save Changes </b>button. 
+</p>
+
+98
+00:14:10 --> 00:14:16
+We are now ready to use <b>Moodle. </b>
+<p>You can see the front page of the new site here. 
+</p>
+
+99
+00:14:17 --> 00:14:22
+With this, we come to the end of this tutorial.  Let us summarize.
+
+100
+00:14:23 --> 00:14:32
+In this tutorial, we learnt to: download <b>Moodle</b> from <b>moodle.org</b> and  install <b>Moodle</b> on local server.
+
+101
+00:14:33 --> 00:14:40
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+102
+00:14:41 --> 00:14:50
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates.
+<p>For more details, please write to us. 
+</p>
+
+103
+00:14:51 --> 00:14:59
+Do you have questions in THIS <b>Spoken Tutorial</b>?
+<p>Please visit <b><a class="external free" href="http://forums.spoken-tutorial.org" rel="nofollow">http://forums.spoken-tutorial.org</a></b>
+</p>
+
+104
+00:15:00 --> 00:15:09
+Choose the minute and second where you have the question.
+<p>Explain your question briefly . Someone from our team will answer them 
+</p>
+
+105
+00:15:10 --> 00:15:14
+The <b>Spoken Tutorial forum</b> is for specific questions on this tutorial
+
+106
+00:15:15 --> 00:15:20
+Please do not post unrelated and general questions on them .
+
+107
+00:15:21 --> 00:15:30
+This will help reduce the clutter. With less clutter, we can use these discussion as instructional material
+
+108
+00:15:31 --> 00:15:44
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD,</b> Government of India. More information on this mission is available at the link shown.
+
+109
+00:15:45 --> 00:15:50
+This script has been contributed by Priyanka.
+<p>This is Nancy Varkey along with the spoken tutorial team, signing off. Thank you for joining. 
+</p>
+

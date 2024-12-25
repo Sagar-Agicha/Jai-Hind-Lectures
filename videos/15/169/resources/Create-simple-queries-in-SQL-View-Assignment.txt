@@ -1,0 +1,4 @@
+Write and test your SQL queries for the following: 
+Get information about all the members in the Library.
+Get a list of all book titles which are priced more than Rs 150
+Get a list of books which were written by William Shakespeare or John Milton?

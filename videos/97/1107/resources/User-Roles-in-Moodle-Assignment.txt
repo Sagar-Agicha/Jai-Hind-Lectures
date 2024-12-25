@@ -1,0 +1,8 @@
+*************************************************************
+Important Note:
+Always add Admin User as teacher for all courses you create.
+*************************************************************
+
+Assign Rebecca Raymond as a teacher to the Linear Algebra course.
+Assign Priya Sinha as a student to the Linear Algebra course.
+

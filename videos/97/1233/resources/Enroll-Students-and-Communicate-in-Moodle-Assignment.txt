@@ -1,0 +1,34 @@
+Enrol following users as students in the Calculus course:
+
+1. Shaily Raj
+2. Becky Raymond
+3. Priyamvada Sharma
+--------------------------------------------
+Assign following users to the groups mentioned next to their names:
+
+Shaily Raj -> Creators
+Becky Raymond -> Explorers
+Priyamvada Sharma -> Explorers
+--------------------------------------------
+Send a message to all students in the Calculus course:
+
+Dear All,
+
+Please join me in welcoming some new students in this course:
+
+1. Shaily Raj
+2. Becky Raymond
+3. Priyamvada Sharma
+
+Thank you!
+Prof.Rebecca Raymond
+--------------------------------------------
+
+Send a common note to the new students (context: course)-
+
+Please coordinate with Priya Sinha to understand what has been covered in the course before you joined. I have instructed her to share her class notes with you.
+--------------------------------------------
+
+Send a note to Priya Sinha(context: course)-
+
+Priya: Please help the new students with your class notes to get them familiar with what has already been covered in the course.

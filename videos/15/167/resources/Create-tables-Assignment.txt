@@ -1,0 +1,9 @@
+Assignment 1
+Create a View of 'Books Issued' to Members and only those books that are not checked-in. 
+Include in the view, the following fields: Book Titles, Member Names, Issue Date and Return Date. 
+Name the view as 'View: List of Books not checked in'. 
+
+Assignmnet 2
+Create a table using the 'Use Wizard to Create table' method. 
+Use the 'Assets' sample table and rename it to 'AssetsCopy'
+Explore the various options in this method. 

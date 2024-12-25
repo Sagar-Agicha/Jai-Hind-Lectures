@@ -1,0 +1,380 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the Spoken Tutorial on <b>Formatting course material </b>in <b>Moodle.</b>
+
+2
+00:00:07 --> 00:00:20
+In this tutorial, we will learn about:
+<p><b>Resources </b>in <b>Moodle</b>
+</p><p>Adding additional <b>course material</b>
+</p><p><b>Formatting</b> options in the default <b>text editor</b>
+</p>
+
+3
+00:00:21 --> 00:00:47
+This tutorial is recorded using:
+<p><b>Ubuntu Linux OS 16.04</b>
+</p><p><b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>
+</p><p><b>Moodle 3.3 </b>
+</p><p>And <b>Firefox </b>web browser 
+</p><p>You may use any web browser of your choice. 
+</p>
+
+4
+00:00:48 --> 00:00:55
+However, <b>Internet Explorer</b> should be avoided, as it causes some display inconsistencies.
+
+5
+00:00:56 --> 00:01:05
+This tutorial assumes that
+<p>your <b>site administrator</b> has set up a <b>Moodle website</b>
+</p><p>and registered you as a <b>teacher.</b>
+</p>
+
+6
+00:01:06 --> 00:01:20
+Learners of this tutorial should have
+<p>a <b>teacher login</b> on <b>Moodle</b>
+</p><p>at least one <b>course </b>assigned to them by the <b>administrator</b>
+</p><p>some course material uploaded for their respective <b>course</b>
+</p>
+
+7
+00:01:21 --> 00:01:26
+If not, please refer to the relevant <b>Moodle</b> tutorials on this website.
+
+8
+00:01:27 --> 00:01:30
+Switch to the browser and open your <b>Moodle site.</b>
+
+9
+00:01:31 --> 00:01:35
+Login with your <b>teacher username</b> and <b>password</b> details.
+
+10
+00:01:36 --> 00:01:38
+We are now in the <b>teacher dashboard</b>.
+
+11
+00:01:39 --> 00:01:44
+In the <b>navigation menu</b> on the left, notice <b>Calculus</b> under <b>My Courses</b>.
+
+12
+00:01:45 --> 00:01:47
+Click on the <b>Calculus course.</b>
+
+13
+00:01:48 --> 00:01:53
+We have already added <b>announcements</b> and some common <b>course</b> details earlier.
+
+14
+00:01:54 --> 00:01:57
+We will now add some additional <b>course material. </b>
+
+15
+00:01:58 --> 00:02:08
+All <b>course material </b>in <b>Moodle </b>are called <b>Resources</b>.
+<p>These are <b>material </b>that a teacher uses to support learning.
+</p>
+
+16
+00:02:09 --> 00:02:18
+<b>Resources</b> could be internal like lecture notes, books or external like <b>Wikipedia links</b>
+
+17
+00:02:19 --> 00:02:28
+Let’s begin.
+<p>Click on the gear icon at the top right of the page and then on <b>Turn Editing On</b>.
+</p>
+
+18
+00:02:29 --> 00:02:35
+Note you need to turn the <b>editing on</b> to make any changes to the <b>course</b>.
+
+19
+00:02:36 --> 00:02:43
+Click on <b>Add an activity or resource</b> link at the bottom right of the <b>Basic Calculus section. </b>
+
+20
+00:02:44 --> 00:02:47
+A pop-up opens with a list of <b>resources</b>.
+
+21
+00:02:48 --> 00:03:00
+Scroll down and select <b>Page</b> from the list. Read the detailed description about the <b>resource</b> on the right side when you select any <b>resource</b>.
+
+22
+00:03:01 --> 00:03:05
+Click on the <b>Add button </b>at the bottom of the pop-up screen.
+
+23
+00:03:06 --> 00:03:11
+In the <b>Name </b>field, I will type <b>Lecture 1 Notes</b>.
+
+24
+00:03:12 --> 00:03:21
+Then in the <b>Description </b>box, type “<b>Involutes and construction of Involute of circle”.</b>
+
+25
+00:03:22 --> 00:03:26
+Check the option <b>Display description on course page</b>.
+
+26
+00:03:27 --> 00:03:39
+Scroll down to see the <b>Page Content</b> box. Copy and paste the text from <b>BasicCalculus-Involutes.odt </b>file.
+
+27
+00:03:40 --> 00:03:50
+We will be uploading the image at a later stage. This file is available in the <b>Code Files </b>link of this tutorial.
+
+28
+00:03:51 --> 00:04:02
+Let us now <b>format</b> this text. Click on the down-arrow at the top left of the <b>editor</b> to expand the <b>menu widgets</b>.
+
+29
+00:04:03 --> 00:04:06
+I will make the headings more prominent, as shown.
+
+30
+00:04:07 --> 00:04:23
+The options in the <b>text editor</b> are similar to any other standard<b> text editor</b>. Here we can see options like <b>Bold, Italics, Unordered </b>and<b> Ordered lists.</b>
+
+31
+00:04:24 --> 00:04:29
+We also see options to <b>hyperlink</b> and <b>unlink</b> a text.
+
+32
+00:04:30 --> 00:04:40
+There’s an option to add an image, as well. Let us add an image after the text “<b>Figure 1 shows the involute of a circle”.</b>
+
+33
+00:04:41 --> 00:04:47
+Press <b>Enter </b>to make space for the image. Then click on the <b>Image icon</b>.
+
+34
+00:04:48 --> 00:04:57
+The <b>Image properties </b>window appears.  If you want to insert an <b>external image</b>, you can enter the <b>URL </b>of the <b>image </b>here.
+
+35
+00:04:58 --> 00:05:03
+I will click on <b>Browse Repositories </b>button to upload an <b>image</b>.
+
+36
+00:05:04 --> 00:05:08
+A pop-up window opens with the title <b>File Picker</b>.
+
+37
+00:05:09 --> 00:05:18
+Click on <b>Upload a file</b>.  Then click on <b>Choose File </b>or <b>Browse</b> button and select the file from your machine.
+
+38
+00:05:19 --> 00:05:25
+This <b>image</b> is also available in the <b>Code Files</b> link. You can download and use it.
+
+39
+00:05:26 --> 00:05:28
+Click on <b>Upload this file</b> button.
+
+40
+00:05:29 --> 00:05:35
+We will type the description as “<b>This is the involute of a circle”</b>.
+
+41
+00:05:36 --> 00:05:41
+Lastly, click on <b>Save image</b> button to insert the <b>image</b>.
+
+42
+00:05:42 --> 00:05:57
+The next option is to add <b>media</b>. This could be a<b> URL, video</b> or <b>audio</b> file. Again, this can be an <b>external URL</b> or can be uploaded from our machine.
+
+43
+00:05:58 --> 00:06:03
+The next option is<b> Manage Files. </b>Let’s click on it.
+
+44
+00:06:04 --> 00:06:16
+<b>Manage Files</b> option is to have a set of files that you want to store and display.  This could include <b>assignment submissions, resource files,</b> etc.
+
+45
+00:06:17 --> 00:06:26
+They can be used by any other <b>resource</b> in this <b>course</b>. Notice that the <b>image</b> we uploaded just now, is also present here.
+
+46
+00:06:27 --> 00:06:31
+There are 3 <b>icons</b> on the left of this pop-up box.
+
+47
+00:06:32 --> 00:06:36
+First is the <b>File picker</b>. Let’s click on it.
+
+48
+00:06:37 --> 00:06:51
+It has options to see the <b>server files</b>, <b>recent files</b>, etc. <b>Server files</b> are the files which have been used elsewhere in the course and can be reused.
+
+49
+00:06:52 --> 00:06:56
+I will close this for now by clicking on the <b>X icon.</b>
+
+50
+00:06:57 --> 00:07:03
+Next, we will click on <b>Create Folder icon</b>, which is the second <b>icon</b>.
+
+51
+00:07:04 --> 00:07:09
+In the <b>New folder name </b>field, let’s type <b>Assignments</b>.
+
+52
+00:07:10 --> 00:07:14
+Then click on the <b>Assignments</b> folder to open it.
+
+53
+00:07:15 --> 00:07:19
+Let me drag my file inside the <b>Assignments </b>folder.
+
+54
+00:07:20 --> 00:07:23
+Now, click on the file that that was just uploaded.
+
+55
+00:07:24 --> 00:07:33
+This pop-up has the option to modify the file name and author. And also to download or delete the file.
+
+56
+00:07:34 --> 00:07:40
+I don’t wish to change anything. So I will click on the <b>Cancel</b> button at the bottom of the pop-up.
+
+57
+00:07:41 --> 00:07:56
+Now, pause the tutorial and do this small assignment:
+<p>Create a folder <b>Reference Material</b>. 
+</p><p>Ensure that the folder is inside the <b>Files</b> folder and not inside the subfolder <b>Assignments</b>.
+</p>
+
+58
+00:07:57 --> 00:08:04
+Upload the 3 files. You will find them in the <b>Code files </b>link of this tutorial.
+
+59
+00:08:05 --> 00:08:09
+Resume this tutorial after you complete this assignment.
+
+60
+00:08:10 --> 00:08:17
+Your<b> File manager</b> should now have 2 folders, named <b>Assignments</b> and <b>Reference Material</b>.
+
+61
+00:08:18 --> 00:08:25
+And another file named <b>involutes-img1.png</b>
+
+62
+00:08:26 --> 00:08:32
+Close the pop-up window by clicking on the <b>X icon </b>at the top right.
+
+63
+00:08:33 --> 00:08:44
+The next set of formatting options are
+<p><b>Underline, Strikethrough, Subscript </b>and<b> Superscript. </b>
+</p>
+
+64
+00:08:45 --> 00:08:52
+<b>Align</b> and <b>indent </b>options follow these.  These work as in any other <b>text editor</b>.
+
+65
+00:08:53 --> 00:08:58
+Let’s learn how to use the next option, that is the <b>equation editor</b>.
+
+66
+00:08:59 --> 00:09:13
+I want to add this sentence with an equation in it.  So I will click on <b>equation editor </b>icon. Then use the <b>equation editor</b> to type the equation.
+
+67
+00:09:14 --> 00:09:28
+Details about how to use <b>LaTeX</b> to type equations, are in <b>Additional Reading Material</b> link. Click on <b>Save equation </b>button when you have finished.
+
+68
+00:09:29 --> 00:09:39
+<b>Insert character, insert table</b> and <b>clear formatting</b> options, work as in any other <b>text editor</b>.
+
+69
+00:09:40 --> 00:09:50
+The next two options are <b>Undo</b> and <b>Redo</b>. These get enabled, only when there is some unsaved text.
+
+70
+00:09:51 --> 00:10:04
+After this, we have 2 options for <b>accessibility</b>. The first icon is called <b>Accessibility checker. </b>The 2nd one is <b>screen reader helper.</b>
+
+71
+00:10:05 --> 00:10:13
+Details about <b>accessible websites</b> and these options, are in <b>Additional Reading Material</b> link.
+
+72
+00:10:14 --> 00:10:29
+The last option is to toggle from the <b>editor view</b> to <b>HTML code </b>view.This can be used to embed images, videos, PPT, interactive content, etc.
+
+73
+00:10:30 --> 00:10:38
+Click on toggle <b>HTML</b> again. This will bring us back to the normal <b>editor view.</b>
+
+74
+00:10:39 --> 00:10:51
+I have formatted the text using the <b>bold, italics</b> and<b> list </b>options for this demonstration.Do likewise for your content.
+
+75
+00:10:52 --> 00:11:00
+When you finish the formatting, scroll down to the bottom and click on <b>Save and display </b>button.
+
+76
+00:11:01 --> 00:11:04
+We can now <b>logout</b> of <b>Moodle</b>.
+
+77
+00:11:05 --> 00:11:10
+This is how student <b>Priya Sinha</b> will view this page.
+
+78
+00:11:11 --> 00:11:18
+With this, we come to the end of this tutorial. Let us summarize.
+
+79
+00:11:19 --> 00:11:33
+In this tutorial, we learnt about:
+<p><b>Resources </b>in <b>Moodle</b>
+</p><p>Adding <b>course material</b>
+</p><p><b>Formatting</b> options in the default <b>text editor</b>
+</p>
+
+80
+00:11:34 --> 00:11:50
+Here is another assignment for you.
+<p>Add a new folder <b>resource</b> in <b>Basic Calculus</b>
+</p><p>Add the <b>reference files</b> from the <b>File Manager</b>
+</p><p>Refer to the <b>Assignment</b> link of this tutorial for details. 
+</p>
+
+81
+00:11:51 --> 00:11:59
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+82
+00:12:00 --> 00:12:09
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates.For more details, please write to us.
+
+83
+00:12:10 --> 00:12:13
+Please post your timed queries in this forum.
+
+84
+00:12:14 --> 00:12:26
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India.</b>. More information on this mission is available at the link shown.
+
+85
+00:12:27 --> 00:12:37
+This script has been contributed by Nancy and Priyanka.And this is Nancy Varkey along with the Spoken Tutorial team signing off.
+
+86
+00:12:38 --> 00:12:43
+Thanks for joining.
+

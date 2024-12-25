@@ -1,0 +1,12 @@
+New page details:
+
+Name: Course Outcome
+Page Content: 
+The objective of this course is to familiarize the prospective engineers with techniques in calculus, multivariate analysis and linear algebra. It aims to equip the students with standard concepts and tools at an intermediate to advanced level that will serve them well towards tackling more advanced level of mathematics and applications that they would find useful in their disciplines. 
+
+The students will learn: 
+    1. To apply differential and integral calculus to notions of curvature and to improper integrals. Apart from some other applications they will have a basic understanding of Beta and Gamma functions. 
+    2. The fallouts of Rolle's Theorem that is fundamental to application of analysis to Engineering problems. 
+    3. The tool of power series and Fourier series for learning advanced Engineering Mathematics. 
+    4. To deal with functions of several variables that are essential in most branches of engineering.
+    5. The essential tool of matrices and linear algebra in a comprehensive manner.

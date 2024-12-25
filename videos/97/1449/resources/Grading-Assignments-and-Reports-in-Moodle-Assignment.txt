@@ -1,0 +1,5 @@
+Add feedback to submissions made by other students.
+Select all the student folders (with the submission inside) and zip. 
+Name the zip file as assignment1-feedback.zip.
+You can choose a name of your choice for the zip file.
+

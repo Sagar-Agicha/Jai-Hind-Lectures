@@ -1,0 +1,378 @@
+<b>Narration</b>
+
+1
+00:00:02 --> 00:00:05
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:06 --> 00:00:10
+This tutorial is a continuation of the previous tutorial on <b>Database Design</b>.
+
+3
+00:00:11 --> 00:00:14
+And we will learn the following topics here:
+
+4
+00:00:15 --> 00:00:17
+7. Refine the <b>database design</b>
+
+5
+00:00:18 --> 00:00:20
+8. Apply the <b>normalization</b> rules
+
+6
+00:00:21 --> 00:00:24
+9. Test the database design.
+
+7
+00:00:25 --> 00:00:33
+In the last tutorial, we learnt how to set up <b>primary keys</b> and <b>foreign keys</b> to establish <b>table relationship</b>s.
+
+8
+00:00:34 --> 00:00:37
+Let us now continue with the process of 'database design'.
+
+9
+00:00:38 --> 00:00:41
+First, we will refine our database design.
+
+10
+00:00:42 --> 00:00:49
+Now that we have a preliminary design, we can create and populate the tables with sample data.
+
+11
+00:00:50 --> 00:00:58
+We can create sample <b>queries, form</b>s and <b>report</b>s and see if all our initial questions are answered.
+
+12
+00:00:59 --> 00:01:05
+We can check for unnecessary duplications and eliminate them by altering the design.
+
+13
+00:01:06 --> 00:01:09
+We can add <b>column</b>s that we may have forgotten.
+
+14
+00:01:10 --> 00:01:18
+Also, we can include <b>Business rules</b> to the <b>Library</b> database to enforce <b>Database Integrity</b>.
+
+15
+00:01:19 --> 00:01:23
+For example, the <b>Price</b> column in the <b>Books</b> table has to be numeric.
+
+16
+00:01:24 --> 00:01:31
+Another business rule can be: the <b>Return Date</b> should be one month after the date of issue of a book.
+
+17
+00:01:32 --> 00:01:38
+Or, when a specific action occurs, further actions should be triggered.
+
+18
+00:01:39 --> 00:01:49
+So, if a book return date is overdue then we should set up actions in the database to send an email reminder to the member.
+
+19
+00:01:50 --> 00:01:57
+So, as we redesign, we may introduce- new tables, columns, rules or constraints
+
+20
+00:01:58 --> 00:02:06
+and we have to go all  over the previous steps to ensure that the <b>Data Integrity</b> is not lost.
+
+21
+00:02:07 --> 00:02:12
+Next, we can apply the <b>normalization rules</b>.
+
+22
+00:02:13 --> 00:02:16
+These are used to see if our tables are:
+
+23
+00:02:17 --> 00:02:19
+a) structured correctly and
+
+24
+00:02:20 --> 00:02:24
+b) free of any modification <b>anomalies</b> that we saw earlier.
+
+25
+00:02:25 --> 00:02:32
+The process of applying the rules or <b>normal forms</b> to a <b>database design</b> is called <b>normalization</b>.
+
+26
+00:02:33 --> 00:02:37
+Let us see the first three <b>Normal forms</b> in our tutorial.
+
+27
+00:02:38 --> 00:02:50
+Let us first see the <b>First Normal Form</b>.
+<p>'First Normal Form' or <b>1NF</b> says that all column values must be <b>atomic</b>. 
+</p>
+
+28
+00:02:51 --> 00:02:58
+For example, each cell in the <b>Price</b> column in the <b>Books</b> table should have only one value.
+
+29
+00:02:59 --> 00:03:06
+Meaning, the column should hold only the price of that book and nothing else.
+
+30
+00:03:07 --> 00:03:15
+Similarly, each <b>First Name</b> cell in the <b>Authors</b> table should have only one author’s first name.
+
+31
+00:03:16 --> 00:03:22
+<b>First Normal form</b> also says that there are no repeating groups of columns.
+
+32
+00:03:23 --> 00:03:28
+As an example, we will suppose that a Publisher has published 3 books.
+
+33
+00:03:29 --> 00:03:33
+And the <b>Publishers</b> table structure has the following columns:
+
+34
+00:03:34 --> 00:03:46
+<b>Publisher Id, Publisher, Book1, Author 1, Book 2, Author 2, Book 3, Author 3</b>.
+
+35
+00:03:47 --> 00:03:51
+Notice the repeating groups: 'Book' and 'Author' three times.
+
+36
+00:03:52 --> 00:03:57
+So, if we see such repeating groups, we should revisit our design.
+
+37
+00:03:58 --> 00:04:07
+Now, if the publisher publishes ten more books, we are forced to change the table structure by adding 20 columns.
+
+38
+00:04:08 --> 00:04:13
+So, we see that the table design is not stable as data changes.
+
+39
+00:04:14 --> 00:04:22
+Also, searching and sorting the <b>table</b> by book or author will become cumbersome.
+
+40
+00:04:23 --> 00:04:29
+So, we solve this flaw by splitting the table into two or three tables.
+
+41
+00:04:30 --> 00:04:40
+In our example, we will split the above table into <b>Publishers, Books</b> and <b>Authors</b> as shown in the image on the screen.
+
+42
+00:04:41 --> 00:04:46
+This design brings the table to the <b>First Normal Form</b>
+
+43
+00:04:47 --> 00:04:55
+and keeps the table structures stable as data on publishers and books keep changing.
+
+44
+00:04:56 --> 00:04:59
+Let us see the <b>Second Normal Form</b> now.
+
+45
+00:05:00 --> 00:05:06
+A 'table' is said to be in <b>Second Normal Form</b> or <b>2NF</b>, if it is in <b>1NF</b>
+
+46
+00:05:07 --> 00:05:13
+and every non-key column is fully dependent on the entire <b>primary key</b>.
+
+47
+00:05:14 --> 00:05:21
+This rule applies when we have a <b>primary key</b> that consists of more than one column.
+
+48
+00:05:22 --> 00:05:28
+For example, let us consider the <b>BooksIssued</b> table with the following columns.
+
+49
+00:05:29 --> 00:05:41
+<b>BookId, MemberId, BookTitle</b> and <b>IssueDate</b> with 'BookId' and 'MemberId' forming the <b>primary key</b> of the table.
+
+50
+00:05:42 --> 00:05:44
+Now, notice the <b>BookTitle</b> column.
+
+51
+00:05:45 --> 00:05:51
+We can get the 'BookTitle' by looking up the 'BookId' in the 'Books' table.
+
+52
+00:05:52 --> 00:05:59
+In other words, 'BookTitle' is dependent on 'Book ID' only and not on 'Member ID'.
+
+53
+00:06:00 --> 00:06:05
+So, it is not dependent on the entire <b>primary key</b>.
+
+54
+00:06:06 --> 00:06:13
+To bring this table into <b>Second Normal Form</b>, we must remove 'BookTitle' from this table
+
+55
+00:06:14 --> 00:06:22
+and retain only those columns that are fully dependent on both the 'primary key' and <b>column</b>s.
+
+56
+00:06:23 --> 00:06:30
+<b>IssueDate</b> column will be retained here, as it is fully dependent on both the 'primary key' fields.
+
+57
+00:06:31 --> 00:06:34
+Now, let us see what the <b>Third Normal Form</b> is.
+
+58
+00:06:35 --> 00:06:41
+A table is said to be in <b>Third Normal Form (3NF)</b>, if it is in <b>2NF</b>
+
+59
+00:06:42 --> 00:06:47
+and if all the non-key columns are independent of each other.
+
+60
+00:06:48 --> 00:06:53
+For example, let us assume the <b>BooksIssued</b> table with columns as
+
+61
+00:06:54 --> 00:07:02
+<b>BookIssueId</b> (serving as the primary key), <b>BookTitle, Member, IssueDate</b> and <b>ReturnDate</b>.
+
+62
+00:07:03 --> 00:07:10
+And assume that the <b>Library</b>’s policy of return date is one month after the <b>Book Issue Date</b>.
+
+63
+00:07:11 --> 00:07:18
+Now, <b>Base</b> can calculate the <b>Return Date</b> by using the 'IssueDate' column which is a non-key column.
+
+64
+00:07:19 --> 00:07:25
+Meaning, 'ReturnDate' is really dependent only on 'IssueDate' column and no other column.
+
+65
+00:07:26 --> 00:07:36
+Also, if we enter a different date in the 'Return Date' field then it will violate our Library’s policy.
+
+66
+00:07:37 --> 00:07:43
+So, to keep the table in the 'Third Normal Form', we will remove the 'ReturnDate' column from the table.
+
+67
+00:07:44 --> 00:07:48
+So, now we know how to apply the first three Normal forms.
+
+68
+00:07:49 --> 00:07:54
+Usually, our database design can stop at <b>3NF</b>.
+
+69
+00:07:55 --> 00:08:04
+For more information on <b>Normal forms</b> and <b>database design</b>, visit the websites shown on the screen.
+
+70
+00:08:05 --> 00:08:11
+Finally, let us test our database design, as we have gone over the database design process.
+
+71
+00:08:12 --> 00:08:15
+We can create the database structure.
+
+72
+00:08:16 --> 00:08:23
+Here we will create the <b>Tables, Relationships, Rules</b> or <b>Constraints, Forms, Queries</b> and <b>Reports</b>.
+
+73
+00:08:24 --> 00:08:28
+And we can test the database with real data and users.
+
+74
+00:08:29 --> 00:08:35
+Use the <b>form</b>s for performing data additions, updates or deletes to the database.
+
+75
+00:08:36 --> 00:08:41
+<b>Run</b> reports to see if the report results are correct and accurate.
+
+76
+00:08:42 --> 00:08:49
+As the database gets ready for use, we can check the performance in terms of speed.
+
+77
+00:08:50 --> 00:08:54
+We can add <b>Index</b>es to the tables for faster retrieval of data.
+
+78
+00:08:55 --> 00:09:02
+And we should perform periodical database maintenance to keep our database application running successfully.
+
+79
+00:09:03 --> 00:09:07
+Now that we are done, here is an assignment for you:
+
+80
+00:09:08 --> 00:09:13
+Add a new <b>entity</b> called <b>Media</b> to the <b>Library database design</b>.
+
+81
+00:09:14 --> 00:09:20
+'Media' consists of DVDs and CDs and they can be either audio or video.
+
+82
+00:09:21 --> 00:09:27
+Just like books, DVDs and CDs can also be issued to the <b>Library</b> members.
+
+83
+00:09:28 --> 00:09:30
+Follow the <b>database design</b> process.
+
+84
+00:09:31 --> 00:09:36
+And apply the first three <b>Normal forms</b> to your design.
+
+85
+00:09:37 --> 00:09:44
+This brings us to the end of this tutorial on the third part of <b>Database Desin</b> in <b>LibreOffice Base</b>.
+
+86
+00:09:45 --> 00:09:49
+To summarize, we learned the following topics on database design:
+
+87
+00:09:50 --> 00:09:51
+7. Refine the database design.
+
+88
+00:09:52 --> 00:09:54
+8. Apply the normalization rules.
+
+89
+00:09:55 --> 00:09:57
+9. Test the database design.
+
+90
+00:09:58 --> 00:10:09
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project, supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+91
+00:10:10 --> 00:10:14
+This project is coordinated by <a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>.
+
+92
+00:10:15 --> 00:10:19
+More information on the same is available at the following link.
+
+93
+00:10:20 --> 00:10:25
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

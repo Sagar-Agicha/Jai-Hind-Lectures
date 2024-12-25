@@ -1,0 +1,4 @@
+Design a form to show the members information.
+Make the form look compact.
+Make the fonts bold.
+Add Save and New record buttons. 

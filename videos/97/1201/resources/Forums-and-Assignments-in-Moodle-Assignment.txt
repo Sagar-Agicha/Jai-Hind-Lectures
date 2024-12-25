@@ -1,0 +1,24 @@
+Details for forum resource to be added in the Basic Calculus topic:
+
+Reply message: Refer to this link, where they have also listed the evolutes of some common curves:
+http://mathworld.wolfram.com/Evolute.html
+
+-------------------------------------------------------------------------
+
+Details for assignment resource to be added in the Basic Calculus topic:
+
+Assignment Name: Assignment 2 - Evolutes and Involutes
+
+Description:
+
+Question 1: Can two different curves have the same involute curve? 
+
+Question 2: Check the lecture available on https://www.youtube.com/watch?v=6xgtMQ7WSzQ. At around 12:00, the lecturer says let P and Q be two points on any curve, Draw normals at both points. As Q approaches P, the point of intersection of the two normals will eventually stabilize. He goes on to say the limit of the point of intersection is the osculating centre at P. If Q is at P, then the two normals will be co-incident. Hence, when Q is almost at P, shouldn't the two lines almost be parallel, and hence the limit of the point of intersection at infinity? Explain this scanario.
+
+Submission Types: online text
+
+Other options: Default
+
+Click on Save and Display
+
+

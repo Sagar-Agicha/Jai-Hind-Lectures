@@ -1,0 +1,43 @@
+Quiz name: Quiz 2 - Evolutes
+Description:
+This quiz contains 4 questions. It is timed and you get 10 minutes to submit it. Quiz not submitted after 10 mins get submitted automatically. 
+
+You can attempt the quiz once. 
+
+Minimum of 2 correct answers are required to pass the quiz.
+
+Timing:
+
+Open the quiz: 20th Jan 2019.
+Close the quiz:  20th Jan 2019
+Time Limit: 10 mins.
+When time expires: Open attempts are submitted automatically
+
+Grade:
+
+Grade to Pass: 2
+Attempts allowed: 1
+
+Question Behaviour:
+
+Shuffle within questions: Yes
+How questions behave: Deferred feedback
+
+Overall feedback:
+
+Feedback for Grade boundary 100%: Excellent performance
+Feedback for Grade boundary 50%: You need to work harder
+Feedback for Grade boundary 30%: Please meet the teacher separately to discuss how to improve your performance
+
+Activity completion:
+
+Completion tracking: Show activity as complete when conditions are met
+Student must receive a grade to complete this activity: Checked 
+Require passing grade: Checked
+
+-----------------------------------------------
+
+Add questions to the quiz:
+
+Shuffle questions: Yes
+Add 4 random questions from the evolutes sub-category

@@ -1,0 +1,553 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the Spoken Tutorial on <b>Grading quiz </b>in<b> Moodle.</b>
+
+2
+00:00:07 --> 00:00:14
+In this tutorial, we will learn how to:
+<p>Review <b>quiz</b> attempts submitted by students 
+</p>
+
+3
+00:00:15 --> 00:00:17
+Edit questions in a <b>quiz</b>
+
+4
+00:00:18 --> 00:00:20
+Regrade attempts
+
+5
+00:00:21 --> 00:00:26
+Delete <b>quiz</b> attempts and  Download <b>quiz</b> results
+
+6
+00:00:27 --> 00:00:34
+This tutorial is recorded using:  <b>Ubuntu Linux OS 16.04</b>
+
+7
+00:00:35 --> 00:00:42
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>
+
+8
+00:00:43 --> 00:00:48
+<b>Moodle 3.3 </b> and  <b>Firefox </b>web browser
+
+9
+00:00:49 --> 00:00:52
+You may use any web browser of your choice.
+
+10
+00:00:53 --> 00:01:00
+However, <b>Internet Explorer</b> should be avoided, as it causes some display inconsistencies.
+
+11
+00:01:01 --> 00:01:07
+This tutorial assumes that your <b>site administrator</b> has registered you as a <b>teacher</b>
+
+12
+00:01:08 --> 00:01:11
+And assigned at least one <b>course</b> to you.
+
+13
+00:01:12 --> 00:01:24
+It also assumes that you have added some course material, assignments and <b>quizzes</b> for your <b>course</b> and  you have some student logins
+
+14
+00:01:25 --> 00:01:31
+If not, please refer to the relevant <b>Moodle</b> tutorials on this website.
+
+15
+00:01:32 --> 00:01:39
+Let me show you how a student will attempt the <b>quiz</b> that we created earlier in the series.
+
+16
+00:01:40 --> 00:01:45
+I have logged in as student <b>Priya Sinha</b> right now.
+
+17
+00:01:46 --> 00:01:49
+I will click on <b>Calculus</b> under <b>My courses</b>.
+
+18
+00:01:50 --> 00:01:54
+Then I will click on <b>Quiz 1 - Evolutes and Involutes</b>
+
+19
+00:01:55 --> 00:02:01
+I will click on <b>Attempt Quiz now</b> button and then confirm my selection.
+
+20
+00:02:02 --> 00:02:05
+The question paper is presented to me.
+
+21
+00:02:06 --> 00:02:10
+On the right, we see the <b>Quiz navigation block.</b>
+
+22
+00:02:11 --> 00:02:18
+It displays all the question numbers, the timer and the <b>Finish attempt </b>link.
+
+23
+00:02:19 --> 00:02:25
+The questions in the first page are highlighted in the <b>Quiz navigation</b> block.
+
+24
+00:02:26 --> 00:02:30
+I will begin attempting questions in both the sections.
+
+25
+00:02:31 --> 00:02:37
+There are buttons for previous and next pages, depending on which page you are in.
+
+26
+00:02:38 --> 00:02:43
+Let me attempt the questions.
+
+27
+00:02:44 --> 00:02:50
+I can go back to any question if I need to review it, from the <b>Quiz navigation block</b>.
+
+28
+00:02:51 --> 00:02:57
+On the left of the question, notice that there is an option to flag the question.
+
+29
+00:02:58 --> 00:03:04
+A flagged question has a red triangle at the top right of the question.
+
+30
+00:03:05 --> 00:03:16
+One can flag a question in order to Go back and review it later, before submitting the attempt
+<p>Or to discuss the topic with the teacher 
+</p>
+
+31
+00:03:17 --> 00:03:23
+The question will remain flagged until the student specifically removes the flag.
+
+32
+00:03:24 --> 00:03:28
+There are some other markers related to <b>quiz</b> questions.
+
+33
+00:03:29 --> 00:03:33
+A grey marker indicates an answered question.
+
+34
+00:03:34 --> 00:03:40
+A small red triangle below the question number indicates an incomplete answer.
+
+35
+00:03:41 --> 00:03:46
+A totally white box indicates an unanswered question.
+
+36
+00:03:47 --> 00:03:53
+As mentioned earlier, I can click on any question to go back to that question.
+
+37
+00:03:54 --> 00:04:00
+When I am done, I will click on <b>Finish attempt...</b> link in the <b>Quiz navigation block</b>.
+
+38
+00:04:01 --> 00:04:06
+I can also click on <b>Finish attempt</b> button at the end of the <b>quiz</b>.
+
+39
+00:04:07 --> 00:04:12
+Click on <b>Submit all and finish</b> button and confirm my selection.
+
+40
+00:04:13 --> 00:04:19
+Students can see the <b>marks</b> and <b>grade</b> scored in a <b>quiz</b> right after the submission.
+
+41
+00:04:20 --> 00:04:25
+The <b>quiz navigation block</b> also has color-coded number boxes.
+
+42
+00:04:26 --> 00:04:30
+A green marker with a tick-mark indicates correct answer
+
+43
+00:04:31 --> 00:04:37
+A red marker indicates either a wrong or unattempted question
+
+44
+00:04:38 --> 00:04:44
+A brown marker with a white circle indicates a partially correct answer.
+
+45
+00:04:45 --> 00:04:51
+A red triangle marker at the top-right is for flagged questions
+
+46
+00:04:52 --> 00:04:58
+Let us go back to the course page by clicking on <b>Calculus</b> in the breadcrumbs.
+
+47
+00:04:59 --> 00:05:01
+Let me click on the <b>quiz</b> name.
+
+48
+00:05:02 --> 00:05:06
+I can see my attempt here and a <b>Review</b> link.
+
+49
+00:05:07 --> 00:05:12
+I can review my <b>quiz</b> attempt by clicking on the <b>Review</b> link.
+
+50
+00:05:13 --> 00:05:17
+Scroll down to see the feedback given for every answer.
+
+51
+00:05:18 --> 00:05:23
+This is a general feedback that every student sees after their attempt.
+
+52
+00:05:24 --> 00:05:28
+Let me log out of this student’s dashboard.
+
+53
+00:05:29 --> 00:05:36
+Before reviewing the <b>quiz</b> as a teacher, ensure that all your students have attempted the <b>quiz</b>.
+
+54
+00:05:37 --> 00:05:47
+Pause the tutorial and attempt the <b>quiz</b> for at least 5 students, before proceeding further.
+<p>I have already done so for my students. 
+</p>
+
+55
+00:05:48 --> 00:05:52
+Now, I will login as teacher <b>Rebecca Raymond</b>.
+
+56
+00:05:53 --> 00:05:57
+Click on <b>Calculus</b> under <b>My courses</b> on the left.
+
+57
+00:05:58 --> 00:06:03
+Scroll down and click on <b>Quiz 1 - Evolutes and Involutes.</b>
+
+58
+00:06:04 --> 00:06:09
+You can see <b>quiz</b> description and <b>quiz</b> timeline in this page.
+
+59
+00:06:10 --> 00:06:16
+The number of attempts are also listed here.
+<p>In my case, it is 5. 
+</p>
+
+60
+00:06:17 --> 00:06:20
+Now, click on <b>Attempts</b> link.
+
+61
+00:06:21 --> 00:06:26
+There are some filters at the top of the page, which are self-explanatory.
+
+62
+00:06:27 --> 00:06:31
+You can use these if there are many students enrolled in your course.
+
+63
+00:06:32 --> 00:06:35
+I will leave them as they are and scroll down.
+
+64
+00:06:36 --> 00:06:41
+Let me close the <b>navigation</b> menu on the left for better view.
+
+65
+00:06:42 --> 00:06:46
+Notice that all the attempts are listed in a table here.
+
+66
+00:06:47 --> 00:06:51
+Click on <b>Review attempt </b>link below <b>Priya Sinha’s</b> name.
+
+67
+00:06:52 --> 00:06:56
+You may see a different set of questions than the ones I see.
+
+68
+00:06:57 --> 00:07:04
+That is because we added random questions from the question bank, while creating the <b>quiz</b>.
+
+69
+00:07:05 --> 00:07:11
+The students will see different questions or a different order of questions, when they attempt.
+
+70
+00:07:12 --> 00:07:16
+We can see a brief overview of the attempt.
+
+71
+00:07:17 --> 00:07:22
+<b>Priya Sinha</b> finished the <b>quiz</b> in 3 minutes and 12 seconds.
+
+72
+00:07:23 --> 00:07:29
+She also got 1.2 out of 4 marks and 30%.
+
+73
+00:07:30 --> 00:07:35
+This will give you an idea of how the student performed in the <b>quiz</b>.
+
+74
+00:07:36 --> 00:07:39
+Look at the<b> Quiz navigation block</b> at the right.
+
+75
+00:07:40 --> 00:07:46
+The green box with a tick mark indicates that the student got full marks for the answer.
+
+76
+00:07:47 --> 00:07:52
+The red box indicates that the student answered the question incorrectly.
+
+77
+00:07:53 --> 00:07:59
+The brown box with a white circle in between indicates partially correct answer.
+
+78
+00:08:00 --> 00:08:05
+You can go to any question directly by clicking on that question number.
+
+79
+00:08:06 --> 00:08:12
+You can also change the layout if you want to show the questions one page at a time.
+
+80
+00:08:13 --> 00:08:18
+You can see the answers and the marks scored against each question.
+
+81
+00:08:19 --> 00:08:23
+You can also see the common feedback shown to the student.
+
+82
+00:08:24 --> 00:08:29
+There is also a <b>Response history</b> with a log of what the student did.
+
+83
+00:08:30 --> 00:08:36
+Notice here that the student saved this answer once before finally submitting it.
+
+84
+00:08:37 --> 00:08:42
+As a teacher, you can add a specific comment for any answer, if you wish to.
+
+85
+00:08:43 --> 00:08:48
+You can also override the marks. Let’s see how to do this.
+
+86
+00:08:49 --> 00:08:58
+Click on <b>Make comment or override marks</b> link below the common feedback section.
+<p>A new window opens up. 
+</p>
+
+87
+00:08:59 --> 00:09:02
+Type the desired <b>comment</b>, as shown here.
+
+88
+00:09:03 --> 00:09:06
+I will also change the marks as shown here.
+
+89
+00:09:07 --> 00:09:10
+Scroll down and click on the <b>Save</b> button.
+
+90
+00:09:11 --> 00:09:15
+Your <b>comment</b> is now shown below the common feedback.
+
+91
+00:09:16 --> 00:09:21
+<b>Response history</b> also has a log of the changes you made.
+
+92
+00:09:22 --> 00:09:28
+Notice that the marks and grade have also changed based on your new manual grading.
+
+93
+00:09:29 --> 00:09:37
+You can also edit a question from an attempt itself.
+<p>Click on <b>Edit question</b> link on the left. 
+</p>
+
+94
+00:09:38 --> 00:09:43
+This will take you to the edit screen where you can make changes to the question.
+
+95
+00:09:44 --> 00:09:48
+You can also change the options of grades associated with it.
+
+96
+00:09:49 --> 00:09:59
+Note that this will change the question for all students who have already attempted the <b>quiz</b>.
+<p>This will also change the question for future <b>quizzes</b>. 
+</p>
+
+97
+00:10:00 --> 00:10:05
+I realize now that I had marked the wrong answer while creating this <b>quiz</b>.
+
+98
+00:10:06 --> 00:10:11
+I will change the grade for these 2 options.
+
+99
+00:10:12 --> 00:10:15
+Click on <b>Save changes</b> button when done.
+
+100
+00:10:16 --> 00:10:19
+Click on <b>Finish review </b>link when you are done.
+
+101
+00:10:20 --> 00:10:23
+Click on <b>Attempts</b> link again.
+
+102
+00:10:24 --> 00:10:29
+If you changed any question, you should regrade the attempts based on the new grading.
+
+103
+00:10:30 --> 00:10:34
+Click on <b>Regrade all </b>button.
+
+104
+00:10:35 --> 00:10:42
+You will see a message <b>Regrade completed successfully.</b>
+<p>Click on <b>Continue</b> button. 
+</p>
+
+105
+00:10:43 --> 00:10:48
+Notice that the grade for that question changed for some of the students.
+
+106
+00:10:49 --> 00:10:53
+You can also delete a particular attempt if you wish to.
+
+107
+00:10:54 --> 00:11:00
+Click on the checkbox next to the name of the student whose attempt you want to delete.
+
+108
+00:11:01 --> 00:11:08
+Then click on<b> Delete selected attempts</b> button. But I will not do this right now.
+
+109
+00:11:09 --> 00:11:18
+The teacher also has the option to download all the attempts in various file formats.
+<p>Let me demonstrate how. 
+</p>
+
+110
+00:11:19 --> 00:11:23
+Scroll up to the section <b>What to include in the report </b>
+
+111
+00:11:24 --> 00:11:28
+I can filter the reports based on various criteria.
+
+112
+00:11:29 --> 00:11:35
+Let me download the report for all enrolled students who have attempted the <b>quiz</b>.
+
+113
+00:11:36 --> 00:11:45
+I will uncheck rest of the checkboxes under <b>Attempts that are</b> to narrow it down to see the finished reports
+
+114
+00:11:46 --> 00:11:49
+Click on <b>Show Report</b> button
+
+115
+00:11:50 --> 00:11:57
+Click on the dropdown <b>Download table data as</b> at the top right above the report table.
+
+116
+00:11:58 --> 00:12:03
+Select <b>OpenDocument (.ods) </b>from the options.
+
+117
+00:12:04 --> 00:12:10
+Then click on the <b>Download</b> button next to it.
+<p>Save the file on your local machine. 
+</p>
+
+118
+00:12:11 --> 00:12:17
+Let me open the file.
+<p>You can see the details of the attempts here. 
+</p>
+
+119
+00:12:18 --> 00:12:23
+With this, we come to the end of this tutorial.
+<p>Let us summarize. 
+</p>
+
+120
+00:12:24 --> 00:12:30
+In this tutorial, we learnt how to:  Review <b>quiz</b> attempts submitted by students
+
+121
+00:12:31 --> 00:12:36
+Edit questions in a <b>quiz</b>
+<p>Regrade attempts 
+</p>
+
+122
+00:12:37 --> 00:12:43
+Delete <b>quiz</b> attempts and Download <b>quiz</b> results
+
+123
+00:12:44 --> 00:12:50
+Here is a small assignment for you.
+<p>Review the attempt of any other student 
+</p>
+
+124
+00:12:51 --> 00:12:54
+Post question-specific comments
+
+125
+00:12:55 --> 00:13:03
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project.
+<p>Please download and watch it. 
+</p>
+
+126
+00:13:04 --> 00:13:14
+The <b>Spoken Tutorial</b> Project Team conducts workshops and gives certificates.
+<p>For more details, please write to us. 
+</p>
+
+127
+00:13:15 --> 00:13:18
+Please post your timed queries in this forum.
+
+128
+00:13:19 --> 00:13:31
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India</b>. More information on this mission is available at the link shown.
+
+129
+00:13:32 --> 00:13:37
+This script has been contributed by Priyanka.
+<p>And this is Nancy Varkey along with the Spoken Tutorial team signing off. 
+</p><p>Thanks for joining. 
+</p>
+

@@ -1,0 +1,434 @@
+<html>
+<head>
+<title>
+	 
+      Spoken Tutorial Forums
+      
+</title>
+        <link rel="stylesheet" href="../../../includes/css/bootstrap_forum.min.css" type="text/css" media="screen" charset="utf-8" />
+         <link rel="stylesheet" href="../../../includes/css/slick.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="../../../includes/css/main_forum.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="../../../includes/css/nice-bar.css" type="text/css" media="screen" charset="utf-8" />
+      <link rel="stylesheet" href="../../../includes/css/theme.blue.css" type="text/css" media="screen" charset="utf-8" />
+</head>
+<body>
+	 <div id="page-wrapper">
+        <div id="header-wrapper">
+            <div id="header-inner">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                            <div class="navbar-brand">
+                                <img id="logo" src="../../../includes/images/logo.png">
+                                Spoken Tutorial Forums
+                                </div>
+                        </div>
+                        </div> <!-- /.container -->
+                </nav>
+            </div> <!-- /#header-inner -->
+        </div>
+        <div id="content-wrapper">
+            <div id="content-inner" class="container">
+                <div id="content" class="col-lg-12 col-md-12 col-sm-12">
+                    
+                    <div class="row">
+    <div class="question-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="question ">
+        <div class="title ">
+           Error in Confirm path
+        </div>
+        
+        <div id="questionNicPanel"></div>
+        <div class="body">
+            I have a question about the installation of Moodle in Linux.<div><br></div><div>I did all things which are given in tutorial but got an error in the localhost/moodle.</div><div>I
+ select a language then for confirming path, I got error " Parent 
+directory (/var/www) is not writeable. Data directory 
+(/var/www/moodledata) cannot be created by the installer".</div><div><br></div><div>How can I solve it?</div><div><br></div>Sincerely
+        </div>
+        <br>
+        
+        <span class="category">
+            <small>
+                <a>
+                    Moodle-Learning-Management-System
+                </a>   
+            </small>
+        </span>
+        
+        <span class="tutorial">
+            <small>
+            <a>
+                    Course-Administration-in-Moodle
+             </a>       
+            </small>
+        </span>
+        
+        <span class="minute_range ">
+            <small>
+            <a>
+                    11-12 min
+             </a>       
+            </small>
+        </span>
+        
+        <span class="second_range ">
+            <small>
+                    <a>
+                    30-40 sec
+                    </a>
+            </small>
+        </span>
+       
+        
+        <span class="meta">
+            <small>
+                <i>
+                    12-04-20, 5:13 p.m.
+                </i>
+            </small>
+            
+            <span class="user">
+                prem1914
+            </span>
+        </span>
+    </div> <!-- /.question -->
+    </div>
+</div> 
+
+<h4><u>Answers:</u></h4>
+<div id="answerPanelWrapper" style="display:none;">
+    <div id="answerNicPanel" style="display:none;"></div>
+</div>
+
+<div id="commentPanelWrapper" style="display:none;">
+    <div id="commentNicPanel" style="display:none;"></div>
+</div>
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer2611">
+            
+            <div class="body" id="body2611">
+                You can manually create moodledata folder:<div>mkdir /var/www/moodledata&nbsp;</div><div>chmod 0777 /var/www/moodledata</div><div><br></div><div>or give write permission to /var/www folder temporarily:</div><div>chmod 0777 /var/www/</div><div>and then reset it to 755</div><div><br></div><div>Check out official Moodle doc:</div><div>https://docs.moodle.org/38/en/Installing_Moodle</div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        12-04-20, 8:51 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    kashmira.n
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                <div class="comment" id="comment662">
+                    <div class="body" id="cbody662">
+                        <div>Thanks, sir/madam<br></div><div>I am doing same as you tell but the problem I got '' chmod: changing permissions of '/var/www/': Operation not permitted" <br></div><div>Do you have any idea?</div><div>I check the moodle site that you sent me.</div><div>But not getting solution<br></div>
+                    </div>
+                    
+                    <span class="meta">
+                        <small>
+                            <i>
+                                12-04-20, 10:33 p.m.
+                            </i>
+                        </small>
+                        
+                        <span class="user">
+                            prem1914
+                        </span>
+                    </span>
+                </div> <!-- /.comment -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer2614">
+            
+            <div class="body" id="body2614">
+                Try this:<div>sudo chmod 0777 /var/www/</div><div><br></div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        12-04-20, 10:38 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    kashmira.n
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                <div class="comment" id="comment663">
+                    <div class="body" id="cbody663">
+                        <div>I create folder moodledata, now the problem "Data directory (/var/www/moodledata) cannot be created by the installer."</div><div>how can I solve it?<br></div>
+                    </div>
+                    
+                    <span class="meta">
+                        <small>
+                            <i>
+                                12-04-20, 11:04 p.m.
+                            </i>
+                        </small>
+                        
+                        <span class="user">
+                            prem1914
+                        </span>
+                    </span>
+                </div> <!-- /.comment -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer2615">
+            
+            <div class="body" id="body2615">
+                Delete the manually created 'moodledata' folder once and they try again please.<div>The above command worked, right?</div><div><br></div><div>Let me know if u have any further doubts.</div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        12-04-20, 11:15 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    kashmira.n
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                <div class="comment" id="comment664">
+                    <div class="body" id="cbody664">
+                        <div>I delete manually and try this command 'sudo chmod 0777 /var/www/'</div><div>and create folder 'moodledata.</div><div>but the same error I got again 'Data directory (/var/www/moodledata) cannot be created by the installer.'</div>
+                    </div>
+                    
+                    <span class="meta">
+                        <small>
+                            <i>
+                                12-04-20, 11:34 p.m.
+                            </i>
+                        </small>
+                        
+                        <span class="user">
+                            prem1914
+                        </span>
+                    </span>
+                </div> <!-- /.comment -->
+                
+                <div class="comment" id="comment665">
+                    <div class="body" id="cbody665">
+                        
+                    </div>
+                    
+                    <span class="meta">
+                        <small>
+                            <i>
+                                12-04-20, 11:44 p.m.
+                            </i>
+                        </small>
+                        
+                        <span class="user">
+                            prem1914
+                        </span>
+                    </span>
+                </div> <!-- /.comment -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer2616">
+            
+            <div class="body" id="body2616">
+                No .. please dont create the 'moodledata' folder manually.<div>Please delete the folder and retry it.</div><div><br></div><div>Also, please attach a screenshot of the error here.</div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        12-04-20, 11:42 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    kashmira.n
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                <div class="comment" id="comment666">
+                    <div class="body" id="cbody666">
+                        <div>Thank you so much sir <br></div><div>I delete moodledata folder and go to next step <br></div><div>all this now goes good thanks sir</div><div><br></div><div>I will again contact if I have doubt.<br></div>
+                    </div>
+                    
+                    <span class="meta">
+                        <small>
+                            <i>
+                                12-04-20, 11:47 p.m.
+                            </i>
+                        </small>
+                        
+                        <span class="user">
+                            prem1914
+                        </span>
+                    </span>
+                </div> <!-- /.comment -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer2617">
+            
+            <div class="body" id="body2617">
+                <div>&nbsp;For database setting I got following error.</div><div><br></div><div><p><b>Error</b>: Database connection failed</p>
+<p>It is possible that the database is overloaded or otherwise not running properly.</p>
+<p>The site administrator should also check that the database details have been correctly specified in config.php</p><br><br>
+<b>Warning</b>:  mysqli::__construct(): (HY000/1045): Access denied for user 'moodle'@'localhost' (using password: YES) in <b>/var/www/html/moodle/lib/dml/mysqli_native_moodle_database.php</b> on line <b>79</b></div><div><b><br></b></div><div><b><br></b></div><div><b><br></b></div><div><b>Please send me proper path.<br></b></div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        12-04-20, 11:59 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    prem1914
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+    <div class="answer-wrapper col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="answer " id="answer2636">
+            
+            <div class="body" id="body2636">
+                <div style="background-color: rgb(250, 250, 250);">Do you correctly remember the password?</div><div style="background-color: rgb(250, 250, 250);"><br></div><div style="background-color: rgb(250, 250, 250);">If not, then try logging into mysql as a 'root' user and then either you can reset the password for the user 'moodle' and retry granting proper permissions to user 'moodle'.</div><div style="background-color: rgb(250, 250, 250);"><br></div><div style="background-color: rgb(250, 250, 250);">You can run the command "CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;" only after logging into mysql.</div><div style="background-color: rgb(250, 250, 250);"><br></div><div style="background-color: rgb(250, 250, 250);">Also, are you using phpmyadmin? If not, they you can try that, it has an easy to use interface.</div>
+            </div>
+            
+            <span class="meta">
+                <small>
+                    <i>
+                        14-04-20, 12:52 p.m.
+                    </i>
+                </small>
+                
+                <span class="user">
+                    kashmira.n
+                </span>
+            </span>
+        </div> <!-- /.answer -->
+        
+        <div class="row">
+            <div class="comments pull-right col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <!-- displaying comments -->
+                
+                
+                
+                <!-- form to add comment -->
+      
+            </div> <!-- comments -->
+        </div> <!-- /.row -->
+        <br> <hr>
+    </div> <!-- /.answer-wrapper -->
+</div> <!-- /.row -->
+
+
+            <a href="http://forums.spoken-tutorial.org/question/2024/Error in Confirm path.replace(' ','-')/ " target="_blank">Click here to reply/comment online</a>
+                    
+                </div> <!-- /#content -->
+            </div> <!-- /#content-inner -->
+        </div>
+        <div id="footer-wrapper" class="container">
+            <div id="footer-inner" class="col-lg-12 col-md-12 col-sm-12">
+                <div class="cc">
+                    <a class="cc-logo" rel="license">
+                        <img src="../../../includes/images/cc-logo-88x31.png" alt="CC logo"> 
+                    </a> Spoken Tutorial Forum by <a href="http://www.iitb.ac.in" target="_blank">IIT Bombay</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+                </div> 
+            </div> <!-- /#footer-inner -->
+        </div> <!-- /#footer-wrapper -->
+    </div> 
+</body>
+</html>

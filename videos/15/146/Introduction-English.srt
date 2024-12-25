@@ -1,0 +1,478 @@
+<b>Narration</b>
+
+1
+00:00:00 --> 00:00:03
+Welcome to the <b>Spoken tutorial</b> on <b>LibreOffice Base</b>.
+
+2
+00:00:04 --> 00:00:08
+In this tutorial, we will learn about * What is LibreOffice Base?
+
+3
+00:00:09 --> 00:00:11
+Prerequisites for using Base
+
+4
+00:00:12 --> 00:00:13
+What can you do with Base?
+
+5
+00:00:14 --> 00:00:19
+Relational Database basics, Create a new database, Create a table.
+
+6
+00:00:20 --> 00:00:25
+<b>LibreOffice Base</b> is the database <b>front-end</b> of the <b>LibreOffice suite</b>.
+
+7
+00:00:26 --> 00:00:29
+<b>Base</b> is the equivalent of <b>Microsoft Access</b>.
+
+8
+00:00:30 --> 00:00:36
+<b>Base</b> is free and open source software, free of cost and free to use and distribute.
+
+9
+00:00:37 --> 00:00:40
+Let us look at the prerequisites for using 'Base'.
+
+10
+00:00:41 --> 00:00:44
+Following are the System requirements for Microsoft Windows:
+
+11
+00:00:45 --> 00:01:01
+<b>Microsoft Windows 2000</b> (Service Pack 4 or higher), <b>XP, Vista</b> or <b>Windows 7</b>, Pentium-compatible PC up to 1.5 Gb available hard disk space.
+
+12
+00:01:02 --> 00:01:05
+For <b>Ubuntu Linux</b>, here are the System requirements:
+
+13
+00:01:06 --> 00:01:12
+<b>Linux kernel</b> version <b>2.6.18</b> or higher, Pentium-compatible PC.
+
+14
+00:01:13 --> 00:01:23
+For both, Windows and Linux installation, we require 256 Mb RAM (recommended 512 Mb).
+
+15
+00:01:24 --> 00:01:29
+For complete system requirements, visit the <b>Libreoffice</b> website.
+
+16
+00:01:30 --> 00:01:37
+You will also need to install <b>Java Runtime Environment</b> which you can download at the following link.
+
+17
+00:01:38 --> 00:01:43
+Click on the red button in the centre that says 'Free Java Download'.
+
+18
+00:01:44 --> 00:01:51
+Once the file is downloaded, double-click on it and follow the instructions to install.
+
+19
+00:01:52 --> 00:01:55
+Let us now look at <b>LibreOffice Base</b> installation:
+
+20
+00:01:56 --> 00:02:02
+If you have already installed 'LibreOffice Suite' with the <b>complete installation</b> option
+
+21
+00:02:03 --> 00:02:11
+then you can access LibreOffice Base by clicking on the <b>Start</b> menu at the bottom left of your screen.
+
+22
+00:02:12 --> 00:02:20
+Click on <b>All Programs</b> and then click on <b>LibreOffice Suite</b>.
+
+23
+00:02:21 --> 00:02:23
+If you have not installed LibreOffice Suite,
+
+24
+00:02:24 --> 00:02:36
+you can install <b>Base</b> by visiting the official website and clicking on the green area that says  'Download LibreOffice'.
+
+25
+00:02:37 --> 00:02:42
+Detailed instructions are available in the first tutorial of <b>LibreOffice Suite</b>.
+
+26
+00:02:43 --> 00:02:49
+Remember, when installing, use the <b>Complete</b> option to install 'Base'.
+
+27
+00:02:50 --> 00:02:53
+Okay, let us go to the next topic now.
+
+28
+00:02:54 --> 00:02:56
+What can you do with <b>LibreOffice Base</b>?
+
+29
+00:02:57 --> 00:03:01
+With Base -  you can store organized data
+
+30
+00:03:02 --> 00:03:07
+perform data entries and view data using forms
+
+31
+00:03:08 --> 00:03:11
+retrieve information using queries and
+
+32
+00:03:12 --> 00:03:16
+design and generate nice, printer-ready <b>report</b>s.
+
+33
+00:03:17 --> 00:03:20
+<b>Base</b> helps you to manage databases.
+
+34
+00:03:21 --> 00:03:28
+As you may know, a database is a group of <b>data, forms, queries</b> and <b>report</b>s.
+
+35
+00:03:29 --> 00:03:35
+For example, 'Base' can be used to manage <b>Customer Information database</b>s,
+
+36
+00:03:36 --> 00:03:46
+track <b>sales order</b>s and <b>invoice</b>s, maintain student grade databases or build a <b>library</b> database.
+
+37
+00:03:47 --> 00:03:50
+Let us now learn about some basics of databases.
+
+38
+00:03:51 --> 00:03:55
+A database has data stored and organized into <b>table</b>s.
+
+39
+00:03:56 --> 00:04:02
+<b>Table</b>s have individual pieces of data, stored in rows and columns.
+
+40
+00:04:03 --> 00:04:14
+Such a database is also called a <b>relational database</b> where the tables have <b>relationship</b>s with each other using the columns.
+
+41
+00:04:15 --> 00:04:19
+Let us consider a simple database for a <b>Library</b>.
+
+42
+00:04:20 --> 00:04:22
+A <b>library</b> can be a collection of <b>Books</b>.
+
+43
+00:04:23 --> 00:04:27
+And books can be issued to <b>members</b> of the library.
+
+44
+00:04:28 --> 00:04:36
+A book can have a <b>Title</b>, an <b>Author</b>, a <b>Publisher</b>, Year of publication and a <b>Price</b>.
+
+45
+00:04:37 --> 00:04:41
+These are called characteristics or <b>attribute</b>s.
+
+46
+00:04:42 --> 00:04:47
+Similarly, a Library member has a <b>Name, Phone number</b> and an <b>Address</b>.
+
+47
+00:04:48 --> 00:04:53
+And the <b>library</b> issues books to its <b>member</b>s only.
+
+48
+00:04:54 --> 00:05:01
+Now, let us see how we can store this data as individual <b>table</b>s of <b>row</b>s and <b>column</b>s.
+
+49
+00:05:02 --> 00:05:07
+Information about each book can be stored in a <b>Books</b> table,
+
+50
+00:05:08 --> 00:05:18
+with its attributes becoming the columns: book <b>Title, Author, Publisher, Year of publication</b> and <b>Price</b>.
+
+51
+00:05:19 --> 00:05:26
+To distinguish each book, let us also add a unique identifier column called <b>BookId</b>.
+
+52
+00:05:27 --> 00:05:32
+This way, we can have two completely different books with the same title.
+
+53
+00:05:33 --> 00:05:39
+Similarly, a <b>Members</b> table can have columns like <b>Name</b> and <b>Phone</b>
+
+54
+00:05:40 --> 00:05:46
+and a <b>Member Id</b> to uniquely identify or distinguish each member. <pause>
+
+55
+00:05:47 --> 00:05:55
+And we can track the books issued to members in a third table called <b>BooksIssued</b>.
+
+56
+00:05:56 --> 00:06:08
+This table will track the book issued, the member, date of issue, date of return, actual date of return, whether checked-in or not.
+
+57
+00:06:09 --> 00:06:15
+We can establish <b>relationship</b>s among these tables, to interlink the data in them.
+
+58
+00:06:16 --> 00:06:21
+Now, this helps us to manage <b>relational database</b>s.
+
+59
+00:06:22 --> 00:06:34
+For advanced topics on relational databases, refer to our other tutorials by visiting the website <b>Spoken tutorial.org</b>.
+
+60
+00:06:35 --> 00:06:42
+Okay, let us now get started with our first <b>Base</b> database called “Library”!
+
+61
+00:06:43 --> 00:06:49
+To create a new database, let us first open the <b>Base</b> program.
+
+62
+00:06:50 --> 00:07:07
+Then, click on the <b>Windows</b> <b>Start</b> menu at the bottom left of the screen. Then click on <b>All Programs</b>, then <b>LibreOffice Suite</b> and <b>LibreOffice Base</b>.
+
+63
+00:07:08 --> 00:07:12
+A <b>pop-up window</b> titled <b>Database Wizard</b> opens.
+
+64
+00:07:13 --> 00:07:18
+Click on the <b>Next</b> button to create a new database.
+
+65
+00:07:19 --> 00:07:22
+Click on the <b>Finish</b> button in the following <b>window</b>.
+
+66
+00:07:23 --> 00:07:26
+This opens a <b>Save As</b> window.
+
+67
+00:07:27 --> 00:07:34
+Since we are building a <b>Library database</b>, we will type "Library" in the <b>File Name</b> text-box
+
+68
+00:07:35 --> 00:07:38
+and then click on the <b>Save</b> button.
+
+69
+00:07:39 --> 00:07:41
+Now, we are in..
+
+70
+00:07:42 --> 00:07:45
+Next, let us create tables to store data.
+
+71
+00:07:46 --> 00:07:53
+To create a new table, click the <b>Tables</b> icon in the <b>Database</b> list on the left.
+
+72
+00:07:54 --> 00:08:04
+Click on the '<b>Create Table in Design View'</b> in the <b>Tasks</b> list on the right. This opens another window.
+
+73
+00:08:05 --> 00:08:12
+Here, type "BookId" as the first column under <b>Field Name</b>.
+
+74
+00:08:13 --> 00:08:17
+Use the <b>Tab</b> key to move to the <b>Field Type</b> column.
+
+75
+00:08:18 --> 00:08:31
+Since the <b>BookId</b> will be a different number for each book, select <b>Integer</b> as the <b>Field Type</b> from the drop-down list.
+
+76
+00:08:32 --> 00:08:35
+Change the <b>Field Properties</b> in the bottom section.
+
+77
+00:08:36 --> 00:08:40
+Change <b>AutoValue</b> from <b>"No"</b> to <b>"Yes"</b>.
+
+78
+00:08:41 --> 00:08:45
+This field now will uniquely identify each book.
+
+79
+00:08:46 --> 00:08:51
+In other words, this field is also called the <b>Primary Key</b>.
+
+80
+00:08:52 --> 00:08:57
+Notice the yellow key symbol to the left of the <b>BookId</b> field.
+
+81
+00:08:58 --> 00:09:04
+Let us see how we can choose <b>Field Types</b> for <b>Field names</b>.
+
+82
+00:09:05 --> 00:09:12
+Field types can be <b>text, integer, numeric, decimal</b> or <b>date</b>.
+
+83
+00:09:13 --> 00:09:21
+Use <b>Text</b> for fields that have general information, for example- <b>name, title, address</b>.
+
+84
+00:09:22 --> 00:09:29
+Use <b>Integer, numeric, decimal</b> for fields that may contain only numbers.
+
+85
+00:09:30 --> 00:09:38
+For example- use <b>numeric</b> for a field with price information, <b>Integer</b> for years.
+
+86
+00:09:39 --> 00:09:42
+Let us create the rest of the <b>field</b>s now.
+
+87
+00:09:43 --> 00:09:51
+<b>Title- Field type: Text, Author-</b>
+
+88
+00:09:52 --> 00:09:58
+<b>Field type: Text, Published Year-</b>
+
+89
+00:09:59 --> 00:10:04
+<b>Field type: Integer,</b>
+
+90
+00:10:05 --> 00:10:08
+<b>Publisher-</b>
+
+91
+00:10:09 --> 00:10:10
+<b>Field type: Text,</b>
+
+92
+00:10:11 --> 00:10:13
+<b>Price-</b>
+
+93
+00:10:14 --> 00:10:17
+<b>Field type: Numeric</b>.
+
+94
+00:10:18 --> 00:10:24
+Change the <b>Length</b> to <b>5</b> and <b>Decimal places</b> to <b>2</b>.
+
+95
+00:10:25 --> 00:10:28
+Click the <b>Format example</b> button.
+
+96
+00:10:29 --> 00:10:32
+This opens the <b>Field Format</b> window.
+
+97
+00:10:33 --> 00:10:41
+Select <b>Currency</b> from the <b>Category</b> list and  <b>INR</b> from the <b>Format</b> list.
+
+98
+00:10:42 --> 00:10:53
+Let us choose Rs. 1234.00 that has two decimal places.
+
+99
+00:10:54 --> 00:11:01
+Notice that the total length is five, inclusive of the two decimal places.
+
+100
+00:11:02 --> 00:11:10
+Click on the <b>OK</b> button. Now we have created all the columns for the <b>Books</b> table.
+
+101
+00:11:11 --> 00:11:13
+Let us now <b>save</b> the table.
+
+102
+00:11:14 --> 00:11:19
+Click on the <b>Save</b> icon that is below the <b>File</b> menu.
+
+103
+00:11:20 --> 00:11:24
+Type "Books" in the <b>Table Name</b> text-box.
+
+104
+00:11:25 --> 00:11:35
+Note that it is saved in the same location as the database <b>‘Library’</b>, as tables are a part of a database.
+
+105
+00:11:36 --> 00:11:38
+And click on the <b>OK</b> button.
+
+106
+00:11:39 --> 00:11:49
+In the next tutorial, we will add data to the <b>Books</b> table and create the <b>Members</b> and <b>BooksIssued</b> tables.
+
+107
+00:11:50 --> 00:11:53
+This brings us to the end of this tutorial.
+
+108
+00:11:54 --> 00:11:57
+To summarize, we covered the following:
+
+109
+00:11:58 --> 00:12:00
+What is LibreOffice Base?
+
+110
+00:12:01 --> 00:12:02
+Prerequisites for using Base
+
+111
+00:12:03 --> 00:12:07
+What can you do with Base? 'Relational Database basics'
+
+112
+00:12:08 --> 00:12:12
+Create a new database, create a table.
+
+113
+00:12:13 --> 00:12:17
+The next tutorial in this series is <b>Tables and Relationships</b>.
+
+114
+00:12:18 --> 00:12:23
+<b>Spoken Tutorial</b> project is a part of the <b>Talk to a Teacher</b> project,
+
+115
+00:12:24 --> 00:12:31
+supported by the National Mission on Education through ICT, MHRD, Government of India.
+
+116
+00:12:32 --> 00:12:37
+This project is co-ordinated by Spoken Tutorial.org
+<p><a class="external free" href="http://spoken-tutorial.org" rel="nofollow">http://spoken-tutorial.org</a>. 
+</p>
+
+117
+00:12:38 --> 00:12:43
+More information on the same is available at the following link.
+
+118
+00:12:44 --> 00:12:49
+This script has been contributed by Priya Suresh, DesiCrew Solutions. And this is Soundharya, DesiCrew Solutions, signing off.
+<p>Thanks for joining.
+</p>
+

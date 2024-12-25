@@ -1,0 +1,460 @@
+Narration
+
+1
+00:00:01 --> 00:00:06
+Welcome to the <b>Spoken Tutorial</b> on <b>Getting ready for Moodle installation.</b>
+
+2
+00:00:07 --> 00:00:13
+In this tutorial, we will learn about the prerequisites for installing <b>Moodle.</b>
+
+3
+00:00:14 --> 00:00:21
+We will also learn to check for <b>packages</b> on <b>localhost</b> and database setup.
+
+4
+00:00:22 --> 00:00:29
+To record this tutorial, I will be using:
+<p><b>Ubuntu Linux OS </b>16.04,
+</p>
+
+5
+00:00:30 --> 00:00:41
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30 </b> and <b>Firefox </b>web browser.
+
+6
+00:00:42 --> 00:00:45
+You can use any web browser of your choice.
+
+7
+00:00:46 --> 00:00:51
+To install <b>Moodle 3.3</b> in your system, you should have a machine that supports:
+
+8
+00:00:52 --> 00:01:07
+<b>Apache</b> 2.x (or higher version),
+<p><b>MariaDB </b>5.5.30 (or any higher version) and
+</p><p><b>PHP</b> 5.4.4 +(or any higher version).
+</p>
+
+9
+00:01:08 --> 00:01:15
+If you have older versions of the above, ideally uninstall these before proceeding ahead.
+
+10
+00:01:16 --> 00:01:20
+<b>MariaDB</b> is the fastest growing open source database.
+
+11
+00:01:21 --> 00:01:25
+It is an alternative for <b>MySQL</b> database.
+
+12
+00:01:26 --> 00:01:33
+<b>Web server</b> distributions give you <b> Apache</b>,<b> MariaDB</b> and<b> PHP</b> bundled in one.
+
+13
+00:01:34 --> 00:01:43
+You can either install these separately or using a web server distribution like<b> XAMPP</b>,<b> WAMPP</b> or<b> LAMPP</b>.
+
+14
+00:01:44 --> 00:01:48
+I have already installed <b>XAMPP</b> in my machine.
+
+15
+00:01:49 --> 00:01:53
+First of all, we should check if <b>XAMPP</b> is running on our machine.
+
+16
+00:01:54 --> 00:02:07
+In the web browser, type: <b>http colon double slash 127 dot 0 dot 0 dot 1 </b> and press <b>Enter</b>.
+
+17
+00:02:08 --> 00:02:11
+It shows a message <b>Unable to connect</b>.
+
+18
+00:02:12 --> 00:02:15
+This means, <b>XAMPP </b>service is not running.
+
+19
+00:02:16 --> 00:02:19
+So, we have to start the <b>XAMPP service.</b>
+
+20
+00:02:20 --> 00:02:25
+Let’s open the <b>terminal</b> by pressing <b>Ctrl + Alt + T</b> keys together.
+
+21
+00:02:26 --> 00:02:37
+Start <b>XAMPP</b> by typing <b>sudo space slash opt slash lampp slash lampp space start</b>.
+
+22
+00:02:38 --> 00:02:43
+Enter the <b>administrative</b> password when prompted and press <b>Enter</b>.
+
+23
+00:02:44 --> 00:02:58
+If you get a message that says-
+<p><b>Starting XAMPP for Linux </b>….
+</p><p><b>XAMPP: Starting Apache...ok.</b>
+</p><p><b>XAMPP: Starting MySQL...ok.</b>
+</p><p><b>XAMPP: Starting ProFTPD...ok.</b>
+</p>
+
+24
+00:02:59 --> 00:03:04
+It means that <b>XAMPP</b> is installed in your system and you have started the service.
+
+25
+00:03:05 --> 00:03:12
+Please note <b>XAMPP 5.6.30</b> uses <b>MariaDB</b> instead of <b>MySQL</b>.
+
+26
+00:03:13 --> 00:03:16
+The <b>command</b>s and <b>tool</b>s are the same for both.
+
+27
+00:03:17 --> 00:03:20
+Let us go back to the browser and <b>refresh</b> the page.
+
+28
+00:03:21 --> 00:03:24
+We can now see the <b>XAMPP screen</b>.
+
+29
+00:03:25 --> 00:03:29
+You may get a message saying <b>Command not found</b> in the <b>terminal</b>.
+
+30
+00:03:30 --> 00:03:33
+This means <b>XAMPP</b> is not installed in your machine.
+
+31
+00:03:34 --> 00:03:41
+If so, refer to the <b>XAMPP Installation</b> tutorial in the <b>PHP and MySQL </b> series on this website.
+
+32
+00:03:42 --> 00:03:48
+Follow the instructions specified in the above tutorial and install the latest version of <b>XAMPP</b>.
+
+33
+00:03:49 --> 00:03:51
+Let’s switch back to the <b>terminal</b>.
+
+34
+00:03:52 --> 00:03:56
+Now follow the steps shown above to start <b>XAMPP service</b>.
+
+35
+00:03:57 --> 00:04:01
+Let us check the version of <b>PHP</b> on our system now.
+
+36
+00:04:02 --> 00:04:16
+On the <b>terminal</b> type: <b>sudo space slash opt slash lampp slash bin slash php space hyphen v</b>
+<p>and press <b>Enter.</b>
+</p>
+
+37
+00:04:17 --> 00:04:22
+Enter the <b>administrative</b> password, if prompted, and press <b>Enter</b>.
+
+38
+00:04:23 --> 00:04:28
+My version of <b>PHP </b>is <b>5.6.30</b>.
+
+39
+00:04:29 --> 00:04:33
+This message indicates that <b>PHP </b> is installed successfully.
+
+40
+00:04:34 --> 00:04:41
+If you get a version lesser than <b>5.4.4</b>, you should install the latest version of <b>XAMPP</b>.
+
+41
+00:04:42 --> 00:04:47
+Next, let us check the version of <b>MariaDB</b> on our system.
+
+42
+00:04:48 --> 00:05:02
+On the <b>terminal</b>, type: <b>sudo space slash opt slash lampp slash bin slash mysql space hyphen v</b>
+<p>and press <b>Enter</b>.
+</p>
+
+43
+00:05:03 --> 00:05:07
+Enter the <b>administrative</b> password, if prompted, and press <b>Enter</b>.
+
+44
+00:05:08 --> 00:05:13
+My version of <b>MariaDB </b>is <b>10.1.21</b>
+
+45
+00:05:14 --> 00:05:22
+If you get a version lesser than <b>5.5.30</b>, you should install the latest version of <b>XAMPP</b>.
+
+46
+00:05:23 --> 00:05:28
+Please note. You should have <b>XAMPP</b> running to check the versions of <b>PHP</b> and database.
+
+47
+00:05:29 --> 00:05:33
+Also note that the <b>command prompt </b>has now changed.
+
+48
+00:05:34 --> 00:05:39
+Type <b>backslash q</b> and press <b>Enter </b> to exit <b>MariaDB</b>.
+
+49
+00:05:40 --> 00:05:43
+You may also get other <b>error</b>s as shown here.
+
+50
+00:05:44 --> 00:05:49
+You may get a message that says “<b>An apache daemon is already running”.</b>
+
+51
+00:05:50 --> 00:05:54
+It means the startup script did not start<b> XAMPP-Apache.</b>
+
+52
+00:05:55 --> 00:06:00
+This indicates that there is another <b>Apache instance</b> already running.
+
+53
+00:06:01 --> 00:06:05
+To start <b>XAMPP </b>properly, you will have to first stop this <b>daemon</b>.
+
+54
+00:06:06 --> 00:06:18
+The command to stop <b>Apache</b> is:
+<p><b>sudo /etc/init.d/apache2 space stop</b>
+</p>
+
+55
+00:06:19 --> 00:06:24
+You may get a message that says <b>MySQL daemon failed to start.</b>
+
+56
+00:06:25 --> 00:06:29
+This means the startup script did not start <b>MySQL</b>.
+
+57
+00:06:30 --> 00:06:35
+This indicates that there is another <b>database instance</b> already running.
+
+58
+00:06:36 --> 00:06:40
+To start <b>XAMPP</b> properly, first you have to stop this <b>daemon.</b>
+
+59
+00:06:41 --> 00:06:53
+This command will stop <b>MySQL</b>: <b>sudo space /etc/init.d/mysql space stop </b>
+
+60
+00:06:54 --> 00:06:58
+Resolve all the errors and get <b>XAMPP</b> running successfully.
+
+61
+00:06:59 --> 00:07:02
+Then switch to your web browser and <b>refresh</b> the page.
+
+62
+00:07:03 --> 00:07:07
+If prompted for language selection, select <b>English</b>.
+
+63
+00:07:08 --> 00:07:13
+We will now need to add a user and create a <b>database</b> for <b>Moodle</b>.
+
+64
+00:07:14 --> 00:07:20
+We will do this in <b>phpmyadmin</b> which is the graphical user interface for <b>MariaDB</b>.
+
+65
+00:07:21 --> 00:07:24
+It comes along with the <b>XAMPP</b> installation.
+
+66
+00:07:25 --> 00:07:27
+Let us go back to the browser.
+
+67
+00:07:28 --> 00:07:33
+On the <b>XAMPP</b> page, in the menu at the top, click on <b>phpMyadmin</b>.
+
+68
+00:07:34 --> 00:07:41
+Click on <b>User Accounts</b> in the top menu and then click on <b>Add User Account</b>.
+
+69
+00:07:42 --> 00:07:47
+In the new <b>window</b> that opens, enter a <b>username </b>of your choice.
+
+70
+00:07:48 --> 00:07:52
+I will type: <b>moodle hyphen st </b>as my <b>username.</b>
+
+71
+00:07:53 --> 00:07:56
+From the <b>Host</b> drop-down list, select <b>Local</b>.
+
+72
+00:07:57 --> 00:08:01
+Enter a password of your choice in the <b>Password</b> text-box.
+
+73
+00:08:02 --> 00:08:06
+I will type: <b>moodle hyphen st </b>as my <b>password</b>.
+
+74
+00:08:07 --> 00:08:11
+Type the same password in the <b>Re-type</b> textbox.
+
+75
+00:08:12 --> 00:08:16
+Keep the<b> Authentication Plugin </b>option as it is.
+
+76
+00:08:17 --> 00:08:21
+Please do not click on <b>Generate Password</b> prompt for now.
+
+77
+00:08:22 --> 00:08:25
+Under <b>Database for user account</b>, we can see the option-
+
+78
+00:08:26 --> 00:08:30
+<b>Create database with same name and grant all privileges.</b>
+
+79
+00:08:31 --> 00:08:37
+We will check that option and click the<b> Go</b> button at the bottom right of this page.
+
+80
+00:08:38 --> 00:08:43
+We can see a message <b>“You have added a new user”</b> at the top of the window.
+
+81
+00:08:44 --> 00:08:53
+It means a new <b>database</b> with the name <b>moodle-st</b> and with a user <b>moodle-st </b>has been created.
+
+82
+00:08:54 --> 00:08:58
+Make a note of the <b>username, password</b> and <b>database</b> names.
+
+83
+00:08:59 --> 00:09:03
+These will be required later to complete the <b>Moodle</b> installation.
+
+84
+00:09:04 --> 00:09:09
+Please note: <b>Database</b> name and <b>username</b> need not be the same.
+
+85
+00:09:10 --> 00:09:17
+To have different names, create the <b>database</b> first and then create a user for that <b>database</b>.
+
+86
+00:09:18 --> 00:09:24
+Also, as per naming convention, <b>username</b> should not have any spaces in between.
+
+87
+00:09:25 --> 00:09:28
+We now have <b>XAMPP</b> running and our <b>database</b> is ready.
+
+88
+00:09:29 --> 00:09:31
+We are now ready to install <b>Moodle</b>.
+
+89
+00:09:32 --> 00:09:36
+We will continue with the installation of <b>Moodle</b> in the next tutorial.
+
+90
+00:09:37 --> 00:09:40
+With this, we come to the end of this tutorial.
+
+91
+00:09:41 --> 00:09:42
+Let us summarize.
+
+92
+00:09:43 --> 00:09:44
+In this tutorial, we learnt:
+
+93
+00:09:45 --> 00:09:48
+about the prerequisites for installing Moodle,
+
+94
+00:09:49 --> 00:09:56
+how to check for the prerequisites,
+<p>how to setup the database and how to add a user.
+</p>
+
+95
+00:09:57 --> 00:10:02
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project.
+
+96
+00:10:03 --> 00:10:05
+Please download and watch it.
+
+97
+00:10:06 --> 00:10:10
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates.
+
+98
+00:10:11 --> 00:10:14
+For more details, please write to us.
+
+99
+00:10:15 --> 00:10:17
+Do you have questions in THIS <b>Spoken Tutorial</b>?
+
+100
+00:10:18 --> 00:10:26
+Please visit <b><a class="external free" href="http://forums.spoken-tutorial.org" rel="nofollow">http://forums.spoken-tutorial.org</a></b>
+
+101
+00:10:27 --> 00:10:29
+Choose the minute and second where you have the question.
+
+102
+00:10:30 --> 00:10:35
+Explain your question briefly.  Someone from our team will answer them.
+
+103
+00:10:36 --> 00:10:40
+The Spoken Tutorial forum is for specific questions on this tutorial.
+
+104
+00:10:41 --> 00:10:45
+Please do not post unrelated and general questions on them.
+
+105
+00:10:46 --> 00:10:47
+This will help reduce the clutter.
+
+106
+00:10:48 --> 00:10:53
+With less clutter, we can use these discussion as instructional material.
+
+107
+00:10:54 --> 00:11:00
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India.</b>.
+
+108
+00:11:01 --> 00:11:05
+More information on this mission is available at the link shown.
+
+109
+00:11:06 --> 00:11:09
+This script has been contributed by Priyanka.
+
+110
+00:11:10 --> 00:11:15
+This is Nancy Varkey along with the spoken tutorial team, signing off. Thank you for joining.
+

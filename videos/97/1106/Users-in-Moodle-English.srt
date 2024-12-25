@@ -1,0 +1,408 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:05
+Welcome to the <b>Spoken Tutorial</b> on <b>Users in Moodle</b>.
+
+2
+00:00:06 --> 00:00:16
+In this tutorial, we will learn how to:
+<p>add a <b>user</b>,
+</p><p>edit a <b>user’s profile</b>,
+</p><p>upload <b>users</b> in bulk.
+</p>
+
+3
+00:00:17 --> 00:00:42
+This tutorial is recorded using:
+<p><b>Ubuntu Linux OS 16.04</b>,
+</p><p><b>Apache, MariaDB</b> and <b>PHP</b> obtained through<b> XAMPP 5.6.30</b>
+</p><p><b>Moodle 3.3</b>  and 
+</p><p><b>Firefox </b>web browser. 
+</p><p>You can use any web browser of your choice.
+</p>
+
+4
+00:00:43 --> 00:00:50
+However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+
+5
+00:00:51 --> 00:01:04
+Learners of this tutorial should have some <b>courses</b> created on their <b>Moodle</b> website.
+<p>If not, please refer to the previous<b> Moodle</b> tutorials on this website.
+</p>
+
+6
+00:01:05 --> 00:01:13
+Switch to the browser and login to your <b>Moodle</b> website, using your <b>admin username </b>and <b>password</b>.
+
+7
+00:01:14 --> 00:01:18
+Now, we will learn how to create a new <b>user</b> in <b>Moodle</b>.
+
+8
+00:01:19 --> 00:01:27
+In the <b>Navigation block</b>, click on <b>Site Administration</b> and then on the <b>Users </b>tab.
+
+9
+00:01:28 --> 00:01:31
+Click on<b> Add a new user </b>option.
+
+10
+00:01:32 --> 00:01:36
+I will enter the <b>username</b> as <b>adminuser2.</b>
+
+11
+00:01:37 --> 00:01:44
+Scroll down to the <b>New Password</b> field.
+<p>Click on the link <b>Click to enter text</b>. 
+</p>
+
+12
+00:01:45 --> 00:01:50
+Please note- the <b>password</b> must follow the rules as shown here.
+
+13
+00:01:51 --> 00:01:56
+I will enter <b>Spokentutorial1@</b> as my <b>password</b>.
+
+14
+00:01:57 --> 00:02:01
+Click on the checkbox <b>Force password change</b>.
+
+15
+00:02:02 --> 00:02:09
+This forces the new <b>user</b> to change his/her <b>password</b> when he/she logs in for the first time.
+
+16
+00:02:10 --> 00:02:15
+Enter rest of the details as per your preference as shown here.
+
+17
+00:02:16 --> 00:02:29
+In the <b>Email display</b>, note that I have selected <b>Allow everyone to see my email address</b>.
+<p>This is because I am going to make this <b>user </b>as an <b>admin user </b>later. 
+</p>
+
+18
+00:02:30 --> 00:02:36
+But this is best avoided for other <b>users </b>like <b>teachers </b>and <b>students</b>.
+
+19
+00:02:37 --> 00:02:46
+We will leave the <b>City/Town </b>field as blank for now.  We will update this later when we edit this <b>user.</b>
+
+20
+00:02:47 --> 00:02:51
+Then select <b>country</b> and <b>timezone</b> as shown here.
+
+21
+00:02:52 --> 00:02:55
+Let all the remaining <b>field</b>s be set to <b>default</b>.
+
+22
+00:02:56 --> 00:03:00
+Then scroll down and click on <b>Create user</b> button.
+
+23
+00:03:01 --> 00:03:09
+We now have 2 <b>users</b>. Click on the <b>System Admin2 user </b>which we created just now.
+
+24
+00:03:10 --> 00:03:21
+We can edit this user’s profile by clicking on the <b>Edit Profile</b> link on the right. Let us enter <b>Mumbai</b> in the <b>City/Town</b> text-box.
+
+25
+00:03:22 --> 00:03:32
+Then scroll down and click <b>Update profile</b> button. Likewise, we can <b>edit</b> any detail for any user.
+
+26
+00:03:33 --> 00:03:42
+Look at the 3 <b>icon</b>s to the right of this new <b>user</b>. Hover over them to see what each of them does.
+
+27
+00:03:43 --> 00:04:02
+The <b>delete</b> icon will delete the <b>user</b>.
+<p>Please note: Deleting a user will delete all the <b>user</b> data, including his/ her course registrations, grades etc. 
+</p><p>So, this option should be used with extreme caution.
+</p>
+
+28
+00:04:03 --> 00:04:12
+The <b>eye</b> icon will suspend the <b>user</b>. Suspending a <b>user </b>would mean deactivating his/her account.
+
+29
+00:04:13 --> 00:04:23
+So, the <b>user</b> will no longer be able to login, but his/ her registrations, grades, etc. are all kept intact.
+
+30
+00:04:24 --> 00:04:28
+This is a better thing to do rather than deleting the <b>user</b>.
+
+31
+00:04:29 --> 00:04:36
+It saves the records for future purposes and you can activate the <b>user </b>back whenever you want to.
+
+32
+00:04:37 --> 00:04:42
+Next is the <b>gear</b> icon. This will take us to the <b>Edit profile </b>page.
+
+33
+00:04:43 --> 00:04:50
+Note that <b>delete </b>and <b>suspend </b>icons are not shown next to the <b>Admin User</b>.
+
+34
+00:04:51 --> 00:04:58
+This is because the <b>main system administrator </b>can never be deleted or deactivated.
+
+35
+00:04:59 --> 00:05:04
+Now, let us learn to add <b>users </b>in bulk, that is, in one go.
+
+36
+00:05:05 --> 00:05:15
+For this, we have to upload a file with certain data in a particular format. The accepted file type is <b>CSV</b>.
+
+37
+00:05:16 --> 00:05:24
+I’ll open the<b> user-details-upoad.csv </b>file which I have already created for demonstration.
+
+38
+00:05:25 --> 00:05:31
+I’m using <b>LibreOffice Calc</b> which is the <b>spreadsheet</b> component of<b> LibreOffice Suite</b>.
+
+39
+00:05:32 --> 00:05:46
+This file has the following columns:
+<p><b>username</b>,
+</p><p><b>password</b>,
+</p><p><b>firstname</b>,
+</p><p><b>lastname</b>,
+</p><p><b>email</b>.
+</p><p>These 5 fields are mandatory fields. 
+</p>
+
+40
+00:05:47 --> 00:05:57
+There are some more fields here which are optional:
+<p><b>institution</b>,
+</p><p><b>department</b>,
+</p><p><b>phone1</b>,
+</p><p><b>address</b>,
+</p><p><b>course1</b>,
+</p><p><b>role1</b>.
+</p>
+
+41
+00:05:58 --> 00:06:10
+Note that the field titles have to be exactly as written in this spreadsheet i.e. in lowercase.
+<p>Otherwise the upload will throw an error.
+</p>
+
+42
+00:06:11 --> 00:06:18
+If we have only one <b>course </b>in which to enroll the <b>user</b>, we will suffix <b>1 </b>in the fields title.
+
+43
+00:06:19 --> 00:06:28
+If there are more <b>courses </b>you want to enroll the <b>users </b>to, add more columns with <b>course2, role2,</b> etc.
+
+44
+00:06:29 --> 00:06:38
+Please note: you should input <b>Course short name</b> in the <b>course1</b> field and <b>Role short name </b>in the <b>role1 </b>field.
+
+45
+00:06:39 --> 00:06:46
+The <b>Role short name</b> for a student is <b>student</b> and for a teacher is <b>editingteacher</b>.
+
+46
+00:06:47 --> 00:07:07
+We will have 3 <b>users</b> in this <b>CSV</b> file:
+<p><b>System Admin2 </b>user which has already been created manually,
+</p><p>one user with only 5 mandatory fields to show that other fields are optional and  one user with all details.
+</p>
+
+47
+00:07:08 --> 00:07:16
+This <b>CSV</b> file is available in the <b>Code files</b> section of this tutorial.  You can download and use it.
+
+48
+00:07:17 --> 00:07:24
+The <b>Additional Reading Material </b>of this tutorial has more information about the CSV file creation.
+
+49
+00:07:25 --> 00:07:28
+Now let’s go back to the browser window.
+
+50
+00:07:29 --> 00:07:33
+Click on <b>Site Administration</b> in the <b>Navigation block</b>.
+
+51
+00:07:34 --> 00:07:42
+Then click on the <b>Users</b> tab. In the <b>Accounts</b> section, click on <b>Upload Users</b>.
+
+52
+00:07:43 --> 00:07:50
+Click on <b>Choose a file </b>button. A new pop-up window opens with the title <b>File picker</b>.
+
+53
+00:07:51 --> 00:07:58
+Click on <b>Upload a file</b> link in the left menu, if the pop-up window is not on that link already.
+
+54
+00:07:59 --> 00:08:10
+Click on <b>Browse / Choose a file</b> button whichever appears on your <b>interface</b>. Browse to the saved folder and select the <b>CSV</b> file.
+
+55
+00:08:11 --> 00:08:14
+We will let all the other fields remain as default.
+
+56
+00:08:15 --> 00:08:20
+At the bottom of the page, click on<b> Upload this file </b>button.
+
+57
+00:08:21 --> 00:08:26
+The same screen refreshes with the filename now written in the text area.
+
+58
+00:08:27 --> 00:08:34
+The button at the bottom has now changed to <b>Upload users.</b> Click on this <b>Upload users</b> button.
+
+59
+00:08:35 --> 00:08:47
+The next page shows a <b>preview</b> of the users that we are uploading.  Verify that the values are correct. Check the <b>Settings</b> section now.
+
+60
+00:08:48 --> 00:08:52
+The <b>Upload type</b> drop-down has 4 options.
+
+61
+00:08:53 --> 00:09:04
+These 3 options can be used to update the records of existing users. We will select <b>Add new only, skip existing users</b>.
+
+62
+00:09:05 --> 00:09:10
+This means that if a <b>username</b> is already existing, it will not be added.
+
+63
+00:09:11 --> 00:09:16
+In the <b>New user password</b> drop-down, select <b>Field required in file</b>.
+
+64
+00:09:17 --> 00:09:26
+Under <b>Force password change</b>, select <b>All</b>. This will prompt all <b>users</b> to change their <b>passwords</b> when they login for the first time.
+
+65
+00:09:27 --> 00:09:31
+We will let the other fields in this section remain <b>default</b>.
+
+66
+00:09:32 --> 00:09:35
+Let us look at the <b>Default values </b>section now.
+
+67
+00:09:36 --> 00:09:43
+Under <b>Email display</b>, select <b>Allow only other course members to see my email address</b>.
+
+68
+00:09:44 --> 00:09:54
+You can input the default fields, if they are same for all <b>users</b>. These fields will be used for all uploaded <b>users</b>.
+
+69
+00:09:55 --> 00:09:58
+I will type <b>Mumbai</b> in <b>City/Town</b>.
+
+70
+00:09:59 --> 00:10:06
+Next, click on <b>Show more…</b> There are more fields that we can enter data into.
+
+71
+00:10:07 --> 00:10:14
+But notice that none of them are mandatory. So, I will let these remain blank for now.
+
+72
+00:10:15 --> 00:10:19
+At the bottom of the page, click on<b> Upload users</b> button.
+
+73
+00:10:20 --> 00:10:26
+Look at the status column of the <b>Upload users results </b>table displayed here.
+
+74
+00:10:27 --> 00:10:34
+For the 1st <b>user</b>, the status message is:
+<p><b>User not added - already registered.</b>
+</p>
+
+75
+00:10:35 --> 00:10:39
+This <b>user</b> already exists in the system, so it was skipped.
+
+76
+00:10:40 --> 00:10:44
+Rest of the <b>users</b> have been added as <b>New users</b>.
+
+77
+00:10:45 --> 00:10:48
+Look at the status displayed here.
+
+78
+00:10:49 --> 00:10:53
+<b>Weak passwords</b> are the ones that do not follow <b>password</b> rules.
+
+79
+00:10:54 --> 00:11:00
+Though these will be uploaded in the system, it is always preferable to have strong <b>passwords</b>.
+
+80
+00:11:01 --> 00:11:07
+Click on <b>Continue</b> button. Let us view all the <b>users </b>that we created.
+
+81
+00:11:08 --> 00:11:19
+Click on <b>Site Administration.</b> Then click on the <b>Users</b> tab. Under the <b>Accounts</b> section, click on <b>Browse list of users.</b>
+
+82
+00:11:20 --> 00:11:22
+We now have 4 <b>users</b>.
+
+83
+00:11:23 --> 00:11:28
+With this, we come to the end of the tutorial.
+<p>Let us summarize.
+</p>
+
+84
+00:11:29 --> 00:11:38
+In this tutorial, we learnt to:
+<p>add a <b>user</b>,
+</p><p>edit a <b>user’s profile</b>,
+</p><p>upload <b>users</b> in bulk.
+</p>
+
+85
+00:11:39 --> 00:11:46
+The video at the following link summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+86
+00:11:47 --> 00:11:54
+The <b>Spoken Tutorial</b> team conducts workshops and gives certificates. For more details, please write to us.
+
+87
+00:11:55 --> 00:11:59
+Please post your timed queries in this forum.
+
+88
+00:12:00 --> 00:12:10
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD</b>, Government of India.. More information on this mission is available at the link shown.
+
+89
+00:12:11 --> 00:12:14
+This script has been contributed by Priyanka. And this is Nancy Varkey along with the spoken tutorial team, signing off.
+
+90
+00:12:15 --> 00:12:20
+Thanks for joining.
+
