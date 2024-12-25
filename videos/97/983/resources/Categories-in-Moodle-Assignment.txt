@@ -1,0 +1,2 @@
+Add a new subcategory 2nd Year Maths under Mathematics.
+Delete the category Miscellaneous.

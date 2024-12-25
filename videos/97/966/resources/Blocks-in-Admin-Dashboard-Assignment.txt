@@ -1,0 +1,2 @@
+1. Delete the Private files block  
+2. Add a new HTML block using the guidelines given in the Code files link

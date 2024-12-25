@@ -1,0 +1,344 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:06
+Welcome to the <b>Spoken Tutorial</b> on <b>Admin’s dashboard </b>in<b> Moodle.</b>
+
+2
+00:00:07 --> 00:00:21
+In this tutorial, we will learn about:
+<p>various <b>blocks</b> on the <b>Admin’s dashboard, </b>
+</p><p><b>Admin’s profile page </b>and
+</p><p>how to edit <b>preferences</b>.
+</p>
+
+3
+00:00:22 --> 00:00:45
+To record this tutorial, I am using:
+<p><b>Ubuntu Linux OS 16.04</b>,
+</p><p><b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>,
+</p><p><b>Moodle 3.3 </b> and <b>Firefox </b>web browser. 
+</p>
+
+4
+00:00:46 --> 00:00:49
+You may use any web browser of your choice.
+
+5
+00:00:50 --> 00:00:58
+However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+
+6
+00:00:59 --> 00:01:12
+Learners of this tutorial should have <b>Moodle 3.3</b> installed on their system.
+<p>If not, please refer to the relevant<b> Moodle</b> tutorials on this website.
+</p>
+
+7
+00:01:13 --> 00:01:20
+Switch to the browser and open your <b>moodle site.</b> Make sure that the <b>XAMPP service</b> is running.
+
+8
+00:01:21 --> 00:01:32
+You can see a blank page with only the <b>header</b>s.  This is because we have not set any <b>front page </b>for our installation.
+
+9
+00:01:33 --> 00:01:38
+Click on <b>Log in</b> link at the top right corner of the window.
+
+10
+00:01:39 --> 00:01:46
+Log in using your <b>admin username </b>and <b>password</b> that you had given when you installed <b>Moodle</b>.
+
+11
+00:01:47 --> 00:01:58
+I will enter <b>admin</b> as the <b>username</b> and <b>Spokentutorial1@ </b>as the <b>password</b>.  Then click on <b>Log in</b> button.
+
+12
+00:01:59 --> 00:02:03
+The page that we see now is called the <b>dashboard</b>.
+
+13
+00:02:04 --> 00:02:07
+We can see that our <b>dashboard</b> is divided into 2 <b>column</b>s.
+
+14
+00:02:08 --> 00:02:12
+The wider one on the left, is the main <b>Content column. </b>
+
+15
+00:02:13 --> 00:02:16
+The one on the right is the <b>Blocks column</b>.
+
+16
+00:02:17 --> 00:02:24
+<b>Blocks</b> are items in these <b>columns</b> that serve a specific purpose or information.
+
+17
+00:02:25 --> 00:02:34
+<b>Blocks</b> are found on all pages of <b>Moodle</b>.
+<p>You can think of them as shortcuts to critical parts of your course.
+</p>
+
+18
+00:02:35 --> 00:02:45
+For eg. <b>Private Files</b>, <b>Online Users</b>, <b>Course Overview </b>etc. are the <b>blocks</b> on my <b>dashboard</b>.
+
+19
+00:02:46 --> 00:02:49
+Notice that there are no activities or <b>course</b>s here.
+
+20
+00:02:50 --> 00:02:55
+This is because we have not created any course yet.
+
+21
+00:02:56 --> 00:03:07
+A list of all courses will be seen- if a user (i.e a teacher or student or admin)  is enrolled or assigned a role in <b>courses</b>.
+
+22
+00:03:08 --> 00:03:16
+Also notice that the <b>Online Users block</b> shows <b>Admin User</b> which is our current login.
+
+23
+00:03:17 --> 00:03:22
+This <b>block </b>shows all the  logged in users at any given point of time.
+
+24
+00:03:23 --> 00:03:33
+Every <b>block</b> in <b>Moodle </b>has a specific purpose. We can add <b>blocks</b> to any <b>column</b> of any <b>page</b> in <b>Moodle</b>.
+
+25
+00:03:34 --> 00:03:37
+Let us now look at the <b>header</b> of the <b>page</b>.
+
+26
+00:03:38 --> 00:03:54
+On the top left corner, we can see a <b>Navigation Drawer </b>or<b> Navigation menu.</b> This helps us to access <b>Calendar</b> and other <b>Administration</b> links. This is a <b>toggle menu</b>
+
+27
+00:03:55 --> 00:04:03
+which means it changes its <b>status </b>from <b>open </b>to <b>close </b>and vice-versa when clicked.
+
+28
+00:04:04 --> 00:04:07
+We then have the placeholder for the <b>logo</b>.
+
+29
+00:04:08 --> 00:04:17
+By default, this is the short site name. Clicking on this, will get us to the <b>dashboard</b> from any <b>page</b>.
+
+30
+00:04:18 --> 00:04:25
+At the top right, there are quick access <b>icon</b>s for <b>notifications</b> and <b>messages</b>.
+
+31
+00:04:26 --> 00:04:34
+Next to that is the drop-down <b>user menu</b>.  It is also called the <b>quick access user menu</b>.
+
+32
+00:04:35 --> 00:04:40
+We will discuss the <b>Profile </b>and <b>Preferences page </b>in brief, in this tutorial.
+
+33
+00:04:41 --> 00:04:47
+All these <b>menu items</b> are also<b> toggle menus</b>, similar to the one on the left.
+
+34
+00:04:48 --> 00:04:51
+Next, click on the <b>Profile</b> link.
+
+35
+00:04:52 --> 00:04:56
+Every user in <b>Moodle</b> has a <b>profile page</b>.
+
+36
+00:04:57 --> 00:05:06
+It has <b>link</b>s to   allow <b>users</b> to edit their profile information, view their <b>forum</b> or <b>blog posts</b>,
+
+37
+00:05:07 --> 00:05:17
+check any <b>reports</b> they have access to and view their <b>access logs</b> and the <b>IP address</b> that was used to login the last time.
+
+38
+00:05:18 --> 00:05:25
+Now let’s click on the <b>Edit Profile</b> link. The <b>Edit Profile page</b> opens up.
+
+39
+00:05:26 --> 00:05:38
+This page is divided into 5 sections:
+<p><b>General</b>,
+</p><p><b>User Picture</b>,
+</p><p><b>Additional Names</b>,
+</p><p><b>Interests</b>,
+</p><p><b>Optional</b>.
+</p>
+
+40
+00:05:39 --> 00:05:42
+The <b>General</b> section is expanded, by default.
+
+41
+00:05:43 --> 00:05:48
+Clicking on any section name expands or collapses it.
+
+42
+00:05:49 --> 00:05:54
+The <b>‘Expand all’ </b>link on the right, expands all the sections.
+
+43
+00:05:55 --> 00:05:58
+All fields here are editable.
+
+44
+00:05:59 --> 00:06:03
+Let’s add <b>City / Town. </b>I will type <b>Mumbai.</b>
+
+45
+00:06:04 --> 00:06:12
+Ensure that <b>India</b> is selected in the <b>Select a country</b> drop-down. And, <b>timezone </b>is set to <b>Asia/Kolkata</b>.
+
+46
+00:06:13 --> 00:06:17
+Only <b>Admins</b> can change <b>password</b> from this profile page.
+
+47
+00:06:18 --> 00:06:21
+Let me add a few <b>field</b>s in the <b>Optional</b> section.
+
+48
+00:06:22 --> 00:06:35
+I will enter <b>IIT Bombay </b>in the <b>Institution </b>field. Also, <b>Mathematics </b>in <b>Department</b> and a valid phone number in the <b>Phone number</b> field.
+
+49
+00:06:36 --> 00:06:41
+Then click on <b>Update Profile </b>button to <b>save</b> the page.
+
+50
+00:06:42 --> 00:06:50
+Now, click on the <b>quick access user menu</b> at the top right, again.
+<p>Click on the <b>Preferences</b> link.
+</p>
+
+51
+00:06:51 --> 00:06:58
+The <b>Preferences</b> page gives users quick access to various settings they may wish to edit.
+
+52
+00:06:59 --> 00:07:11
+<b>Preferences</b> page for an <b>admin account </b>is divided into 4 sections:
+<p><b>User account,</b>
+<b>Roles,</b>
+<b>Blogs, </b>and  <b>Badges</b>.
+</p>
+
+53
+00:07:12 --> 00:07:18
+The <b>User Account</b> section allows the <b>user </b> to <b>Edit Profile</b> and <b>Change Password</b>.
+
+54
+00:07:19 --> 00:07:29
+It also sets <b>preferences </b>for <b>Language, Forum, Calendar, Message, Notification </b>etc.
+
+55
+00:07:30 --> 00:07:33
+Let’s click on the <b>Calendar preferences</b>.
+
+56
+00:07:34 --> 00:07:39
+We will set the <b>calendar</b> to display time in <b>24 hour</b> format.
+
+57
+00:07:40 --> 00:07:45
+Also, we will set the <b>Upcoming events look-ahead</b> to <b>2 weeks</b>.
+
+58
+00:07:46 --> 00:07:54
+This means we’ll see notifications for all events happening in the next 2 weeks on the calendar.
+
+59
+00:07:55 --> 00:07:59
+I want to highlight the <b>help </b>icon next to all the <b>field</b>s.
+
+60
+00:08:00 --> 00:08:07
+Clicking on this, will open a <b>help box </b>with a short description of what the <b>field </b>stands for.
+
+61
+00:08:08 --> 00:08:15
+When in doubt about any <b>field</b>, always click on the <b>help </b>icon to understand its significance.
+
+62
+00:08:16 --> 00:08:22
+Let all the other options remain as they are. Click on <b>Save Changes </b>button.
+
+63
+00:08:23 --> 00:08:29
+We will go through the rest of the preferences when we discuss those features later in this series.
+
+64
+00:08:30 --> 00:08:32
+Notice the information here.
+
+65
+00:08:33 --> 00:08:44
+This is the <b>breadcrumb navigation.</b> It’s a visual aid that indicates which page we are on, within the <b>Moodle site</b>’s hierarchy.
+
+66
+00:08:45 --> 00:08:50
+It helps us to go back to a higher-level page with a single click.
+
+67
+00:08:51 --> 00:08:56
+Click on the <b>Dashboard </b>link in the <b>breadcrumbs</b> to go to the <b>dashboard</b>.
+
+68
+00:08:57 --> 00:09:02
+With this, we come to the end of this tutorial. Let us summarize.
+
+69
+00:09:03 --> 00:09:15
+In this tutorial, we learnt about:
+<p>various <b>blocks</b> on the <b>admin’s dashboard</b>,
+</p><p><b>Admin’s profile page</b> and
+</p><p>how to edit <b>preferences</b>.
+</p>
+
+70
+00:09:16 --> 00:09:26
+Here is a small assignment for you.
+<p>Click on the <b>Message Preferences</b>. <b>Users</b> in <b>Moodle</b> can send private messages to each other.
+</p>
+
+71
+00:09:27 --> 00:09:32
+I do not want my messages to be delivered as email, even when I am <b>offline</b>.
+
+72
+00:09:33 --> 00:09:39
+Look at the <b>online</b> and offline help box and ensure that the settings are correct.
+
+73
+00:09:40 --> 00:09:47
+The video at the following link summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+74
+00:09:48 --> 00:09:56
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates. For more details, please write to us.
+
+75
+00:09:57 --> 00:10:00
+Please post your timed queries in this forum.
+
+76
+00:10:01 --> 00:10:14
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD</b>, Government of India.. More information on this mission is available at the link shown.
+
+77
+00:10:15 --> 00:10:23
+This script has been contributed by Priyanka. And this is Nancy Varkey along with the Spoken Tutorial team, signing off.
+
+78
+00:10:24 --> 00:10:29
+Thanks for joining.
+

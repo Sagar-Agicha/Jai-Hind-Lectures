@@ -1,0 +1,472 @@
+<i><b>Narration</b></i>
+
+1
+00:00:01 --> 00:00:05
+Welcome to the <b>Spoken Tutorial</b> on <b>Courses in Moodle.</b>
+
+2
+00:00:06 --> 00:00:15
+In this tutorial, we will learn:
+<p>how to create a <b>course </b>and how to perform actions on <b>courses.</b>
+</p>
+
+3
+00:00:16 --> 00:00:23
+To record this tutorial, I will be using: <b>Ubuntu Linux OS 16.04</b>,
+
+4
+00:00:24 --> 00:00:37
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>,
+<p><b>Moodle 3.3</b>  and <b>Firefox </b>web browser. 
+</p>
+
+5
+00:00:38 --> 00:00:41
+You can use any web browser of your choice.
+
+6
+00:00:42 --> 00:00:49
+However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies.
+
+7
+00:00:50 --> 00:00:55
+Learners of this tutorial should know how to create <b>categories</b> in <b>Moodle</b>.
+
+8
+00:00:56 --> 00:01:02
+If not, please refer to the relevant<b> Moodle</b> tutorials on this website.
+
+9
+00:01:03 --> 00:01:10
+Switch to the browser and open your <b>Moodle homepage</b>.
+<p>Make sure that <b>XAMPP service</b> is running.
+</p>
+
+10
+00:01:11 --> 00:01:15
+Login with your <b>admin username</b> and <b>password</b> details.
+
+11
+00:01:16 --> 00:01:18
+We are now in the <b>admin dashboard</b>.
+
+12
+00:01:19 --> 00:01:24
+Click on the drawer menu to open the navigation menu on the left.
+
+13
+00:01:25 --> 00:01:28
+On the left side, click on <b>Site Administration</b>.
+
+14
+00:01:29 --> 00:01:35
+Click on the <b>Courses</b> tab and then on <b>Manage courses and categories</b>.
+
+15
+00:01:36 --> 00:01:40
+Note that we have only one <b>category </b>here which is <b>Mathematics.</b>
+
+16
+00:01:41 --> 00:01:49
+And two <b>subcategories: 1st Year Maths </b>and <b>2nd Year Maths </b>which we created earlier.
+
+17
+00:01:50 --> 00:01:54
+Now, let us create a new <b>course</b> under <b>Mathematics</b>.
+
+18
+00:01:55 --> 00:01:58
+So, click on <b>Create new course</b>.
+
+19
+00:01:59 --> 00:02:11
+And, in the <b>Add a new course</b> screen, click on <b>Expand All </b>at the top right, in order to view all the <b>field</b>s.
+
+20
+00:02:12 --> 00:02:17
+In the <b>Course full name</b> text-box, we will type <b>Calculus.</b>
+
+21
+00:02:18 --> 00:02:23
+In <b>Course short name</b>, we will again type <b>Calculus</b>.
+
+22
+00:02:24 --> 00:02:30
+<b>Course short name</b> will be used in the <b>breadcrumbs</b> and <b>course</b> related emails.
+
+23
+00:02:31 --> 00:02:34
+This can also be different from the <b>course full name</b>.
+
+24
+00:02:35 --> 00:02:39
+<b>Course Category</b> is <b>Mathematics,</b> as we can see.
+
+25
+00:02:40 --> 00:02:47
+Next option is<b> Course visibility. </b>By default, <b>Show</b> is selected.
+
+26
+00:02:48 --> 00:02:55
+The <b>Visible</b> setting determines whether the <b>course</b> will be shown along with other <b>courses</b> or not.
+
+27
+00:02:56 --> 00:03:07
+A hidden <b>course</b> is visible only to those assigned to the <b>course</b>, like- <b>Admin</b>, <b>Course creator</b>, <b>Teacher</b>, <b>Manager</b>.
+
+28
+00:03:08 --> 00:03:11
+We will leave this setting as it is, for now.
+
+29
+00:03:12 --> 00:03:15
+Next comes the <b>Course start date</b>.
+
+30
+00:03:16 --> 00:03:24
+If the <b>course</b> begins on a particular date like semester start date, select that in the <b>start date</b>.
+
+31
+00:03:25 --> 00:03:31
+This means the <b>course</b> will not be visible to the students till the <b>start date</b>.
+
+32
+00:03:32 --> 00:03:41
+<b>Course end date,</b> by default, is enabled and set to the same date that the course is created.
+
+33
+00:03:42 --> 00:03:50
+Let me disable it by clicking on the checkbox. This would mean that the <b>course</b> will never end.
+
+34
+00:03:51 --> 00:04:01
+However, if there is an end date for the <b>course</b>, you can enable the checkbox here.
+<p>Then select the date as per your requirement.
+</p>
+
+35
+00:04:02 --> 00:04:12
+Important note: The <b>course</b> will not be visible to the students after the selected <b>end date</b>.
+<p>I will leave it disabled. 
+</p>
+
+36
+00:04:13 --> 00:04:21
+<b>Course ID number </b>is similar to <b>Category ID number</b>.
+<p><b>Course ID number </b>is an optional <b>field</b>. 
+</p>
+
+37
+00:04:22 --> 00:04:27
+This is for admin users to identify the <b>course </b>with <b>offline courses</b>.
+
+38
+00:04:28 --> 00:04:39
+If your college uses <b>IDs</b> for <b>courses</b>, then you can use that <b>course ID </b>here.
+<p>This field is not visible to other <b>Moodle users</b>.
+</p>
+
+39
+00:04:40 --> 00:04:48
+This field is optional and is not displayed anywhere on the website. I am going to leave this as blank.
+
+40
+00:04:49 --> 00:04:58
+Next, under <b>Description</b>, we can see 2 fields: <b>Course Summary</b> and <b>Course Summary files</b>.
+
+41
+00:04:59 --> 00:05:12
+<b>Course summary</b> is an optional but important field. That is because the <b>course summary</b> text is also scanned when a <b>user</b> performs a search.
+
+42
+00:05:13 --> 00:05:28
+Listing topic names is a good idea here.
+<p>Type the following:<b>Topics covered in this Calculus course are:</b> <b>Limits</b>,<b>Graph of a function</b>, <b>Factorial</b>.
+</p>
+
+43
+00:05:29 --> 00:05:34
+<b>Course summary </b>is also displayed along with the list of <b>courses</b>.
+
+44
+00:05:35 --> 00:05:41
+<b>Course summary files</b> must be uploaded in <b>Course summary files</b> field.
+
+45
+00:05:42 --> 00:05:56
+By default, only <b>jpg, gif</b> and <b>png file types</b> are allowed as <b>course summary files.</b>
+<p>I will skip this as I do not wish to <b>upload</b> any file.
+</p>
+
+46
+00:05:57 --> 00:06:05
+<b>Course format</b> refers to the way resources and activities are organized for students.
+
+47
+00:06:06 --> 00:06:19
+There are 4 options in the <b>Format</b> dropdown -
+<p><b>Single Activity Format</b>, <b>Social Format</b>, <b>Topics Format </b>and <b>Weekly Format</b>. 
+</p>
+
+48
+00:06:20 --> 00:06:23
+There are <b>courses</b> that run week by week.
+
+49
+00:06:24 --> 00:06:29
+If your <b>course</b> is like that, then select <b>Weekly format</b>.
+
+50
+00:06:30 --> 00:06:38
+<b>Moodle</b> will create a section for each week of the <b>course, </b>with a clear start date and an end date.
+
+51
+00:06:39 --> 00:06:48
+There are <b>courses</b> that run topic wise. If your <b>course</b> is like that, then select <b>Topics   format</b>.
+
+52
+00:06:49 --> 00:06:54
+<b>Moodle</b> will create a section for each <b>topic</b> of the <b>course</b>.
+
+53
+00:06:55 --> 00:07:02
+The default for this field is <b>Topics format</b>. We will let it remain as it is.
+
+54
+00:07:03 --> 00:07:06
+The number of sections, by default, is 4.
+
+55
+00:07:07 --> 00:07:19
+If you have your <b>course</b> divided in more or less than 4 topics, change this field as required.
+<p>I will make this number as 5.
+</p>
+
+56
+00:07:20 --> 00:07:24
+We will discuss the other formats in later tutorials.
+
+57
+00:07:25 --> 00:07:35
+Let’s leave the rest of the options as they are.
+<p>Scroll down to the bottom of the page and click on the <b>Save and display </b>button.
+</p>
+
+58
+00:07:36 --> 00:07:45
+We are redirected to the <b>Enrolled Users</b> page. We will learn about <b>user enrollment </b>in a later tutorial.
+
+59
+00:07:46 --> 00:07:55
+For now, we have successfully created our first <b>course Calculus </b>under the <b>category Mathematics</b>.
+
+60
+00:07:56 --> 00:08:02
+While we are on this <b>course page</b>, notice that the menu on the left has changed.
+
+61
+00:08:03 --> 00:08:14
+The navigation menu on the left has menus related to the <b>course</b> we created.
+<p>These include <b>Participants</b>, <b>Grades</b> etc.
+</p>
+
+62
+00:08:15 --> 00:08:19
+Click on the course name <b>Calculus</b> on the left.
+
+63
+00:08:20 --> 00:08:33
+We can see that 5 topics are visible here. They are named <b>Topic 1, Topic 2</b> and so on.
+<p>Recall we had given this number 5 earlier.
+</p>
+
+64
+00:08:34 --> 00:08:38
+Click on the gear icon at the top right of the page.
+
+65
+00:08:39 --> 00:08:50
+Then click on <b>Edit settings</b>.
+<p>This will open a page similar to the page we were on, when we created this <b>course</b>.
+</p>
+
+66
+00:08:51 --> 00:09:03
+We can make changes to the previous settings on this page.
+<p>I will change the <b>Course start date</b> to 15th October 2017.
+</p>
+
+67
+00:09:04 --> 00:09:10
+Scroll down to the bottom of the page and click on the <b>Save and display</b> button.
+
+68
+00:09:11 --> 00:09:16
+We will explore the other sub-menus under the gear menu later.
+
+69
+00:09:17 --> 00:09:21
+Let us now change the structure of our <b>course</b> a little bit.
+
+70
+00:09:22 --> 00:09:30
+Click on <b>Site administration</b>.
+<p>Click on <b>Courses</b> and then <b>Manage courses and categories</b>.
+</p>
+
+71
+00:09:31 --> 00:09:41
+Click on <b>Mathematics category</b> to see the <b>course</b> we created. Notice 3 icons on the right of the <b>course</b>.
+
+72
+00:09:42 --> 00:09:45
+Hover over the icons to see what they are.
+
+73
+00:09:46 --> 00:09:54
+The gear icon is for editing a <b>course.</b> The <b>delete</b> or <b>trash</b> icon is for deleting a <b>course</b>.
+
+74
+00:09:55 --> 00:10:00
+And, the eye icon is for hiding a <b>course</b>.
+
+75
+00:10:01 --> 00:10:06
+A hidden <b>course</b> will have the eye crossed to indicate the same.
+
+76
+00:10:07 --> 00:10:13
+We can click on the gear icon to the right of the course name, to edit the <b>course settings</b>.
+
+77
+00:10:14 --> 00:10:24
+I want to modify the <b>Course Summary</b> and add <b>Binomials</b> to the existing topics.
+<p>Rest of the settings can remain the same.
+</p>
+
+78
+00:10:25 --> 00:10:33
+Scroll down to the bottom of the page and this time click on the <b>Save and return</b> button.
+
+79
+00:10:34 --> 00:10:43
+Here is a small assignment for you: create a new course <b>Linear Algebra </b>under the <b>category Mathematics</b>.
+
+80
+00:10:44 --> 00:10:46
+Hide this <b>course</b> for now.
+
+81
+00:10:47 --> 00:10:59
+Mention the following topics in <b>course summary: Linear equations, Matrices </b>and<b> Vectors</b>.
+<p>Click on <b>Save and Return </b>button.
+</p>
+
+82
+00:11:00 --> 00:11:05
+Pause the tutorial and continue when done with the assignment.
+
+83
+00:11:06 --> 00:11:13
+We now have 2 <b>courses</b> under <b>Mathematics</b>: <b>Calculus</b> and <b>Linear Algebra</b>.
+
+84
+00:11:14 --> 00:11:19
+Notice that a new icon has appeared next to the <b>courses</b> now.
+
+85
+00:11:20 --> 00:11:25
+The up and down arrows are to re-arrange the order of the <b>courses</b>.
+
+86
+00:11:26 --> 00:11:35
+We can also change the order using the drag and drop feature.
+<p>Let us move the <b>Calculus course</b> above the <b>Linear Algebra course.</b>
+</p>
+
+87
+00:11:36 --> 00:11:46
+Both these <b>courses</b> are for 1st year students.
+<p>So, let us move them under the<b> 1st Year Maths</b> subcategory.
+</p>
+
+88
+00:11:47 --> 00:11:52
+Check the checkbox to the left of the 2 <b>courses</b> in order to select them.
+
+89
+00:11:53 --> 00:12:01
+Then in the drop-down <b>Move selected courses to</b>, select <b>Mathematics / 1st year Maths</b>.
+
+90
+00:12:02 --> 00:12:03
+And click on the <b>Move</b> button.
+
+91
+00:12:04 --> 00:12:13
+We get a success message -<b>Successfully moved 2 courses into 1st year Maths</b>.
+
+92
+00:12:14 --> 00:12:23
+Note that the number of <b>courses</b> under <b>Mathematics</b> has become 0 and that under <b>1st year Maths </b>is 2.
+
+93
+00:12:24 --> 00:12:27
+Click on <b>1st year Maths</b> sub-category.
+
+94
+00:12:28 --> 00:12:32
+We can see our <b>courses</b> listed under this subcategory.
+
+95
+00:12:33 --> 00:12:37
+This brings us to the end of this tutorial. Let us summarize.
+
+96
+00:12:38 --> 00:12:49
+In this tutorial, we learnt: how to create <b>a course</b>,
+<p>how to perform actions like <b>edit, move,</b> etc. on <b>courses</b>.
+</p>
+
+97
+00:12:50 --> 00:12:59
+Here is an assignment for you:
+<p>Add 2 <b>courses </b>to the subcategory <b>2nd Year Maths </b>under<b> Mathematics, </b>namely-
+</p>
+
+98
+00:13:00 --> 00:13:05
+<b>Multivariable calculus</b> and   <b>Advanced Algebra.</b>
+
+99
+00:13:06 --> 00:13:11
+Refer to the <b>Code files</b> link of this tutorial for details.
+
+100
+00:13:12 --> 00:13:17
+Edit the <b>courses</b> to start on 15th October 2017.
+
+101
+00:13:18 --> 00:13:25
+The video at the following link summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+102
+00:13:26 --> 00:13:35
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates.
+<p>For more details, please write to us.
+</p>
+
+103
+00:13:36 --> 00:13:39
+Please post your timed queries in this forum.
+
+104
+00:13:40 --> 00:13:52
+Spoken Tutorial Project is funded by <b>NMEICT, MHRD,</b> Government of India. More information on this mission is available at the link shown.
+
+105
+00:13:53 --> 00:13:58
+This script has been contributed by Priyanka.
+<p>And, this is Nancy Varkey along with the spoken tutorial team, signing off. Thanks for joining.
+</p>
+

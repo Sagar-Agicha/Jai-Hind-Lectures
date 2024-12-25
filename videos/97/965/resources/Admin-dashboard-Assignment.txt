@@ -1,0 +1,3 @@
+1. Click on the Message Preferences. Users in Moodle can send private messages to each other.
+2. I do not want my messages to be delivered as email, even when I am offline. 
+3. Look at the online and offline help box and ensure that the settings are correct.

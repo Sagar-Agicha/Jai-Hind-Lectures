@@ -1,0 +1,371 @@
+<i><b>Narration</b></i>
+
+1
+00:00:01 --> 00:00:07
+Welcome to the <b>Spoken Tutorial</b> on <b>Blocks in Admin's Dashboard</b>.
+
+2
+00:00:08 --> 00:00:17
+In this tutorial, we will learn how to add and delete <b>blocks</b> and set the <b>Front page</b>.
+
+3
+00:00:18 --> 00:00:25
+To record this tutorial, I am using:
+<p><b>Ubuntu Linux OS 16.04</b>, 
+</p>
+
+4
+00:00:26 --> 00:00:34
+<b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>,
+
+5
+00:00:35 --> 00:00:40
+<b>Moodle 3.3 </b>and  <b>Firefox </b>web browser.
+
+6
+00:00:41 --> 00:00:53
+You may use any web browser of your choice.
+<p>However, <b>Internet Explorer</b> should be avoided as it causes some display inconsistencies. 
+</p>
+
+7
+00:00:54 --> 00:01:07
+Learners of this tutorial should have basic knowledge of the <b>Admin’s dashboard</b>.
+<p>If not, please refer to the relevant<b> Moodle</b> tutorials on this website. 
+</p>
+
+8
+00:01:08 --> 00:01:16
+Switch to the browser and open your <b>Moodle site.</b>
+<p>Make sure that the <b>XAMPP service</b> is running. 
+</p>
+
+9
+00:01:17 --> 00:01:21
+Login with your <b>admin username</b> and <b>password</b> details.
+
+10
+00:01:22 --> 00:01:25
+We are now in the <b>Admin’s dashboard.</b>
+
+11
+00:01:26 --> 00:01:37
+Recall that <b>Blocks</b> serve a specific purpose or information and are found on all pages of <b>Moodle</b>.
+
+12
+00:01:38 --> 00:01:43
+Let us understand how we can work with <b>Moodle Blocks</b> now.
+
+13
+00:01:44 --> 00:01:51
+Depending on the <b>theme</b> used, <b>blocks</b> can be on the right side or on both sides.
+
+14
+00:01:52 --> 00:01:57
+<b>Blocks</b> contain information we want people to see whenever they log in.
+
+15
+00:01:58 --> 00:02:08
+There are many types of <b>blocks</b> available in <b>Moodle.</b> And, they can be moved or arranged easily as per our preferences.
+
+16
+00:02:09 --> 00:02:13
+We will now add a few <b>blocks</b> to our <b>dashboard</b>.
+
+17
+00:02:14 --> 00:02:18
+Click on the <b>navigation menu </b>on the left of the page.
+
+18
+00:02:19 --> 00:02:25
+Click on <b>Customise this page</b> button on the right hand side of the <b>dashboard</b>.
+
+19
+00:02:26 --> 00:02:34
+Notice that a new menu item <b>Add a block</b> is visible now. Click on <b>Add a block</b>.
+
+20
+00:02:35 --> 00:02:42
+A new pop-up <b>window</b> opens. We need to select the type of <b>block</b> that we want to add.
+
+21
+00:02:43 --> 00:02:52
+For example, click on <b>Messages</b>. You can see that the <b>Messages block </b>now appears in the <b>dashboard</b>.
+
+22
+00:02:53 --> 00:02:55
+Currently there are no messages.
+
+23
+00:02:56 --> 00:03:01
+By default, all new <b>blocks </b>get added to the right-most column.
+
+24
+00:03:02 --> 00:03:08
+Let us add one more <b>block</b>. Click on <b>Add a block </b>menu on the left.
+
+25
+00:03:09 --> 00:03:18
+Select <b>HTML</b> from the list of <b>menu types</b>.
+<p><b>HTML block</b> is a <b>block</b> where one can write custom <b>HTML</b>. 
+</p>
+
+26
+00:03:19 --> 00:03:29
+Using this, we can embed <b>widgets</b> such as <b>Library widgets, News feeds, Twitter, Facebook</b> etc.
+
+27
+00:03:30 --> 00:03:36
+Notice now that a <b>NEW HTML BLOCK</b> has been added below the <b>Messages block</b>.
+
+28
+00:03:37 --> 00:03:45
+Click on the gear icon in the <b>HTML block</b>.
+<p>Then click on <b>Configure (NEW HTML BLOCK) block</b>. 
+</p>
+
+29
+00:03:46 --> 00:03:56
+<b>Configure HTML block</b> has 3 sections:
+<p><b>Block settings</b> ,  <b>Where this block appears </b>and <b>On this page</b>. 
+</p>
+
+30
+00:03:57 --> 00:04:01
+By default, the first section is expanded.
+
+31
+00:04:02 --> 00:04:06
+Click on <b>Expand all</b> to expand all the sections.
+
+32
+00:04:07 --> 00:04:11
+In the <b>Block title</b>, let’s type: <b>“Things to do”.</b>
+
+33
+00:04:12 --> 00:04:18
+Let us add some tasks for this <b>admin user</b> in the <b>Content</b> area.
+
+34
+00:04:19 --> 00:04:29
+Type the following: <b>Create a new course</b>,  <b>Create new users</b>,  <b>Add users to the course</b>.
+
+35
+00:04:30 --> 00:04:38
+The <b>editor</b> is an <b>HTML editor</b> and can be used like any other <b>word processor </b>or <b>editor</b>.
+
+36
+00:04:39 --> 00:04:44
+Scroll down to see the options under <b>Where this block appears</b>.
+
+37
+00:04:45 --> 00:04:53
+Under <b>Default region</b>, select <b>Content</b>.
+<p>In <b>Default weight</b>, select -10 (minus ten). 
+</p>
+
+38
+00:04:54 --> 00:05:02
+The lower the weight of a <b>block</b>, the higher it will appear in that region.
+<p>-10 (minus ten) is the lowest. 
+</p>
+
+39
+00:05:03 --> 00:05:11
+By selecting -10, I am ensuring that it is at the top of the <b>content </b>region.
+
+40
+00:05:12 --> 00:05:16
+This <b>block </b> will appear on the <b>Admin’s dashboard. </b>
+
+41
+00:05:17 --> 00:05:27
+Now comes the <b>“On this page”</b> section.
+<p>This is where you can define the configuration for the page where this <b>block</b> was added. 
+</p>
+
+42
+00:05:28 --> 00:05:39
+In our case, this is the <b>dashboard.</b>
+<p>This configuration will override the default configuration defined in the above section 
+</p>
+
+43
+00:05:40 --> 00:05:52
+that is, the <b>Where this block appears </b>section.
+<p>Let us select <b>Content</b> in <b>Region </b>and -10 (minus ten) in <b>Weight</b> in this section. 
+</p>
+
+44
+00:05:53 --> 00:06:00
+Please note that depending on the type of the <b>block</b>, configuration settings will vary.
+
+45
+00:06:01 --> 00:06:06
+Click <b>Save Changes</b> to save the changes and go back to the <b>dashboard</b>.
+
+46
+00:06:07 --> 00:06:17
+See that the new <b>HTML block</b> with the title <b>Things to do </b>is now visible.
+<p>And, it is the topmost <b>block</b> in the <b>content </b>region. 
+</p>
+
+47
+00:06:18 --> 00:06:24
+We can also change the position of a <b>block</b> by dragging it using the <b>Move </b>icon.
+
+48
+00:06:25 --> 00:06:33
+Let us move <b>Things to do block</b> below the <b>Course Overview block</b> by dragging and dropping it.
+
+49
+00:06:34 --> 00:06:39
+Let us see how this changes the configuration we set a few minutes back.
+
+50
+00:06:40 --> 00:06:48
+Click on the gear icon and then on <b>Configure Things to do block.</b>
+<p>Then click on <b>Expand All</b>. 
+</p>
+
+51
+00:06:49 --> 00:07:02
+Scroll down to see <b>“On this page” </b>section. The <b>weight</b> has changed to -2 (minus two).
+<p>The default <b>weight</b>, however, remains the same. 
+</p>
+
+52
+00:07:03 --> 00:07:06
+Click <b>Cancel</b> to go back to the <b>dashboard</b>.
+
+53
+00:07:07 --> 00:07:18
+We do not need this <b>Learning Plans block</b>. So let us delete it.
+<p>Click on the gear icon and then on <b>Delete Learning plans block</b>. 
+</p>
+
+54
+00:07:19 --> 00:07:28
+<b>Confirm</b> pop-up window appears and prompts us to make sure about this deletion.
+<p>Click on<b> Yes</b> button here. 
+</p>
+
+55
+00:07:29 --> 00:07:39
+Notice that the <b>Learning Plans block</b> is no longer available.
+<p>We can always add this <b>block</b> later if required. 
+</p>
+
+56
+00:07:40 --> 00:07:45
+Let us now customize the <b>front page</b> of our <b>Moodle</b> installation.
+
+57
+00:07:46 --> 00:07:50
+Click on <b>Site Administration</b> link on the left menu.
+
+58
+00:07:51 --> 00:07:59
+Scroll down to locate <b>Front Page settings</b> in the <b>Front page</b> section. Click on it.
+
+59
+00:08:00 --> 00:08:07
+Let us change the <b>Full Site Name </b>to <b>Digital India Learning Management System</b>.
+
+60
+00:08:08 --> 00:08:14
+This is the text that appears at the top of every page above the <b>breadcrumbs</b>.
+
+61
+00:08:15 --> 00:08:19
+<b>Short name</b> is the text that appears in the title of the page.
+
+62
+00:08:20 --> 00:08:28
+Notice that the title of this page is <b>Digital India LMS</b> followed by the name of the page we are in.
+
+63
+00:08:29 --> 00:08:39
+<b>Short name</b> is also used as a <b>logo</b> text if we do not provide any logo image. We will leave it as it is.
+
+64
+00:08:40 --> 00:08:49
+Scroll down to see drop-downs for <b>Front page</b> items.
+<p>These are the list of items that can be shown on the front page. 
+</p>
+
+65
+00:08:50 --> 00:08:56
+All visitors, whether they are logged in or not, can see these items.
+
+66
+00:08:57 --> 00:09:04
+The order is determined by a combination box. We will leave this as it is.
+
+67
+00:09:05 --> 00:09:12
+So, all users will be able to see the list of courses (if available) and nothing else.
+
+68
+00:09:13 --> 00:09:23
+Next is the <b>Front page items when logged in.</b>
+<p>This is the list of items that can be shown to the users who are logged in. 
+</p>
+
+69
+00:09:24 --> 00:09:28
+Let us select <b>Enrolled courses</b> in the first drop-down.
+
+70
+00:09:29 --> 00:09:34
+We will leave the rest of the options with their default values.
+
+71
+00:09:35 --> 00:09:39
+Scroll down and click on <b>Save Changes</b>.
+
+72
+00:09:40 --> 00:09:42
+Let us now summarize.
+
+73
+00:09:43 --> 00:09:53
+In this tutorial, we learnt to add an <b>HTML block</b> called <b>“Things to do”</b> and specified where it should appear on the page.
+
+74
+00:09:54 --> 00:09:59
+We also set up the <b>frontpage</b> for guests and logged-in users.
+
+75
+00:10:00 --> 00:10:13
+Here is an assignment for you:
+<p>Delete the <b>Private files block </b>. 
+</p><p>Add a new <b>HTML block</b> using the guidelines given in the <b>Code files</b> link. 
+</p>
+
+76
+00:10:14 --> 00:10:22
+The video at the following link summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+77
+00:10:23 --> 00:10:32
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates.
+<p>For more details, please write to us. 
+</p>
+
+78
+00:10:33 --> 00:10:36
+Please post your timed queries in this forum.
+
+79
+00:10:37 --> 00:10:50
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD</b>, Government of India.
+<p>More information on this mission is available at the link shown. 
+</p>
+
+80
+00:10:51 --> 00:10:56
+This script has been contributed by Priyanka.
+<p>This is Nancy Varkey along with the spoken tutorial team signing off. Thank you for joining. 
+</p>
+

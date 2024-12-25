@@ -1,0 +1,340 @@
+<b>Narration</b>
+
+1
+00:00:01 --> 00:00:05
+Welcome to the <b>Spoken Tutorial</b> on <b>Categories in Moodle</b>.
+
+2
+00:00:06 --> 00:00:19
+In this tutorial, we will learn about:
+<p><b>Course category</b>,
+</p><p>how to create <b>categories & subcategories</b>,
+</p><p>how to perform actions on <b>categories</b>.
+</p>
+
+3
+00:00:20 --> 00:00:42
+To record this tutorial, I will be using:
+<p><b>Ubuntu Linux OS 16.04</b>,
+</p><p><b>Apache, MariaDB </b>and<b> PHP</b> obtained through<b> XAMPP 5.6.30</b>,
+</p><p><b>Moodle 3.3</b> and <b>Firefox </b>web browser. 
+</p>
+
+4
+00:00:43 --> 00:00:46
+You can use any web browser of your choice.
+
+5
+00:00:47 --> 00:00:54
+However, <b>Internet Explorer</b> should be avoided, as it causes some display inconsistencies.
+
+6
+00:00:55 --> 00:01:01
+Learners of this tutorial should have <b>Moodle 3.3</b> installed on their system.
+
+7
+00:01:02 --> 00:01:08
+If not, please refer to the relevant<b> Moodle</b> tutorials on this website.
+
+8
+00:01:09 --> 00:01:17
+Switch to the browser and open your '<b>Moodle' homepage</b>. Make sure that the <b>XAMPP service</b> is running.
+
+9
+00:01:18 --> 00:01:22
+Login with your <b>admin username</b> and <b>password</b> details.
+
+10
+00:01:23 --> 00:01:25
+We are now in the <b>admin dashboard</b>.
+
+11
+00:01:26 --> 00:01:30
+On the left side, click on <b>Site Administration</b>.
+
+12
+00:01:31 --> 00:01:37
+Click on the <b>Courses</b> tab and then <b>Manage courses and categories</b>.
+
+13
+00:01:38 --> 00:01:49
+We will be directed to a page with the title <b>Course and category management</b>. Let us understand what a <b>course category</b> is.
+
+14
+00:01:50 --> 00:01:56
+<b>Course categories </b>help to organize <b>Moodle courses</b> for the <b>site</b> users.
+
+15
+00:01:57 --> 00:02:02
+The default <b>category</b> for a new <b>Moodle site </b>is <b>Miscellaneous</b>.
+
+16
+00:02:03 --> 00:02:08
+Any new <b>course</b> will be assigned to this <b>Miscellaneous category, </b>by default.
+
+17
+00:02:09 --> 00:02:15
+However, it will be difficult for teachers and students to find their <b>courses</b>.
+
+18
+00:02:16 --> 00:02:22
+To make it easier to locate <b>courses</b>, they should be assigned in <b>categories</b>.
+
+19
+00:02:23 --> 00:02:29
+Most institutions organize <b>courses </b>by campus or <b>department</b>.
+
+20
+00:02:30 --> 00:02:34
+It is good to have descriptive names for better clarity.
+
+21
+00:02:35 --> 00:02:46
+We will go ahead and organize our <b>courses </b>by <b>departments</b>.
+<p>For eg. our <b>Maths category</b> will have all the <b>Math courses.</b>
+</p>
+
+22
+00:02:47 --> 00:02:50
+Let us switch back to the <b>Moodle site</b>.
+
+23
+00:02:51 --> 00:02:56
+First we will understand the <b>Course and category management </b>page layout.
+
+24
+00:02:57 --> 00:03:04
+On the left, we have the <b>Navigation</b> block. And on the right, we have the <b>Content </b>region.
+
+25
+00:03:05 --> 00:03:19
+The <b>content </b>region is divided into 2 <b>column</b>s:
+<p>left column shows the <b>course categories</b>, 
+</p><p>right column shows all the <b>courses</b> under the selected <b>category</b>. 
+</p>
+
+26
+00:03:20 --> 00:03:25
+By default, it is showing <b>courses </b>under <b>Miscellaneous category</b>.
+
+27
+00:03:26 --> 00:03:31
+This view can be changed from the menu located at the right.
+
+28
+00:03:32 --> 00:03:35
+Click on the down arrow to see the options.
+
+29
+00:03:36 --> 00:03:44
+Now click on <b>Course categories</b>. This changes the view to show only the <b>course categories</b>.
+
+30
+00:03:45 --> 00:03:53
+Let us click on the arrow again and change the view to see only the <b>courses</b>.
+<p>Click on <b>Courses</b>.
+</p>
+
+31
+00:03:54 --> 00:04:01
+Notice that a new drop-down box has appeared now. This is the <b>category</b> drop-down.
+
+32
+00:04:02 --> 00:04:12
+Here, we can select the <b>category</b> for which we want to show the <b>courses</b>.
+<p>Currently, it only has the <b>Miscellaneous category.</b>
+</p>
+
+33
+00:04:13 --> 00:04:18
+Let us change the view back to<b> Course categories and courses</b>.
+
+34
+00:04:19 --> 00:04:25
+Now we will click on <b>Create new category</b> link to add a <b>category</b>.
+
+35
+00:04:26 --> 00:04:35
+Click on the<b> Parent category </b>dropdown box and select <b>Top</b>. Type: <b>Mathematics</b> in the <b>Category name</b>.
+
+36
+00:04:36 --> 00:04:46
+<b>Category ID number </b>is an optional field. This is for admin users to identify the <b>course</b> with offline <b>courses</b>.
+
+37
+00:04:47 --> 00:04:57
+If your college uses <b>ID</b> for <b>categories</b>, you can use that <b>category ID</b> here. This field is not visible to other <b>Moodle</b> users.
+
+38
+00:04:58 --> 00:05:02
+For now, I will leave <b>Category ID</b> as blank.
+
+39
+00:05:03 --> 00:05:11
+In the <b>Description</b> textbox, I will type-
+<p>“<b>All mathematics courses will be listed under this category</b>.”
+</p>
+
+40
+00:05:12 --> 00:05:16
+Then click on <b>Create category</b> button.
+
+41
+00:05:17 --> 00:05:21
+We are now in the <b>Course categories and courses </b>view.
+
+42
+00:05:22 --> 00:05:28
+Here we can see 2 <b>categories</b> now: <b>Miscellaneous</b> and <b>Mathematics</b>.
+
+43
+00:05:29 --> 00:05:39
+Let us organize these <b>categories</b> further.  Let us have separate <b>1st year Maths courses</b> and <b>2nd year Maths courses</b>.
+
+44
+00:05:40 --> 00:05:48
+For this, we will create a <b>subcategory </b>called <b>1st Year Maths</b>, inside the <b>Mathematics category</b>.
+
+45
+00:05:49 --> 00:05:55
+Click on<b> Create new category</b> link at the top of the listed <b>categories</b>.
+
+46
+00:05:56 --> 00:06:01
+Creation of the <b>subcategory</b> is same as that of a <b>category</b>.
+
+47
+00:06:02 --> 00:06:05
+Don’t select <b>Top </b>as the <b>parent category</b>.
+
+48
+00:06:06 --> 00:06:11
+Instead, select the <b>category </b>under which this <b>subcategory </b>should belong.
+
+49
+00:06:12 --> 00:06:17
+So here, we will type: <b>1st Year Maths</b> in the <b>category name.</b>
+
+50
+00:06:18 --> 00:06:25
+After that, we’ll type a <b>Description</b> and click on <b>Create category </b>button.
+
+51
+00:06:26 --> 00:06:31
+Notice that the <b>categories</b> on the left are listed in a <b>tree</b> format.
+
+52
+00:06:32 --> 00:06:40
+A <b>category</b> which has <b>subcategories</b> has a <b>toggle icon</b> to expand and collapse it.
+
+53
+00:06:41 --> 00:06:45
+Notice 3 icons on the right of the <b>category</b>.
+
+54
+00:06:46 --> 00:06:49
+Hover over the icons to see what they are.
+
+55
+00:06:50 --> 00:06:52
+The eye is for hiding the <b>category</b>.
+
+56
+00:06:53 --> 00:06:59
+A hidden <b>category</b> will have the eye crossed to indicate the same.
+
+57
+00:07:00 --> 00:07:11
+The arrow is for moving the <b>category </b>up or down.
+<p>It also has a <b>settings gear </b>icon which is a <b>menu</b>, as shown by the down arrow.
+</p>
+
+58
+00:07:12 --> 00:07:27
+Click on the <b>settings gear</b> icon for <b>Miscellaneous category.</b>  It has options such as <b>Edit, Create new subcategory, Delete </b>etc. related to the <b>category</b>.
+
+59
+00:07:28 --> 00:07:31
+Click elsewhere on the page to close this menu.
+
+60
+00:07:32 --> 00:07:38
+Let me collapse the navigation menu on the left for better view.
+
+61
+00:07:39 --> 00:07:44
+Next, click on the <b>settings gear</b> icon for<b> Mathematics category. </b>
+
+62
+00:07:45 --> 00:07:53
+Notice that there are 4 extra <b>submenus</b> here related to sorting of the <b>subcategories</b>.
+
+63
+00:07:54 --> 00:08:00
+All <b>categories</b> that have <b>subcategories</b> will have these menu items.
+
+64
+00:08:01 --> 00:08:08
+The number to the right of the <b>gear</b> icon indicates the number of <b>courses</b> in that <b>category</b>.
+
+65
+00:08:09 --> 00:08:13
+There are sorting options below the list of <b>categories</b>.
+
+66
+00:08:14 --> 00:08:20
+At the end, is the option to change the <b>parent category</b> of a <b>subcategory.</b>
+
+67
+00:08:21 --> 00:08:28
+To use this option, you have to check the check-box next to the <b>subcategory</b> you want to move.
+
+68
+00:08:29 --> 00:08:37
+Then select the new <b>parent category</b> and click on <b>Move</b>.  We will not use this option right now.
+
+69
+00:08:38 --> 00:08:43
+This brings us to the end of this tutorial.
+<p>Let us summarize.
+</p>
+
+70
+00:08:44 --> 00:08:56
+In this tutorial, we learnt about:
+<p><b>Course category</b>,
+</p><p>how to create <b>categories & subcategories, </b>
+</p><p>how to perform actions on <b>categories.</b>
+</p>
+
+71
+00:08:57 --> 00:09:09
+Here is an assignment for you:
+<p>Add a new <b>subcategory 2nd Year Maths </b>under <b>Mathematics</b>.
+</p><p>Delete the <b>category Miscellaneous.</b>
+</p>
+
+72
+00:09:10 --> 00:09:18
+The video at the following link, summarizes the <b>Spoken Tutorial </b>project. Please download and watch it.
+
+73
+00:09:19 --> 00:09:28
+The <b>Spoken Tutorial</b> Project team conducts workshops and gives certificates. For more details, please write to us.
+
+74
+00:09:29 --> 00:09:33
+Please post your timed queries in this forum.
+
+75
+00:09:34 --> 00:09:47
+<b>Spoken Tutorial Project</b> is funded by <b>NMEICT, MHRD, Government of India.</b> More information on this mission is available at the following link.
+
+76
+00:09:48 --> 00:09:57
+This script has been contributed by Priyanka. And this is Nancy Varkey along with the spoken tutorial team signing off.
+
+77
+00:09:58 --> 00:10:03
+Thank you for joining.
+

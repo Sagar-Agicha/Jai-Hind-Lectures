@@ -1,0 +1,26 @@
+Assignment 1:
+
+Create a new course:
+
+Course Name: Linear Algebra
+Parent category: Mathematics.
+Course summary: Following topics will be covered in this course:
+	* Linear equations
+	* Matrices
+	* Vectors.
+Click on Save and Return button.
+
+Hide this course for now.
+
+
+Assignment 2:
+
+Add 2 courses to the subcategory 2nd Year Maths under Mathematics: 
+	* Multivariable calculus  
+	* Advanced Algebra.
+
+Refer to the Code files link of this tutorial for details.
+
+Edit the courses to start on 15th October 2017.
+
+
